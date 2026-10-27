@@ -30,5 +30,13 @@
   "license": "MIT",
   "dependencies": {
     "playwright-core": "^1.48.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WuDao0123/taste-skill.git"
+  },
+  "homepage": "https://wudao0123.github.io/taste-skill/",
+  "bugs": {
+    "url": "https://github.com/WuDao0123/taste-skill/issues"
   }
 }

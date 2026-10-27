@@ -2,6 +2,10 @@
 
 > **Clone any website's visual soul into Cursor & Claude Code in 30 seconds.**
 > Dual-Engine Chromium DOM Computed Styles (area-weighted) + Cross-Origin CSS Stylesheet Token Scanner.
+>
+> 🌐 **Live 53-Page Interactive Workbench & Preview**: [https://wudao0123.github.io/taste-skill/](https://wudao0123.github.io/taste-skill/)  
+> 📦 **GitHub Repository**: [https://github.com/WuDao0123/taste-skill](https://github.com/WuDao0123/taste-skill)  
+> 📊 **Companion $10k+ MRR Teardown Vault (20 Sites)**: [https://github.com/WuDao0123/indie-10k-mrr-teardowns](https://github.com/WuDao0123/indie-10k-mrr-teardowns)
 
 ---
 
@@ -76,7 +80,10 @@ Pair your visual `SKILL.md` with our 4 executable monetization skills reverse-en
 
 | Tier | Price | What's Included |
 |------|-------|-----------------|
-| **Community / Open-Source (B)** | **$0** | `taste-skill` CLI + 30 Flagship `SKILL.md` Index + 10-Site $10k+ MRR Teardown Vault |
+| **Community / Open-Source (B)** | **$0** | `taste-skill` CLI + 30 Flagship `SKILL.md` Index + [20-Site $10k+ MRR Teardown Vault](https://github.com/WuDao0123/indie-10k-mrr-teardowns) |
 | **Single Growth Skill** | **$29** | Any 1 Paid Growth Skill + Playwright Script + Templates *(Buying all 4 individually = $116)* |
 | **Growth & Revenue Pro Pack 🌟** | **$69 Early-Bird** *(~~$99~~)* | **All 4 Paid Growth Skills + 5 Playwright Scripts + Next.js/React Templates + 11 Raw JSON Blueprints** |
 | **Team & Agency License** | **$169** | Everything in Pro + 5 Seats + Unlimited Client Commercial & White-Label Delivery Rights |
+
+
+👉 **Live Interactive Workbench, Screenshot-to-Taste Demo & Pro Checkout**: [https://wudao0123.github.io/taste-skill/](https://wudao0123.github.io/taste-skill/)
