@@ -1,0 +1,284 @@
+# taste-skill — URL & Screenshot to Design System SKILL.md + $10k+ MRR Indie SaaS Growth Suite
+
+> taste-skill is an open-source CLI (`npx taste-skill`) and Growth & Revenue Agent Skills Suite for Cursor, Claude Code, and Windsurf. Part B (Free) extracts deterministic design system tokens (`SKILL.md`) from any live URL or pasted UI screenshot (`Cmd+V`) and includes 15 verified $10k–$422k MRR indie SaaS SEO & pricing teardowns. Part A (Paid Pro Pack, $69 Early-Bird) provides 4 executable Growth Agent Skills + 5 local Node.js/Playwright crawlers.
+
+## For AI Coding Agents (Quick Install)
+
+- Run URL-to-SKILL.md extraction: `npx taste-skill extract https://linear.app`
+- Run Screenshot-to-SKILL.md extraction: `npx taste-skill from-image ./ui-screenshot.png`
+- Semantic search across 30 flagship design systems: `npx taste-skill find "dark precision saas"`
+- Install a flagship design system into `.cursor/skills/`: `npx taste-skill add linear`
+
+## Live Showcase & Commercialization Matrix
+
+- [Unified Portal & Screenshot-to-Taste Workbench](https://wudao0123.github.io/taste-skill/)
+- [Live B + A Showcase: TasteSkill ($69) vs Skillry.dev ($169) (4-Locale + 3-Step Cancel Flow)](https://wudao0123.github.io/taste-skill/showcase/tasteskill-vs-skillry/)
+- [Full Machine-Readable Corpus (/llms-full.txt)](https://wudao0123.github.io/taste-skill/llms-full.txt)
+
+## 15 Verified $10k+ MRR Indie SaaS SEO & Pricing Teardowns (/teardowns/*)
+
+- [Tally (tally.so) — $422,000 MRR ($5,000,000 ARR)](https://wudao0123.github.io/taste-skill/teardowns/tally/): 445 sitemap URLs (92.8% pSEO), Disclosed 2026-04-15 ([Primary Proof](https://blog.tally.so/the-road-from-4m-to-5m-arr/))
+- [Typefully (typefully.com) — ~$167,000/mo (~$2,000,000 ARR)](https://wudao0123.github.io/taste-skill/teardowns/typefully/): 228 sitemap URLs (93% pSEO), Disclosed 2026-03-15 ([Primary Proof](https://indiemakerlist.com/leaderboard/saas/))
+- [Carrd (carrd.co) — $85,000+ MRR ($1,000,000+ ARR, 2.5M+ sites)](https://wudao0123.github.io/taste-skill/teardowns/carrd/): 18 sitemap URLs (22.2% pSEO), Disclosed 2021-04-30 ([Primary Proof](https://www.indiehackers.com/post/hi-im-aj-maker-of-carrd-and-after-2-5m-sites-1m-arr-and-a-funding-round-probably-time-for-an-ama-1b7fcf52fe))
+- [Plausible Analytics (plausible.io) — $83,637 MRR ($1,000,000+ ARR)](https://wudao0123.github.io/taste-skill/teardowns/plausible/): 180 sitemap URLs (83.3% pSEO), Disclosed 2022-06-02 ([Primary Proof](https://plausible.io/blog/open-source-saas))
+- [StandOut CV (standout-cv.com) — £40,000 MRR (~$52,000/mo)](https://wudao0123.github.io/taste-skill/teardowns/standout-cv/): 1103 sitemap URLs (98.7% pSEO), Disclosed 2025-09-25 ([Primary Proof](https://www.indiehackers.com/post/how-i-grew-my-saas-business-to-40k-mrr-with-seo-3287452853))
+- [Bannerbear (bannerbear.com) — $50,000 MRR (~$600,000+ ARR)](https://wudao0123.github.io/taste-skill/teardowns/bannerbear/): 1372 sitemap URLs (98.5% pSEO), Disclosed 2023-07-15 ([Primary Proof](https://www.bannerbear.com/open/))
+- [Senja (senja.io) — $50,000 MRR ($600,000 ARR)](https://wudao0123.github.io/taste-skill/teardowns/senja/): 733 sitemap URLs (96.9% pSEO), Disclosed 2024-11-19 ([Primary Proof](https://www.indiehackers.com/post/from-zero-to-50k-mrr-the-story-of-senjas-growth-6874d85edd))
+- [FlowMapp (flowmapp.com) — $50,000 MRR ($600,000 ARR)](https://wudao0123.github.io/taste-skill/teardowns/flowmapp/): 175 sitemap URLs (87.4% pSEO), Disclosed 2026-02-10 ([Primary Proof](https://indiemakerlist.com/leaderboard/saas/))
+- [Simple Analytics (simpleanalytics.com) — $45,000 MRR ($540,000 ARR)](https://wudao0123.github.io/taste-skill/teardowns/simple-analytics/): 487 sitemap URLs (81.7% pSEO), Disclosed 2025-10-15 ([Primary Proof](https://www.indiehackers.com/post/tech/joining-a-technical-co-founder-and-growing-the-product-to-45k-mrr-119Zbnde7pTET0QOiZLH))
+- [Papermark (papermark.com) — $45,000 MRR ($540,000 ARR)](https://wudao0123.github.io/taste-skill/teardowns/papermark/): 2732 sitemap URLs (96.6% pSEO), Disclosed 2025-08-20 ([Primary Proof](https://www.indiehackers.com/post/tech/after-11-failed-products-this-founder-hit-45k-mrr-in-a-little-over-a-year-xyRkxAsD8Rys7URjYd5d))
+- [Subscribr (subscribr.ai) — $41,600+ MRR ($500k+ YTD, $1M/yr run-rate)](https://wudao0123.github.io/taste-skill/teardowns/subscribr/): 747 sitemap URLs (96% pSEO), Disclosed 2025-08-27 ([Primary Proof](https://www.indiehackers.com/post/tech/leaving-a-funded-startup-and-bootstrapping-to-1m-yr-in-18-months-kPBpdxsTeQitOWOOVs2g))
+- [My AskAI (myaskai.com) — $40,000 MRR (~$500,000 ARR)](https://wudao0123.github.io/taste-skill/teardowns/myaskai/): 99 sitemap URLs (80.8% pSEO), Disclosed 2025-07-10 ([Primary Proof](https://www.indiehackers.com/post/tech/bootstrapping-to-40k-mrr-after-his-vc-backed-startup-failed-LF1CwRs1vL3oVLcuoIoE))
+- [Testimonial.to (testimonial.to) — $33,333+ MRR ($400,000+ ARR, later $800k+ ARR)](https://wudao0123.github.io/taste-skill/teardowns/testimonial/): 802 sitemap URLs (97.3% pSEO), Disclosed 2022-11-18 ([Primary Proof](https://thebootstrappedfounder.com/a-conversation-with-damon-chen/))
+- [ScreenshotOne (screenshotone.com) — $33,000 MRR (~$400k ARR; ~$36k MRR by Sept 2026)](https://wudao0123.github.io/taste-skill/teardowns/screenshotone/): 644 sitemap URLs (95.8% pSEO), Disclosed 2026-05-29 ([Primary Proof](https://dmytrokrasun.com/posts/screenshotone-4-years/))
+- [SuperX (superx.so) — $23,000 MRR ($276,000 ARR)](https://wudao0123.github.io/taste-skill/teardowns/superx/): 1664 sitemap URLs (98.3% pSEO), Disclosed 2025-09-10 ([Primary Proof](https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ))
+- [Hypefury (hypefury.com) — $23,000+ MRR ($276,000+ ARR)](https://wudao0123.github.io/taste-skill/teardowns/hypefury/): 548 sitemap URLs (85% pSEO), Disclosed 2021-08-15 ([Primary Proof](https://www.indiehackers.com/post/flying-past-23k-mrr-in-2-years-hypefury-45f73f0c0a))
+- [Pirsch Analytics (pirsch.io) — $14,300 MRR (~$130,000/yr net volume)](https://wudao0123.github.io/taste-skill/teardowns/pirsch/): 938 sitemap URLs (84.1% pSEO), Disclosed 2025-12-20 ([Primary Proof](https://pirsch.io/blog/our-recap-of-2025/))
+- [SiteGuru (siteguru.co) — $14,000 MRR ($168,000 ARR)](https://wudao0123.github.io/taste-skill/teardowns/siteguru/): 254 sitemap URLs (89.8% pSEO), Disclosed 2025-10-02 ([Primary Proof](https://www.indiehackers.com/post/tech/building-an-seo-product-to-14k-mrr-in-a-crowded-market-gU4DE1l094cpj1GjNHwu))
+- [SEO Utils (seoutils.app) — ~$10,400/mo ($15,800/mo founder portfolio)](https://wudao0123.github.io/taste-skill/teardowns/seoutils/): 19 sitemap URLs (84.2% pSEO), Disclosed 2026-02-24 ([Primary Proof](https://www.indiehackers.com/post/tech/staying-close-to-customers-and-hitting-16k-mo-VTKxLk4uanWJbmSdG4km))
+- [Leave Me Alone (leavemealone.com) — $10,000/mo (Open Startup verified)](https://wudao0123.github.io/taste-skill/teardowns/leavemealone/): 14802 sitemap URLs (98.8% pSEO), Disclosed 2023-08-15 ([Primary Proof](https://leavemealone.com/blog/from-indie-side-project-to-profitable-business/))
+
+## 30 Flagship Aesthetic Design System Token Pages (/taste/*)
+
+- [Linear (linear.app) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/linear/): Dark Precision SaaS & Industrial Craftsmanship (dark mode, canvas #08090A, accent #5E6AD2)
+- [Stripe (stripe.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/stripe/): High-Craft Financial Infrastructure & Editorial Light/Navy Dual-Mode (dual mode, canvas #FFFFFF, accent #533AFD)
+- [Resend (resend.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/resend/): Obsidian Developer Luxury & Editorial Serif-Meets-Mono (dark mode, canvas #000000, accent #00A3FF)
+- [Vercel (vercel.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/vercel/): Geist Architectural Grid & Swiss Precision Monochrome (light mode, canvas #FAFAFA, accent #0070F3)
+- [Supabase (supabase.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/supabase/): Postgres Emerald Technical Clarity & Clean Modular Bento (light mode, canvas #FDFDFD, accent #0E7E4E)
+- [Raycast (raycast.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/raycast/): Desktop-Class macOS Acrylic Glass & Crimson Spotlight (dark mode, canvas #07080A, accent #FF6363)
+- [Cursor (cursor.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/cursor/): Warm Archival Paper & Frontier AI Research Craft (light mode, canvas #F7F7F4, accent #26251E)
+- [Clerk (clerk.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/clerk/): Tactile Micro-Shadow Auth Components & Electric Violet (light mode, canvas #F7F7F8, accent #6C47FF)
+- [Mintlify (mintlify.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/mintlify/): Warm Daylight Documentation & Editorial Arizona Flare Serif (light mode, canvas #FFFFFF, accent #0077A6)
+- [Cal.com (cal.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/cal/): Neo-Brutalist Swiss Scheduling & Geometric Cal Sans (light mode, canvas #F4F4F4, accent #242424)
+- [Dub (dub.co) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/dub/): Modern Link Attribution & Crisp Satoshi/Geist Minimalist (light mode, canvas #FAFAFA, accent #000000)
+- [Trigger.dev (trigger.dev) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/trigger/): Industrial Dark Slate & Electric Acid-Lime Telemetry (dark mode, canvas #121317, accent #A8FF53)
+- [Railway (railway.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/railway/): Deep Cosmic Violet Infrastructure & IBM Plex Serif Editorial (dark mode, canvas #13111C, accent #8B5CF6)
+- [PlanetScale (planetscale.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/planetscale/): Pure Monospace ASCII Engineering Manual & Zero-Radius Brutalism (light mode, canvas #FAFAFA, accent #F35815)
+- [Turso (turso.tech) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/turso/): Deep Oceanic Teal & Neon Aquamarine Edge Database (dark mode, canvas #0F1317, accent #4FF8D2)
+- [Neon (neon.tech) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/neon/): Serverless Pitch-Black & Luminous Cyber-Mint Postgres (dark mode, canvas #000000, accent #34D59A)
+- [Upstash (upstash.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/upstash/): Oversized Emerald Typography & Clean Serverless Daylight (light mode, canvas #F5F5F5, accent #00BC7D)
+- [Inngest (inngest.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/inngest/): Warm Obsidian Stone & Swiss Whyte / Coral-Cobalt Contrast (dark mode, canvas #0C0A09, accent #F76246)
+- [WorkOS (workos.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/workos/): Enterprise-Ready Architectural Precision & Untitled Sans (light mode, canvas #F9F9FB, accent #6363F1)
+- [Loops (loops.so) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/loops/): Warm Editorial SaaS & Newsreader Serif Craft (light mode, canvas #FDFDFC, accent #7D1B0C)
+- [Attio (attio.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/attio/): Next-Gen CRM Spreadsheet-Grid Precision & Inter Display (light mode, canvas #FFFFFF, accent #1C1D1F)
+- [Ashby (ashbyhq.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/ashby/): Analytics-Driven Recruiting SaaS & Royal Indigo TTNormsPro (light mode, canvas #FFFFFF, accent #473BCE)
+- [Notion (notion.so) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/notion/): Warm Workspace Canvas & Monumental NotionInter Display (light mode, canvas #FFFFFF, accent #0075DE)
+- [Framer (framer.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/framer/): Pitch-Black Interactive Canvas & Electric #0099FF Blue Glow (dark mode, canvas #000000, accent #0099FF)
+- [Tailwind CSS (tailwindcss.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/tailwindcss/): Engineered CSS Grid Lines & Technical Blueprint Precision (light mode, canvas #FFFFFF, accent #0EA5E9)
+- [shadcn/ui (ui.shadcn.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/shadcn/): Zinc Monochrome Component Primitives & Zero-Distraction Craft (light mode, canvas #FFFFFF, accent #171717)
+- [Anthropic (anthropic.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/anthropic/): Humanist Warm Parchment & Literary AI Safety Editorial (light mode, canvas #FAF9F5, accent #D97757)
+- [ElevenLabs (elevenlabs.io) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/elevenlabs/): Swiss Audio Minimalist & Light-Weight Waldenburg Precision (light mode, canvas #FDFCFC, accent #000000)
+- [Polar (polar.sh) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/polar/): Nordic Dark Monetization & PP Neue Montreal Minimalist (dark mode, canvas #090909, accent #FFFFFF)
+- [PostHog (posthog.com) Design System Tokens & Cursor SKILL.md](https://wudao0123.github.io/taste-skill/taste/posthog/): Tactile Retro-OS Brutalist & Warm Sand / Amber Craft (light mode, canvas #EEEFE9, accent #EB9D2A)
+
+## Locked One-Time Pricing Matrix (Part A — Growth & Revenue Agent Skills Pro Suite)
+
+- **Community / Open-Source ($0)**: `npx taste-skill` CLI + 30 Flagship `SKILL.md`s + 20-Site $10k+ MRR Teardown Vault.
+- **Single Growth Skill ($29)**: Any 1 of the 4 Paid Growth Skills + matching local Playwright/Node script (buying all 4 individually = $116).
+- **Growth & Revenue Pro Pack ($69 Early-Bird, Regular $99)**: All 4 Paid Growth Skills (`pseo-competitor-teardown`, `x-alternative-pages`, `pricing-paywall-retention`, `launch-kit`) + 5 local Playwright/Node scripts + Next.js/React templates + 22 raw JSON blueprints.
+- **Team & Agency License ($169)**: Up to 5 seats + unlimited client commercial delivery & white-label rights.
+
+
+---
+
+# Full Verified $10k+ MRR Teardown Summaries
+
+## Tally (tally.so) — $422,000 MRR ($5,000,000 ARR)
+- Founders: Marie Martens & Filip Minev (bootstrapped, lean team)
+- Primary Source (2026-04-15): https://blog.tally.so/the-road-from-4m-to-5m-arr/
+- Wedge: Disrupts Typeform & Jotform predatory response caps by offering unlimited forms and unlimited responses for free (~99% of features free), monetizing only team collaboration, custom domains, and branding removal at $29/mo.
+- Sitemap URLs: 445 (92.8% pSEO)
+- Replicable Actions:
+  * Attack Your Incumbent's Most Hated Metered Limit: If competitors gate volume (responses, exports, views) at $25/mo, make volume free and charge $29/mo for branding removal + custom domains.
+  * Build Dual-Layer pSEO (`/templates/[category]/[slug]` + `/[competitor]-alternative`): Pair high-volume use-case templates (179 pages) with high-intent competitor switching pages (13 pages).
+  * Publish `/llms.txt` + `WebApplication` JSON-LD: Tally explicitly exposes a clean Markdown index at `/llms.txt` so AI assistants cite its free-tier generosity accurately.
+
+## Typefully (typefully.com) — ~$167,000/mo (~$2,000,000 ARR)
+- Founders: Fabrizio Rinaldi & Francesco Di Lorenzo (2 Italian co-founders)
+- Primary Source (2026-03-15): https://indiemakerlist.com/leaderboard/saas/
+- Wedge: Replaces clunky enterprise social schedulers (Hootsuite, Sprout Social) with a distraction-free minimalist writing studio, collaborative team review comments, and an AI-Agent-ready OpenAPI + Markdown documentation stack.
+- Sitemap URLs: 228 (93% pSEO)
+- Replicable Actions:
+  * Expose `/ai-agents.md` and `/docs/api.md` Inside Your `/llms.txt`: Typefully is a textbook example of 2026 GEO — its `/llms.txt` directly teaches AI agents how to authenticate and call its v2 API.
+  * Index Every Product Update as a Standalone SEO URL (`/changelog/[slug]` — 111 pages): Instead of hiding updates in a single modal, publish each feature launch at its own descriptive slug to rank for platform-specific queries.
+  * Publish Focused `/blog/[competitor]-alternatives` Pages (8 pages): Capture creators churning from Buffer, Hypefury, and Taplio with clean design-led comparison guides.
+
+## Carrd (carrd.co) — $85,000+ MRR ($1,000,000+ ARR, 2.5M+ sites)
+- Founders: AJ (@ajlkn) & Doni (2-person team)
+- Primary Source (2021-04-30): https://www.indiehackers.com/post/hi-im-aj-maker-of-carrd-and-after-2-5m-sites-1m-arr-and-a-funding-round-probably-time-for-an-ama-1b7fcf52fe
+- Wedge: Eliminates the complexity and $20–$30/month cost of Squarespace, Webflow, and WordPress for simple one-page sites by charging an impulse-buy $9 to $49 per YEAR and letting users build without even creating an account first.
+- Sitemap URLs: 18 (22.2% pSEO)
+- Replicable Actions:
+  * Let Users Build in the Editor Before Asking for an Email: Carrd’s highest-leverage conversion trick is delaying account creation until the user has already invested 10 minutes designing their page.
+  * Use Annual Impulse Pricing (`$9/yr`, `$19/yr`, `$49/yr`) When Marginal Hosting Costs Are Pennies: Static one-page sites cost fractions of a cent on AWS/Cloudflare, allowing $19/yr pricing to generate $1M+ ARR at massive volume.
+  * Turn Every Free Tier Output into a Tasteful Viral Badge: Millions of creators proudly share their `*.carrd.co` profile links in social bios, creating unstoppable organic distribution.
+
+## Plausible Analytics (plausible.io) — $83,637 MRR ($1,000,000+ ARR)
+- Founders: Uku Taht & Marko Saric (2 co-founders, 100% bootstrapped & open-source)
+- Primary Source (2022-06-02): https://plausible.io/blog/open-source-saas
+- Wedge: Positions directly against Google Analytics 4 (GA4) bloat, cookie banner requirements, and GDPR privacy concerns with a <1 KB script.
+- Sitemap URLs: 180 (83.3% pSEO)
+- Replicable Actions:
+  * Include Yourself in Competitor vs Competitor Searches: Don't just write `Us vs Incumbent`; publish `Matomo vs Google Analytics` and position your tool as the lightweight modern third option.
+  * Ship a Live Public Dashboard Instead of Static Screenshots: Linking to a live read-only production dashboard (`plausible.io/plausible.io`) converts skeptical developers far better than marketing graphics.
+  * Transparent Pageview Slider + 30-Day No-Card Trial: Embed pricing directly on `#pricing` (`$9/mo` Starter, `$14/mo` Growth, `$19/mo` Business) with "2 months free" annual toggle.
+
+## StandOut CV (standout-cv.com) — £40,000 MRR (~$52,000/mo)
+- Founders: Andrew Fennell (Solo founder + small content/dev team)
+- Primary Source (2025-09-25): https://www.indiehackers.com/post/how-i-grew-my-saas-business-to-40k-mrr-with-seo-3287452853
+- Wedge: Captures job seekers at the exact moment they search for role-specific CV examples (e.g., "Finance Manager CV example") and converts them directly into an interactive CV builder.
+- Sitemap URLs: 1103 (98.7% pSEO)
+- Replicable Actions:
+  * Pair `/examples/[role]` Pages with a "/stats/[topic]" Link-Bait Cluster: Use `/stats/[topic]` pages to earn high-DR journalist links for free, then pass internal link equity to your commercial `/examples/[role]` pages.
+  * Localize URL Prefixes for UK vs US Terminology (`/cv-examples/...` vs `/usa/resume-examples/...`): Same SaaS engine underneath, doubled addressable search volume by matching local terminology.
+  * Embed "Use This Template" Above the Fold on Every Content Page: Turn passive readers into active SaaS builders within 5 seconds of landing.
+
+## Bannerbear (bannerbear.com) — $50,000 MRR (~$600,000+ ARR)
+- Founders: Jon Yongfook (Solo technical founder)
+- Primary Source (2023-07-15): https://www.bannerbear.com/open/
+- Wedge: Replaces brittle headless Puppeteer scripts and manual Canva design workflows with a deterministic REST API + Zapier/Airtable/Make integrations.
+- Sitemap URLs: 1372 (98.5% pSEO)
+- Replicable Actions:
+  * Turn Every Template in Your Database into a Public Static URL (`/templates/[slug]`): Bannerbear's 319 template preview pages act as long-tail landing pages for "real estate instagram template API", "podcast audiogram template", etc.
+  * Combine `/use-cases/scenarios/[slug]` (90 pages) with `/integrations/[slug]` (17 pages): Map every `Tool A + Your API -> Outcome B` permutation.
+  * Credit-Based API Tiering (`$49` Automate 1,000 credits -> `$149` Scale 10,000 credits `[MOST POPULAR]` -> `$299` Enterprise 50,000 credits): Pure usage-based expansion revenue without per-seat friction.
+
+## Senja (senja.io) — $50,000 MRR ($600,000 ARR)
+- Founders: Olly Meakings & Wilson Wilson (2 co-founders)
+- Primary Source (2024-11-19): https://www.indiehackers.com/post/from-zero-to-50k-mrr-the-story-of-senjas-growth-6874d85edd
+- Wedge: Out-executes legacy enterprise review widgets and early indie tools (Testimonial.to, Boast.io) with 30+ import sources, superior Wall of Love design aesthetics, and aggressive pSEO.
+- Sitemap URLs: 733 (96.9% pSEO)
+- Replicable Actions:
+  * Steal the `Source × Destination` Cartesian URL Formula: If your product connects Source $A$ (20 platforms) to Destination $B$ (18 CMS builders), generate $20 \times 18 = 360$ `/use-cases/add-[source]-to-[destination]` pages.
+  * Build 3 Vertical Intent Layers (`/testimonial-examples/[x]`, `/testimonial-widgets/[x]`, `/testimonial-software/[x]`): Captures top-of-funnel inspiration, mid-funnel widget embeds, and bottom-of-funnel buyer searches.
+  * Simple 3-Tier Pricing (`Free $0` -> `Starter $29/mo` -> `Pro $59/mo [Most Popular]`) with "2 months free" annual toggle and 14 objection-crushing FAQ items.
+
+## FlowMapp (flowmapp.com) — $50,000 MRR ($600,000 ARR)
+- Founders: Paul Mit & bootstrapped product team
+- Primary Source (2026-02-10): https://indiemakerlist.com/leaderboard/saas/
+- Wedge: Replaces messy spreadsheets and over-complicated Figma files during the pre-design discovery phase with a dedicated visual sitemap, AI wireframe, and project estimation workspace.
+- Sitemap URLs: 175 (87.4% pSEO)
+- Replicable Actions:
+  * Unbundle Your Product into 50+ `/features/[capability-slug]` Landing Pages: Don’t bury your sub-tools on one homepage — FlowMapp created 53 distinct `/features/*` URLs so every specific job-to-be-done ranks independently.
+  * Use `url: / title: / description:` Key-Value Blocks in `/llms.txt` (`10,934 chars`): Gives AI search crawlers clean, zero-noise metadata for every feature route.
+  * Highlight a High-Contrast Annual Discount (`Billed annually 45% off` — `$8.25/mo` vs `$15/mo`, `$19.25/mo` vs `$35/mo`): Drives immediate annual cashflow from agency buyers.
+
+## Simple Analytics (simpleanalytics.com) — $45,000 MRR ($540,000 ARR)
+- Founders: Adriaan van Rossum & Iron Brands (2 co-founders, Amsterdam)
+- Primary Source (2025-10-15): https://www.indiehackers.com/post/tech/joining-a-technical-co-founder-and-growing-the-product-to-45k-mrr-119Zbnde7pTET0QOiZLH
+- Wedge: Positions on strict EU data sovereignty (100% EU-hosted, zero PII, GDPR/PECR/Schrems II compliant out-of-the-box) plus AI analytics insights.
+- Sitemap URLs: 487 (81.7% pSEO)
+- Replicable Actions:
+  * Create Regulatory & Pain-Point Root Slugs (`/analytics-without-consent`): Users don't just search product categories; they search how to avoid a painful compliance requirement.
+  * Deploy a Rich `/llms.txt` (17 KB+): Explicitly list your comparison guides, glossary definitions, and regulatory compliance proofs in `/llms.txt`.
+  * Dual-Path Trial Funnel on `/pricing`: Offers both a self-serve 14-day free trial (`No credit card required`) AND a 30-day guided Proof of Concept (POC) for higher-ACV B2B teams.
+
+## Papermark (papermark.com) — $45,000 MRR ($540,000 ARR)
+- Founders: Marc Seitz & Iuliia Shnai (married co-founder duo)
+- Primary Source (2025-08-20): https://www.indiehackers.com/post/tech/after-11-failed-products-this-founder-hit-45k-mrr-in-a-little-over-a-year-xyRkxAsD8Rys7URjYd5d
+- Wedge: Attacks DocSend's expensive per-user pricing ($15–$65/user/mo) and dated UI with an open-source, self-hostable, custom-branded pitch deck & data room platform.
+- Sitemap URLs: 2732 (96.6% pSEO)
+- Replicable Actions:
+  * Multiply Winning SEO Pages Across `/de/`, `/es/`, `/fr/` Subfolders: Once an English pSEO cluster converts, localize it into German, Spanish, and French with proper `hreflang` tags — Papermark scaled to 2,732 indexed URLs this way.
+  * Publish Curated Investor & Due-Diligence Checklist Pages for Founders: Target the exact upstream workflow of your buyer (founders raising seed/Series A need investor lists -> then they need a pitch deck tracker & data room).
+  * Ship Both `/llms.txt` (11.9 KB summary) and `/llms-full.txt` (246 KB full corpus) so LLM agents have complete product context.
+
+## Subscribr (subscribr.ai) — $41,600+ MRR ($500k+ YTD, $1M/yr run-rate)
+- Founders: Gil Hildebrand (Solo technical founder)
+- Primary Source (2025-08-27): https://www.indiehackers.com/post/tech/leaving-a-funded-startup-and-bootstrapping-to-1m-yr-in-18-months-kPBpdxsTeQitOWOOVs2g
+- Wedge: Replaces generic ChatGPT prompts and scattered Google Docs with a YouTube-native content engine grounded in channel voice, outlier video intel, thumbnail/title packaging, and CLI/MCP agent workflows.
+- Sitemap URLs: 747 (96% pSEO)
+- Replicable Actions:
+  * Add a `## For AI agents` Block Inside Your `/llms.txt`: Subscribr doesn't just list web links in `/llms.txt` — it links directly to `/agent-setup/prompt.md` and its CLI/MCP skill installer so AI agents can onboard users autonomously.
+  * Nest Competitor Comparisons Inside Your Topical Authority Silo (`/youtube-strategy/[tool_a]-vs-[tool_b]` — 20 pages): Keeps all 624 strategy and comparison URLs inside one high-authority subfolder.
+  * Price for Serious Creators & Studios (`$0` Free -> `$99/mo` Creator -> `$249/mo` Automation -> `$499/mo` Scale with `Annual 2 months free`): High ARPU allows profitable growth with just a few thousand customers.
+
+## My AskAI (myaskai.com) — $40,000 MRR (~$500,000 ARR)
+- Founders: Alex Rainey & Mike Heap (2 co-founders, UK)
+- Primary Source (2025-07-10): https://www.indiehackers.com/post/tech/bootstrapping-to-40k-mrr-after-his-vc-backed-startup-failed-LF1CwRs1vL3oVLcuoIoE
+- Wedge: Undercuts Intercom Fin and Zendesk AI ($0.99/resolution) by nearly 90% ($0.10–$0.12/ticket or $49–$199/mo) while plugging directly into the helpdesk the company already uses.
+- Sitemap URLs: 99 (80.8% pSEO)
+- Replicable Actions:
+  * Build a Drop-In Tax Cutter for Expensive Incumbent Add-Ons: When incumbents like Intercom or Zendesk charge $0.99 per AI resolution, positioning right inside their ecosystem at $0.10/ticket creates an instant ROI calculation.
+  * Pair `/compare/[incumbent]-vs-[you]` (10 pages) with `/ai-agent-integration/[platform]` (8 pages): Capture both users researching native helpdesk AI pricing and users searching for third-party plugins.
+  * Offer Annual 33% Discount + Monthly Account Audits on Higher Tiers (`$49/mo`, `$199/mo`, `$499/mo`): Combines self-serve SaaS with high-retention white-glove ticket audits.
+
+## Testimonial.to (testimonial.to) — $33,333+ MRR ($400,000+ ARR, later $800k+ ARR)
+- Founders: Damon Chen (Solo technical founder)
+- Primary Source (2022-11-18): https://thebootstrappedfounder.com/a-conversation-with-damon-chen/
+- Wedge: Pioneered the frictionless browser-based video testimonial collector and embeddable Wall of Love widget for B2B SaaS, creators, and agencies without requiring customers to download an app.
+- Sitemap URLs: 802 (97.3% pSEO)
+- Replicable Actions:
+  * Kill Lifetime Deals (LTDs) Early When Hosting Costs Scale: Damon Chen famously killed his LTD after 10 days ($5,124) and forced himself to build recurring MRR, reaching $100k ARR 9 months later.
+  * Ship 140+ `/integrations/[platform]` Pages for Every No-Code & CMS Tool: Even if your embed works via a universal 2-line `<script>` tag, create a dedicated step-by-step guide page for each of the 141 platforms your buyers use.
+  * Deploy a Concise `/llms.txt` Index (`772 chars`): Maps core product routes (`/features`, `/pricing`, `/widgets`, `/wall-of-love`, `/integrations`) for instant AI search citation.
+
+## ScreenshotOne (screenshotone.com) — $33,000 MRR (~$400k ARR; ~$36k MRR by Sept 2026)
+- Founders: Dmytro Krasun (Solo technical founder)
+- Primary Source (2026-05-29): https://dmytrokrasun.com/posts/screenshotone-4-years/
+- Wedge: Solves the nightmare of maintaining headless Chromium clusters, cookie-banner blocking, ad blocking, and residential proxies with a clean REST API and SDKs built specifically for developers and AI agents.
+- Sitemap URLs: 644 (95.8% pSEO)
+- Replicable Actions:
+  * Create a Dedicated `/ai-information/` Page and Link It First in `/llms.txt`: ScreenshotOne explicitly feeds AI assistants a single ground-truth page with verified pricing, limits, and SDK links so LLMs never hallucinate its specs.
+  * Pair 49 `/use-cases/[slug]` Pages with 134 Technical Language Tutorials (`Puppeteer vs Playwright vs API`): Capture developers at the exact moment their self-hosted headless Chrome script crashes in production.
+  * Clear Usage-Tier Pricing (`$17/mo` -> `$79/mo` -> `$259/mo` with `Annually 2 months free` + 10 objection-handling FAQs).
+
+## SuperX (superx.so) — $23,000 MRR ($276,000 ARR)
+- Founders: Rob Hallam (Indie founder)
+- Primary Source (2025-09-10): https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ
+- Wedge: Out-positions legacy Twitter schedulers (TweetHunter, Hypefury, Typefully) with real-time algorithm analytics, Chrome sidebar integration, and public creator profile intelligence.
+- Sitemap URLs: 1664 (98.3% pSEO)
+- Replicable Actions:
+  * Build a Public Profile Directory (`/creators/[handle]` — 828 pages): If your SaaS analyzes public entities (creators, repos, domains, podcasts, stores), pre-generate 500–1,000 public analysis pages. Ego-searches and creator shares drive zero-cost viral traffic.
+  * Ship `/[your_brand]-vs-[competitor]` for the Top 5 Incumbents on Day 1: SuperX targets `tweethunter`, `hypefury`, and `typefully` directly at root URL slugs.
+  * Charge Premium Creator Pricing (`$49/mo` -> `$99/mo` Advanced -> `$199/mo` Ultra): Avoid $9/mo race-to-the-bottom pricing when your tool directly drives audience & revenue growth.
+
+## Hypefury (hypefury.com) — $23,000+ MRR ($276,000+ ARR)
+- Founders: Samy Dindane & Yannick Veys (Co-founders, met on Indie Hackers)
+- Primary Source (2021-08-15): https://www.indiehackers.com/post/flying-past-23k-mrr-in-2-years-hypefury-45f73f0c0a
+- Wedge: Differentiated from Buffer and Hootsuite by focusing purely on audience growth and monetization loops (auto-retweeting evergreen posts, auto-plugging newsletters/Gumroad links under viral tweets).
+- Sitemap URLs: 548 (85% pSEO)
+- Replicable Actions:
+  * Build Features That Advertise Themselves in Public Feeds: Hypefury's Auto-Plug and Tweet-to-Instagram-Screenshot templates naturally prompt followers to ask "What tool are you using?"
+  * Combine `/tools/[tool_slug]` (14 free tools) with `/blog/[category]/how-to-[topic]` (259 articles): Use how-to guides to rank for creator questions and funnel readers into free interactive tools.
+  * Test Price Increases to Cut High-Maintenance Churn: In their IH AMA, Yannick revealed raising prices boosted MRR from $13k to $19k (+46%) while ultimately stabilizing churn at 7%.
+
+## Pirsch Analytics (pirsch.io) — $14,300 MRR (~$130,000/yr net volume)
+- Founders: Marvin Blum & Daniel (2 German technical co-founders)
+- Primary Source (2025-12-20): https://pirsch.io/blog/our-recap-of-2025/
+- Wedge: Competes with GA4, Plausible, and Fathom by offering an ultra-fast Go backend, built-in server-side tracking SDKs, URL shortener, and lower entry pricing ($6/mo) with full white-label agency support.
+- Sitemap URLs: 938 (84.1% pSEO)
+- Replicable Actions:
+  * Pair a 560-Page `/glossary/[term]` Engine with a 144-Page `/atlas/[region]` Data Hub: Even in a crowded market like privacy analytics, Pirsch built 704 programmatic reference pages to capture top-of-funnel developer and marketer searches.
+  * Publish Honest Annual Founder Recaps (`/blog/our-recap-of-2025/`): Radical transparency about MRR ($14,300), subscriber count (627), and net volume ($130k) earns recurring Hacker News and Indie Hackers backlinks.
+  * Differentiate via Backend SDKs & White-Label APIs: When UI features commoditize, offering first-class server-side SDKs (Go, PHP, Python, Node) and agency white-labeling locks in low-churn B2B customers.
+
+## SiteGuru (siteguru.co) — $14,000 MRR ($168,000 ARR)
+- Founders: Rick van Haasteren (Solo founder, Netherlands)
+- Primary Source (2025-10-02): https://www.indiehackers.com/post/tech/building-an-seo-product-to-14k-mrr-in-a-crowded-market-gU4DE1l094cpj1GjNHwu
+- Wedge: Replaces overwhelming 500-column enterprise crawlers (Screaming Frog, Ahrefs, Semrush) with a plain-English prioritized weekly SEO Todo List connectable to Google Search Console & GA4.
+- Sitemap URLs: 254 (89.8% pSEO)
+- Replicable Actions:
+  * Build 10–15 Single-Purpose Free Checkers (`/free-seo-tools/[slug]`): Extract one micro-check from your paid backend and expose it as an instant free web tool with an upsell to "Monitor your entire site weekly".
+  * Price by Website Count with Identical Feature Access (`$49` Small 5 sites -> `$99` Medium 15 sites `[Most popular]` -> `$199` Large 50 sites): Including `MCP access` and `White label reports` across all tiers makes agency upgrades frictionless.
+  * Localize into Your Home Non-English Market (`/nl/`): SiteGuru includes Dutch (`nl`) pages alongside English.
+
+## SEO Utils (seoutils.app) — ~$10,400/mo ($15,800/mo founder portfolio)
+- Founders: Phuc Le (Solo indie founder)
+- Primary Source (2026-02-24): https://www.indiehackers.com/post/tech/staying-close-to-customers-and-hitting-16k-mo-VTKxLk4uanWJbmSdG4km
+- Wedge: Eliminates $129–$499/mo recurring Ahrefs/Semrush subscriptions by offering a native cross-platform desktop app ($69 license + $59.99/yr updates) that plugs directly into pay-as-you-go DataForSEO APIs ($1.50–$2.30 per thousand queries).
+- Sitemap URLs: 19 (84.2% pSEO)
+- Replicable Actions:
+  * Use BYOK (Bring Your Own Key / Wholesale API) + Desktop License to Undercut $200/mo SaaS Giants: When data APIs cost pennies wholesale, packaging a slick local UI for $69 + $59.99/yr renewal creates an irresistible math equation.
+  * Ship Feature Landing Pages for Brand-New Industry Jargon (`/fan-out-query`): Be the first tool with a dedicated landing page for new technical terms before big incumbents update their marketing.
+  * Anchor Your Pricing Against Annual Incumbent Spend ($4,200/yr vs $69): Showing 12-month cumulative competitor cost makes a $69 purchase feel like an instant 98% savings.
+
+## Leave Me Alone (leavemealone.com) — $10,000/mo (Open Startup verified)
+- Founders: Danielle Johnson & James Ivings (2 co-founders)
+- Primary Source (2023-08-15): https://leavemealone.com/blog/from-indie-side-project-to-profitable-business/
+- Wedge: Competes with 'free' email cleaners (Unroll.me, which famously got caught selling user inbox receipt data to Uber) by charging transparent privacy-first prices and never storing or selling email content.
+- Sitemap URLs: 14802 (98.8% pSEO)
+- Replicable Actions:
+  * Build a 10,000+ Page `/how-to-[action]-from-[entity]` Programmatic Directory: Leave Me Alone’s **14,264 `/how-to-unsubscribe-from/[brand]` pages** are the ultimate textbook example of long-tail entity pSEO — capturing frustrated users searching how to stop emails from specific brands and converting them on the spot.
+  * Offer Flexible Pass vs Subscription Pricing (`$7.50` 7-Day Pass vs `$4.50/mo` Yearly vs `$19/mo` Monthly): Since inbox cleaning can be episodic, offering a 7-day pass alongside recurring Inbox Shield plans captures both one-time and recurring buyers.
+  * Position Paid Privacy Against 'Free Data-Harvesting Incumbents': Turn the fact that you charge money into your #1 trust badge.

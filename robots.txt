@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# AI Search & GEO Agents Explicitly Welcomed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://wudao0123.github.io/taste-skill/sitemap.xml
+# Structured AI Index: https://wudao0123.github.io/taste-skill/llms.txt
