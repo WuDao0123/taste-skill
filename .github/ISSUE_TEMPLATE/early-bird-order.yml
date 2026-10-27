@@ -1,0 +1,45 @@
+name: "⚡ Early-Bird Pro Pack / License Order ($29 / $69 / $169)"
+description: "Lock in Early-Bird pricing ($69 Pro Pack / $29 Single / $169 Team) & request instant payment link + delivery"
+title: "[Early-Bird Order] Growth & Revenue Pro Pack ($69 USD)"
+labels: ["early-bird-order"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🚀 Lock Your Early-Bird Price & Get Instant Delivery (`growth-revenue-skills-pro-v1.0.0.zip`)
+        Submit this issue to trigger our automated Early-Bird reservation bot and receive your preferred checkout link.
+  - type: dropdown
+    id: tier
+    attributes:
+      label: "1. Select License Tier"
+      options:
+        - "★ Growth & Revenue Pro Pack — $69 USD Early-Bird (Regular $99 · All 4 Skills + 5 Scripts + 22 Blueprints)"
+        - "Single Growth Skill — $29 USD One-Time (Choose 1 Skill + Script)"
+        - "Team & Agency License — $169 USD One-Time (Up to 5 Seats + Unlimited Client White-Label Rights)"
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: payment_method
+    attributes:
+      label: "2. Preferred Payment Method"
+      options:
+        - "Card / Apple Pay via Polar.sh (GitHub Auto-Invite)"
+        - "Alipay / WeChat Pay / Card via Creem.io (支付宝 / 微信支付)"
+        - "Wise / USDT / USDC Crypto Transfer"
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: "3. Delivery Email (or X Handle)"
+      description: "Where should we send your payment link and `growth-revenue-skills-pro-v1.0.0.zip`?"
+      placeholder: "you@company.com or @your_x_handle"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "4. Notes (Optional)"
+      description: "If ordering the $29 Single Skill, mention which skill you want (`pseo-competitor-teardown`, `x-alternative-pages`, `pricing-paywall-retention`, or `launch-kit`)."

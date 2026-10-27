@@ -1,0 +1,100 @@
+name: Early-Bird Order Auto-Responder
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  respond-to-order:
+    if: >-
+      contains(github.event.issue.title, '[Early-Bird Order]') ||
+      contains(github.event.issue.title, '[TasteSkill Early-Bird Order]') ||
+      contains(github.event.issue.title, 'Growth & Revenue') ||
+      contains(github.event.issue.title, 'Pro Pack') ||
+      contains(github.event.issue.title, 'License')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post Early-Bird Reservation & Instant Delivery Instructions
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const author = issue.user.login;
+            const title = issue.title || '';
+
+            let tierLabel = '★ Growth & Revenue Pro Pack ($69 USD Early-Bird · Regular $99)';
+            if (title.includes('$29') || title.toLowerCase().includes('single')) {
+              tierLabel = 'Single Growth Skill ($29 USD One-Time)';
+            } else if (title.includes('$169') || title.toLowerCase().includes('team')) {
+              tierLabel = 'Team & Agency License ($169 USD One-Time · 5 Seats + White-Label Rights)';
+            }
+
+            // Ensure label 'early-bird-order' exists and apply it
+            try {
+              await github.rest.issues.getLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: 'early-bird-order'
+              });
+            } catch (e) {
+              try {
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: 'early-bird-order',
+                  color: '10B981',
+                  description: 'Locked Early-Bird Pro Pack / License Order Request'
+                });
+              } catch (_) {}
+            }
+
+            try {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ['early-bird-order']
+              });
+            } catch (_) {}
+
+            const body = [
+              `### ⚡ Early-Bird Price Lock Confirmed for @${author}!`,
+              ``,
+              `Thank you for reserving **${tierLabel}**! Your Early-Bird pricing (` + '`$29 Single Skill` / `$69 Early-Bird Pro Pack` / `$169 Team License`' + `) is **100% locked in**.`,
+              ``,
+              `---`,
+              ``,
+              `### 💳 Instant Payment & Delivery Options`,
+              `While our automated Polar.sh & Creem.io webhook checkout is being finalized, you can complete payment and receive **` + '`growth-revenue-skills-pro-v1.0.0.zip`' + `** + private GitHub repository access immediately via any of these options:`,
+              ``,
+              `1. **Direct Reply on This Issue / Email**: We have been notified of this issue and will send your preferred payment link (**Card / Apple Pay via Polar.sh**, **Alipay / WeChat Pay via Creem**, or **Wise / USDT / USDC**) to the contact address in your request, or you can email **\`zongwu835@gmail.com\`** directly.`,
+              `2. **Instant X (Twitter) DM**: Send a quick DM to **[@RunChengln](https://x.com/RunChengln)** mentioning Issue **#${issue.number}** for priority instant delivery.`,
+              ``,
+              `---`,
+              ``,
+              `### 📦 What's Included in Your Deliverable (\`growth-revenue-skills-pro-v1.0.0.zip\`)`,
+              `- **4 Executable Growth & Revenue Agent Skills** (\`.cursor/skills/\` & \`.claude/skills/\`):`,
+              `  1. \`pseo-competitor-teardown\` — Recursive \`sitemap.xml\` + \`/llms.txt\` reverse-engineering & Next.js App Router dynamic pSEO generator`,
+              `  2. \`x-alternative-pages\` — Fact-checked competitor comparison matrix & 4-locale (\`en/zh/ja/es\`) high-converting landing page generator`,
+              `  3. \`pricing-paywall-retention\` — Competitor \`/pricing\` DOM audit, conversion paywall modal, FTC Click-to-Cancel 3-step salvage flow & Stripe/Polar/Creem/LemonSqueezy webhooks`,
+              `  4. \`launch-kit\` — App Store Connect 100-byte UTF-8 keyword validator & Show HN / Product Hunt / Reddit launch copy verifier`,
+              `- **5 Local Zero-Cost Playwright/Node.js Crawlers** (zero paid third-party SEO APIs required)`,
+              `- **Production Next.js / Astro / React Templates** (\`PricingSection.tsx\`, \`PaywallModal.tsx\`, \`CancelRetentionFlow.tsx\`, multi-provider webhook handlers)`,
+              `- **22 Raw Competitor JSON Blueprints** (20 verified \`$10k–$422k MRR\` indie SaaS sites + \`skillry.dev\` + \`zapier.com\` benchmark)`,
+              ``,
+              `> 💡 **Meanwhile, your Free Community CLI works right now with zero config:**`,
+              `> \`\`\`bash`,
+              `> npx --yes github:WuDao0123/taste-skill find "dark precision saas"`,
+              `> npx --yes github:WuDao0123/taste-skill add linear`,
+              `> \`\`\``
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body
+            });
