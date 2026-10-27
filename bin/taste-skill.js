@@ -5,6 +5,7 @@ const path = require('path');
 const { extractTasteFromUrl, slugifyUrl } = require('../src/extractor');
 const { generateSkillMarkdown } = require('../src/generator');
 const { searchSkills, loadFullCatalog } = require('../src/search');
+const { extractTasteFromImage } = require('../src/image-extractor');
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 
@@ -35,6 +36,7 @@ taste-skill v0.1.0 — URL-to-Taste Design System Extractor & Semantic Router
 
 Usage:
   node bin/taste-skill.js extract <url> [--out <dir>] [--json <file>]
+  node bin/taste-skill.js from-image <image-path> [--name <custom-name>] [--out <dir>]
   node bin/taste-skill.js find "<natural language query>" [--limit <n>]
   node bin/taste-skill.js add <slug> [--target <dir>]
   node bin/taste-skill.js list
@@ -55,6 +57,35 @@ async function main() {
   if (!cmd || cmd === 'help' || flags.help) {
     printHelp();
     process.exit(0);
+  }
+
+
+  if (cmd === 'from-image' || cmd === 'image' || cmd === 'screenshot') {
+    const imgPath = positional[1];
+    if (!imgPath) {
+      console.error('Error: Missing <image-path>. Usage: taste-skill from-image <image-path> [--name <name>] [--out <dir>]');
+      process.exit(1);
+    }
+    console.log(`[taste-skill] Analyzing screenshot pixels, spatial layout & 30-site aesthetic twins for: ${imgPath} ...`);
+    const res = await extractTasteFromImage(imgPath, {
+      customName: flags.name,
+      rootDir: ROOT_DIR
+    });
+    const outDir = flags.out
+      ? path.resolve(process.cwd(), flags.out)
+      : path.join(ROOT_DIR, 'samples', res.slug);
+    fs.mkdirSync(outDir, { recursive: true });
+    const skillFile = outDir.endsWith('.md') ? outDir : path.join(outDir, 'SKILL.md');
+    fs.mkdirSync(path.dirname(skillFile), { recursive: true });
+    fs.writeFileSync(skillFile, res.skillMarkdown, 'utf8');
+
+    console.log(`[taste-skill] Screenshot-to-Taste completed in ${res.elapsedMs}ms!`);
+    console.log(`  - Resolution:       ${res.dimensions.width}x${res.dimensions.height}px (${res.mode.toUpperCase()} mode, ${res.contrastRatio}:1 contrast)`);
+    console.log(`  - Extracted Tokens: Canvas ${res.colors.canvas} | Surface ${res.colors.surface} | Text ${res.colors.text} | Accent ${res.colors.accent}`);
+    console.log(`  - Layout Skeleton:  ${res.layout.inferredContainerWidth} | Navbar ${res.layout.inferredNavbarHeight} | ${res.layout.gridArchitecture}`);
+    console.log(`  - Top Design Twins: ${res.twins.map((t) => `${t.name} (${t.similarity}%)`).join(', ')}`);
+    console.log(`  - SKILL.md Saved:   ${skillFile}`);
+    return;
   }
 
   if (cmd === 'extract') {

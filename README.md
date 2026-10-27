@@ -20,6 +20,9 @@ npx taste-skill add resend
 
 # 3. Live reverse-engineer ANY custom URL via headless Chromium
 npx taste-skill extract https://raycast.com --out ./.cursor/skills/taste-raycast/SKILL.md
+
+# 4. [v1.1 NEW] Reverse-engineer ANY UI Screenshot (PNG/JPG/WebP) into a SKILL.md
+npx taste-skill from-image ./ui-screenshot.png --name "Dark Precision AI" --out ./.cursor/skills/taste-custom
 ```
 
 ---
