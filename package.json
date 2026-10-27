@@ -26,7 +26,7 @@
     "ui-tokens",
     "playwright"
   ],
-  "author": "TasteSkill Contributors",
+  "author": "runcheng (https://x.com/RunChengln)",
   "license": "MIT",
   "dependencies": {
     "playwright-core": "^1.48.0"
