@@ -374,15 +374,24 @@ description: Replicate the visual aesthetic, typography, color tokens, and compo
         <span>✓ Team &amp; Agency: $169</span>
       </div>
     </div>
-    <div style="display:flex;flex-direction:column;gap:10px;min-width:230px;">
-      <a href="/taste-skill/taste-skill/#pricing-section" class="pro-cta-btn" style="text-align:center;text-decoration:none;padding:13px 20px;font-size:13.5px;">
-        Unlock Pro Pack — $69 &rarr;
-      </a>
-      <a href="/taste-skill/showcase/tasteskill-vs-skillry/" class="action-btn" style="text-align:center;text-decoration:none;font-size:12px;">
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:260px;">
+      <button type="button" onclick="window.openCheckoutModal('pro')" class="pro-cta-btn" style="text-align:center;padding:12px 18px;font-size:13.5px;cursor:pointer;border:none;">
+        ★ Unlock Pro Pack — $69 Early-Bird &rarr;
+      </button>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        <button type="button" onclick="window.openCheckoutModal('single')" class="action-btn" style="text-align:center;font-size:11.5px;cursor:pointer;justify-content:center;">
+          $29 Single Skill
+        </button>
+        <button type="button" onclick="window.openCheckoutModal('team')" class="action-btn" style="text-align:center;font-size:11.5px;cursor:pointer;justify-content:center;">
+          $169 Team (5x)
+        </button>
+      </div>
+      <a href="/taste-skill/showcase/tasteskill-vs-skillry/" class="action-btn" style="text-align:center;text-decoration:none;font-size:11.5px;justify-content:center;">
         See B+A Live Showcase Demo &rarr;
       </a>
     </div>
   </section>
+  <script src="/taste-skill/checkout-config.js"></script>
   </main>
 </body>
 </html>

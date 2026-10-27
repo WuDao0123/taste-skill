@@ -4,10 +4,10 @@
 
 ## For AI Coding Agents (Quick Install)
 
-- Run URL-to-SKILL.md extraction: `npx taste-skill extract https://linear.app`
-- Run Screenshot-to-SKILL.md extraction: `npx taste-skill from-image ./ui-screenshot.png`
-- Semantic search across 30 flagship design systems: `npx taste-skill find "dark precision saas"`
-- Install a flagship design system into `.cursor/skills/`: `npx taste-skill add linear`
+- Run URL-to-SKILL.md extraction: `npx github:WuDao0123/taste-skill extract https://linear.app`
+- Run Screenshot-to-SKILL.md extraction: `npx github:WuDao0123/taste-skill from-image ./ui-screenshot.png`
+- Semantic search across 30 flagship design systems: `npx github:WuDao0123/taste-skill find "dark precision saas"`
+- Install a flagship design system into `.cursor/skills/`: `npx github:WuDao0123/taste-skill add linear`
 
 ## Live Showcase & Commercialization Matrix
 

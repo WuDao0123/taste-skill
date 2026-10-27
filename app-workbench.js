@@ -176,7 +176,7 @@ async function openInspector(slug) {
   document.getElementById('modalAvatar').style.background = c.canvas || '#08090A';
   document.getElementById('modalTitle').textContent = `${detail.name} (${detail.domain})`;
   document.getElementById('modalArchetype').textContent = `${detail.archetype} · ${detail.category}`;
-  document.getElementById('btnCopyCli').textContent = `$ npx taste-skill add ${detail.slug}`;
+  document.getElementById('btnCopyCli').textContent = `$ npx github:WuDao0123/taste-skill add ${detail.slug}`;
   document.getElementById('modalSkillPath').textContent = `.cursor/skills/taste-${detail.slug}/SKILL.md`;
   document.getElementById('modalSkillMarkdown').textContent = detail.skillMarkdown || '';
   document.getElementById('upsellSiteName').textContent = detail.name;
@@ -208,7 +208,7 @@ async function openInspector(slug) {
 
 function closeInspector() { document.getElementById('inspectorModal').classList.remove('open'); }
 function copyCurrentSkill() { if (activeSkillDetail) copyText(activeSkillDetail.skillMarkdown, `Copied ${activeSkillDetail.name} SKILL.md!`); }
-function copyCurrentCli() { if (activeSkillDetail) copyText(`npx taste-skill add ${activeSkillDetail.slug}`); }
+function copyCurrentCli() { if (activeSkillDetail) copyText(`npx github:WuDao0123/taste-skill add ${activeSkillDetail.slug}`); }
 function downloadCurrentSkill() {
   if (!activeSkillDetail) return;
   const a = document.createElement('a');
@@ -253,28 +253,4 @@ function openTeardownModal(slug) {
 function closeTeardownModal() { document.getElementById('teardownModal').classList.remove('open'); }
 
 // Checkout Preview Modal (Section IV)
-function openCheckoutModal(tierId) {
-  if (tierId === 'community') {
-    copyText('npx taste-skill find "dark precision saas"', 'Copied Free CLI command!');
-    return;
-  }
-  const cfg = window.CHECKOUT_CONFIG || {};
-  const tier = (unifiedData?.pricingConfig?.tiers || []).find((t) => t.id === tierId) || unifiedData.pricingConfig.tiers[2];
-  document.getElementById('coTierName').textContent = `${tier.name} — ${tier.price} USD`;
-  document.getElementById('coTierBilling').textContent = tier.billing;
-  document.getElementById('coFeaturesList').innerHTML = tier.features.map((f) => `<li>${f}</li>`).join('');
-  const polarUrl = tier.id === 'single' ? cfg.singleUrl : tier.id === 'team' ? cfg.teamUrl : cfg.proUrl;
-  const creemUrl = tier.id === 'single' ? cfg.creemSingleUrl : tier.id === 'team' ? cfg.creemTeamUrl : cfg.creemProUrl;
-  const polarBtn = document.getElementById('coPolarBtn');
-  const creemBtn = document.getElementById('coCreemBtn');
-  if (polarBtn) polarBtn.onclick = () => {
-    if (polarUrl && !polarUrl.includes('taste-skill-')) window.open(polarUrl, '_blank');
-    else copyText(polarUrl || 'https://polar.sh/checkout/taste-skill-pro-69', `Polar Checkout (${tier.price}): ${polarUrl}`);
-  };
-  if (creemBtn) creemBtn.onclick = () => {
-    if (creemUrl && !creemUrl.includes('taste-skill-')) window.open(creemUrl, '_blank');
-    else copyText(creemUrl || 'https://creem.io/checkout/taste-skill-pro-69', `Creem Checkout (${tier.price}): ${creemUrl}`);
-  };
-  document.getElementById('checkoutModal').classList.add('open');
-}
-function closeCheckoutModal() { document.getElementById('checkoutModal').classList.remove('open'); }
+// Delegated to checkout-config.js Early-Bird Instant Order & Delivery Modal

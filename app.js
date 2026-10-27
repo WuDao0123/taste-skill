@@ -210,7 +210,7 @@ function renderGrid() {
           </div>
         </div>
         <div class="card-footer">
-          <code class="cli-cmd-mini" onclick="event.stopPropagation();copyText('npx taste-skill add ${item.slug}')">$ npx taste-skill add ${item.slug}</code>
+          <code class="cli-cmd-mini" onclick="event.stopPropagation();copyText('npx github:WuDao0123/taste-skill add ${item.slug}')">$ npx github:WuDao0123/taste-skill add ${item.slug}</code>
           <div style="display:flex;gap:8px;align-items:center;"><a href="/taste-skill/taste/${item.slug}/" onclick="event.stopPropagation()" style="color:#A5B4FC;font-size:11px;font-family:var(--font-mono);text-decoration:none;">pSEO Page &nearr;</a><button class="inspect-btn">Inspect &rarr;</button></div>
         </div>
       </article>`;
