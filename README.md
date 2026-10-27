@@ -9,24 +9,26 @@
 
 ---
 
-## ⚡ Quick Start (Zero Config via `npx`)
+## ⚡ Quick Start (Zero Config via `npx github:WuDao0123/taste-skill`)
 
 ```bash
-# 1. Search the 30 pre-warmed flagship aesthetics by natural-language vibe
-npx taste-skill find "dark precision saas"
-npx taste-skill find "warm minimalist ai"
-npx taste-skill find "fintech light editorial"
+# 1. Search the 30 pre-warmed flagship aesthetics by natural-language vibe (works immediately via GitHub npx!)
+npx --yes github:WuDao0123/taste-skill find "dark precision saas"
+npx --yes github:WuDao0123/taste-skill find "warm minimalist ai"
+npx --yes github:WuDao0123/taste-skill find "fintech light editorial"
 
 # 2. Install any flagship SKILL.md directly into .cursor/skills/taste-<slug>/SKILL.md
-npx taste-skill add linear
-npx taste-skill add stripe
-npx taste-skill add resend
+npx --yes github:WuDao0123/taste-skill add linear
+npx --yes github:WuDao0123/taste-skill add stripe
+npx --yes github:WuDao0123/taste-skill add resend
 
 # 3. Live reverse-engineer ANY custom URL via headless Chromium
-npx taste-skill extract https://raycast.com --out ./.cursor/skills/taste-raycast/SKILL.md
+npx --yes github:WuDao0123/taste-skill extract https://raycast.com --out ./.cursor/skills/taste-raycast
 
 # 4. [v1.1 NEW] Reverse-engineer ANY UI Screenshot (PNG/JPG/WebP) into a SKILL.md
-npx taste-skill from-image ./ui-screenshot.png --name "Dark Precision AI" --out ./.cursor/skills/taste-custom
+npx --yes github:WuDao0123/taste-skill from-image ./ui-screenshot.png --name "Dark Precision AI" --out ./.cursor/skills/taste-custom
+
+# (Also supports shorthand `npx taste-skill <cmd>` when installed globally or from npm)
 ```
 
 ---
@@ -35,36 +37,36 @@ npx taste-skill from-image ./ui-screenshot.png --name "Dark Precision AI" --out 
 
 | # | Site | Slug | Mode | Aesthetic Archetype | One-Line Install Command |
 |---|------|------|------|---------------------|--------------------------|
-| 1 | **Linear** (`linear.app`) | `linear` | dark | Dark Precision SaaS & Industrial Craftsmanship | `npx taste-skill add linear` |
-| 2 | **Stripe** (`stripe.com`) | `stripe` | dual | High-Craft Financial Infrastructure & Editorial Light/Navy Dual-Mode | `npx taste-skill add stripe` |
-| 3 | **Resend** (`resend.com`) | `resend` | dark | Obsidian Developer Luxury & Editorial Serif-Meets-Mono | `npx taste-skill add resend` |
-| 4 | **Vercel** (`vercel.com`) | `vercel` | light | Geist Architectural Grid & Swiss Precision Monochrome | `npx taste-skill add vercel` |
-| 5 | **Supabase** (`supabase.com`) | `supabase` | light | Postgres Emerald Technical Clarity & Clean Modular Bento | `npx taste-skill add supabase` |
-| 6 | **Raycast** (`raycast.com`) | `raycast` | dark | Desktop-Class macOS Acrylic Glass & Crimson Spotlight | `npx taste-skill add raycast` |
-| 7 | **Cursor** (`cursor.com`) | `cursor` | light | Warm Archival Paper & Frontier AI Research Craft | `npx taste-skill add cursor` |
-| 8 | **Clerk** (`clerk.com`) | `clerk` | light | Tactile Micro-Shadow Auth Components & Electric Violet | `npx taste-skill add clerk` |
-| 9 | **Mintlify** (`mintlify.com`) | `mintlify` | light | Warm Daylight Documentation & Editorial Arizona Flare Serif | `npx taste-skill add mintlify` |
-| 10 | **Cal.com** (`cal.com`) | `cal` | light | Neo-Brutalist Swiss Scheduling & Geometric Cal Sans | `npx taste-skill add cal` |
-| 11 | **Dub** (`dub.co`) | `dub` | light | Modern Link Attribution & Crisp Satoshi/Geist Minimalist | `npx taste-skill add dub` |
-| 12 | **Trigger.dev** (`trigger.dev`) | `trigger` | dark | Industrial Dark Slate & Electric Acid-Lime Telemetry | `npx taste-skill add trigger` |
-| 13 | **Railway** (`railway.com`) | `railway` | dark | Deep Cosmic Violet Infrastructure & IBM Plex Serif Editorial | `npx taste-skill add railway` |
-| 14 | **PlanetScale** (`planetscale.com`) | `planetscale` | light | Pure Monospace ASCII Engineering Manual & Zero-Radius Brutalism | `npx taste-skill add planetscale` |
-| 15 | **Turso** (`turso.tech`) | `turso` | dark | Deep Oceanic Teal & Neon Aquamarine Edge Database | `npx taste-skill add turso` |
-| 16 | **Neon** (`neon.tech`) | `neon` | dark | Serverless Pitch-Black & Luminous Cyber-Mint Postgres | `npx taste-skill add neon` |
-| 17 | **Upstash** (`upstash.com`) | `upstash` | light | Oversized Emerald Typography & Clean Serverless Daylight | `npx taste-skill add upstash` |
-| 18 | **Inngest** (`inngest.com`) | `inngest` | dark | Warm Obsidian Stone & Swiss Whyte / Coral-Cobalt Contrast | `npx taste-skill add inngest` |
-| 19 | **WorkOS** (`workos.com`) | `workos` | light | Enterprise-Ready Architectural Precision & Untitled Sans | `npx taste-skill add workos` |
-| 20 | **Loops** (`loops.so`) | `loops` | light | Warm Editorial SaaS & Newsreader Serif Craft | `npx taste-skill add loops` |
-| 21 | **Attio** (`attio.com`) | `attio` | light | Next-Gen CRM Spreadsheet-Grid Precision & Inter Display | `npx taste-skill add attio` |
-| 22 | **Ashby** (`ashbyhq.com`) | `ashby` | light | Analytics-Driven Recruiting SaaS & Royal Indigo TTNormsPro | `npx taste-skill add ashby` |
-| 23 | **Notion** (`notion.so`) | `notion` | light | Warm Workspace Canvas & Monumental NotionInter Display | `npx taste-skill add notion` |
-| 24 | **Framer** (`framer.com`) | `framer` | dark | Pitch-Black Interactive Canvas & Electric #0099FF Blue Glow | `npx taste-skill add framer` |
-| 25 | **Tailwind CSS** (`tailwindcss.com`) | `tailwindcss` | light | Engineered CSS Grid Lines & Technical Blueprint Precision | `npx taste-skill add tailwindcss` |
-| 26 | **shadcn/ui** (`ui.shadcn.com`) | `shadcn` | light | Zinc Monochrome Component Primitives & Zero-Distraction Craft | `npx taste-skill add shadcn` |
-| 27 | **Anthropic** (`anthropic.com`) | `anthropic` | light | Humanist Warm Parchment & Literary AI Safety Editorial | `npx taste-skill add anthropic` |
-| 28 | **ElevenLabs** (`elevenlabs.io`) | `elevenlabs` | light | Swiss Audio Minimalist & Light-Weight Waldenburg Precision | `npx taste-skill add elevenlabs` |
-| 29 | **Polar** (`polar.sh`) | `polar` | dark | Nordic Dark Monetization & PP Neue Montreal Minimalist | `npx taste-skill add polar` |
-| 30 | **PostHog** (`posthog.com`) | `posthog` | light | Tactile Retro-OS Brutalist & Warm Sand / Amber Craft | `npx taste-skill add posthog` |
+| 1 | **Linear** (`linear.app`) | `linear` | dark | Dark Precision SaaS & Industrial Craftsmanship | `npx github:WuDao0123/taste-skill add linear` |
+| 2 | **Stripe** (`stripe.com`) | `stripe` | dual | High-Craft Financial Infrastructure & Editorial Light/Navy Dual-Mode | `npx github:WuDao0123/taste-skill add stripe` |
+| 3 | **Resend** (`resend.com`) | `resend` | dark | Obsidian Developer Luxury & Editorial Serif-Meets-Mono | `npx github:WuDao0123/taste-skill add resend` |
+| 4 | **Vercel** (`vercel.com`) | `vercel` | light | Geist Architectural Grid & Swiss Precision Monochrome | `npx github:WuDao0123/taste-skill add vercel` |
+| 5 | **Supabase** (`supabase.com`) | `supabase` | light | Postgres Emerald Technical Clarity & Clean Modular Bento | `npx github:WuDao0123/taste-skill add supabase` |
+| 6 | **Raycast** (`raycast.com`) | `raycast` | dark | Desktop-Class macOS Acrylic Glass & Crimson Spotlight | `npx github:WuDao0123/taste-skill add raycast` |
+| 7 | **Cursor** (`cursor.com`) | `cursor` | light | Warm Archival Paper & Frontier AI Research Craft | `npx github:WuDao0123/taste-skill add cursor` |
+| 8 | **Clerk** (`clerk.com`) | `clerk` | light | Tactile Micro-Shadow Auth Components & Electric Violet | `npx github:WuDao0123/taste-skill add clerk` |
+| 9 | **Mintlify** (`mintlify.com`) | `mintlify` | light | Warm Daylight Documentation & Editorial Arizona Flare Serif | `npx github:WuDao0123/taste-skill add mintlify` |
+| 10 | **Cal.com** (`cal.com`) | `cal` | light | Neo-Brutalist Swiss Scheduling & Geometric Cal Sans | `npx github:WuDao0123/taste-skill add cal` |
+| 11 | **Dub** (`dub.co`) | `dub` | light | Modern Link Attribution & Crisp Satoshi/Geist Minimalist | `npx github:WuDao0123/taste-skill add dub` |
+| 12 | **Trigger.dev** (`trigger.dev`) | `trigger` | dark | Industrial Dark Slate & Electric Acid-Lime Telemetry | `npx github:WuDao0123/taste-skill add trigger` |
+| 13 | **Railway** (`railway.com`) | `railway` | dark | Deep Cosmic Violet Infrastructure & IBM Plex Serif Editorial | `npx github:WuDao0123/taste-skill add railway` |
+| 14 | **PlanetScale** (`planetscale.com`) | `planetscale` | light | Pure Monospace ASCII Engineering Manual & Zero-Radius Brutalism | `npx github:WuDao0123/taste-skill add planetscale` |
+| 15 | **Turso** (`turso.tech`) | `turso` | dark | Deep Oceanic Teal & Neon Aquamarine Edge Database | `npx github:WuDao0123/taste-skill add turso` |
+| 16 | **Neon** (`neon.tech`) | `neon` | dark | Serverless Pitch-Black & Luminous Cyber-Mint Postgres | `npx github:WuDao0123/taste-skill add neon` |
+| 17 | **Upstash** (`upstash.com`) | `upstash` | light | Oversized Emerald Typography & Clean Serverless Daylight | `npx github:WuDao0123/taste-skill add upstash` |
+| 18 | **Inngest** (`inngest.com`) | `inngest` | dark | Warm Obsidian Stone & Swiss Whyte / Coral-Cobalt Contrast | `npx github:WuDao0123/taste-skill add inngest` |
+| 19 | **WorkOS** (`workos.com`) | `workos` | light | Enterprise-Ready Architectural Precision & Untitled Sans | `npx github:WuDao0123/taste-skill add workos` |
+| 20 | **Loops** (`loops.so`) | `loops` | light | Warm Editorial SaaS & Newsreader Serif Craft | `npx github:WuDao0123/taste-skill add loops` |
+| 21 | **Attio** (`attio.com`) | `attio` | light | Next-Gen CRM Spreadsheet-Grid Precision & Inter Display | `npx github:WuDao0123/taste-skill add attio` |
+| 22 | **Ashby** (`ashbyhq.com`) | `ashby` | light | Analytics-Driven Recruiting SaaS & Royal Indigo TTNormsPro | `npx github:WuDao0123/taste-skill add ashby` |
+| 23 | **Notion** (`notion.so`) | `notion` | light | Warm Workspace Canvas & Monumental NotionInter Display | `npx github:WuDao0123/taste-skill add notion` |
+| 24 | **Framer** (`framer.com`) | `framer` | dark | Pitch-Black Interactive Canvas & Electric #0099FF Blue Glow | `npx github:WuDao0123/taste-skill add framer` |
+| 25 | **Tailwind CSS** (`tailwindcss.com`) | `tailwindcss` | light | Engineered CSS Grid Lines & Technical Blueprint Precision | `npx github:WuDao0123/taste-skill add tailwindcss` |
+| 26 | **shadcn/ui** (`ui.shadcn.com`) | `shadcn` | light | Zinc Monochrome Component Primitives & Zero-Distraction Craft | `npx github:WuDao0123/taste-skill add shadcn` |
+| 27 | **Anthropic** (`anthropic.com`) | `anthropic` | light | Humanist Warm Parchment & Literary AI Safety Editorial | `npx github:WuDao0123/taste-skill add anthropic` |
+| 28 | **ElevenLabs** (`elevenlabs.io`) | `elevenlabs` | light | Swiss Audio Minimalist & Light-Weight Waldenburg Precision | `npx github:WuDao0123/taste-skill add elevenlabs` |
+| 29 | **Polar** (`polar.sh`) | `polar` | dark | Nordic Dark Monetization & PP Neue Montreal Minimalist | `npx github:WuDao0123/taste-skill add polar` |
+| 30 | **PostHog** (`posthog.com`) | `posthog` | light | Tactile Retro-OS Brutalist & Warm Sand / Amber Craft | `npx github:WuDao0123/taste-skill add posthog` |
 
 ---
 

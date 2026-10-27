@@ -32,21 +32,21 @@ function parseArgs(argv) {
 
 function printHelp() {
   console.log(`
-taste-skill v0.1.0 — URL-to-Taste Design System Extractor & Semantic Router
+taste-skill v1.1.0 — URL-to-Taste Design System Extractor & Semantic Router
 
 Usage:
-  node bin/taste-skill.js extract <url> [--out <dir>] [--json <file>]
-  node bin/taste-skill.js from-image <image-path> [--name <custom-name>] [--out <dir>]
-  node bin/taste-skill.js find "<natural language query>" [--limit <n>]
-  node bin/taste-skill.js add <slug> [--target <dir>]
-  node bin/taste-skill.js list
+  npx github:WuDao0123/taste-skill extract <url> [--out <dir>] [--json <file>]
+  npx github:WuDao0123/taste-skill from-image <image-path> [--name <custom-name>] [--out <dir>]
+  npx github:WuDao0123/taste-skill find "<natural language query>" [--limit <n>]
+  npx github:WuDao0123/taste-skill add <slug> [--target <dir>]
+  npx github:WuDao0123/taste-skill list
 
 Examples:
-  node bin/taste-skill.js extract https://linear.app --out ./samples/linear
-  node bin/taste-skill.js find "dark precision saas"
-  node bin/taste-skill.js find "fintech light editorial mesh gradient"
-  node bin/taste-skill.js find "obsidian developer email serif mono"
-  node bin/taste-skill.js add linear --target ./.cursor/skills/taste-linear
+  npx github:WuDao0123/taste-skill extract https://linear.app --out ./samples/linear
+  npx github:WuDao0123/taste-skill find "dark precision saas"
+  npx github:WuDao0123/taste-skill find "fintech light editorial mesh gradient"
+  npx github:WuDao0123/taste-skill find "obsidian developer email serif mono"
+  npx github:WuDao0123/taste-skill add linear --target ./.cursor/skills/taste-linear
 `);
 }
 
@@ -153,7 +153,7 @@ async function main() {
       if (r.skillPath) {
         console.log(`     SKILL.md:  ${r.skillPath}`);
       }
-      console.log(`     Install:   npx taste-skill add ${r.slug}\n`);
+      console.log(`     Install:   npx github:WuDao0123/taste-skill add ${r.slug}  (or: npx taste-skill add ${r.slug})\n`);
     });
     return;
   }
@@ -166,11 +166,12 @@ async function main() {
     }
     const sourceSkill = path.join(ROOT_DIR, 'samples', slug, 'SKILL.md');
     if (!fs.existsSync(sourceSkill)) {
-      console.error(`Error: Skill "taste-${slug}" is not extracted yet. Run: node bin/taste-skill.js extract https://${slug}.com`);
+      console.error(`Error: Skill "taste-${slug}" is not extracted yet. Run: npx github:WuDao0123/taste-skill extract https://${slug}.com`);
       process.exit(1);
     }
-    const targetDir = flags.target
-      ? path.resolve(process.cwd(), flags.target)
+    const customTarget = flags.target || flags.out;
+    const targetDir = customTarget
+      ? path.resolve(process.cwd(), customTarget)
       : path.resolve(process.cwd(), '.cursor', 'skills', `taste-${slug}`);
     fs.mkdirSync(targetDir, { recursive: true });
     const destFile = path.join(targetDir, 'SKILL.md');
