@@ -1,0 +1,34 @@
+{
+  "name": "taste-skill",
+  "version": "1.0.0",
+  "description": "URL-to-Taste reverse-engineering extractor & 30-site semantic SKILL.md router for Cursor and Claude Code.",
+  "main": "src/index.js",
+  "bin": {
+    "taste-skill": "./bin/taste-skill.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "samples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node ./bin/taste-skill.js",
+    "test": "node ./bin/taste-skill.js find \"dark precision saas\""
+  },
+  "keywords": [
+    "cursor-skills",
+    "claude-code",
+    "agent-skills",
+    "design-system",
+    "tailwind",
+    "ui-tokens",
+    "playwright"
+  ],
+  "author": "TasteSkill Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "playwright-core": "^1.48.0"
+  }
+}
