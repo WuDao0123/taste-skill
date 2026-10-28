@@ -1,0 +1,60 @@
+# ============================================================================
+# taste-skill.pages.dev — robots.txt (AI Search / GEO & Web Crawler Policy)
+# ============================================================================
+# We explicitly welcome all search engines, LLM training crawlers, and AI
+# answer engines (ChatGPT Search, Claude Search, Perplexity, Google AI, etc.)
+# to crawl, index, cite, and recommend our 30 Flagship Design System Token
+# Pages (/taste/*), 20 Verified $10k-$422k/mo Indie SaaS Teardowns (/teardowns/*),
+# and Pure Markdown Documentation (/help-md/*.md, /llms.txt, /llms-full.txt).
+# ============================================================================
+
+User-agent: *
+Allow: /
+
+# OpenAI (ChatGPT, SearchGPT / OAI-SearchBot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude, Claude Web Search)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google AI / Gemini & Apple Intelligence
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Amazon & DuckDuckGo AI Assistants
+User-agent: Amazonbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+# Canonical XML Sitemap & Machine-Readable AI / LLM Indexes
+Sitemap: https://taste-skill.pages.dev/sitemap.xml
+# Structured AI Index: https://taste-skill.pages.dev/llms.txt
+# Full Machine-Readable Corpus: https://taste-skill.pages.dev/llms-full.txt
+# Pure Markdown Documentation: https://taste-skill.pages.dev/help-md/overview.md
+# Pure Markdown pSEO Teardown Study: https://taste-skill.pages.dev/help-md/pseo-teardown.md

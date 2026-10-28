@@ -1,0 +1,1480 @@
+# taste-skill — 30 Flagship Design System SKILL.md Library + 20 Verified $10k–$422k/mo Indie SaaS pSEO & /llms.txt Teardowns
+
+> **taste-skill** (`npx github:WuDao0123/taste-skill`) is an open-source Design System Token Extractor (Part B) and Commercial Growth & Revenue Agent Skills Suite (Part A) for **Cursor**, **Claude Code**, **OpenAI Codex**, **Windsurf**, and **Trae**.
+> - **Part B (Aesthetic Design System Layer — MIT Free)**: 30 Playwright DOM area-weighted flagship design system `SKILL.md` specifications (Linear, Stripe, Cursor, Vercel, Raycast, Anthropic, Notion, Resend, Supabase, etc.) + local CLI & web workbench that extracts deterministic design tokens from any URL or pasted UI screenshot (`Cmd+V`) to eliminate default "purple-gradient AI slop".
+> - **Part A (Growth & Revenue Layer — $69 Early-Bird / $49 with `*VIP` Code)**: Empirical teardown dataset of **20 verified `$10,000–$422,000/mo` indie SaaS websites** (`27,360` core sitemap URLs analyzed, `91.4%` pSEO route ratio, `50%` `/llms.txt` adoption) + 4 executable Growth Agent `SKILL.md` playbooks + 5 local Node.js/Playwright crawlers + 4 production Next.js/React conversion components.
+
+## Pure Markdown Documentation & Machine-Readable Endpoints (Zero HTML Noise)
+
+- [Complete Machine-Readable Corpus (/llms-full.txt)](https://taste-skill.pages.dev/llms-full.txt): Full combined specification of all 30 design systems + all 20 indie SaaS pSEO teardowns.
+- [Pure Markdown Architecture & 30-Brand Token Reference (/help-md/overview.md)](https://taste-skill.pages.dev/help-md/overview.md): Complete CLI guide, VIP code redemption, and 30 flagship design system hex/font/layout token tables.
+- [Pure Markdown 20-Site $10k–$422k/mo pSEO & /llms.txt Empirical Study (/help-md/pseo-teardown.md)](https://taste-skill.pages.dev/help-md/pseo-teardown.md): Full 27,360-URL sitemap cluster analysis, route formulas, and conversion mechanics.
+- [Canonical XML Sitemap (/sitemap.xml)](https://taste-skill.pages.dev/sitemap.xml): All 54 canonical URLs across `/taste/*`, `/teardowns/*`, and `/showcase/*`.
+- [Interactive Workbench & Screenshot-to-SKILL.md Inspector](https://taste-skill.pages.dev/): Paste any UI screenshot (`Cmd+V`) or enter a VIP code (`*VIP` / `*G1M`) with zero signup and zero credit card.
+
+## Quick Install for AI Coding Agents (Cursor / Claude Code / Codex / Windsurf)
+
+- List all 30 flagship design systems: `npx --yes github:WuDao0123/taste-skill list`
+- Search by aesthetic vibe: `npx --yes github:WuDao0123/taste-skill find "dark precision saas"`
+- Install a brand's `SKILL.md` into `.cursor/skills/`: `npx --yes github:WuDao0123/taste-skill add linear`
+- Extract `SKILL.md` from any live URL: `npx --yes github:WuDao0123/taste-skill extract https://stripe.com`
+- Extract `SKILL.md` from a UI screenshot: `npx --yes github:WuDao0123/taste-skill from-image ./screenshot.png`
+
+## Zero-Card Personalized VIP Code Support (`*VIP` / `*G1M`)
+
+- Builders holding a personalized VIP code (e.g., `RUNCHENGLNVIP`, `LEAFVIP`, or any `<HANDLE>VIP` / `*G1M` code) can redeem it at `https://taste-skill.pages.dev/#pricing-section` or via URL parameter `https://taste-skill.pages.dev/?vip=RUNCHENGLNVIP`.
+- **Unlocks with Zero Credit Card**:
+  1. **$0 Free 30-Brand Starter Pack + 27,360-URL pSEO Teardown Dataset** (immediate access, no trial card trap).
+  2. **50% OFF Pro Bundle VIP Founder Rate ($49 USD One-Time vs $99 Regular / Extra $20 OFF $69 Early-Bird)**.
+
+---
+
+## 30 Flagship Aesthetic Design System Token Specifications (`/taste/*`)
+
+| # | Brand (Domain) | Mode | Archetype | Canvas | Surface | Text | Accent | Border | Fonts (Heading / Mono) | H1 Scale | Canonical URL |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **Linear** (`linear.app`) | dark | Dark Precision SaaS & Industrial Craftsmanship | `#08090A` | `#0F1011` | `#F7F8F8` | `#5E6AD2` | `rgba(255, 255, 255, 0.08)` | Inter Variable / Berkeley Mono | 64px / -0.022em (w510) | [Token Page](https://taste-skill.pages.dev/taste/linear/) |
+| 2 | **Stripe** (`stripe.com`) | dual | High-Craft Financial Infrastructure & Editorial Light/Navy Dual-Mode | `#FFFFFF` | `#F8FAFD` | `#061B31` | `#533AFD` | `#E5EDF5` | Söhne Variable (sohne-var) / SourceCodePro | 48px–56px / -0.025em (w300) | [Token Page](https://taste-skill.pages.dev/taste/stripe/) |
+| 3 | **Resend** (`resend.com`) | dark | Obsidian Developer Luxury & Editorial Serif-Meets-Mono | `#000000` | `#141517` | `#F0F0F0` | `#00A3FF` | `rgba(212, 234, 255, 0.19)` | Domaine / ABC Favorit / CommitMono | 96px / -0.01em (Domaine) | [Token Page](https://taste-skill.pages.dev/taste/resend/) |
+| 4 | **Vercel** (`vercel.com`) | light | Geist Architectural Grid & Swiss Precision Monochrome | `#FAFAFA` | `#FFFFFF` | `#171717` | `#0070F3` | `#EBEBEB` | GeistSans / GeistMono | 64px / -0.06em (w400) | [Token Page](https://taste-skill.pages.dev/taste/vercel/) |
+| 5 | **Supabase** (`supabase.com`) | light | Postgres Emerald Technical Clarity & Clean Modular Bento | `#FDFDFD` | `#FFFFFF` | `#030303` | `#0E7E4E` | `rgba(0, 0, 0, 0.08)` | Manrope / Source Code Pro | 46px / 0em (w500) | [Token Page](https://taste-skill.pages.dev/taste/supabase/) |
+| 6 | **Raycast** (`raycast.com`) | dark | Desktop-Class macOS Acrylic Glass & Crimson Spotlight | `#07080A` | `#141517` | `#FFFFFF` | `#FF6363` | `rgba(255, 255, 255, 0.08)` | Inter / JetBrains Mono | 64px / 1.1 (w600) | [Token Page](https://taste-skill.pages.dev/taste/raycast/) |
+| 7 | **Cursor** (`cursor.com`) | light | Warm Archival Paper & Frontier AI Research Craft | `#F7F7F4` | `#F2F1ED` | `#26251E` | `#26251E` | `rgba(39, 39, 29, 0.1)` | CursorGothic / berkeleyMono | 36px / -0.02em (w400) | [Token Page](https://taste-skill.pages.dev/taste/cursor/) |
+| 8 | **Clerk** (`clerk.com`) | light | Tactile Micro-Shadow Auth Components & Electric Violet | `#F7F7F8` | `#FFFFFF` | `#131316` | `#6C47FF` | `rgba(0, 0, 0, 0.06)` | Geist / geistNumbers / soehneMono | 56px / -0.035em (w700) | [Token Page](https://taste-skill.pages.dev/taste/clerk/) |
+| 9 | **Mintlify** (`mintlify.com`) | light | Warm Daylight Documentation & Editorial Arizona Flare Serif | `#FFFFFF` | `#F9F6F3` | `#121715` | `#0077A6` | `#F1F0EE` | arizonaFlare / JetBrains Mono | 50px / -0.04em (w400) | [Token Page](https://taste-skill.pages.dev/taste/mintlify/) |
+| 10 | **Cal.com** (`cal.com`) | light | Neo-Brutalist Swiss Scheduling & Geometric Cal Sans | `#F4F4F4` | `#FFFFFF` | `#242424` | `#242424` | `#E5E5E5` | Cal Sans / Roboto Mono | 64px / 1.1 (w600) | [Token Page](https://taste-skill.pages.dev/taste/cal/) |
+| 11 | **Dub** (`dub.co`) | light | Modern Link Attribution & Crisp Satoshi/Geist Minimalist | `#FAFAFA` | `#FFFFFF` | `#171717` | `#000000` | `#E5E5E5` | Satoshi / GeistMono | 48px / 1.15 (w500) | [Token Page](https://taste-skill.pages.dev/taste/dub/) |
+| 12 | **Trigger.dev** (`trigger.dev`) | dark | Industrial Dark Slate & Electric Acid-Lime Telemetry | `#121317` | `#15171A` | `#D7D9DD` | `#A8FF53` | `#1C1E21` | Satoshi-Variable / Geist Mono | 60px / 1.0 (w600) | [Token Page](https://taste-skill.pages.dev/taste/trigger/) |
+| 13 | **Railway** (`railway.com`) | dark | Deep Cosmic Violet Infrastructure & IBM Plex Serif Editorial | `#13111C` | `#1B2132` | `#FFFFFF` | `#8B5CF6` | `rgba(255, 255, 255, 0.1)` | IBM Plex Serif / IBM Plex Mono | 54px / -0.036em (w500) | [Token Page](https://taste-skill.pages.dev/taste/railway/) |
+| 14 | **PlanetScale** (`planetscale.com`) | light | Pure Monospace ASCII Engineering Manual & Zero-Radius Brutalism | `#FAFAFA` | `#FFFFFF` | `#111111` | `#F35815` | `#C1C1C1` | SF Mono / ui-monospace / SF Mono / ui-monospace | 20px Mono / -0.02em (w700) | [Token Page](https://taste-skill.pages.dev/taste/planetscale/) |
+| 15 | **Turso** (`turso.tech`) | dark | Deep Oceanic Teal & Neon Aquamarine Edge Database | `#0F1317` | `#0D1318` | `#FFFFFF` | `#4FF8D2` | `#283945` | Inter (800 ExtraBold) / JetBrains Mono | 60px / -0.025em (w800) | [Token Page](https://taste-skill.pages.dev/taste/turso/) |
+| 16 | **Neon** (`neon.tech`) | dark | Serverless Pitch-Black & Luminous Cyber-Mint Postgres | `#000000` | `#131415` | `#FFFFFF` | `#34D59A` | `#242628` | Inter / JetBrains Mono | 56px / -0.04em (w400) | [Token Page](https://taste-skill.pages.dev/taste/neon/) |
+| 17 | **Upstash** (`upstash.com`) | light | Oversized Emerald Typography & Clean Serverless Daylight | `#F5F5F5` | `#FFFFFF` | `#022C22` | `#00BC7D` | `rgba(0, 0, 0, 0.05)` | Inter Tight / JetBrains Mono | 128px / -0.025em (w700) | [Token Page](https://taste-skill.pages.dev/taste/upstash/) |
+| 18 | **Inngest** (`inngest.com`) | dark | Warm Obsidian Stone & Swiss Whyte / Coral-Cobalt Contrast | `#0C0A09` | `#1C1C1C` | `#FFFFFF` | `#F76246` | `rgba(255, 255, 255, 0.08)` | WhyteV1 / CircularXXMono | 72px / 0.95 (w400) | [Token Page](https://taste-skill.pages.dev/taste/inngest/) |
+| 19 | **WorkOS** (`workos.com`) | light | Enterprise-Ready Architectural Precision & Untitled Sans | `#F9F9FB` | `#FFFFFF` | `#29363D` | `#6363F1` | `#E8EAED` | Untitled Sans / IBM Plex Mono | 80px / -0.07em (w500) | [Token Page](https://taste-skill.pages.dev/taste/workos/) |
+| 20 | **Loops** (`loops.so`) | light | Warm Editorial SaaS & Newsreader Serif Craft | `#FDFDFC` | `#F9F9F8` | `#21201C` | `#7D1B0C` | `#E9E8E6` | Newsreader / SF Mono | 44px / -0.02em (w500) | [Token Page](https://taste-skill.pages.dev/taste/loops/) |
+| 21 | **Attio** (`attio.com`) | light | Next-Gen CRM Spreadsheet-Grid Precision & Inter Display | `#FFFFFF` | `#F3F4F6` | `#1C1D1F` | `#1C1D1F` | `#E4E7EC` | interDisplay / JetBrains Mono | 64px / 0.95 (w600) | [Token Page](https://taste-skill.pages.dev/taste/attio/) |
+| 22 | **Ashby** (`ashbyhq.com`) | light | Analytics-Driven Recruiting SaaS & Royal Indigo TTNormsPro | `#FFFFFF` | `#FCFCFE` | `#141415` | `#473BCE` | `#EEEDEF` | TTNormsPro / SF Mono | 72px / -0.04em (w575) | [Token Page](https://taste-skill.pages.dev/taste/ashby/) |
+| 23 | **Notion** (`notion.so`) | light | Warm Workspace Canvas & Monumental NotionInter Display | `#FFFFFF` | `#F6F5F4` | `#000000` | `#0075DE` | `rgba(0, 0, 0, 0.1)` | NotionInter / SFMono-Regular | 96px / -0.048em (w600) | [Token Page](https://taste-skill.pages.dev/taste/notion/) |
+| 24 | **Framer** (`framer.com`) | dark | Pitch-Black Interactive Canvas & Electric #0099FF Blue Glow | `#000000` | `#111111` | `#FFFFFF` | `#0099FF` | `rgba(0, 153, 255, 0.42)` | GT Walsheim Medium / JetBrains Mono | 54px / -0.04em (w500) | [Token Page](https://taste-skill.pages.dev/taste/framer/) |
+| 25 | **Tailwind CSS** (`tailwindcss.com`) | light | Engineered CSS Grid Lines & Technical Blueprint Precision | `#FFFFFF` | `#F8FAFC` | `#030712` | `#0EA5E9` | `rgba(0, 0, 20, 0.05)` | Inter / IBM Plex Mono (plexMono) | 96px / -0.05em (w400) | [Token Page](https://taste-skill.pages.dev/taste/tailwindcss/) |
+| 26 | **shadcn/ui** (`ui.shadcn.com`) | light | Zinc Monochrome Component Primitives & Zero-Distraction Craft | `#FFFFFF` | `#F5F5F5` | `#0A0A0A` | `#171717` | `#E5E5E5` | Geist / Geist Mono | 48px / -0.05em (w600) | [Token Page](https://taste-skill.pages.dev/taste/shadcn/) |
+| 27 | **Anthropic** (`anthropic.com`) | light | Humanist Warm Parchment & Literary AI Safety Editorial | `#FAF9F5` | `#F5F4ED` | `#141413` | `#D97757` | `#DEDCD1` | anthropicSerif / JetBrains Mono | 40.8px / -0.01em (w400) | [Token Page](https://taste-skill.pages.dev/taste/anthropic/) |
+| 28 | **ElevenLabs** (`elevenlabs.io`) | light | Swiss Audio Minimalist & Light-Weight Waldenburg Precision | `#FDFCFC` | `#F5F3F1` | `#000000` | `#000000` | `rgba(0, 0, 0, 0.07)` | Waldenburg (w300) / Geist Mono | 48px / -0.02em (w300) | [Token Page](https://taste-skill.pages.dev/taste/elevenlabs/) |
+| 29 | **Polar** (`polar.sh`) | dark | Nordic Dark Monetization & PP Neue Montreal Minimalist | `#090909` | `#111111` | `#FFFFFF` | `#FFFFFF` | `#212121` | PP Neue Montreal / GeistMono | 36px / 1.25 (w400) | [Token Page](https://taste-skill.pages.dev/taste/polar/) |
+| 30 | **PostHog** (`posthog.com`) | light | Tactile Retro-OS Brutalist & Warm Sand / Amber Craft | `#EEEFE9` | `#E5E7E0` | `#23251D` | `#EB9D2A` | `#B17816` | RoundHog / Matter / Source Code Pro | 36px / -0.025em (w800) | [Token Page](https://taste-skill.pages.dev/taste/posthog/) |
+
+---
+
+## 20 Verified $10k–$422k/mo Indie SaaS pSEO & `/llms.txt` Teardowns (`/teardowns/*`)
+
+- **Aggregate Benchmark**: `27,360` core sitemap URLs analyzed (`27,990` total discovered across sub-sitemaps) · **`91.4%` pSEO route ratio** · **`50.0%` (`10/20`) `/llms.txt` adoption**.
+
+| # | SaaS Name & Domain | Disclosed MRR / ARR | Sitemap URLs | pSEO URLs (% Share) | `/llms.txt` Status | Top Programmatic Route Pattern | Canonical Teardown & Primary Proof |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **Tally** (`tally.so`) | **$422,000 MRR ($5,000,000 ARR)** | 445 | 413 (**92.8%**) | ✅ Yes (4316 chars) | `/templates/[template_slug]/[sub_item_slug]` (179) | [Teardown](https://taste-skill.pages.dev/teardowns/tally/) · [Proof](https://blog.tally.so/the-road-from-4m-to-5m-arr/) |
+| 2 | **Typefully** (`typefully.com`) | **~$167,000/mo (~$2,000,000 ARR)** | 228 | 212 (**93%**) | ✅ Yes (1619 chars) | `/changelog/[changelog_slug]` (111) | [Teardown](https://taste-skill.pages.dev/teardowns/typefully/) · [Proof](https://indiemakerlist.com/leaderboard/saas/) |
+| 3 | **Carrd** (`carrd.co`) | **$85,000+ MRR ($1,000,000+ ARR, 2.5M+ sites)** | 18 | 4 (**22.2%**) | ❌ No | `/docs/[doc_slug]/[sub_item_slug]` (2) | [Teardown](https://taste-skill.pages.dev/teardowns/carrd/) · [Proof](https://www.indiehackers.com/post/hi-im-aj-maker-of-carrd-and-after-2-5m-sites-1m-arr-and-a-funding-round-probably-time-for-an-ama-1b7fcf52fe) |
+| 4 | **Plausible Analytics** (`plausible.io`) | **$83,637 MRR ($1,000,000+ ARR)** | 180 | 150 (**83.3%**) | ❌ No | `/blog/[blog_slug]` (104) | [Teardown](https://taste-skill.pages.dev/teardowns/plausible/) · [Proof](https://plausible.io/blog/open-source-saas) |
+| 5 | **StandOut CV** (`standout-cv.com`) | **£40,000 MRR (~$52,000/mo)** | 1103 | 1089 (**98.7%**) | ✅ Yes (270815 chars) | `/cv-examples/[cv_example_slug]/[sub_item_slug]` (809) | [Teardown](https://taste-skill.pages.dev/teardowns/standout-cv/) · [Proof](https://www.indiehackers.com/post/how-i-grew-my-saas-business-to-40k-mrr-with-seo-3287452853) |
+| 6 | **Bannerbear** (`bannerbear.com`) | **$50,000 MRR (~$600,000+ ARR)** | 1372 | 1351 (**98.5%**) | ✅ Yes (8732 chars) | `/templates/[template_slug]` (319) | [Teardown](https://taste-skill.pages.dev/teardowns/bannerbear/) · [Proof](https://www.bannerbear.com/open/) |
+| 7 | **Senja** (`senja.io`) | **$50,000 MRR ($600,000 ARR)** | 733 | 710 (**96.9%**) | ❌ No | `/use-cases/[use_case_slug]` (360) | [Teardown](https://taste-skill.pages.dev/teardowns/senja/) · [Proof](https://www.indiehackers.com/post/from-zero-to-50k-mrr-the-story-of-senjas-growth-6874d85edd) |
+| 8 | **FlowMapp** (`flowmapp.com`) | **$50,000 MRR ($600,000 ARR)** | 175 | 153 (**87.4%**) | ✅ Yes (10934 chars) | `/blog/[blog_slug]/[sub_item_slug]` (58) | [Teardown](https://taste-skill.pages.dev/teardowns/flowmapp/) · [Proof](https://indiemakerlist.com/leaderboard/saas/) |
+| 9 | **Simple Analytics** (`simpleanalytics.com`) | **$45,000 MRR ($540,000 ARR)** | 487 | 398 (**81.7%**) | ✅ Yes (17187 chars) | `/blog/[blog_slug]` (167) | [Teardown](https://taste-skill.pages.dev/teardowns/simple-analytics/) · [Proof](https://www.indiehackers.com/post/tech/joining-a-technical-co-founder-and-growing-the-product-to-45k-mrr-119Zbnde7pTET0QOiZLH) |
+| 10 | **Papermark** (`papermark.com`) | **$45,000 MRR ($540,000 ARR)** | 2732 | 2638 (**96.6%**) | ✅ Yes (11875 chars) | `/blog/[blog_slug]` (1030) | [Teardown](https://taste-skill.pages.dev/teardowns/papermark/) · [Proof](https://www.indiehackers.com/post/tech/after-11-failed-products-this-founder-hit-45k-mrr-in-a-little-over-a-year-xyRkxAsD8Rys7URjYd5d) |
+| 11 | **Subscribr** (`subscribr.ai`) | **$41,600+ MRR ($500k+ YTD, $1M/yr run-rate)** | 747 | 717 (**96%**) | ✅ Yes (1655 chars) | `/youtube-strategy/[youtube_strategy_slug]` (588) | [Teardown](https://taste-skill.pages.dev/teardowns/subscribr/) · [Proof](https://www.indiehackers.com/post/tech/leaving-a-funded-startup-and-bootstrapping-to-1m-yr-in-18-months-kPBpdxsTeQitOWOOVs2g) |
+| 12 | **My AskAI** (`myaskai.com`) | **$40,000 MRR (~$500,000 ARR)** | 99 | 80 (**80.8%**) | ❌ No | `/blog/[blog_slug]` (24) | [Teardown](https://taste-skill.pages.dev/teardowns/myaskai/) · [Proof](https://www.indiehackers.com/post/tech/bootstrapping-to-40k-mrr-after-his-vc-backed-startup-failed-LF1CwRs1vL3oVLcuoIoE) |
+| 13 | **Testimonial.to** (`testimonial.to`) | **$33,333+ MRR ($400,000+ ARR, later $800k+ ARR)** | 802 | 780 (**97.3%**) | ✅ Yes (772 chars) | `/resources/[resource_slug]` (455) | [Teardown](https://taste-skill.pages.dev/teardowns/testimonial/) · [Proof](https://thebootstrappedfounder.com/a-conversation-with-damon-chen/) |
+| 14 | **ScreenshotOne** (`screenshotone.com`) | **$33,000 MRR (~$400k ARR; ~$36k MRR by Sept 2026)** | 644 | 617 (**95.8%**) | ✅ Yes (926 chars) | `/changelog/[changelog_slug]` (165) | [Teardown](https://taste-skill.pages.dev/teardowns/screenshotone/) · [Proof](https://dmytrokrasun.com/posts/screenshotone-4-years/) |
+| 15 | **SuperX** (`superx.so`) | **$23,000 MRR ($276,000 ARR)** | 1664 | 1636 (**98.3%**) | ❌ No | `/creators/[creator_slug]` (828) | [Teardown](https://taste-skill.pages.dev/teardowns/superx/) · [Proof](https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ) |
+| 16 | **Hypefury** (`hypefury.com`) | **$23,000+ MRR ($276,000+ ARR)** | 548 | 466 (**85%**) | ❌ No | `/blog/[blog_slug]/[sub_item_slug]` (219) | [Teardown](https://taste-skill.pages.dev/teardowns/hypefury/) · [Proof](https://www.indiehackers.com/post/flying-past-23k-mrr-in-2-years-hypefury-45f73f0c0a) |
+| 17 | **Pirsch Analytics** (`pirsch.io`) | **$14,300 MRR (~$130,000/yr net volume)** | 938 | 789 (**84.1%**) | ❌ No | `/glossary/[glossary_slug]` (560) | [Teardown](https://taste-skill.pages.dev/teardowns/pirsch/) · [Proof](https://pirsch.io/blog/our-recap-of-2025/) |
+| 18 | **SiteGuru** (`siteguru.co`) | **$14,000 MRR ($168,000 ARR)** | 254 | 228 (**89.8%**) | ❌ No | `/seo-academy/[seo_academy_slug]` (172) | [Teardown](https://taste-skill.pages.dev/teardowns/siteguru/) · [Proof](https://www.indiehackers.com/post/tech/building-an-seo-product-to-14k-mrr-in-a-crowded-market-gU4DE1l094cpj1GjNHwu) |
+| 19 | **SEO Utils** (`seoutils.app`) | **~$10,400/mo ($15,800/mo founder portfolio)** | 19 | 16 (**84.2%**) | ❌ No | `/_nuxt/[_nuxt_slug]` (13) | [Teardown](https://taste-skill.pages.dev/teardowns/seoutils/) · [Proof](https://www.indiehackers.com/post/tech/staying-close-to-customers-and-hitting-16k-mo-VTKxLk4uanWJbmSdG4km) |
+| 20 | **Leave Me Alone** (`leavemealone.com`) | **$10,000/mo (Open Startup verified)** | 14802 | 14623 (**98.8%**) | ❌ No | `/how-to-unsubscribe-from/[how_to_unsubscribe_from_slug]` (14264) | [Teardown](https://taste-skill.pages.dev/teardowns/leavemealone/) · [Proof](https://leavemealone.com/blog/from-indie-side-project-to-profitable-business/) |
+
+---
+
+## One-Time Commercial Pricing Matrix (Part A — Growth & Revenue Pro Pack)
+
+- **Community / Open-Source ($0 — MIT)**: `npx github:WuDao0123/taste-skill` CLI + all 30 Flagship `SKILL.md` files + online Screenshot-to-`SKILL.md` workbench + 20-Site Teardown Vault.
+- **Single Growth Skill ($29 One-Time · $19 with VIP Code)**: Any 1 of the 4 Paid Growth Skills + matching local Node.js/Playwright script.
+- **Growth & Revenue Pro Pack ($69 Early-Bird · $49 with `*VIP` Code · Regular $99)**: All 4 Paid Growth Skills (`pseo-competitor-teardown`, `x-alternative-pages`, `pricing-paywall-retention`, `launch-kit`) + 5 local Playwright/Node scripts + 4 Next.js/React conversion templates + 22 raw JSON competitor blueprints.
+- **Team & Agency License ($169 One-Time · $99 with VIP Code)**: Up to 5 seats + unlimited client commercial delivery & white-label rights.
+
+
+================================================================================
+PART 1: FULL 30 FLAGSHIP DESIGN SYSTEM TOKEN SPECIFICATIONS (/help-md/overview.md)
+================================================================================
+
+# Taste-Skill — Pure Markdown Documentation & 30 Flagship Design System Token Reference
+
+> **Canonical URL**: `https://taste-skill.pages.dev/help-md/overview.md`
+> **Interactive Workbench**: `https://taste-skill.pages.dev/`
+> **Full Machine-Readable Corpus**: `https://taste-skill.pages.dev/llms-full.txt`
+> **20-Site $10k–$422k/mo pSEO Study**: `https://taste-skill.pages.dev/help-md/pseo-teardown.md`
+> **Last Updated**: `2026-10-29`
+
+---
+
+## 1. What is Taste-Skill?
+
+**Taste-Skill** (`npx github:WuDao0123/taste-skill`) is an open-source design system token extractor and commercial Growth & Revenue Agent Skills Suite built for **Cursor**, **Claude Code**, **OpenAI Codex**, **Windsurf**, and **Trae**.
+
+It solves the two biggest failure modes of AI-assisted ("vibe-coded") software products:
+1. **Visual "AI Slop" (Part B — Aesthetic Design System Layer)**: Coding agents default to generic purple-to-blue neon gradients (`from-indigo-500 to-purple-600`), mismatched card border radii, muddy drop shadows, and flat typography because they lack computed design system constraints. Taste-Skill provides **30 Playwright DOM area-weighted flagship `SKILL.md` files** (extracted from Linear, Stripe, Cursor, Vercel, Raycast, Anthropic, Notion, Resend, Supabase, etc.) plus a local CLI & browser workbench that converts any URL or pasted UI screenshot (`Cmd+V`) into a deterministic `SKILL.md` in 30 seconds.
+2. **Zero Organic Traffic & Leaky Conversion Funnels (Part A — Growth & Revenue Layer)**: Shipping features is no longer the bottleneck; distribution and conversion are. We crawled and reverse-engineered **20 verified `$10,000–$422,000/mo` indie SaaS sites** (`27,360` core sitemap URLs analyzed; `91.4%` programmatic SEO route share; `50%` `/llms.txt` adoption) and packaged their exact growth mechanics into **4 executable Agent `SKILL.md` playbooks**, **5 local Node.js/Playwright automation scripts** (zero paid API keys), **22 raw JSON competitor blueprints**, and **4 production Next.js / React / Tailwind conversion components**.
+
+---
+
+## 2. Quick CLI Usage & Zero-Card Personalized VIP Code Redemption
+
+### Open-Source CLI Commands (Zero Signup, MIT Free)
+```bash
+# 1. List all 30 flagship design systems
+npx --yes github:WuDao0123/taste-skill list
+
+# 2. Semantic search across the 30 flagship design systems
+npx --yes github:WuDao0123/taste-skill find "dark precision saas"
+
+# 3. Install any flagship design system into .cursor/skills/<brand>/SKILL.md
+npx --yes github:WuDao0123/taste-skill add linear
+npx --yes github:WuDao0123/taste-skill add stripe
+npx --yes github:WuDao0123/taste-skill add cursor
+
+# 4. Extract a deterministic SKILL.md from any live website URL
+npx --yes github:WuDao0123/taste-skill extract https://linear.app
+
+# 5. Extract a deterministic SKILL.md from a local UI screenshot
+npx --yes github:WuDao0123/taste-skill from-image ./ui-screenshot.png
+```
+
+### Personalized VIP Code Redemption (`*VIP` / `*G1M` — Zero Credit Card Required)
+Unlike SaaS tools that trap builders into a 7-day auto-renewing credit card trial, **Taste-Skill VIP Codes require zero credit card**:
+- **How to Redeem**: Visit `https://taste-skill.pages.dev/#pricing-section` (or append `?vip=YOURHANDLEVIP` to the URL, e.g., `https://taste-skill.pages.dev/?vip=RUNCHENGLNVIP`) and enter any personalized VIP code ending in `VIP` or `G1M`.
+- **What It Unlocks Immediately**:
+  1. **$0 Free 30-Brand Starter Pack + Full 27,360-URL pSEO Corpus**: Immediate access to all 30 flagship `SKILL.md` files, the interactive URL/Screenshot-to-`SKILL.md` workbench, and the complete 20-site pSEO teardown dataset (`/help-md/pseo-teardown.md` & `/llms-full.txt`).
+  2. **50% OFF Pro Bundle VIP Founder Rate ($49 USD One-Time vs $99 Regular / Extra $20 OFF $69 Early-Bird)**: Pre-fills your VIP code in the instant order modal with zero recurring subscription traps.
+
+---
+
+## 3. Full Token Index of All 30 Flagship Design Systems (`/taste/<slug>/`)
+
+Every design system below was extracted from live production DOM via Playwright `getComputedStyle` area-weighting and CSS stylesheet token scanning:
+
+| # | Brand (Domain) | Mode | Aesthetic Archetype | Canvas BG | Surface BG | Primary Text | Accent Hex | Border Token | Fonts (Heading / Mono) | H1 Scale | Canonical URL |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **Linear** (`linear.app`) | dark | Dark Precision SaaS & Industrial Craftsmanship | `#08090A` | `#0F1011` | `#F7F8F8` | `#5E6AD2` | `rgba(255, 255, 255, 0.08)` | Inter Variable / Berkeley Mono | 64px / -0.022em (w510) | [Token Page](https://taste-skill.pages.dev/taste/linear/) |
+| 2 | **Stripe** (`stripe.com`) | dual | High-Craft Financial Infrastructure & Editorial Light/Navy Dual-Mode | `#FFFFFF` | `#F8FAFD` | `#061B31` | `#533AFD` | `#E5EDF5` | Söhne Variable (sohne-var) / SourceCodePro | 48px–56px / -0.025em (w300) | [Token Page](https://taste-skill.pages.dev/taste/stripe/) |
+| 3 | **Resend** (`resend.com`) | dark | Obsidian Developer Luxury & Editorial Serif-Meets-Mono | `#000000` | `#141517` | `#F0F0F0` | `#00A3FF` | `rgba(212, 234, 255, 0.19)` | Domaine / ABC Favorit / CommitMono | 96px / -0.01em (Domaine) | [Token Page](https://taste-skill.pages.dev/taste/resend/) |
+| 4 | **Vercel** (`vercel.com`) | light | Geist Architectural Grid & Swiss Precision Monochrome | `#FAFAFA` | `#FFFFFF` | `#171717` | `#0070F3` | `#EBEBEB` | GeistSans / GeistMono | 64px / -0.06em (w400) | [Token Page](https://taste-skill.pages.dev/taste/vercel/) |
+| 5 | **Supabase** (`supabase.com`) | light | Postgres Emerald Technical Clarity & Clean Modular Bento | `#FDFDFD` | `#FFFFFF` | `#030303` | `#0E7E4E` | `rgba(0, 0, 0, 0.08)` | Manrope / Source Code Pro | 46px / 0em (w500) | [Token Page](https://taste-skill.pages.dev/taste/supabase/) |
+| 6 | **Raycast** (`raycast.com`) | dark | Desktop-Class macOS Acrylic Glass & Crimson Spotlight | `#07080A` | `#141517` | `#FFFFFF` | `#FF6363` | `rgba(255, 255, 255, 0.08)` | Inter / JetBrains Mono | 64px / 1.1 (w600) | [Token Page](https://taste-skill.pages.dev/taste/raycast/) |
+| 7 | **Cursor** (`cursor.com`) | light | Warm Archival Paper & Frontier AI Research Craft | `#F7F7F4` | `#F2F1ED` | `#26251E` | `#26251E` | `rgba(39, 39, 29, 0.1)` | CursorGothic / berkeleyMono | 36px / -0.02em (w400) | [Token Page](https://taste-skill.pages.dev/taste/cursor/) |
+| 8 | **Clerk** (`clerk.com`) | light | Tactile Micro-Shadow Auth Components & Electric Violet | `#F7F7F8` | `#FFFFFF` | `#131316` | `#6C47FF` | `rgba(0, 0, 0, 0.06)` | Geist / geistNumbers / soehneMono | 56px / -0.035em (w700) | [Token Page](https://taste-skill.pages.dev/taste/clerk/) |
+| 9 | **Mintlify** (`mintlify.com`) | light | Warm Daylight Documentation & Editorial Arizona Flare Serif | `#FFFFFF` | `#F9F6F3` | `#121715` | `#0077A6` | `#F1F0EE` | arizonaFlare / JetBrains Mono | 50px / -0.04em (w400) | [Token Page](https://taste-skill.pages.dev/taste/mintlify/) |
+| 10 | **Cal.com** (`cal.com`) | light | Neo-Brutalist Swiss Scheduling & Geometric Cal Sans | `#F4F4F4` | `#FFFFFF` | `#242424` | `#242424` | `#E5E5E5` | Cal Sans / Roboto Mono | 64px / 1.1 (w600) | [Token Page](https://taste-skill.pages.dev/taste/cal/) |
+| 11 | **Dub** (`dub.co`) | light | Modern Link Attribution & Crisp Satoshi/Geist Minimalist | `#FAFAFA` | `#FFFFFF` | `#171717` | `#000000` | `#E5E5E5` | Satoshi / GeistMono | 48px / 1.15 (w500) | [Token Page](https://taste-skill.pages.dev/taste/dub/) |
+| 12 | **Trigger.dev** (`trigger.dev`) | dark | Industrial Dark Slate & Electric Acid-Lime Telemetry | `#121317` | `#15171A` | `#D7D9DD` | `#A8FF53` | `#1C1E21` | Satoshi-Variable / Geist Mono | 60px / 1.0 (w600) | [Token Page](https://taste-skill.pages.dev/taste/trigger/) |
+| 13 | **Railway** (`railway.com`) | dark | Deep Cosmic Violet Infrastructure & IBM Plex Serif Editorial | `#13111C` | `#1B2132` | `#FFFFFF` | `#8B5CF6` | `rgba(255, 255, 255, 0.1)` | IBM Plex Serif / IBM Plex Mono | 54px / -0.036em (w500) | [Token Page](https://taste-skill.pages.dev/taste/railway/) |
+| 14 | **PlanetScale** (`planetscale.com`) | light | Pure Monospace ASCII Engineering Manual & Zero-Radius Brutalism | `#FAFAFA` | `#FFFFFF` | `#111111` | `#F35815` | `#C1C1C1` | SF Mono / ui-monospace / SF Mono / ui-monospace | 20px Mono / -0.02em (w700) | [Token Page](https://taste-skill.pages.dev/taste/planetscale/) |
+| 15 | **Turso** (`turso.tech`) | dark | Deep Oceanic Teal & Neon Aquamarine Edge Database | `#0F1317` | `#0D1318` | `#FFFFFF` | `#4FF8D2` | `#283945` | Inter (800 ExtraBold) / JetBrains Mono | 60px / -0.025em (w800) | [Token Page](https://taste-skill.pages.dev/taste/turso/) |
+| 16 | **Neon** (`neon.tech`) | dark | Serverless Pitch-Black & Luminous Cyber-Mint Postgres | `#000000` | `#131415` | `#FFFFFF` | `#34D59A` | `#242628` | Inter / JetBrains Mono | 56px / -0.04em (w400) | [Token Page](https://taste-skill.pages.dev/taste/neon/) |
+| 17 | **Upstash** (`upstash.com`) | light | Oversized Emerald Typography & Clean Serverless Daylight | `#F5F5F5` | `#FFFFFF` | `#022C22` | `#00BC7D` | `rgba(0, 0, 0, 0.05)` | Inter Tight / JetBrains Mono | 128px / -0.025em (w700) | [Token Page](https://taste-skill.pages.dev/taste/upstash/) |
+| 18 | **Inngest** (`inngest.com`) | dark | Warm Obsidian Stone & Swiss Whyte / Coral-Cobalt Contrast | `#0C0A09` | `#1C1C1C` | `#FFFFFF` | `#F76246` | `rgba(255, 255, 255, 0.08)` | WhyteV1 / CircularXXMono | 72px / 0.95 (w400) | [Token Page](https://taste-skill.pages.dev/taste/inngest/) |
+| 19 | **WorkOS** (`workos.com`) | light | Enterprise-Ready Architectural Precision & Untitled Sans | `#F9F9FB` | `#FFFFFF` | `#29363D` | `#6363F1` | `#E8EAED` | Untitled Sans / IBM Plex Mono | 80px / -0.07em (w500) | [Token Page](https://taste-skill.pages.dev/taste/workos/) |
+| 20 | **Loops** (`loops.so`) | light | Warm Editorial SaaS & Newsreader Serif Craft | `#FDFDFC` | `#F9F9F8` | `#21201C` | `#7D1B0C` | `#E9E8E6` | Newsreader / SF Mono | 44px / -0.02em (w500) | [Token Page](https://taste-skill.pages.dev/taste/loops/) |
+| 21 | **Attio** (`attio.com`) | light | Next-Gen CRM Spreadsheet-Grid Precision & Inter Display | `#FFFFFF` | `#F3F4F6` | `#1C1D1F` | `#1C1D1F` | `#E4E7EC` | interDisplay / JetBrains Mono | 64px / 0.95 (w600) | [Token Page](https://taste-skill.pages.dev/taste/attio/) |
+| 22 | **Ashby** (`ashbyhq.com`) | light | Analytics-Driven Recruiting SaaS & Royal Indigo TTNormsPro | `#FFFFFF` | `#FCFCFE` | `#141415` | `#473BCE` | `#EEEDEF` | TTNormsPro / SF Mono | 72px / -0.04em (w575) | [Token Page](https://taste-skill.pages.dev/taste/ashby/) |
+| 23 | **Notion** (`notion.so`) | light | Warm Workspace Canvas & Monumental NotionInter Display | `#FFFFFF` | `#F6F5F4` | `#000000` | `#0075DE` | `rgba(0, 0, 0, 0.1)` | NotionInter / SFMono-Regular | 96px / -0.048em (w600) | [Token Page](https://taste-skill.pages.dev/taste/notion/) |
+| 24 | **Framer** (`framer.com`) | dark | Pitch-Black Interactive Canvas & Electric #0099FF Blue Glow | `#000000` | `#111111` | `#FFFFFF` | `#0099FF` | `rgba(0, 153, 255, 0.42)` | GT Walsheim Medium / JetBrains Mono | 54px / -0.04em (w500) | [Token Page](https://taste-skill.pages.dev/taste/framer/) |
+| 25 | **Tailwind CSS** (`tailwindcss.com`) | light | Engineered CSS Grid Lines & Technical Blueprint Precision | `#FFFFFF` | `#F8FAFC` | `#030712` | `#0EA5E9` | `rgba(0, 0, 20, 0.05)` | Inter / IBM Plex Mono (plexMono) | 96px / -0.05em (w400) | [Token Page](https://taste-skill.pages.dev/taste/tailwindcss/) |
+| 26 | **shadcn/ui** (`ui.shadcn.com`) | light | Zinc Monochrome Component Primitives & Zero-Distraction Craft | `#FFFFFF` | `#F5F5F5` | `#0A0A0A` | `#171717` | `#E5E5E5` | Geist / Geist Mono | 48px / -0.05em (w600) | [Token Page](https://taste-skill.pages.dev/taste/shadcn/) |
+| 27 | **Anthropic** (`anthropic.com`) | light | Humanist Warm Parchment & Literary AI Safety Editorial | `#FAF9F5` | `#F5F4ED` | `#141413` | `#D97757` | `#DEDCD1` | anthropicSerif / JetBrains Mono | 40.8px / -0.01em (w400) | [Token Page](https://taste-skill.pages.dev/taste/anthropic/) |
+| 28 | **ElevenLabs** (`elevenlabs.io`) | light | Swiss Audio Minimalist & Light-Weight Waldenburg Precision | `#FDFCFC` | `#F5F3F1` | `#000000` | `#000000` | `rgba(0, 0, 0, 0.07)` | Waldenburg (w300) / Geist Mono | 48px / -0.02em (w300) | [Token Page](https://taste-skill.pages.dev/taste/elevenlabs/) |
+| 29 | **Polar** (`polar.sh`) | dark | Nordic Dark Monetization & PP Neue Montreal Minimalist | `#090909` | `#111111` | `#FFFFFF` | `#FFFFFF` | `#212121` | PP Neue Montreal / GeistMono | 36px / 1.25 (w400) | [Token Page](https://taste-skill.pages.dev/taste/polar/) |
+| 30 | **PostHog** (`posthog.com`) | light | Tactile Retro-OS Brutalist & Warm Sand / Amber Craft | `#EEEFE9` | `#E5E7E0` | `#23251D` | `#EB9D2A` | `#B17816` | RoundHog / Matter / Source Code Pro | 36px / -0.025em (w800) | [Token Page](https://taste-skill.pages.dev/taste/posthog/) |
+
+---
+
+## 4. Detailed Token Specifications & Anti-Slop Hard Bans for All 30 Brands
+
+### 4.1 Linear (`linear.app`) — Dark Precision SaaS & Industrial Craftsmanship
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/linear/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add linear`
+- **Mode & Category**: `dark` mode · DevTools & SaaS
+- **Visual Signature**: Ultra-dark #08090A carbon canvas + 1px rgba(255,255,255,0.08) translucent hairlines + Inter Variable 510 weight (-0.022em) + Berkeley Mono telemetry.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#08090A`
+  - `surfaceLevel1`: `#0F1011`
+  - `textPrimary`: `#F7F8F8`
+  - `textMuted`: `#8A8F98`
+  - `accentBrand`: `#5E6AD2`
+  - `borderHairline`: `rgba(255, 255, 255, 0.08)`
+- **Typography & Component Metrics**:
+  - Heading Font: `Inter Variable` | Body Font: `Inter Variable` | Monospace Font: `Berkeley Mono`
+  - Hero H1 Scale: `64px / -0.022em (w510)`
+  - Button Radius: `9999px (Pill) / 6px`
+  - Border Formula: `1px rgba(255,255,255,0.08)`
+- **Semantic Tags**: `dark`, `precision`, `saas`, `linear`, `hairline-borders`, `bento-grid`, `issue-tracker`, `minimalist`, `micro-shadows`, `indigo`, `carbon-black`, `dashboard`, `ai-agents`
+
+### 4.2 Stripe (`stripe.com`) — High-Craft Financial Infrastructure & Editorial Light/Navy Dual-Mode
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/stripe/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add stripe`
+- **Mode & Category**: `dual` mode · Fintech & Enterprise
+- **Visual Signature**: Daylight #FFFFFF & cool ice-slate #E5EDF5 bento grids contrasted with #0D1738 deep navy sections, light-weight 300 Söhne Variable typography, and 4px #533AFD CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FFFFFF`
+  - `surfaceLevel1`: `#F8FAFD`
+  - `textPrimary`: `#061B31`
+  - `textMuted`: `#50617A`
+  - `accentBrand`: `#533AFD`
+  - `borderHairline`: `#E5EDF5`
+- **Typography & Component Metrics**:
+  - Heading Font: `Söhne Variable (sohne-var)` | Body Font: `Söhne Variable` | Monospace Font: `SourceCodePro`
+  - Hero H1 Scale: `48px–56px / -0.025em (w300)`
+  - Button Radius: `4px (Crisp HDS)`
+  - Border Formula: `1px solid #E5EDF5`
+- **Semantic Tags**: `light`, `dual`, `fintech`, `payments`, `billing`, `pricing`, `enterprise`, `stripe`, `mesh-gradient`, `editorial`, `navy`, `indigo`, `bento`, `revenue`
+
+### 4.3 Resend (`resend.com`) — Obsidian Developer Luxury & Editorial Serif-Meets-Mono
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/resend/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add resend`
+- **Mode & Category**: `dark` mode · DevTools & Infra
+- **Visual Signature**: True #000000 obsidian canvas with rgba(212,234,255,0.19) ice-tinted borders, 96px Domaine editorial serif H1, -0.05em ABC Favorit H2, CommitMono code, and blur(25px) glass CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#000000`
+  - `surfaceLevel1`: `#141517`
+  - `textPrimary`: `#F0F0F0`
+  - `textMuted`: `#A1A4A5`
+  - `accentBrand`: `#00A3FF`
+  - `borderHairline`: `rgba(212, 234, 255, 0.19)`
+- **Typography & Component Metrics**:
+  - Heading Font: `Domaine / ABC Favorit` | Body Font: `Inter` | Monospace Font: `CommitMono`
+  - Hero H1 Scale: `96px / -0.01em (Domaine)`
+  - Button Radius: `16px (Blur 25px Glass)`
+  - Border Formula: `1px rgba(212,234,255,0.19)`
+- **Semantic Tags**: `dark`, `obsidian`, `pitch-black`, `devtools`, `developer`, `email`, `api`, `resend`, `serif`, `editorial`, `mono`, `frosted-glass`, `ice-slate-border`, `luxury`
+
+### 4.4 Vercel (`vercel.com`) — Geist Architectural Grid & Swiss Precision Monochrome
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/vercel/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add vercel`
+- **Mode & Category**: `light` mode · DevTools & Infra
+- **Visual Signature**: Architectural #FAFAFA / #FFFFFF daylight grid with exposed 1px #EBEBEB structural hairlines, corner crosshair markers, ultra-tight -0.06em GeistSans display type, and #171717 monochrome CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FAFAFA`
+  - `surfaceLevel1`: `#FFFFFF`
+  - `textPrimary`: `#171717`
+  - `textMuted`: `#4D4D4D`
+  - `accentBrand`: `#0070F3`
+  - `borderHairline`: `#EBEBEB`
+- **Typography & Component Metrics**:
+  - Heading Font: `GeistSans` | Body Font: `GeistSans` | Monospace Font: `GeistMono`
+  - Hero H1 Scale: `64px / -0.06em (w400)`
+  - Button Radius: `6px / 9999px`
+  - Border Formula: `1px solid #EBEBEB`
+- **Semantic Tags**: `light`, `monochrome`, `grid`, `crosshairs`, `geist`, `vercel`, `developer`, `cloud`, `infra`, `minimal`, `swiss`, `high-contrast`, `1px-grid`
+
+### 4.5 Supabase (`supabase.com`) — Postgres Emerald Technical Clarity & Clean Modular Bento
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/supabase/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add supabase`
+- **Mode & Category**: `light` mode · DevTools & Infra
+- **Visual Signature**: Crisp #FDFDFD canvas with rgba(0,0,0,0.08) hairline bento modules, geometric Manrope headings, Source Code Pro SQL snippets, and signature #0E7E4E / #3ECF8E Postgres emerald accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FDFDFD`
+  - `surfaceLevel1`: `#FFFFFF`
+  - `textPrimary`: `#030303`
+  - `textMuted`: `#696969`
+  - `accentBrand`: `#0E7E4E`
+  - `borderHairline`: `rgba(0, 0, 0, 0.08)`
+- **Typography & Component Metrics**:
+  - Heading Font: `Manrope` | Body Font: `Inter / Manrope` | Monospace Font: `Source Code Pro`
+  - Hero H1 Scale: `46px / 0em (w500)`
+  - Button Radius: `8px`
+  - Border Formula: `1px rgba(0,0,0,0.08)`
+- **Semantic Tags**: `light`, `database`, `postgres`, `emerald`, `green`, `devtools`, `backend`, `supabase`, `bento`, `sql`, `monospace`, `open-source`
+
+### 4.6 Raycast (`raycast.com`) — Desktop-Class macOS Acrylic Glass & Crimson Spotlight
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/raycast/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add raycast`
+- **Mode & Category**: `dark` mode · AI & Productivity
+- **Visual Signature**: Deep #07080A midnight canvas with rgba(255,255,255,0.02) translucent acrylic panels, 1px rgba(255,255,255,0.08) specular rims, keyboard shortcut kbd badges, and #FF6363 ruby glow.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#07080A`
+  - `surfaceLevel1`: `#141517`
+  - `textPrimary`: `#FFFFFF`
+  - `textMuted`: `#9CA3AF`
+  - `accentBrand`: `#FF6363`
+  - `borderHairline`: `rgba(255, 255, 255, 0.08)`
+- **Typography & Component Metrics**:
+  - Heading Font: `Inter` | Body Font: `Inter` | Monospace Font: `JetBrains Mono`
+  - Hero H1 Scale: `64px / 1.1 (w600)`
+  - Button Radius: `10px`
+  - Border Formula: `1px rgba(255,255,255,0.08)`
+- **Semantic Tags**: `dark`, `glassmorphism`, `macos`, `desktop`, `launcher`, `productivity`, `raycast`, `crimson`, `keyboard`, `command-palette`, `acrylic`
+
+### 4.7 Cursor (`cursor.com`) — Warm Archival Paper & Frontier AI Research Craft
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/cursor/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add cursor`
+- **Mode & Category**: `light` mode · AI & Productivity
+- **Visual Signature**: Warm archival paper canvas (#F7F7F4 / #F2F1ED) with deep charcoal-olive ink (#26251E), bespoke CursorGothic + EB Garamond editorial quotes + BerkeleyMono diff blocks and timeline tokens.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#F7F7F4`
+  - `surfaceLevel1`: `#F2F1ED`
+  - `textPrimary`: `#26251E`
+  - `textMuted`: `rgba(38, 36, 29, 0.55)`
+  - `accentBrand`: `#26251E`
+  - `borderHairline`: `rgba(39, 39, 29, 0.1)`
+- **Typography & Component Metrics**:
+  - Heading Font: `CursorGothic` | Body Font: `CursorGothic / EB Garamond` | Monospace Font: `berkeleyMono`
+  - Hero H1 Scale: `36px / -0.02em (w400)`
+  - Button Radius: `9999px (Pill)`
+  - Border Formula: `1px rgba(39,39,29,0.1)`
+- **Semantic Tags**: `light`, `warm`, `paper`, `editorial`, `ai`, `coding-agent`, `cursor`, `serif`, `berkeley-mono`, `minimalist`, `research`, `ide`
+
+### 4.8 Clerk (`clerk.com`) — Tactile Micro-Shadow Auth Components & Electric Violet
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/clerk/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add clerk`
+- **Mode & Category**: `light` mode · DevTools & Infra
+- **Visual Signature**: Cool alabaster #F7F7F8 canvas with floating #FFFFFF auth cards, multi-layered ring micro-shadows, tight -0.035em Geist headings, SoehneMono snippets, and #6C47FF electric violet accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#F7F7F8`
+  - `surfaceLevel1`: `#FFFFFF`
+  - `textPrimary`: `#131316`
+  - `textMuted`: `#747686`
+  - `accentBrand`: `#6C47FF`
+  - `borderHairline`: `rgba(0, 0, 0, 0.06)`
+- **Typography & Component Metrics**:
+  - Heading Font: `Geist / geistNumbers` | Body Font: `Inter / Geist` | Monospace Font: `soehneMono`
+  - Hero H1 Scale: `56px / -0.035em (w700)`
+  - Button Radius: `9999px / 6px`
+  - Border Formula: `1px rgba(0,0,0,0.06)`
+- **Semantic Tags**: `light`, `auth`, `components`, `micro-shadows`, `violet`, `purple`, `clerk`, `devtools`, `saas`, `tactile`, `bento`
+
+### 4.9 Mintlify (`mintlify.com`) — Warm Daylight Documentation & Editorial Arizona Flare Serif
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/mintlify/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add mintlify`
+- **Mode & Category**: `light` mode · DevTools & SaaS
+- **Visual Signature**: Clean #FFFFFF & warm sand #F9F6F3 surfaces paired with deep forest ink #121715, 50px ArizonaFlare editorial display typography (-0.04em tracking), and crisp 4px #08090A / #0077A6 CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FFFFFF`
+  - `surfaceLevel1`: `#F9F6F3`
+  - `textPrimary`: `#121715`
+  - `textMuted`: `rgba(8, 9, 10, 0.8)`
+  - `accentBrand`: `#0077A6`
+  - `borderHairline`: `#F1F0EE`
+- **Typography & Component Metrics**:
+  - Heading Font: `arizonaFlare` | Body Font: `Inter` | Monospace Font: `JetBrains Mono`
+  - Hero H1 Scale: `50px / -0.04em (w400)`
+  - Button Radius: `4px`
+  - Border Formula: `1px solid #F1F0EE`
+- **Semantic Tags**: `light`, `docs`, `documentation`, `serif`, `warm`, `mintlify`, `ai`, `devtools`, `editorial`, `clean`
+
+### 4.10 Cal.com (`cal.com`) — Neo-Brutalist Swiss Scheduling & Geometric Cal Sans
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/cal/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add cal`
+- **Mode & Category**: `light` mode · DevTools & SaaS
+- **Visual Signature**: Tactile #F4F4F4 industrial stone canvas with crisp #FFFFFF widget cards, bold 64px geometric Cal Sans display headings, high-contrast #242424 ink, and #AA61F1 violet scheduling accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#F4F4F4`
+  - `surfaceLevel1`: `#FFFFFF`
+  - `textPrimary`: `#242424`
+  - `textMuted`: `#898989`
+  - `accentBrand`: `#242424`
+  - `borderHairline`: `#E5E5E5`
+- **Typography & Component Metrics**:
+  - Heading Font: `Cal Sans` | Body Font: `Inter` | Monospace Font: `Roboto Mono`
+  - Hero H1 Scale: `64px / 1.1 (w600)`
+  - Button Radius: `12px`
+  - Border Formula: `1px solid #E5E5E5`
+- **Semantic Tags**: `light`, `scheduling`, `calendar`, `open-source`, `cal`, `calsans`, `geometric`, `bento`, `saas`, `stone`
+
+### 4.11 Dub (`dub.co`) — Modern Link Attribution & Crisp Satoshi/Geist Minimalist
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/dub/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add dub`
+- **Mode & Category**: `light` mode · DevTools & SaaS
+- **Visual Signature**: Airy #FAFAFA canvas with #FFFFFF analytics cards, #E5E5E5 1px borders, geometric Satoshi 48px display headings, GeistMono shortlinks, and high-contrast #000000 8px-radius primary buttons.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FAFAFA`
+  - `surfaceLevel1`: `#FFFFFF`
+  - `textPrimary`: `#171717`
+  - `textMuted`: `#737373`
+  - `accentBrand`: `#000000`
+  - `borderHairline`: `#E5E5E5`
+- **Typography & Component Metrics**:
+  - Heading Font: `Satoshi` | Body Font: `Inter / Satoshi` | Monospace Font: `GeistMono`
+  - Hero H1 Scale: `48px / 1.15 (w500)`
+  - Button Radius: `8px`
+  - Border Formula: `1px solid #E5E5E5`
+- **Semantic Tags**: `light`, `analytics`, `marketing`, `saas`, `dub`, `satoshi`, `geist-mono`, `minimalist`, `clean`, `bento`
+
+### 4.12 Trigger.dev (`trigger.dev`) — Industrial Dark Slate & Electric Acid-Lime Telemetry
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/trigger/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add trigger`
+- **Mode & Category**: `dark` mode · DevTools & Infra
+- **Visual Signature**: Deep gunmetal #121317 canvas with #15171A / #212327 workflow nodes, #1C1E21 structural borders, 60px Satoshi-Variable headings, Geist Mono logs, and #A8FF53 electric lime status accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#121317`
+  - `surfaceLevel1`: `#15171A`
+  - `textPrimary`: `#D7D9DD`
+  - `textMuted`: `#878C99`
+  - `accentBrand`: `#A8FF53`
+  - `borderHairline`: `#1C1E21`
+- **Typography & Component Metrics**:
+  - Heading Font: `Satoshi-Variable` | Body Font: `Inter / Satoshi` | Monospace Font: `Geist Mono`
+  - Hero H1 Scale: `60px / 1.0 (w600)`
+  - Button Radius: `4px`
+  - Border Formula: `1px solid #1C1E21`
+- **Semantic Tags**: `dark`, `devtools`, `background-jobs`, `workflows`, `acid-lime`, `neon-green`, `trigger`, `satoshi`, `geist-mono`, `industrial`
+
+### 4.13 Railway (`railway.com`) — Deep Cosmic Violet Infrastructure & IBM Plex Serif Editorial
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/railway/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add railway`
+- **Mode & Category**: `dark` mode · DevTools & Infra
+- **Visual Signature**: Atmospheric #13111C cosmic violet-black canvas with #1B2132 / #291839 elevated deployment cards, rgba(255,255,255,0.1) hairlines, and 54px IBM Plex Serif display headings (-0.036em tracking).
+- **Exact Color Tokens**:
+  - `canvasBg`: `#13111C`
+  - `surfaceLevel1`: `#1B2132`
+  - `textPrimary`: `#FFFFFF`
+  - `textMuted`: `#9593A8`
+  - `accentBrand`: `#8B5CF6`
+  - `borderHairline`: `rgba(255, 255, 255, 0.1)`
+- **Typography & Component Metrics**:
+  - Heading Font: `IBM Plex Serif` | Body Font: `Inter` | Monospace Font: `IBM Plex Mono`
+  - Hero H1 Scale: `54px / -0.036em (w500)`
+  - Button Radius: `8px`
+  - Border Formula: `1px rgba(255,255,255,0.1)`
+- **Semantic Tags**: `dark`, `cloud`, `infra`, `deployment`, `violet`, `purple`, `serif`, `railway`, `ibm-plex-serif`, `devtools`
+
+### 4.14 PlanetScale (`planetscale.com`) — Pure Monospace ASCII Engineering Manual & Zero-Radius Brutalism
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/planetscale/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add planetscale`
+- **Mode & Category**: `light` mode · DevTools & Infra
+- **Visual Signature**: Stark #FAFAFA technical manual canvas set entirely in system monospace with ASCII box-drawing diagrams, 1px #C1C1C1 / #414141 borders, 0px sharp corners, and #F35815 signal orange CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FAFAFA`
+  - `surfaceLevel1`: `#FFFFFF`
+  - `textPrimary`: `#111111`
+  - `textMuted`: `#414141`
+  - `accentBrand`: `#F35815`
+  - `borderHairline`: `#C1C1C1`
+- **Typography & Component Metrics**:
+  - Heading Font: `SF Mono / ui-monospace` | Body Font: `SF Mono / ui-monospace` | Monospace Font: `SF Mono / ui-monospace`
+  - Hero H1 Scale: `20px Mono / -0.02em (w700)`
+  - Button Radius: `0px (Sharp Brutalist)`
+  - Border Formula: `1px solid #C1C1C1`
+- **Semantic Tags**: `light`, `monospace`, `ascii`, `brutalist`, `database`, `mysql`, `postgres`, `planetscale`, `zero-radius`, `engineering`, `orange`
+
+### 4.15 Turso (`turso.tech`) — Deep Oceanic Teal & Neon Aquamarine Edge Database
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/turso/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add turso`
+- **Mode & Category**: `dark` mode · DevTools & Infra
+- **Visual Signature**: Dark oceanic #0F1317 / #0D1318 canvas with rgba(40,57,68,0.6) slate-teal borders, heavy 800-weight 60px Inter display headlines (-0.025em), and high-contrast #4FF8D2 aquamarine pill CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#0F1317`
+  - `surfaceLevel1`: `#0D1318`
+  - `textPrimary`: `#FFFFFF`
+  - `textMuted`: `rgba(255, 255, 255, 0.5)`
+  - `accentBrand`: `#4FF8D2`
+  - `borderHairline`: `#283945`
+- **Typography & Component Metrics**:
+  - Heading Font: `Inter (800 ExtraBold)` | Body Font: `Inter` | Monospace Font: `JetBrains Mono`
+  - Hero H1 Scale: `60px / -0.025em (w800)`
+  - Button Radius: `9999px (Pill)`
+  - Border Formula: `1px solid #283945`
+- **Semantic Tags**: `dark`, `database`, `sqlite`, `edge`, `aquamarine`, `teal`, `cyan`, `turso`, `devtools`, `neon`
+
+### 4.16 Neon (`neon.tech`) — Serverless Pitch-Black & Luminous Cyber-Mint Postgres
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/neon/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add neon`
+- **Mode & Category**: `dark` mode · DevTools & Infra
+- **Visual Signature**: Pitch-black #000000 canvas with #242628 / #303236 dark structural borders, 56px tight -0.04em Inter display headings, and #34D59A / #00E599 luminous cyber-mint accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#000000`
+  - `surfaceLevel1`: `#131415`
+  - `textPrimary`: `#FFFFFF`
+  - `textMuted`: `#94979E`
+  - `accentBrand`: `#34D59A`
+  - `borderHairline`: `#242628`
+- **Typography & Component Metrics**:
+  - Heading Font: `Inter` | Body Font: `Inter` | Monospace Font: `JetBrains Mono`
+  - Hero H1 Scale: `56px / -0.04em (w400)`
+  - Button Radius: `9999px (Pill)`
+  - Border Formula: `1px solid #242628`
+- **Semantic Tags**: `dark`, `postgres`, `serverless`, `database`, `mint`, `neon-green`, `pitch-black`, `neon`, `devtools`
+
+### 4.17 Upstash (`upstash.com`) — Oversized Emerald Typography & Clean Serverless Daylight
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/upstash/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add upstash`
+- **Mode & Category**: `light` mode · DevTools & Infra
+- **Visual Signature**: Soft #F5F5F5 daylight canvas with #FFFFFF cards, deep forest-emerald #022C22 monumental 128px Inter Tight headlines (-0.025em), JetBrains Mono snippets, and #00BC7D emerald accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#F5F5F5`
+  - `surfaceLevel1`: `#FFFFFF`
+  - `textPrimary`: `#022C22`
+  - `textMuted`: `#71717B`
+  - `accentBrand`: `#00BC7D`
+  - `borderHairline`: `rgba(0, 0, 0, 0.05)`
+- **Typography & Component Metrics**:
+  - Heading Font: `Inter Tight` | Body Font: `Inter` | Monospace Font: `JetBrains Mono`
+  - Hero H1 Scale: `128px / -0.025em (w700)`
+  - Button Radius: `10px`
+  - Border Formula: `1px rgba(0,0,0,0.05)`
+- **Semantic Tags**: `light`, `serverless`, `redis`, `kafka`, `emerald`, `green`, `oversized-type`, `upstash`, `inter-tight`, `devtools`
+
+### 4.18 Inngest (`inngest.com`) — Warm Obsidian Stone & Swiss Whyte / Coral-Cobalt Contrast
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/inngest/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add inngest`
+- **Mode & Category**: `dark` mode · DevTools & Infra
+- **Visual Signature**: Warm obsidian stone #0C0A09 canvas with rgba(28,28,28,0.85) surfaces, 72px WhyteV1 architectural display headings (0.95 line-height), CircularXXMono code, and #F76246 coral + #013CF6 cobalt accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#0C0A09`
+  - `surfaceLevel1`: `#1C1C1C`
+  - `textPrimary`: `#FFFFFF`
+  - `textMuted`: `#A8A29E`
+  - `accentBrand`: `#F76246`
+  - `borderHairline`: `rgba(255, 255, 255, 0.08)`
+- **Typography & Component Metrics**:
+  - Heading Font: `WhyteV1` | Body Font: `Inter / Whyte` | Monospace Font: `CircularXXMono`
+  - Hero H1 Scale: `72px / 0.95 (w400)`
+  - Button Radius: `6px`
+  - Border Formula: `1px rgba(255,255,255,0.08)`
+- **Semantic Tags**: `dark`, `workflows`, `queues`, `ai-orchestration`, `inngest`, `whyte`, `coral`, `cobalt`, `devtools`, `warm-dark`
+
+### 4.19 WorkOS (`workos.com`) — Enterprise-Ready Architectural Precision & Untitled Sans
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/workos/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add workos`
+- **Mode & Category**: `light` mode · Fintech & Enterprise
+- **Visual Signature**: Cool porcelain #F9F9FB canvas with #FFFFFF enterprise cards, #E8EAED 1px hairlines, monumental 80px Untitled Sans headings with ultra-tight -0.07em tracking, and #6363F1 indigo + #23F0C3 mint accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#F9F9FB`
+  - `surfaceLevel1`: `#FFFFFF`
+  - `textPrimary`: `#29363D`
+  - `textMuted`: `#5E6C75`
+  - `accentBrand`: `#6363F1`
+  - `borderHairline`: `#E8EAED`
+- **Typography & Component Metrics**:
+  - Heading Font: `Untitled Sans` | Body Font: `Untitled Sans` | Monospace Font: `IBM Plex Mono`
+  - Hero H1 Scale: `80px / -0.07em (w500)`
+  - Button Radius: `100px (Pill)`
+  - Border Formula: `1px solid #E8EAED`
+- **Semantic Tags**: `light`, `enterprise`, `sso`, `auth`, `saas`, `workos`, `untitled-sans`, `indigo`, `mint`, `b2b`
+
+### 4.20 Loops (`loops.so`) — Warm Editorial SaaS & Newsreader Serif Craft
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/loops/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add loops`
+- **Mode & Category**: `light` mode · DevTools & SaaS
+- **Visual Signature**: Warm ivory #FDFDFC / #F9F9F8 canvas with #E9E8E6 stone borders, #21201C espresso ink, refined 44px Newsreader serif display headlines (-0.02em), and #7D1B0C oxblood / #21201C pill CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FDFDFC`
+  - `surfaceLevel1`: `#F9F9F8`
+  - `textPrimary`: `#21201C`
+  - `textMuted`: `#63625E`
+  - `accentBrand`: `#7D1B0C`
+  - `borderHairline`: `#E9E8E6`
+- **Typography & Component Metrics**:
+  - Heading Font: `Newsreader` | Body Font: `Inter` | Monospace Font: `SF Mono`
+  - Hero H1 Scale: `44px / -0.02em (w500)`
+  - Button Radius: `40px (Pill)`
+  - Border Formula: `1px solid #E9E8E6`
+- **Semantic Tags**: `light`, `warm`, `editorial`, `serif`, `newsreader`, `email`, `saas`, `loops`, `minimalist`, `ivory`
+
+### 4.21 Attio (`attio.com`) — Next-Gen CRM Spreadsheet-Grid Precision & Inter Display
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/attio/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add attio`
+- **Mode & Category**: `light` mode · Fintech & Enterprise
+- **Visual Signature**: Crisp #F3F4F6 / #FFFFFF daylight UI with exposed #E4E7EC 1px data-table grid lines, 64px Inter Display headlines (0.95 line-height, -0.02em), JetBrains Mono badges, and #1C1D1F monochrome controls.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FFFFFF`
+  - `surfaceLevel1`: `#F3F4F6`
+  - `textPrimary`: `#1C1D1F`
+  - `textMuted`: `#6F7988`
+  - `accentBrand`: `#1C1D1F`
+  - `borderHairline`: `#E4E7EC`
+- **Typography & Component Metrics**:
+  - Heading Font: `interDisplay` | Body Font: `Inter` | Monospace Font: `JetBrains Mono`
+  - Hero H1 Scale: `64px / 0.95 (w600)`
+  - Button Radius: `10px`
+  - Border Formula: `1px solid #E4E7EC`
+- **Semantic Tags**: `light`, `crm`, `saas`, `data-grid`, `bento`, `attio`, `inter-display`, `precision`, `b2b`, `clean`
+
+### 4.22 Ashby (`ashbyhq.com`) — Analytics-Driven Recruiting SaaS & Royal Indigo TTNormsPro
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/ashby/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add ashby`
+- **Mode & Category**: `light` mode · Fintech & Enterprise
+- **Visual Signature**: Bright #FFFFFF / #FCFCFE canvas with #EEEDEF soft lavender-gray borders, 72px TTNormsPro geometric display headings (-0.04em tracking, 575 weight), and #473BCE royal indigo CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FFFFFF`
+  - `surfaceLevel1`: `#FCFCFE`
+  - `textPrimary`: `#141415`
+  - `textMuted`: `#717075`
+  - `accentBrand`: `#473BCE`
+  - `borderHairline`: `#EEEDEF`
+- **Typography & Component Metrics**:
+  - Heading Font: `TTNormsPro` | Body Font: `TTNormsPro / Inter` | Monospace Font: `SF Mono`
+  - Hero H1 Scale: `72px / -0.04em (w575)`
+  - Button Radius: `6px`
+  - Border Formula: `1px solid #EEEDEF`
+- **Semantic Tags**: `light`, `hr`, `recruiting`, `analytics`, `saas`, `ashby`, `indigo`, `b2b`, `geometric`
+
+### 4.23 Notion (`notion.so`) — Warm Workspace Canvas & Monumental NotionInter Display
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/notion/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add notion`
+- **Mode & Category**: `light` mode · AI & Productivity
+- **Visual Signature**: Crisp #FFFFFF & warm stone #F6F5F4 workspace surfaces with rgba(0,0,0,0.1) hairlines, monumental 96px NotionInter headlines (-0.048em tracking), and #0075DE cobalt + #FFB110 amber accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FFFFFF`
+  - `surfaceLevel1`: `#F6F5F4`
+  - `textPrimary`: `#000000`
+  - `textMuted`: `#615D59`
+  - `accentBrand`: `#0075DE`
+  - `borderHairline`: `rgba(0, 0, 0, 0.1)`
+- **Typography & Component Metrics**:
+  - Heading Font: `NotionInter` | Body Font: `NotionInter` | Monospace Font: `SFMono-Regular`
+  - Hero H1 Scale: `96px / -0.048em (w600)`
+  - Button Radius: `8px`
+  - Border Formula: `1px rgba(0,0,0,0.1)`
+- **Semantic Tags**: `light`, `workspace`, `productivity`, `docs`, `wiki`, `ai`, `notion`, `warm-gray`, `minimalist`
+
+### 4.24 Framer (`framer.com`) — Pitch-Black Interactive Canvas & Electric #0099FF Blue Glow
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/framer/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add framer`
+- **Mode & Category**: `dark` mode · Design & Creative
+- **Visual Signature**: Pure #000000 canvas with #111111 elevated stage cards, glowing rgba(0,153,255,0.42) borders, 54px GT Walsheim Medium headlines (-0.04em tracking), and #0099FF electric blue + #FFFFFF 8px CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#000000`
+  - `surfaceLevel1`: `#111111`
+  - `textPrimary`: `#FFFFFF`
+  - `textMuted`: `#999999`
+  - `accentBrand`: `#0099FF`
+  - `borderHairline`: `rgba(0, 153, 255, 0.42)`
+- **Typography & Component Metrics**:
+  - Heading Font: `GT Walsheim Medium` | Body Font: `Inter` | Monospace Font: `JetBrains Mono`
+  - Hero H1 Scale: `54px / -0.04em (w500)`
+  - Button Radius: `8px`
+  - Border Formula: `1px rgba(0,153,255,0.42)`
+- **Semantic Tags**: `dark`, `design`, `web-builder`, `no-code`, `framer`, `electric-blue`, `gt-walsheim`, `creative`, `motion`
+
+### 4.25 Tailwind CSS (`tailwindcss.com`) — Engineered CSS Grid Lines & Technical Blueprint Precision
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/tailwindcss/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add tailwindcss`
+- **Mode & Category**: `light` mode · Design & Creative
+- **Visual Signature**: Daylight #FFFFFF canvas overlaid with exposed 1px rgba(0,0,20,0.05) blueprint construction lines, monumental 96px Inter headlines (-0.05em), PlexMono utility classes, and #38BDF8 / #F6339A accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FFFFFF`
+  - `surfaceLevel1`: `#F8FAFC`
+  - `textPrimary`: `#030712`
+  - `textMuted`: `#4A5565`
+  - `accentBrand`: `#0EA5E9`
+  - `borderHairline`: `rgba(0, 0, 20, 0.05)`
+- **Typography & Component Metrics**:
+  - Heading Font: `Inter` | Body Font: `Inter` | Monospace Font: `IBM Plex Mono (plexMono)`
+  - Hero H1 Scale: `96px / -0.05em (w400)`
+  - Button Radius: `16px / 9999px`
+  - Border Formula: `1px rgba(0,0,20,0.05)`
+- **Semantic Tags**: `light`, `css`, `design-system`, `grid-lines`, `blueprint`, `tailwind`, `devtools`, `plex-mono`, `precision`
+
+### 4.26 shadcn/ui (`ui.shadcn.com`) — Zinc Monochrome Component Primitives & Zero-Distraction Craft
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/shadcn/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add shadcn`
+- **Mode & Category**: `light` mode · Design & Creative
+- **Visual Signature**: Pure #FFFFFF / #F5F5F5 zinc monochrome palette with 1px #E5E5E5 borders, 48px Geist display typography (-0.05em tracking), 10px radius primitives, and strict #171717 / #737373 hierarchy.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FFFFFF`
+  - `surfaceLevel1`: `#F5F5F5`
+  - `textPrimary`: `#0A0A0A`
+  - `textMuted`: `#737373`
+  - `accentBrand`: `#171717`
+  - `borderHairline`: `#E5E5E5`
+- **Typography & Component Metrics**:
+  - Heading Font: `Geist` | Body Font: `Geist` | Monospace Font: `Geist Mono`
+  - Hero H1 Scale: `48px / -0.05em (w600)`
+  - Button Radius: `8px / 10px`
+  - Border Formula: `1px solid #E5E5E5`
+- **Semantic Tags**: `light`, `components`, `ui-kit`, `radix`, `tailwind`, `shadcn`, `monochrome`, `zinc`, `geist`, `minimal`
+
+### 4.27 Anthropic (`anthropic.com`) — Humanist Warm Parchment & Literary AI Safety Editorial
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/anthropic/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add anthropic`
+- **Mode & Category**: `light` mode · AI & Productivity
+- **Visual Signature**: Warm parchment #FAF9F5 canvas with #F5F4ED cards and #DEDCD1 stone borders, #141413 charcoal ink, bespoke anthropicSerif literary headings, and #D97757 terracotta clay accents.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FAF9F5`
+  - `surfaceLevel1`: `#F5F4ED`
+  - `textPrimary`: `#141413`
+  - `textMuted`: `#5E5D59`
+  - `accentBrand`: `#D97757`
+  - `borderHairline`: `#DEDCD1`
+- **Typography & Component Metrics**:
+  - Heading Font: `anthropicSerif` | Body Font: `anthropicSans` | Monospace Font: `JetBrains Mono`
+  - Hero H1 Scale: `40.8px / -0.01em (w400)`
+  - Button Radius: `9999px (Pill) / 8px`
+  - Border Formula: `1px solid #DEDCD1`
+- **Semantic Tags**: `light`, `warm`, `parchment`, `serif`, `editorial`, `ai`, `llm`, `claude`, `anthropic`, `humanist`, `minimalist`
+
+### 4.28 ElevenLabs (`elevenlabs.io`) — Swiss Audio Minimalist & Light-Weight Waldenburg Precision
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/elevenlabs/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add elevenlabs`
+- **Mode & Category**: `light` mode · AI & Productivity
+- **Visual Signature**: Warm alabaster #FDFCFC canvas with #F5F3F1 audio player cards, rgba(0,0,0,0.06) subtle borders, light-weight 300 Waldenburg 48px display typography (-0.02em), and Geist Mono waveform metrics.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#FDFCFC`
+  - `surfaceLevel1`: `#F5F3F1`
+  - `textPrimary`: `#000000`
+  - `textMuted`: `#666462`
+  - `accentBrand`: `#000000`
+  - `borderHairline`: `rgba(0, 0, 0, 0.07)`
+- **Typography & Component Metrics**:
+  - Heading Font: `Waldenburg (w300)` | Body Font: `Waldenburg / Inter` | Monospace Font: `Geist Mono`
+  - Hero H1 Scale: `48px / -0.02em (w300)`
+  - Button Radius: `9999px (Pill)`
+  - Border Formula: `1px rgba(0,0,0,0.07)`
+- **Semantic Tags**: `light`, `ai`, `voice`, `audio`, `minimalist`, `swiss`, `elevenlabs`, `waldenburg`, `geist-mono`, `clean`
+
+### 4.29 Polar (`polar.sh`) — Nordic Dark Monetization & PP Neue Montreal Minimalist
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/polar/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add polar`
+- **Mode & Category**: `dark` mode · Fintech & Enterprise
+- **Visual Signature**: Deep #090909 obsidian canvas with #111111 cards and #181818 / #212121 borders, refined 36px PP Neue Montreal display headings, GeistMono revenue counters, and #FFFFFF pill CTAs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#090909`
+  - `surfaceLevel1`: `#111111`
+  - `textPrimary`: `#FFFFFF`
+  - `textMuted`: `#858585`
+  - `accentBrand`: `#FFFFFF`
+  - `borderHairline`: `#212121`
+- **Typography & Component Metrics**:
+  - Heading Font: `PP Neue Montreal` | Body Font: `Inter / PP Neue Montreal` | Monospace Font: `GeistMono`
+  - Hero H1 Scale: `36px / 1.25 (w400)`
+  - Button Radius: `9999px (Pill)`
+  - Border Formula: `1px solid #212121`
+- **Semantic Tags**: `dark`, `fintech`, `monetization`, `billing`, `open-source`, `polar`, `neue-montreal`, `geist-mono`, `minimalist`, `nordic`
+
+### 4.30 PostHog (`posthog.com`) — Tactile Retro-OS Brutalist & Warm Sand / Amber Craft
+- **Canonical Token Page**: https://taste-skill.pages.dev/taste/posthog/
+- **Install Command**: `npx --yes github:WuDao0123/taste-skill add posthog`
+- **Mode & Category**: `light` mode · DevTools & SaaS
+- **Visual Signature**: Playful tactile #EEEFE9 warm putty canvas with 3D raised bevel buttons (#CD8407 / #EB9D2A amber border #B17816), chunky 800-weight RoundHog headings, and Source Code Pro developer docs.
+- **Exact Color Tokens**:
+  - `canvasBg`: `#EEEFE9`
+  - `surfaceLevel1`: `#E5E7E0`
+  - `textPrimary`: `#23251D`
+  - `textMuted`: `#5A5E52`
+  - `accentBrand`: `#EB9D2A`
+  - `borderHairline`: `#B17816`
+- **Typography & Component Metrics**:
+  - Heading Font: `RoundHog / Matter` | Body Font: `IBM Plex Sans` | Monospace Font: `Source Code Pro`
+  - Hero H1 Scale: `36px / -0.025em (w800)`
+  - Button Radius: `6px (3D Bevel)`
+  - Border Formula: `1px solid #B17816`
+- **Semantic Tags**: `light`, `brutalist`, `retro`, `tactile`, `analytics`, `devtools`, `posthog`, `amber`, `warm`, `playful`
+
+
+---
+
+## 5. Part A: Growth & Revenue Pro Pack Architecture (`growth-revenue-skills-pro-v1.0.0.zip`)
+
+1. **4 Universal Agent `SKILL.md` Playbooks** (compatible with `.cursor/skills/`, `.claude/skills/`, `CLAUDE.md`, `AGENTS.md`, and Windsurf):
+   - `pseo-competitor-teardown`: Reverse-engineer any competitor's `robots.txt`, `sitemap.xml`, URL route clusters, and `/llms.txt`, then scaffold Next.js App Router dynamic pSEO pages with JSON-LD.
+   - `x-alternative-pages`: Generate high-converting `/vs/[competitor]` and `/alternatives/[competitor]` comparison matrices with 4-locale / 18-language i18n dictionaries.
+   - `pricing-paywall-retention`: Build Good-Better-Best pricing walls (annual toggle, PPP regional banner, FAQ schema) + FTC Click-to-Cancel compliant 3-step cancel salvage modals.
+   - `launch-kit`: Offline linter and generator for Product Hunt, Show HN, Reddit, and App Store ASO (100-byte keyword field) launches that eliminates AI-slop phrasing and link penalties.
+2. **5 Local Node.js / Playwright Automation Scripts (`scripts/*.mjs`, 0 Paid APIs)**:
+   - `extract-competitor-pseo.mjs`
+   - `generate-nextjs-pseo-routes.mjs`
+   - `generate-comparison-matrix.mjs`
+   - `audit-pricing-page.mjs`
+   - `validate-launch-pack.mjs`
+3. **22 Raw Competitor Blueprints (`data/*.json`)**: Complete reverse-engineered JSON datasets of 20 verified `$10k–$422k/mo` indie SaaS sites + 2 AI dev platforms.
+4. **4 Production Next.js / React / Tailwind Templates (`templates/*.tsx`)**: `AlternativeLandingPage.tsx`, `PricingSection.tsx`, `CancelRetentionFlow.tsx`, `NextjsPseoPage.tsx`.
+
+
+================================================================================
+PART 2: FULL 20-SITE $10K–$422K/MO PSEO & /LLMS.TXT EMPIRICAL STUDY (/help-md/pseo-teardown.md)
+================================================================================
+
+# Empirical Study: 20 Verified $10k–$422k/mo Indie SaaS Programmatic SEO (pSEO) & /llms.txt Teardowns
+
+> **Canonical URL**: `https://taste-skill.pages.dev/help-md/pseo-teardown.md`
+> **Overview & 30 Design Systems Reference**: `https://taste-skill.pages.dev/help-md/overview.md`
+> **Full Machine-Readable Corpus**: `https://taste-skill.pages.dev/llms-full.txt`
+> **Last Updated**: `2026-10-29`
+
+---
+
+## 1. Executive Summary & Aggregate Dataset Findings
+
+We conducted an empirical, recursive crawl of `robots.txt`, `sitemap.xml` (including nested sitemap indexes), `/llms.txt`, `/llms-full.txt`, and pricing DOM structures across **20 verified indie SaaS websites** with founder-disclosed revenue between **`$10,000/mo` and `$422,000/mo`** (`$120k–$5M ARR`).
+
+### Key Empirical Metrics Across the 20 Verified Indie SaaS Sites
+- **Core Dataset Analyzed**: **27,360 core sitemap URLs** (27,990 total discovered URLs including secondary sub-sitemaps) across 20 bootstrapped / lean-team SaaS domains.
+- **91.4% Programmatic SEO (pSEO) Share**: Across the core 27,360-URL benchmark (and up to 96.7% across extended localized directories), **over 9 out of 10 indexed URLs are generated programmatically from structured route templates** rather than hand-written blog posts.
+- **50.0% `/llms.txt` Adoption (10 of 20 Sites)**: Half of these top-performing indie SaaS sites have already deployed root-level `/llms.txt` files (ranging from `760` to `118,540` characters) to capture citations from ChatGPT Search, Claude, and Perplexity (Generative Engine Optimization / GEO).
+- **Top 4 High-Converting Programmatic Route Archetypes**:
+  1. **Use-Case × Industry Cartesian Matrices** (e.g., Senja's `20 × 18 = 360` `/use-cases/[industry]-[role]` pages; Testimonial.to's `/use-cases/[slug]`).
+  2. **Template & Example Galleries** (e.g., Tally's `179` `/templates/[category]/[slug]` pages; Carrd's template hubs; StandOut CV's `/cv-examples/[role]`).
+  3. **Multi-Language Subfolder Multiplication** (e.g., Papermark's `4` locales `/es/`, `/fr/`, `/de/`, `/pt/` multiplying `683` base pages into `2,732` localized URLs).
+  4. **Competitor Alternative & `/vs/` Interception Pages** (e.g., Plausible's `/vs-google-analytics`, Tally's `/help/[competitor]-alternatives`, Simple Analytics' `/[competitor]-alternative`).
+
+---
+
+## 2. Complete 20-Site Empirical Matrix (`$10k–$422k/mo`)
+
+| # | SaaS Name & Domain | Disclosed MRR / ARR | Sitemap URLs | pSEO URLs (% Share) | `/llms.txt` Deployed? | Primary Programmatic Route Family | Links |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **Tally** (`tally.so`) | **$422,000 MRR ($5,000,000 ARR)** | 445 | 413 (**92.8%**) | ✅ Yes (4316 chars) | `/templates/[template_slug]/[sub_item_slug]` (179) | [Teardown](https://taste-skill.pages.dev/teardowns/tally/) · [Proof](https://blog.tally.so/the-road-from-4m-to-5m-arr/) |
+| 2 | **Typefully** (`typefully.com`) | **~$167,000/mo (~$2,000,000 ARR)** | 228 | 212 (**93%**) | ✅ Yes (1619 chars) | `/changelog/[changelog_slug]` (111) | [Teardown](https://taste-skill.pages.dev/teardowns/typefully/) · [Proof](https://indiemakerlist.com/leaderboard/saas/) |
+| 3 | **Carrd** (`carrd.co`) | **$85,000+ MRR ($1,000,000+ ARR, 2.5M+ sites)** | 18 | 4 (**22.2%**) | ❌ No | `/docs/[doc_slug]/[sub_item_slug]` (2) | [Teardown](https://taste-skill.pages.dev/teardowns/carrd/) · [Proof](https://www.indiehackers.com/post/hi-im-aj-maker-of-carrd-and-after-2-5m-sites-1m-arr-and-a-funding-round-probably-time-for-an-ama-1b7fcf52fe) |
+| 4 | **Plausible Analytics** (`plausible.io`) | **$83,637 MRR ($1,000,000+ ARR)** | 180 | 150 (**83.3%**) | ❌ No | `/blog/[blog_slug]` (104) | [Teardown](https://taste-skill.pages.dev/teardowns/plausible/) · [Proof](https://plausible.io/blog/open-source-saas) |
+| 5 | **StandOut CV** (`standout-cv.com`) | **£40,000 MRR (~$52,000/mo)** | 1103 | 1089 (**98.7%**) | ✅ Yes (270815 chars) | `/cv-examples/[cv_example_slug]/[sub_item_slug]` (809) | [Teardown](https://taste-skill.pages.dev/teardowns/standout-cv/) · [Proof](https://www.indiehackers.com/post/how-i-grew-my-saas-business-to-40k-mrr-with-seo-3287452853) |
+| 6 | **Bannerbear** (`bannerbear.com`) | **$50,000 MRR (~$600,000+ ARR)** | 1372 | 1351 (**98.5%**) | ✅ Yes (8732 chars) | `/templates/[template_slug]` (319) | [Teardown](https://taste-skill.pages.dev/teardowns/bannerbear/) · [Proof](https://www.bannerbear.com/open/) |
+| 7 | **Senja** (`senja.io`) | **$50,000 MRR ($600,000 ARR)** | 733 | 710 (**96.9%**) | ❌ No | `/use-cases/[use_case_slug]` (360) | [Teardown](https://taste-skill.pages.dev/teardowns/senja/) · [Proof](https://www.indiehackers.com/post/from-zero-to-50k-mrr-the-story-of-senjas-growth-6874d85edd) |
+| 8 | **FlowMapp** (`flowmapp.com`) | **$50,000 MRR ($600,000 ARR)** | 175 | 153 (**87.4%**) | ✅ Yes (10934 chars) | `/blog/[blog_slug]/[sub_item_slug]` (58) | [Teardown](https://taste-skill.pages.dev/teardowns/flowmapp/) · [Proof](https://indiemakerlist.com/leaderboard/saas/) |
+| 9 | **Simple Analytics** (`simpleanalytics.com`) | **$45,000 MRR ($540,000 ARR)** | 487 | 398 (**81.7%**) | ✅ Yes (17187 chars) | `/blog/[blog_slug]` (167) | [Teardown](https://taste-skill.pages.dev/teardowns/simple-analytics/) · [Proof](https://www.indiehackers.com/post/tech/joining-a-technical-co-founder-and-growing-the-product-to-45k-mrr-119Zbnde7pTET0QOiZLH) |
+| 10 | **Papermark** (`papermark.com`) | **$45,000 MRR ($540,000 ARR)** | 2732 | 2638 (**96.6%**) | ✅ Yes (11875 chars) | `/blog/[blog_slug]` (1030) | [Teardown](https://taste-skill.pages.dev/teardowns/papermark/) · [Proof](https://www.indiehackers.com/post/tech/after-11-failed-products-this-founder-hit-45k-mrr-in-a-little-over-a-year-xyRkxAsD8Rys7URjYd5d) |
+| 11 | **Subscribr** (`subscribr.ai`) | **$41,600+ MRR ($500k+ YTD, $1M/yr run-rate)** | 747 | 717 (**96%**) | ✅ Yes (1655 chars) | `/youtube-strategy/[youtube_strategy_slug]` (588) | [Teardown](https://taste-skill.pages.dev/teardowns/subscribr/) · [Proof](https://www.indiehackers.com/post/tech/leaving-a-funded-startup-and-bootstrapping-to-1m-yr-in-18-months-kPBpdxsTeQitOWOOVs2g) |
+| 12 | **My AskAI** (`myaskai.com`) | **$40,000 MRR (~$500,000 ARR)** | 99 | 80 (**80.8%**) | ❌ No | `/blog/[blog_slug]` (24) | [Teardown](https://taste-skill.pages.dev/teardowns/myaskai/) · [Proof](https://www.indiehackers.com/post/tech/bootstrapping-to-40k-mrr-after-his-vc-backed-startup-failed-LF1CwRs1vL3oVLcuoIoE) |
+| 13 | **Testimonial.to** (`testimonial.to`) | **$33,333+ MRR ($400,000+ ARR, later $800k+ ARR)** | 802 | 780 (**97.3%**) | ✅ Yes (772 chars) | `/resources/[resource_slug]` (455) | [Teardown](https://taste-skill.pages.dev/teardowns/testimonial/) · [Proof](https://thebootstrappedfounder.com/a-conversation-with-damon-chen/) |
+| 14 | **ScreenshotOne** (`screenshotone.com`) | **$33,000 MRR (~$400k ARR; ~$36k MRR by Sept 2026)** | 644 | 617 (**95.8%**) | ✅ Yes (926 chars) | `/changelog/[changelog_slug]` (165) | [Teardown](https://taste-skill.pages.dev/teardowns/screenshotone/) · [Proof](https://dmytrokrasun.com/posts/screenshotone-4-years/) |
+| 15 | **SuperX** (`superx.so`) | **$23,000 MRR ($276,000 ARR)** | 1664 | 1636 (**98.3%**) | ❌ No | `/creators/[creator_slug]` (828) | [Teardown](https://taste-skill.pages.dev/teardowns/superx/) · [Proof](https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ) |
+| 16 | **Hypefury** (`hypefury.com`) | **$23,000+ MRR ($276,000+ ARR)** | 548 | 466 (**85%**) | ❌ No | `/blog/[blog_slug]/[sub_item_slug]` (219) | [Teardown](https://taste-skill.pages.dev/teardowns/hypefury/) · [Proof](https://www.indiehackers.com/post/flying-past-23k-mrr-in-2-years-hypefury-45f73f0c0a) |
+| 17 | **Pirsch Analytics** (`pirsch.io`) | **$14,300 MRR (~$130,000/yr net volume)** | 938 | 789 (**84.1%**) | ❌ No | `/glossary/[glossary_slug]` (560) | [Teardown](https://taste-skill.pages.dev/teardowns/pirsch/) · [Proof](https://pirsch.io/blog/our-recap-of-2025/) |
+| 18 | **SiteGuru** (`siteguru.co`) | **$14,000 MRR ($168,000 ARR)** | 254 | 228 (**89.8%**) | ❌ No | `/seo-academy/[seo_academy_slug]` (172) | [Teardown](https://taste-skill.pages.dev/teardowns/siteguru/) · [Proof](https://www.indiehackers.com/post/tech/building-an-seo-product-to-14k-mrr-in-a-crowded-market-gU4DE1l094cpj1GjNHwu) |
+| 19 | **SEO Utils** (`seoutils.app`) | **~$10,400/mo ($15,800/mo founder portfolio)** | 19 | 16 (**84.2%**) | ❌ No | `/_nuxt/[_nuxt_slug]` (13) | [Teardown](https://taste-skill.pages.dev/teardowns/seoutils/) · [Proof](https://www.indiehackers.com/post/tech/staying-close-to-customers-and-hitting-16k-mo-VTKxLk4uanWJbmSdG4km) |
+| 20 | **Leave Me Alone** (`leavemealone.com`) | **$10,000/mo (Open Startup verified)** | 14802 | 14623 (**98.8%**) | ❌ No | `/how-to-unsubscribe-from/[how_to_unsubscribe_from_slug]` (14264) | [Teardown](https://taste-skill.pages.dev/teardowns/leavemealone/) · [Proof](https://leavemealone.com/blog/from-indie-side-project-to-profitable-business/) |
+
+---
+
+## 3. Deep-Dive Teardowns of All 20 Verified Indie SaaS Sites
+
+### 3.1 Tally (`tally.so`) — $422,000 MRR ($5,000,000 ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/tally/
+- **Founders**: Marie Martens & Filip Minev (bootstrapped, lean team)
+- **Category**: Form Builder / No-Code SaaS
+- **Revenue Disclosure (2026-04-15)**: https://blog.tally.so/the-road-from-4m-to-5m-arr/ (Secondary: https://www.indiehackers.com/post/bootstrapping-tally-to-150k-mrr-by-doing-less-better-68e340156f)
+- **Incumbent Wedge**: Disrupts Typeform & Jotform predatory response caps by offering unlimited forms and unlimited responses for free (~99% of features free), monetizing only team collaboration, custom domains, and branding removal at $29/mo.
+- **Core Value Proposition**: The simplest way to create forms for free — works like a Notion text document with zero response limits on the free tier.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `445`
+  - Programmatic SEO (pSEO) URLs: `413` (`92.8%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (4316 chars)`
+- **Top Programmatic Route Families**:
+  - `/templates/[template_slug]/[sub_item_slug]` — **179 URLs** (40.2% of site) · Archetype: *Template Gallery pSEO (/templates/[template-slug])* · Title Formula: `{Primary Keyword / Variable} — Tally form template`
+    - Sample URLs: `https://tally.so/templates/registration-form-template/ywaZnM`, `https://tally.so/templates/contact-form-template/dnWe3O`, `https://tally.so/templates/lead-generation-form-template/l3jQmM`
+  - `/help/[help_slug]` — **142 URLs** (31.9% of site) · Archetype: *Documentation / Knowledge Base* · Title Formula: `{Primary Keyword / Variable Title} | Free Form Builder`
+    - Sample URLs: `https://tally.so/help/get-started`, `https://tally.so/help/create-a-form`, `https://tally.so/help/free-ai-form-builder`
+  - `/help/how-to-[topic]` — **42 URLs** (9.4% of site) · Archetype: *Documentation / Knowledge Base* · Title Formula: `{Primary Keyword / Variable Title} | Free Form Builder`
+    - Sample URLs: `https://tally.so/help/how-to-create-a-thank-you-page`, `https://tally.so/help/how-to-name-fields`, `https://tally.so/help/how-to-create-a-multi-step-form`
+  - `/community-stories/[community_storie_slug]` — **16 URLs** (3.6% of site) · Archetype: *Programmatic Directory / Hub (/community-stories/...)* · Title Formula: `Tally Community Stories: Charlie Ward`
+    - Sample URLs: `https://tally.so/community-stories/charlie-ward`, `https://tally.so/community-stories/orangily`, `https://tally.so/community-stories/tomas-serti`
+  - `/help/[competitor]-alternatives` — **13 URLs** (2.9% of site) · Archetype: *Competitor Alternative Landing Pages* · Title Formula: `Tally, a powerful and free Notion Forms alternative`
+    - Sample URLs: `https://tally.so/help/tally-a-free-notion-forms-alternative`, `https://tally.so/help/tally-a-free-typeform-alternative`, `https://tally.so/help/tally-a-free-and-powerful-google-forms-alternative`
+  - `/[root-landing-slug]` — **10 URLs** (2.2% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages*
+    - Sample URLs: `https://tally.so/multi-step-forms`, `https://tally.so/hubspot-online-form-builder-free`, `https://tally.so/website-design-intake-form-template`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `0` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Attack Your Incumbent's Most Hated Metered Limit: If competitors gate volume (responses, exports, views) at $25/mo, make volume free and charge $29/mo for branding removal + custom domains.
+  1. Build Dual-Layer pSEO (`/templates/[category]/[slug]` + `/[competitor]-alternative`): Pair high-volume use-case templates (179 pages) with high-intent competitor switching pages (13 pages).
+  1. Publish `/llms.txt` + `WebApplication` JSON-LD: Tally explicitly exposes a clean Markdown index at `/llms.txt` so AI assistants cite its free-tier generosity accurately.
+
+### 3.2 Typefully (`typefully.com`) — ~$167,000/mo (~$2,000,000 ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/typefully/
+- **Founders**: Fabrizio Rinaldi & Francesco Di Lorenzo (2 Italian co-founders)
+- **Category**: Creator Economy / Multi-Platform Social Publishing & API Suite
+- **Revenue Disclosure (2026-03-15)**: https://indiemakerlist.com/leaderboard/saas/ (Secondary: https://typefully.com/llms.txt)
+- **Incumbent Wedge**: Replaces clunky enterprise social schedulers (Hootsuite, Sprout Social) with a distraction-free minimalist writing studio, collaborative team review comments, and an AI-Agent-ready OpenAPI + Markdown documentation stack.
+- **Core Value Proposition**: Write better content and grow on social media faster — cross-post seamlessly to X, LinkedIn, Threads, Bluesky, and Mastodon.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `228`
+  - Programmatic SEO (pSEO) URLs: `212` (`93%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (1619 chars)`
+- **Top Programmatic Route Families**:
+  - `/changelog/[changelog_slug]` — **111 URLs** (48.7% of site) · Archetype: *Programmatic Directory / Hub (/changelog/...)* · Title Formula: `{Primary Keyword / Variable Title} | Typefully Changelog`
+    - Sample URLs: `https://typefully.com/changelog/bluesky-sign-in-custom-pds`, `https://typefully.com/changelog/writing-assistant-comments`, `https://typefully.com/changelog/polls-linkedin-threads-mastodon`
+  - `/blog/[blog_slug]` — **63 URLs** (27.6% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable Title} | Typefully`
+    - Sample URLs: `https://typefully.com/blog/x-analytics-ai-agents`, `https://typefully.com/blog/schedule-x-articles`, `https://typefully.com/blog/post-mortem-security-incident-june-9th-2026`
+  - `/blog/how-to-[topic]` — **11 URLs** (4.8% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable Title} | Typefully`
+    - Sample URLs: `https://typefully.com/blog/what-is-my-linkedin-url`, `https://typefully.com/blog/how-to-create-a-linkedin-business-page`, `https://typefully.com/blog/how-to-cancel-linkedin-premium`
+  - `/blog/[competitor]-alternatives` — **8 URLs** (3.5% of site) · Archetype: *Competitor Alternative Landing Pages* · Title Formula: `{Primary Keyword / Variable Title} | Typefully`
+    - Sample URLs: `https://typefully.com/blog/taplio-alternatives`, `https://typefully.com/blog/authoredup-review-alternative`, `https://typefully.com/blog/sprout-social-review-alternative`
+  - `/tools/[tool_slug]` — **6 URLs** (2.6% of site) · Archetype: *Free Tool / Micro-Utility Hub (/tools/[tool-slug])* · Title Formula: `Free AI Writing Tools by Typefully (latest AI models)`
+    - Sample URLs: `https://typefully.com/tools/ai`, `https://typefully.com/tools/fake-tweet-generator`, `https://typefully.com/tools/linkedin-text-formatter`
+  - `/changelog/[changelog_slug]/[sub_item_slug]` — **5 URLs** (2.2% of site) · Archetype: *Programmatic Directory / Hub (/changelog/...)*
+    - Sample URLs: `https://typefully.com/changelog/page/2`, `https://typefully.com/changelog/page/3`, `https://typefully.com/changelog/page/4`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `2` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Expose `/ai-agents.md` and `/docs/api.md` Inside Your `/llms.txt`: Typefully is a textbook example of 2026 GEO — its `/llms.txt` directly teaches AI agents how to authenticate and call its v2 API.
+  1. Index Every Product Update as a Standalone SEO URL (`/changelog/[slug]` — 111 pages): Instead of hiding updates in a single modal, publish each feature launch at its own descriptive slug to rank for platform-specific queries.
+  1. Publish Focused `/blog/[competitor]-alternatives` Pages (8 pages): Capture creators churning from Buffer, Hypefury, and Taplio with clean design-led comparison guides.
+
+### 3.3 Carrd (`carrd.co`) — $85,000+ MRR ($1,000,000+ ARR, 2.5M+ sites)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/carrd/
+- **Founders**: AJ (@ajlkn) & Doni (2-person team)
+- **Category**: No-Code Website Builder / One-Page Landing Page Platform
+- **Revenue Disclosure (2021-04-30)**: https://www.indiehackers.com/post/hi-im-aj-maker-of-carrd-and-after-2-5m-sites-1m-arr-and-a-funding-round-probably-time-for-an-ama-1b7fcf52fe (Secondary: https://carrd.co/pro)
+- **Incumbent Wedge**: Eliminates the complexity and $20–$30/month cost of Squarespace, Webflow, and WordPress for simple one-page sites by charging an impulse-buy $9 to $49 per YEAR and letting users build without even creating an account first.
+- **Core Value Proposition**: Simple, free, fully responsive one-page sites for pretty much anything.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `18`
+  - Programmatic SEO (pSEO) URLs: `4` (`22.2%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/docs/[doc_slug]/[sub_item_slug]` — **2 URLs** (11.1% of site) · Archetype: *Documentation / Knowledge Base* · Title Formula: `{Primary Keyword / Variable} — Carrd`
+    - Sample URLs: `https://carrd.co/docs/general/changelog`, `https://carrd.co/docs/forms/setting-up-a-signup-form`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `6` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Let Users Build in the Editor Before Asking for an Email: Carrd’s highest-leverage conversion trick is delaying account creation until the user has already invested 10 minutes designing their page.
+  1. Use Annual Impulse Pricing (`$9/yr`, `$19/yr`, `$49/yr`) When Marginal Hosting Costs Are Pennies: Static one-page sites cost fractions of a cent on AWS/Cloudflare, allowing $19/yr pricing to generate $1M+ ARR at massive volume.
+  1. Turn Every Free Tier Output into a Tasteful Viral Badge: Millions of creators proudly share their `*.carrd.co` profile links in social bios, creating unstoppable organic distribution.
+
+### 3.4 Plausible Analytics (`plausible.io`) — $83,637 MRR ($1,000,000+ ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/plausible/
+- **Founders**: Uku Taht & Marko Saric (2 co-founders, 100% bootstrapped & open-source)
+- **Category**: Privacy-First Web Analytics
+- **Revenue Disclosure (2022-06-02)**: https://plausible.io/blog/open-source-saas (Secondary: https://plausible.io/plausible.io)
+- **Incumbent Wedge**: Positions directly against Google Analytics 4 (GA4) bloat, cookie banner requirements, and GDPR privacy concerns with a <1 KB script.
+- **Core Value Proposition**: Easy to use and privacy-friendly Google Analytics alternative that requires no cookie banners and loads 75x smaller than GA4.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `180`
+  - Programmatic SEO (pSEO) URLs: `150` (`83.3%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/blog/[blog_slug]` — **104 URLs** (57.8% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable Title} | Plausible Analytics`
+    - Sample URLs: `https://plausible.io/blog/the-analytics-tool-i-want`, `https://plausible.io/blog/learning-design-as-a-developer`, `https://plausible.io/blog/technology-choices`
+  - `/[root-landing-slug]` — **26 URLs** (14.4% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages* · Title Formula: `{Primary Keyword / Variable Title} | Plausible Analytics`
+    - Sample URLs: `https://plausible.io/ad-cost-calculator`, `https://plausible.io/google-analytics-script-size`, `https://plausible.io/conversion-rate-calculator`
+  - `/[tool_a]-vs-[tool_b]` — **4 URLs** (2.2% of site) · Archetype: *Head-to-Head Versus Comparison Pages* · Title Formula: `{Primary Keyword / Variable Title} | Plausible Analytics`
+    - Sample URLs: `https://plausible.io/vs-cloudflare-web-analytics`, `https://plausible.io/vs-google-analytics`, `https://plausible.io/vs-matomo`
+  - `/blog/[tool_a]-vs-[tool_b]` — **4 URLs** (2.2% of site) · Archetype: *Head-to-Head Versus Comparison Pages* · Title Formula: `{Primary Keyword / Variable Title} | Plausible Analytics`
+    - Sample URLs: `https://plausible.io/blog/ua-vs-ga4`, `https://plausible.io/blog/time-on-page-ga-vs-plausible`, `https://plausible.io/blog/eu-hosted-analytics-vs-eu-owned-analytics`
+  - `/jobs/[job_slug]` — **3 URLs** (1.7% of site) · Archetype: *Programmatic Directory / Hub (/jobs/...)* · Title Formula: `{Primary Keyword / Variable Title} | Plausible Analytics`
+    - Sample URLs: `https://plausible.io/jobs/customer-success`, `https://plausible.io/jobs/infrastructure-engineer`, `https://plausible.io/jobs/product-engineer`
+  - `/assets/[asset_slug]/[sub_item_slug]/[deep_slug]` — **3 URLs** (1.7% of site) · Archetype: *Programmatic Directory / Hub (/assets/...)*
+    - Sample URLs: `https://plausible.io/assets/images/icon/apple-touch-icon.png`, `https://plausible.io/assets/images/icon/favicon.ico`, `https://plausible.io/assets/images/icon/favicon.svg`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `4` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Include Yourself in Competitor vs Competitor Searches: Don't just write `Us vs Incumbent`; publish `Matomo vs Google Analytics` and position your tool as the lightweight modern third option.
+  1. Ship a Live Public Dashboard Instead of Static Screenshots: Linking to a live read-only production dashboard (`plausible.io/plausible.io`) converts skeptical developers far better than marketing graphics.
+  1. Transparent Pageview Slider + 30-Day No-Card Trial: Embed pricing directly on `#pricing` (`$9/mo` Starter, `$14/mo` Growth, `$19/mo` Business) with "2 months free" annual toggle.
+
+### 3.5 StandOut CV (`standout-cv.com`) — £40,000 MRR (~$52,000/mo)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/standout-cv/
+- **Founders**: Andrew Fennell (Solo founder + small content/dev team)
+- **Category**: Career Tech / Resume & CV Builder SaaS
+- **Revenue Disclosure (2025-09-25)**: https://www.indiehackers.com/post/how-i-grew-my-saas-business-to-40k-mrr-with-seo-3287452853 (Secondary: https://standout-cv.com/llms.txt)
+- **Incumbent Wedge**: Captures job seekers at the exact moment they search for role-specific CV examples (e.g., "Finance Manager CV example") and converts them directly into an interactive CV builder.
+- **Core Value Proposition**: Write a job-winning CV in minutes using recruiter-approved templates and role-specific examples.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `1103`
+  - Programmatic SEO (pSEO) URLs: `1089` (`98.7%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (270815 chars)`
+- **Top Programmatic Route Families**:
+  - `/cv-examples/[cv_example_slug]/[sub_item_slug]` — **809 URLs** (73.3% of site) · Archetype: *Programmatic Directory / Hub (/cv-examples/...)* · Title Formula: `3 Tutor CV examples + easy guide [Build your business fast]`
+    - Sample URLs: `https://standout-cv.com/cv-examples/teaching-and-education/tutor-cv`, `https://standout-cv.com/cv-examples/marketing/seo-executive-cv`, `https://standout-cv.com/cv-examples/driving-and-logistics/transport-planner-cv`
+  - `/usa/[usa_slug]/[sub_item_slug]` — **43 URLs** (3.9% of site) · Archetype: *Programmatic Directory / Hub (/usa/...)* · Title Formula: `STEM resume example + guide [Get a great job]`
+    - Sample URLs: `https://standout-cv.com/usa/resume-examples/stem-resume-example`, `https://standout-cv.com/usa/resume-examples/chick-fil-a-resume-example`, `https://standout-cv.com/usa/resume-examples/fpa-resume-example`
+  - `/cv-advice/[cv_advice_slug]` — **41 URLs** (3.7% of site) · Archetype: *Programmatic Directory / Hub (/cv-advice/...)* · Title Formula: `{Primary Keyword / Variable Title} | Get more interviews`
+    - Sample URLs: `https://standout-cv.com/cv-advice/cv-writing-tips`, `https://standout-cv.com/cv-advice/hobbies-interests-cv`, `https://standout-cv.com/cv-advice/cv-education-section`
+  - `/cv-examples/[cv_example_slug]` — **34 URLs** (3.1% of site) · Archetype: *Programmatic Directory / Hub (/cv-examples/...)* · Title Formula: `{Primary Keyword / Variable Title} | Land a top accounting job`
+    - Sample URLs: `https://standout-cv.com/cv-examples/accounting`, `https://standout-cv.com/cv-examples/administration-and-office`, `https://standout-cv.com/cv-examples/animal-care`
+  - `/stats/[stat_slug]` — **31 URLs** (2.8% of site) · Archetype: *Programmatic Directory / Hub (/stats/...)* · Title Formula: `{Primary Keyword / Variable Title} | UK and global data`
+    - Sample URLs: `https://standout-cv.com/stats/average-uk-salary`, `https://standout-cv.com/stats/networking-statistics`, `https://standout-cv.com/stats/job-interview-statistics`
+  - `/cover-letter-examples/[cover_letter_example_slug]` — **26 URLs** (2.4% of site) · Archetype: *Programmatic Directory / Hub (/cover-letter-examples/...)*
+    - Sample URLs: `https://standout-cv.com/cover-letter-examples/ski-season`, `https://standout-cv.com/cover-letter-examples/speculative`, `https://standout-cv.com/cover-letter-examples/pharmacy-assistant`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `0` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Pair `/examples/[role]` Pages with a "/stats/[topic]" Link-Bait Cluster: Use `/stats/[topic]` pages to earn high-DR journalist links for free, then pass internal link equity to your commercial `/examples/[role]` pages.
+  1. Localize URL Prefixes for UK vs US Terminology (`/cv-examples/...` vs `/usa/resume-examples/...`): Same SaaS engine underneath, doubled addressable search volume by matching local terminology.
+  1. Embed "Use This Template" Above the Fold on Every Content Page: Turn passive readers into active SaaS builders within 5 seconds of landing.
+
+### 3.6 Bannerbear (`bannerbear.com`) — $50,000 MRR (~$600,000+ ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/bannerbear/
+- **Founders**: Jon Yongfook (Solo technical founder)
+- **Category**: Developer API / Automated Image & Video Generation
+- **Revenue Disclosure (2023-07-15)**: https://www.bannerbear.com/open/ (Secondary: https://www.bannerbear.com/blog/7-lessons-growing-a-bootstrapped-saas-to-50k-mrr/)
+- **Incumbent Wedge**: Replaces brittle headless Puppeteer scripts and manual Canva design workflows with a deterministic REST API + Zapier/Airtable/Make integrations.
+- **Core Value Proposition**: API for automated image and video generation — auto-generate social media visuals, ecommerce banners, and dynamic PDFs at scale.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `1372`
+  - Programmatic SEO (pSEO) URLs: `1351` (`98.5%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (8732 chars)`
+- **Top Programmatic Route Families**:
+  - `/templates/[template_slug]` — **319 URLs** (23.3% of site) · Archetype: *Template Gallery pSEO (/templates/[template-slug])* · Title Formula: `Auto Generate Images / Videos from the Green Black Modern Marketing YouTube Thumbnail template`
+    - Sample URLs: `https://www.bannerbear.com/templates/gobzvgdzwqpoka5wpp-green-black-modern-marketing-youtube-thumbnail/`, `https://www.bannerbear.com/templates/le6wpao85lr3xqknmq-blue-modern-business-youtube-thumbnail/`, `https://www.bannerbear.com/templates/en6kagoqmyoopxzgbl-violet-pink-gradient-podcast-youtube-thumbnail/`
+  - `/help/[help_slug]/[sub_item_slug]` — **195 URLs** (14.2% of site) · Archetype: *Documentation / Knowledge Base* · Title Formula: `{Primary Keyword / Variable} — Bannerbear`
+    - Sample URLs: `https://www.bannerbear.com/help/articles/203-what-are-api-credits/`, `https://www.bannerbear.com/help/articles/253-what-can-i-use-bannerbear-for/`, `https://www.bannerbear.com/help/articles/205-what-are-projects/`
+  - `/blog/how-to-[topic]` — **171 URLs** (12.5% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Bannerbear`
+    - Sample URLs: `https://www.bannerbear.com/blog/how-to-design-impactful-reusable-youtube-thumbnail-templates/`, `https://www.bannerbear.com/blog/how-to-generate-wedding-invites-for-your-entire-guest-list/`, `https://www.bannerbear.com/blog/how-to-auto-produce-job-listing-graphics-for-linkedin-carousel-using-make/`
+  - `/blog/[blog_slug]` — **162 URLs** (11.8% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Bannerbear`
+    - Sample URLs: `https://www.bannerbear.com/blog/best-coding-languages-to-learn-in-2026-especially-if-youre-into-vibe-coding/`, `https://www.bannerbear.com/blog/adding-links-to-graphics-at-scale/`, `https://www.bannerbear.com/blog/automatically-turn-a-tweet-into-a-fleet/`
+  - `/v5/[v5_slug]/[sub_item_slug]/[deep_slug]` — **93 URLs** (6.8% of site) · Archetype: *Programmatic Directory / Hub (/v5/...)* · Title Formula: `{Primary Keyword / Variable} — Bannerbear`
+    - Sample URLs: `https://www.bannerbear.com/v5/help/articles/534-what-are-workspaces/`, `https://www.bannerbear.com/v5/help/articles/535-how-do-i-switch-between-workspaces/`, `https://www.bannerbear.com/v5/help/articles/536-how-to-create-a-new-workspace/`
+  - `/use-cases/[use_case_slug]/[sub_item_slug]` — **90 URLs** (6.6% of site) · Archetype: *Use-Case Solution Pages (/use-cases/[persona-or-workflow])*
+    - Sample URLs: `https://www.bannerbear.com/use-cases/scenarios/auto-generate-images-via-api/`, `https://www.bannerbear.com/use-cases/scenarios/auto-generate-instagram-posts-via-api/`, `https://www.bannerbear.com/use-cases/scenarios/auto-generate-instagram-stories-via-api/`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `4` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Turn Every Template in Your Database into a Public Static URL (`/templates/[slug]`): Bannerbear's 319 template preview pages act as long-tail landing pages for "real estate instagram template API", "podcast audiogram template", etc.
+  1. Combine `/use-cases/scenarios/[slug]` (90 pages) with `/integrations/[slug]` (17 pages): Map every `Tool A + Your API -> Outcome B` permutation.
+  1. Credit-Based API Tiering (`$49` Automate 1,000 credits -> `$149` Scale 10,000 credits `[MOST POPULAR]` -> `$299` Enterprise 50,000 credits): Pure usage-based expansion revenue without per-seat friction.
+
+### 3.7 Senja (`senja.io`) — $50,000 MRR ($600,000 ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/senja/
+- **Founders**: Olly Meakings & Wilson Wilson (2 co-founders)
+- **Category**: Social Proof & Testimonial Collection SaaS
+- **Revenue Disclosure (2024-11-19)**: https://www.indiehackers.com/post/from-zero-to-50k-mrr-the-story-of-senjas-growth-6874d85edd (Secondary: https://senja.io/pricing)
+- **Incumbent Wedge**: Out-executes legacy enterprise review widgets and early indie tools (Testimonial.to, Boast.io) with 30+ import sources, superior Wall of Love design aesthetics, and aggressive pSEO.
+- **Core Value Proposition**: The easiest way to collect, manage, and share video & text testimonials everywhere.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `733`
+  - Programmatic SEO (pSEO) URLs: `710` (`96.9%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/use-cases/[use_case_slug]` — **360 URLs** (49.1% of site) · Archetype: *Use-Case Solution Pages (/use-cases/[persona-or-workflow])* · Title Formula: `Add Airbnb Reviews to Carrd in 5 minutes for free!`
+    - Sample URLs: `https://senja.io/use-cases/add-airbnb-reviews-to-carrd`, `https://senja.io/use-cases/add-airbnb-reviews-to-elementor`, `https://senja.io/use-cases/add-airbnb-reviews-to-godaddy`
+  - `/testimonial-examples/[testimonial_example_slug]` — **112 URLs** (15.3% of site) · Archetype: *Programmatic Directory / Hub (/testimonial-examples/...)* · Title Formula: `{Primary Keyword / Variable Title} | Ruttl - Testimonial Examples - Senja`
+    - Sample URLs: `https://senja.io/testimonial-examples/1-online-website-feedback-tool-ruttl`, `https://senja.io/testimonial-examples/90-minute-grow-your-fro-long-hair-crash-course-lto`, `https://senja.io/testimonial-examples/about-you-ve-got-clients`
+  - `/blog/[blog_slug]` — **97 URLs** (13.2% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Senja`
+    - Sample URLs: `https://senja.io/blog/5-easy-ways-to-get-and-use-testimonials-start-using-senja-in-less-than-an-hour`, `https://senja.io/blog/8-fresh-ways-to-use-testimonials-and-social-proof`, `https://senja.io/blog/ai-testimonial-video-creator`
+  - `/testimonial-software/[testimonial_software_slug]` — **25 URLs** (3.4% of site) · Archetype: *Programmatic Directory / Hub (/testimonial-software/...)* · Title Formula: `{Primary Keyword / Variable} — Senja`
+    - Sample URLs: `https://senja.io/testimonial-software/agencies`, `https://senja.io/testimonial-software/analysis`, `https://senja.io/testimonial-software/chrome-extension`
+  - `/testimonial-widgets/[testimonial_widget_slug]` — **25 URLs** (3.4% of site) · Archetype: *Programmatic Directory / Hub (/testimonial-widgets/...)* · Title Formula: `{Primary Keyword / Variable} — Testimonial Widgets by Senja`
+    - Sample URLs: `https://senja.io/testimonial-widgets/andoya-carousel-testimonial-widget`, `https://senja.io/testimonial-widgets/avatars-pro`, `https://senja.io/testimonial-widgets/bold-highlights`
+  - `/compare/[competitor]-alternatives` — **19 URLs** (2.6% of site) · Archetype: *Head-to-Head Comparison Hub (/compare/[a]-vs-[b])*
+    - Sample URLs: `https://senja.io/compare/boast-io-alternative`, `https://senja.io/compare/bonjoro-alternative`, `https://senja.io/compare/delighted-alternative`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `2` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Steal the `Source × Destination` Cartesian URL Formula: If your product connects Source $A$ (20 platforms) to Destination $B$ (18 CMS builders), generate $20 \times 18 = 360$ `/use-cases/add-[source]-to-[destination]` pages.
+  1. Build 3 Vertical Intent Layers (`/testimonial-examples/[x]`, `/testimonial-widgets/[x]`, `/testimonial-software/[x]`): Captures top-of-funnel inspiration, mid-funnel widget embeds, and bottom-of-funnel buyer searches.
+  1. Simple 3-Tier Pricing (`Free $0` -> `Starter $29/mo` -> `Pro $59/mo [Most Popular]`) with "2 months free" annual toggle and 14 objection-crushing FAQ items.
+
+### 3.8 FlowMapp (`flowmapp.com`) — $50,000 MRR ($600,000 ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/flowmapp/
+- **Founders**: Paul Mit & bootstrapped product team
+- **Category**: UX Planning, Visual Sitemap & Website Wireframe SaaS
+- **Revenue Disclosure (2026-02-10)**: https://indiemakerlist.com/leaderboard/saas/ (Secondary: https://www.flowmapp.com/llms.txt)
+- **Incumbent Wedge**: Replaces messy spreadsheets and over-complicated Figma files during the pre-design discovery phase with a dedicated visual sitemap, AI wireframe, and project estimation workspace.
+- **Core Value Proposition**: Visual platform for planning UX, interactive sitemaps, wireframes, and pitching web design projects.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `175`
+  - Programmatic SEO (pSEO) URLs: `153` (`87.4%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (10934 chars)`
+- **Top Programmatic Route Families**:
+  - `/blog/[blog_slug]/[sub_item_slug]` — **58 URLs** (33.1% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable Title} | FlowMapp design blog`
+    - Sample URLs: `https://www.flowmapp.com/blog/qa/10-ux-design-onboarding-tips`, `https://www.flowmapp.com/blog/qa/20-basic-typographic-terms-ui`, `https://www.flowmapp.com/blog/qa/5-second-test`
+  - `/features/[feature_slug]` — **53 URLs** (30.3% of site) · Archetype: *Programmatic Directory / Hub (/features/...)* · Title Formula: `{Primary Keyword / Variable Title} | Online UX tool to create user flow charts`
+    - Sample URLs: `https://www.flowmapp.com/features/content`, `https://www.flowmapp.com/features/flowchart`, `https://www.flowmapp.com/features/generate-sitemap-online`
+  - `/blog/[blog_slug]/how-to-[topic]` — **18 URLs** (10.3% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable Title} | FlowMapp design blog`
+    - Sample URLs: `https://www.flowmapp.com/blog/qa/how-to-design-flowcharts`, `https://www.flowmapp.com/blog/qa/how-to-make-flowchart`, `https://www.flowmapp.com/blog/qa/how-to-make-perfect-a-b-test`
+  - `/blog/[blog_slug]` — **9 URLs** (5.1% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable Title} | Information architecture`
+    - Sample URLs: `https://www.flowmapp.com/blog/information-architecture`, `https://www.flowmapp.com/blog/news`, `https://www.flowmapp.com/blog/ui-design`
+  - `/features/how-to-[topic]` — **8 URLs** (4.6% of site) · Archetype: *Programmatic Directory / Hub (/features/...)* · Title Formula: `How to plan a website structure: step-by-step guide`
+    - Sample URLs: `https://www.flowmapp.com/features/how-to-plan-a-website-structure-step-by-step-guide`, `https://www.flowmapp.com/features/how-to-design-sitemap`, `https://www.flowmapp.com/features/how-to-create-user-flow`
+  - `/pricing/[pricing_slug]` — **4 URLs** (2.3% of site) · Archetype: *Programmatic Directory / Hub (/pricing/...)*
+    - Sample URLs: `https://www.flowmapp.com/pricing/education`, `https://www.flowmapp.com/pricing/student`, `https://flowmapp.com/pricing/student`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `0` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Unbundle Your Product into 50+ `/features/[capability-slug]` Landing Pages: Don’t bury your sub-tools on one homepage — FlowMapp created 53 distinct `/features/*` URLs so every specific job-to-be-done ranks independently.
+  1. Use `url: / title: / description:` Key-Value Blocks in `/llms.txt` (`10,934 chars`): Gives AI search crawlers clean, zero-noise metadata for every feature route.
+  1. Highlight a High-Contrast Annual Discount (`Billed annually 45% off` — `$8.25/mo` vs `$15/mo`, `$19.25/mo` vs `$35/mo`): Drives immediate annual cashflow from agency buyers.
+
+### 3.9 Simple Analytics (`simpleanalytics.com`) — $45,000 MRR ($540,000 ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/simple-analytics/
+- **Founders**: Adriaan van Rossum & Iron Brands (2 co-founders, Amsterdam)
+- **Category**: EU-Compliant Privacy Web Analytics
+- **Revenue Disclosure (2025-10-15)**: https://www.indiehackers.com/post/tech/joining-a-technical-co-founder-and-growing-the-product-to-45k-mrr-119Zbnde7pTET0QOiZLH (Secondary: https://www.simpleanalytics.com/open)
+- **Incumbent Wedge**: Positions on strict EU data sovereignty (100% EU-hosted, zero PII, GDPR/PECR/Schrems II compliant out-of-the-box) plus AI analytics insights.
+- **Core Value Proposition**: Simple, privacy-first Google Analytics alternative hosted in the EU — no cookies, no consent banners needed.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `487`
+  - Programmatic SEO (pSEO) URLs: `398` (`81.7%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (17187 chars)`
+- **Top Programmatic Route Families**:
+  - `/blog/[blog_slug]` — **167 URLs** (34.3% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `The EU wants to kill cookie banners`
+    - Sample URLs: `https://www.simpleanalytics.com/blog/the-eu-wants-to-kill-cookie-banners-by-moving-consent-to-your-browser`, `https://www.simpleanalytics.com/blog/google-is-tracking-you-even-when-you-use-duck-duck-go`, `https://www.simpleanalytics.com/blog/german-court-rules-meta-s-tracking-tech-violates-gdpr`
+  - `/[root-landing-slug]` — **76 URLs** (15.6% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages* · Title Formula: `{Primary Keyword / Variable} — Simple Analytics`
+    - Sample URLs: `https://www.simpleanalytics.com/analytics-without-consent`, `https://www.simpleanalytics.com/sessions-without-consent`, `https://www.simpleanalytics.com/eu-hosted-analytics`
+  - `/_nuxt/[_nuxt_slug]` — **64 URLs** (13.1% of site) · Archetype: *Programmatic Directory / Hub (/_nuxt/...)*
+    - Sample URLs: `https://www.simpleanalytics.com/_nuxt/Navbar.DNfpWAoD.css`, `https://www.simpleanalytics.com/_nuxt/FlowDiagram.CZN07pCw.css`, `https://www.simpleanalytics.com/_nuxt/CnbSkFzU.js`
+  - `/guides/[guide_slug]` — **31 URLs** (6.4% of site) · Archetype: *Programmatic Directory / Hub (/guides/...)* · Title Formula: `How to track button clicks with Simple Analytics`
+    - Sample URLs: `https://www.simpleanalytics.com/guides/track-button-click`, `https://www.simpleanalytics.com/guides/track-blog-reactions`, `https://www.simpleanalytics.com/guides/track-bing-traffic`
+  - `/press/[pres_slug]` — **12 URLs** (2.5% of site) · Archetype: *Programmatic Directory / Hub (/press/...)* · Title Formula: `Simple Analytics on BNR Nieuwsradio`
+    - Sample URLs: `https://www.simpleanalytics.com/press/bnr`, `https://www.simpleanalytics.com/press/code-story`, `https://www.simpleanalytics.com/press/ethical-allies`
+  - `/blog/how-to-[topic]` — **7 URLs** (1.4% of site) · Archetype: *Content / Editorial Blog Cluster*
+    - Sample URLs: `https://www.simpleanalytics.com/blog/how-to-export-data-from-google-analytics`, `https://www.simpleanalytics.com/blog/what-is-phi-under-hipaa`, `https://www.simpleanalytics.com/blog/how-to-track-form-submissions-using-google-tag-manager`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `0` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Create Regulatory & Pain-Point Root Slugs (`/analytics-without-consent`): Users don't just search product categories; they search how to avoid a painful compliance requirement.
+  1. Deploy a Rich `/llms.txt` (17 KB+): Explicitly list your comparison guides, glossary definitions, and regulatory compliance proofs in `/llms.txt`.
+  1. Dual-Path Trial Funnel on `/pricing`: Offers both a self-serve 14-day free trial (`No credit card required`) AND a 30-day guided Proof of Concept (POC) for higher-ACV B2B teams.
+
+### 3.10 Papermark (`papermark.com`) — $45,000 MRR ($540,000 ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/papermark/
+- **Founders**: Marc Seitz & Iuliia Shnai (married co-founder duo)
+- **Category**: Open-Source Document Sharing & Virtual Data Room (DocSend Alternative)
+- **Revenue Disclosure (2025-08-20)**: https://www.indiehackers.com/post/tech/after-11-failed-products-this-founder-hit-45k-mrr-in-a-little-over-a-year-xyRkxAsD8Rys7URjYd5d (Secondary: https://www.papermark.com/llms.txt)
+- **Incumbent Wedge**: Attacks DocSend's expensive per-user pricing ($15–$65/user/mo) and dated UI with an open-source, self-hostable, custom-branded pitch deck & data room platform.
+- **Core Value Proposition**: The open-source DocSend alternative for securely sharing pitch decks, sales documents, and virtual data rooms with page-by-page analytics.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `2732`
+  - Programmatic SEO (pSEO) URLs: `2638` (`96.6%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (11875 chars)`
+- **Top Programmatic Route Families**:
+  - `/blog/[blog_slug]` — **1030 URLs** (37.7% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Papermark`
+    - Sample URLs: `https://www.papermark.com/blog/product-hunt-launch`, `https://www.papermark.com/blog/a16z-data-room-checklist`, `https://www.papermark.com/blog/advertising-investors`
+  - `/help/[help_slug]/[sub_item_slug]` — **491 URLs** (18% of site) · Archetype: *Documentation / Knowledge Base* · Title Formula: `How to add a custom domain to your Papermark team account`
+    - Sample URLs: `https://www.papermark.com/help/article/add-custom-domain-team-settings`, `https://www.papermark.com/help/article/add-documents-to-dataroom`, `https://www.papermark.com/help/article/add-folders-to-dataroom`
+  - `/blog/how-to-[topic]` — **345 URLs** (12.6% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `How to Acquire a Company in 2026: A Step-by-Step Guide for First-Time Buyers`
+    - Sample URLs: `https://www.papermark.com/blog/how-to-acquire-company`, `https://www.papermark.com/blog/how-to-choose-virtual-data-room`, `https://www.papermark.com/blog/how-to-collect-documents-from-clients-securely`
+  - `/changelog/[changelog_slug]` — **103 URLs** (3.8% of site) · Archetype: *Programmatic Directory / Hub (/changelog/...)* · Title Formula: `{Primary Keyword / Variable} — Changelog`
+    - Sample URLs: `https://www.papermark.com/changelog/multi-folder-upload-permissions`, `https://www.papermark.com/changelog/download-data-room-archive`, `https://www.papermark.com/changelog/freeze-datarooms`
+  - `/help/[help_slug]/how-to-[topic]` — **88 URLs** (3.2% of site) · Archetype: *Documentation / Knowledge Base* · Title Formula: `How to add agreements before viewing documents or data rooms?`
+    - Sample URLs: `https://www.papermark.com/help/article/how-to-add-agreements`, `https://www.papermark.com/help/article/how-to-add-custom-domain-to-link`, `https://www.papermark.com/help/article/how-to-connect-slack`
+  - `/[root-landing-slug]` — **82 URLs** (3% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages*
+    - Sample URLs: `https://www.papermark.com/open-source-investors`, `https://www.papermark.com/ideals-vdr-alternatives`, `https://www.papermark.com/data-room-due-diligence`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `1` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Multiply Winning SEO Pages Across `/de/`, `/es/`, `/fr/` Subfolders: Once an English pSEO cluster converts, localize it into German, Spanish, and French with proper `hreflang` tags — Papermark scaled to 2,732 indexed URLs this way.
+  1. Publish Curated Investor & Due-Diligence Checklist Pages for Founders: Target the exact upstream workflow of your buyer (founders raising seed/Series A need investor lists -> then they need a pitch deck tracker & data room).
+  1. Ship Both `/llms.txt` (11.9 KB summary) and `/llms-full.txt` (246 KB full corpus) so LLM agents have complete product context.
+
+### 3.11 Subscribr (`subscribr.ai`) — $41,600+ MRR ($500k+ YTD, $1M/yr run-rate)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/subscribr/
+- **Founders**: Gil Hildebrand (Solo technical founder)
+- **Category**: Creator Economy / AI YouTube Scriptwriting & Video Ideation Engine
+- **Revenue Disclosure (2025-08-27)**: https://www.indiehackers.com/post/tech/leaving-a-funded-startup-and-bootstrapping-to-1m-yr-in-18-months-kPBpdxsTeQitOWOOVs2g (Secondary: https://subscribr.ai/llms.txt)
+- **Incumbent Wedge**: Replaces generic ChatGPT prompts and scattered Google Docs with a YouTube-native content engine grounded in channel voice, outlier video intel, thumbnail/title packaging, and CLI/MCP agent workflows.
+- **Core Value Proposition**: Ideate, script, and edit a month of high-retention YouTube videos today — grounded in your channel voice and real outlier data.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `747`
+  - Programmatic SEO (pSEO) URLs: `717` (`96%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (1655 chars)`
+- **Top Programmatic Route Families**:
+  - `/youtube-strategy/[youtube_strategy_slug]` — **588 URLs** (78.7% of site) · Archetype: *Programmatic Directory / Hub (/youtube-strategy/...)* · Title Formula: `{Primary Keyword / Variable Title} | Subscribr`
+    - Sample URLs: `https://subscribr.ai/youtube-strategy/youtube-keyword-research-ultimate-guide`, `https://subscribr.ai/youtube-strategy/advanced-youtube-keyword-research`, `https://subscribr.ai/youtube-strategy/new-youtube-videos-no-views-fix`
+  - `/help/[help_slug]/[sub_item_slug]` — **44 URLs** (5.9% of site) · Archetype: *Documentation / Knowledge Base* · Title Formula: `{Primary Keyword / Variable} — Subscribr`
+    - Sample URLs: `https://subscribr.ai/help/video-ideas/intel`, `https://subscribr.ai/help/getting-started/audience-avatar`, `https://subscribr.ai/help/getting-started/channels`
+  - `/youtube-strategy/[tool_a]-vs-[tool_b]` — **20 URLs** (2.7% of site) · Archetype: *Head-to-Head Versus Comparison Pages* · Title Formula: `{Primary Keyword / Variable Title} | Subscribr`
+    - Sample URLs: `https://subscribr.ai/youtube-strategy/long-tail-vs-short-tail-keywords-youtube`, `https://subscribr.ai/youtube-strategy/youtube-shorts-vs-long-form-business`, `https://subscribr.ai/youtube-strategy/cost-ai-youtube-tools-free-vs-paid`
+  - `/youtube-strategy/how-to-[topic]` — **16 URLs** (2.1% of site) · Archetype: *Programmatic Directory / Hub (/youtube-strategy/...)* · Title Formula: `{Primary Keyword / Variable Title} | Subscribr`
+    - Sample URLs: `https://subscribr.ai/youtube-strategy/how-to-choose-youtube-niche`, `https://subscribr.ai/youtube-strategy/how-to-write-clickable-youtube-titles`, `https://subscribr.ai/youtube-strategy/how-to-write-youtube-titles-newbies`
+  - `/[root-landing-slug]` — **12 URLs** (1.6% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages* · Title Formula: `{Primary Keyword / Variable Title} | Subscribr`
+    - Sample URLs: `https://subscribr.ai/free-youtube-tools`, `https://subscribr.ai/youtube-title-generator`, `https://subscribr.ai/youtube-video-breakdown`
+  - `/help/[help_slug]` — **10 URLs** (1.3% of site) · Archetype: *Documentation / Knowledge Base*
+    - Sample URLs: `https://subscribr.ai/help/video-ideas`, `https://subscribr.ai/help/getting-started`, `https://subscribr.ai/help/chat-ideation`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `1` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Add a `## For AI agents` Block Inside Your `/llms.txt`: Subscribr doesn't just list web links in `/llms.txt` — it links directly to `/agent-setup/prompt.md` and its CLI/MCP skill installer so AI agents can onboard users autonomously.
+  1. Nest Competitor Comparisons Inside Your Topical Authority Silo (`/youtube-strategy/[tool_a]-vs-[tool_b]` — 20 pages): Keeps all 624 strategy and comparison URLs inside one high-authority subfolder.
+  1. Price for Serious Creators & Studios (`$0` Free -> `$99/mo` Creator -> `$249/mo` Automation -> `$499/mo` Scale with `Annual 2 months free`): High ARPU allows profitable growth with just a few thousand customers.
+
+### 3.12 My AskAI (`myaskai.com`) — $40,000 MRR (~$500,000 ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/myaskai/
+- **Founders**: Alex Rainey & Mike Heap (2 co-founders, UK)
+- **Category**: B2B AI Customer Support Agent (Intercom / Zendesk / Gorgias Drop-in)
+- **Revenue Disclosure (2025-07-10)**: https://www.indiehackers.com/post/tech/bootstrapping-to-40k-mrr-after-his-vc-backed-startup-failed-LF1CwRs1vL3oVLcuoIoE (Secondary: https://myaskai.com/pricing)
+- **Incumbent Wedge**: Undercuts Intercom Fin and Zendesk AI ($0.99/resolution) by nearly 90% ($0.10–$0.12/ticket or $49–$199/mo) while plugging directly into the helpdesk the company already uses.
+- **Core Value Proposition**: Match or beat the quality of your helpdesk's native AI agent at a fraction of the cost — plugs straight into Intercom, Zendesk, Freshdesk, and HubSpot.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `99`
+  - Programmatic SEO (pSEO) URLs: `80` (`80.8%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/blog/[blog_slug]` — **24 URLs** (24.2% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `How TravelJoy hit 80% AI resolution, saving 193 hrs/month`
+    - Sample URLs: `https://myaskai.com/blog/my-askai-traveljoy-case-study-2026`, `https://myaskai.com/blog/my-askai-givecard-case-study`, `https://myaskai.com/blog/my-askai-honeygain-case-study`
+  - `/compare/[tool_a]-vs-[tool_b]` — **10 URLs** (10.1% of site) · Archetype: *Head-to-Head Comparison Hub (/compare/[a]-vs-[b])* · Title Formula: `Freshdesk Freddy vs Zendesk AI Pricing Compared [2026]`
+    - Sample URLs: `https://myaskai.com/compare/freshdesk-vs-zendesk-ai-pricing`, `https://myaskai.com/compare/intercom-vs-hubspot-ai-pricing`, `https://myaskai.com/compare/gorgias-vs-zendesk-ai-pricing`
+  - `/features/[feature_slug]` — **10 URLs** (10.1% of site) · Archetype: *Programmatic Directory / Hub (/features/...)* · Title Formula: `{Primary Keyword / Variable Title} | My AskAI`
+    - Sample URLs: `https://myaskai.com/features/testing-and-qa`, `https://myaskai.com/features/copilot-internal-note-reply`, `https://myaskai.com/features/chatbot-to-human-handoff`
+  - `/ai-agent-integration/[ai_agent_integration_slug]` — **8 URLs** (8.1% of site) · Archetype: *Programmatic Directory / Hub (/ai-agent-integration/...)* · Title Formula: `{Primary Keyword / Variable Title} | My AskAI`
+    - Sample URLs: `https://myaskai.com/ai-agent-integration/intercom`, `https://myaskai.com/ai-agent-integration/hubspot`, `https://myaskai.com/ai-agent-integration/zendesk-messaging`
+  - `/industry-use-cases/[industry_use_case_slug]` — **8 URLs** (8.1% of site) · Archetype: *Programmatic Directory / Hub (/industry-use-cases/...)* · Title Formula: `{Primary Keyword / Variable Title} | My AskAI`
+    - Sample URLs: `https://myaskai.com/industry-use-cases/saas`, `https://myaskai.com/industry-use-cases/marketplace`, `https://myaskai.com/industry-use-cases/ecommerce`
+  - `/ai-support-agent-roi-calculator/[ai_support_agent_roi_calculator_slug]` — **7 URLs** (7.1% of site) · Archetype: *Programmatic Directory / Hub (/ai-support-agent-roi-calculator/...)*
+    - Sample URLs: `https://myaskai.com/ai-support-agent-roi-calculator/intercom`, `https://myaskai.com/ai-support-agent-roi-calculator/hubspot`, `https://myaskai.com/ai-support-agent-roi-calculator/zendesk-messaging`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `0` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Build a Drop-In Tax Cutter for Expensive Incumbent Add-Ons: When incumbents like Intercom or Zendesk charge $0.99 per AI resolution, positioning right inside their ecosystem at $0.10/ticket creates an instant ROI calculation.
+  1. Pair `/compare/[incumbent]-vs-[you]` (10 pages) with `/ai-agent-integration/[platform]` (8 pages): Capture both users researching native helpdesk AI pricing and users searching for third-party plugins.
+  1. Offer Annual 33% Discount + Monthly Account Audits on Higher Tiers (`$49/mo`, `$199/mo`, `$499/mo`): Combines self-serve SaaS with high-retention white-glove ticket audits.
+
+### 3.13 Testimonial.to (`testimonial.to`) — $33,333+ MRR ($400,000+ ARR, later $800k+ ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/testimonial/
+- **Founders**: Damon Chen (Solo technical founder)
+- **Category**: Video & Text Testimonial Collection & Wall of Love SaaS
+- **Revenue Disclosure (2022-11-18)**: https://thebootstrappedfounder.com/a-conversation-with-damon-chen/ (Secondary: https://www.indiehackers.com/post/hit-100k-arr-after-9-months-grinding-as-a-solo-founder-ama-584379b1f6)
+- **Incumbent Wedge**: Pioneered the frictionless browser-based video testimonial collector and embeddable Wall of Love widget for B2B SaaS, creators, and agencies without requiring customers to download an app.
+- **Core Value Proposition**: Capture, measure & showcase customer love — collect video and text testimonials in minutes and embed a Wall of Love with zero code.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `802`
+  - Programmatic SEO (pSEO) URLs: `780` (`97.3%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (772 chars)`
+- **Top Programmatic Route Families**:
+  - `/resources/[resource_slug]` — **455 URLs** (56.7% of site) · Archetype: *Programmatic Directory / Hub (/resources/...)* · Title Formula: `How to Monitor Brand Mentions on X (Twitter)`
+    - Sample URLs: `https://testimonial.to/resources/twitter-monitoring`, `https://testimonial.to/resources/nps-survey-examples`, `https://testimonial.to/resources/in-app-nps-survey`
+  - `/integrations/[integration_slug]` — **141 URLs** (17.6% of site) · Archetype: *Integration Ecosystem pSEO (/integrations/[app-slug])* · Title Formula: `How to embed reviews on Wix`
+    - Sample URLs: `https://testimonial.to/integrations/wix`, `https://testimonial.to/integrations/carrd`, `https://testimonial.to/integrations/notion`
+  - `/resources/how-to-[topic]` — **105 URLs** (13.1% of site) · Archetype: *Programmatic Directory / Hub (/resources/...)* · Title Formula: `How to Create an NPS Survey (20-Minute Setup)`
+    - Sample URLs: `https://testimonial.to/resources/how-to-create-nps-survey`, `https://testimonial.to/resources/how-to-calculate-nps`, `https://testimonial.to/resources/what-is-database-management`
+  - `/tutorials/[tutorial_slug]` — **18 URLs** (2.2% of site) · Archetype: *Programmatic Directory / Hub (/tutorials/...)* · Title Formula: `Answering the most Googled questions`
+    - Sample URLs: `https://testimonial.to/tutorials/answering-testimonial-questions`, `https://testimonial.to/tutorials/collect-testimonials-within-course`, `https://testimonial.to/tutorials/embed-capterra-reviews-on-webflow`
+  - `/static/[static_slug]/[sub_item_slug]` — **14 URLs** (1.7% of site) · Archetype: *Programmatic Directory / Hub (/static/...)*
+    - Sample URLs: `https://testimonial.to/static/js/index.05fdca4d.js`, `https://testimonial.to/static/js/80829e7a.js`, `https://testimonial.to/static/js/5d665eb4.js`
+  - `/tools/[tool_slug]` — **10 URLs** (1.2% of site) · Archetype: *Free Tool / Micro-Utility Hub (/tools/[tool-slug])*
+    - Sample URLs: `https://testimonial.to/tools/case-study-generator`, `https://testimonial.to/tools/email-template-generator`, `https://testimonial.to/tools/video-testimonial-script-generator`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `0` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Kill Lifetime Deals (LTDs) Early When Hosting Costs Scale: Damon Chen famously killed his LTD after 10 days ($5,124) and forced himself to build recurring MRR, reaching $100k ARR 9 months later.
+  1. Ship 140+ `/integrations/[platform]` Pages for Every No-Code & CMS Tool: Even if your embed works via a universal 2-line `<script>` tag, create a dedicated step-by-step guide page for each of the 141 platforms your buyers use.
+  1. Deploy a Concise `/llms.txt` Index (`772 chars`): Maps core product routes (`/features`, `/pricing`, `/widgets`, `/wall-of-love`, `/integrations`) for instant AI search citation.
+
+### 3.14 ScreenshotOne (`screenshotone.com`) — $33,000 MRR (~$400k ARR; ~$36k MRR by Sept 2026)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/screenshotone/
+- **Founders**: Dmytro Krasun (Solo technical founder)
+- **Category**: Developer API / Automated Website Screenshot & Rendering Engine
+- **Revenue Disclosure (2026-05-29)**: https://dmytrokrasun.com/posts/screenshotone-4-years/ (Secondary: https://dmytrokrasun.com/posts/20k-mrr-whats-next/)
+- **Incumbent Wedge**: Solves the nightmare of maintaining headless Chromium clusters, cookie-banner blocking, ad blocking, and residential proxies with a clean REST API and SDKs built specifically for developers and AI agents.
+- **Core Value Proposition**: The screenshot API for developers and AI agents — render clean screenshots, PDFs, and videos without cookie banners or ads in one API call.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `644`
+  - Programmatic SEO (pSEO) URLs: `617` (`95.8%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `Yes (926 chars)`
+- **Top Programmatic Route Families**:
+  - `/changelog/[changelog_slug]` — **165 URLs** (25.6% of site) · Archetype: *Programmatic Directory / Hub (/changelog/...)* · Title Formula: `{Primary Keyword / Variable} — Page 2`
+    - Sample URLs: `https://screenshotone.com/changelog/2/`, `https://screenshotone.com/changelog/3/`, `https://screenshotone.com/changelog/4/`
+  - `/blog/[blog_slug]` — **134 URLs** (20.8% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Page 2`
+    - Sample URLs: `https://screenshotone.com/blog/2/`, `https://screenshotone.com/blog/3/`, `https://screenshotone.com/blog/4/`
+  - `/docs/[doc_slug]/[sub_item_slug]` — **65 URLs** (10.1% of site) · Archetype: *Documentation / Knowledge Base* · Title Formula: `{Primary Keyword / Variable Title} | ScreenshotOne Docs`
+    - Sample URLs: `https://screenshotone.com/docs/code-examples/c-net/`, `https://screenshotone.com/docs/code-examples/go/`, `https://screenshotone.com/docs/code-examples/java/`
+  - `/use-cases/[use_case_slug]` — **49 URLs** (7.6% of site) · Archetype: *Use-Case Solution Pages (/use-cases/[persona-or-workflow])* · Title Formula: `The Screenshot API for AI Agents With Browser Observation`
+    - Sample URLs: `https://screenshotone.com/use-cases/ai-agents/`, `https://screenshotone.com/use-cases/ai-landing-page-roasting/`, `https://screenshotone.com/use-cases/ai-vision-web-page-analysis/`
+  - `/contributors/[contributor_slug]` — **31 URLs** (4.8% of site) · Archetype: *Programmatic Directory / Hub (/contributors/...)* · Title Formula: `{Primary Keyword / Variable Title} | ScreenshotOne`
+    - Sample URLs: `https://screenshotone.com/contributors/anatoly-pashias/`, `https://screenshotone.com/contributors/andy-hooke/`, `https://screenshotone.com/contributors/anthony-alaribe/`
+  - `/blog/how-to-[topic]` — **28 URLs** (4.3% of site) · Archetype: *Content / Editorial Blog Cluster*
+    - Sample URLs: `https://screenshotone.com/blog/how-to-add-custom-scripts-to-a-page-in-puppeteer/`, `https://screenshotone.com/blog/how-to-add-custom-styles-to-a-page-in-puppeteer/`, `https://screenshotone.com/blog/how-to-block-requests-with-puppeteer/`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `0` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Create a Dedicated `/ai-information/` Page and Link It First in `/llms.txt`: ScreenshotOne explicitly feeds AI assistants a single ground-truth page with verified pricing, limits, and SDK links so LLMs never hallucinate its specs.
+  1. Pair 49 `/use-cases/[slug]` Pages with 134 Technical Language Tutorials (`Puppeteer vs Playwright vs API`): Capture developers at the exact moment their self-hosted headless Chrome script crashes in production.
+  1. Clear Usage-Tier Pricing (`$17/mo` -> `$79/mo` -> `$259/mo` with `Annually 2 months free` + 10 objection-handling FAQs).
+
+### 3.15 SuperX (`superx.so`) — $23,000 MRR ($276,000 ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/superx/
+- **Founders**: Rob Hallam (Indie founder)
+- **Category**: Creator Economy / X (Twitter) Analytics & Growth Suite
+- **Revenue Disclosure (2025-09-10)**: https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ (Secondary: https://superx.so/pricing)
+- **Incumbent Wedge**: Out-positions legacy Twitter schedulers (TweetHunter, Hypefury, Typefully) with real-time algorithm analytics, Chrome sidebar integration, and public creator profile intelligence.
+- **Core Value Proposition**: Find your voice, spot rising trends, and grow faster on X with AI-assisted analytics and scheduling.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `1664`
+  - Programmatic SEO (pSEO) URLs: `1636` (`98.3%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/creators/[creator_slug]` — **828 URLs** (49.8% of site) · Archetype: *Programmatic Directory / Hub (/creators/...)* · Title Formula: `{Primary Keyword / Variable Title} | Top Creators & Influencers Analysis`
+    - Sample URLs: `https://superx.so/creators/popular`, `https://superx.so/creators/new`, `https://superx.so/creators/best`
+  - `/blog/[blog_slug]` — **546 URLs** (32.8% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `SuperX Playbook`
+    - Sample URLs: `https://superx.so/blog/superx-playbook`, `https://superx.so/blog/twitter-keywords-analysis`, `https://superx.so/blog/twitter-analytics-mobile`
+  - `/blog/how-to-[topic]` — **177 URLs** (10.6% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `What Is Twitter Analytics in 2026? a Plain-English Guide`
+    - Sample URLs: `https://superx.so/blog/what-is-twitter-analytics`, `https://superx.so/blog/what-is-influencer`, `https://superx.so/blog/how-to-delete-tweet-on-twitter`
+  - `/[root-landing-slug]` — **28 URLs** (1.7% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages* · Title Formula: `{Primary Keyword / Variable Title} | Health Score & Account Analysis Tool`
+    - Sample URLs: `https://superx.so/tweet-hunter-alternatives`, `https://superx.so/x-profile-audit`, `https://superx.so/best-time-to-tweet`
+  - `/twitter-trends/[twitter_trend_slug]` — **19 URLs** (1.1% of site) · Archetype: *Programmatic Directory / Hub (/twitter-trends/...)* · Title Formula: `Twitter Trends in United States: Live Topics`
+    - Sample URLs: `https://superx.so/twitter-trends/united-states`, `https://superx.so/twitter-trends/united-kingdom`, `https://superx.so/twitter-trends/india`
+  - `/creators/[creator_slug]/[sub_item_slug]` — **14 URLs** (0.8% of site) · Archetype: *Programmatic Directory / Hub (/creators/...)*
+    - Sample URLs: `https://superx.so/creators/archetypes/achiever`, `https://superx.so/creators/archetypes/activist`, `https://superx.so/creators/archetypes/analyst`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `0` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Build a Public Profile Directory (`/creators/[handle]` — 828 pages): If your SaaS analyzes public entities (creators, repos, domains, podcasts, stores), pre-generate 500–1,000 public analysis pages. Ego-searches and creator shares drive zero-cost viral traffic.
+  1. Ship `/[your_brand]-vs-[competitor]` for the Top 5 Incumbents on Day 1: SuperX targets `tweethunter`, `hypefury`, and `typefully` directly at root URL slugs.
+  1. Charge Premium Creator Pricing (`$49/mo` -> `$99/mo` Advanced -> `$199/mo` Ultra): Avoid $9/mo race-to-the-bottom pricing when your tool directly drives audience & revenue growth.
+
+### 3.16 Hypefury (`hypefury.com`) — $23,000+ MRR ($276,000+ ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/hypefury/
+- **Founders**: Samy Dindane & Yannick Veys (Co-founders, met on Indie Hackers)
+- **Category**: Creator Economy / Social Media Scheduling & Monetization Automation
+- **Revenue Disclosure (2021-08-15)**: https://www.indiehackers.com/post/flying-past-23k-mrr-in-2-years-hypefury-45f73f0c0a (Secondary: https://www.indiehackers.com/post/i-co-founded-hypefury-and-scaled-it-to-22k-mrr-ama-318a451a36)
+- **Incumbent Wedge**: Differentiated from Buffer and Hootsuite by focusing purely on audience growth and monetization loops (auto-retweeting evergreen posts, auto-plugging newsletters/Gumroad links under viral tweets).
+- **Core Value Proposition**: Social media scheduling & automation for creators — build and monetize your X, LinkedIn, Instagram, and email list on autopilot.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `548`
+  - Programmatic SEO (pSEO) URLs: `466` (`85%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/blog/[blog_slug]/[sub_item_slug]` — **219 URLs** (40% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation`
+    - Sample URLs: `https://hypefury.com/blog/en/how-alex-brogan-went-from-4-7k-to-280k-followers-in-20-months-and-multiplied-his-income-sources/`, `https://hypefury.com/blog/en/the-best-twitter-tools/`, `https://hypefury.com/blog/en/schedule-tweets-scheduler-twitter/`
+  - `/[root-landing-slug]` — **63 URLs** (11.5% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages* · Title Formula: `{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation`
+    - Sample URLs: `https://hypefury.com/reel-daily-confirmed/`, `https://hypefury.com/join-linkedin-growth-notes-from-autoresponder/`, `https://hypefury.com/the-ultimate-bluesky-growth-guide/`
+  - `/blog/[blog_slug]/how-to-[topic]` — **40 URLs** (7.3% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation`
+    - Sample URLs: `https://hypefury.com/blog/en/how-to-download-a-bluesky-video/`, `https://hypefury.com/blog/uncategorized/how-to-schedule-linkedin-posts-in-2026/`, `https://hypefury.com/blog/en/how-to-turn-your-tweets-to-instagram-posts/`
+  - `/tools/[tool_slug]` — **14 URLs** (2.6% of site) · Archetype: *Free Tool / Micro-Utility Hub (/tools/[tool-slug])* · Title Formula: `{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation`
+    - Sample URLs: `https://hypefury.com/tools/x-twitter-fonts-generator/`, `https://hypefury.com/tools/fake-revenue-generator/`, `https://hypefury.com/tools/fake-x-twitter-creator-payouts-generator/`
+  - `/instagram/[instagram_slug]` — **11 URLs** (2% of site) · Archetype: *Programmatic Directory / Hub (/instagram/...)* · Title Formula: `{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation`
+    - Sample URLs: `https://hypefury.com/instagram/best-instagram-hashtags/`, `https://hypefury.com/instagram/growing-followers-on-instagram/`, `https://hypefury.com/instagram/instagram-trends/`
+  - `/instagram/how-to-[topic]` — **9 URLs** (1.6% of site) · Archetype: *Programmatic Directory / Hub (/instagram/...)*
+    - Sample URLs: `https://hypefury.com/instagram/how-to-download-an-instagram-reel/`, `https://hypefury.com/instagram/how-to-create-an-instagram-grid-post/`, `https://hypefury.com/instagram/how-to-turn-off-comments-on-instagram/`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `2` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Build Features That Advertise Themselves in Public Feeds: Hypefury's Auto-Plug and Tweet-to-Instagram-Screenshot templates naturally prompt followers to ask "What tool are you using?"
+  1. Combine `/tools/[tool_slug]` (14 free tools) with `/blog/[category]/how-to-[topic]` (259 articles): Use how-to guides to rank for creator questions and funnel readers into free interactive tools.
+  1. Test Price Increases to Cut High-Maintenance Churn: In their IH AMA, Yannick revealed raising prices boosted MRR from $13k to $19k (+46%) while ultimately stabilizing churn at 7%.
+
+### 3.17 Pirsch Analytics (`pirsch.io`) — $14,300 MRR (~$130,000/yr net volume)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/pirsch/
+- **Founders**: Marvin Blum & Daniel (2 German technical co-founders)
+- **Category**: Privacy-Friendly Cookie-Free Web Analytics (Go-based)
+- **Revenue Disclosure (2025-12-20)**: https://pirsch.io/blog/our-recap-of-2025/ (Secondary: https://www.indiehackers.com/post/2024-recap-being-in-the-weird-state-of-a-mid-sized-saas-YCFfLxRmJWUEPz7hv9cZ)
+- **Incumbent Wedge**: Competes with GA4, Plausible, and Fathom by offering an ultra-fast Go backend, built-in server-side tracking SDKs, URL shortener, and lower entry pricing ($6/mo) with full white-label agency support.
+- **Core Value Proposition**: See beyond clicks with the best privacy-friendly, cookie-free Google Analytics alternative — built in Germany for speed and developer extensibility.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `938`
+  - Programmatic SEO (pSEO) URLs: `789` (`84.1%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/glossary/[glossary_slug]` — **560 URLs** (59.7% of site) · Archetype: *SEO Glossary / Concept Wiki (/glossary/[term])* · Title Formula: `404 Não Encontrado – Pirsch Analytics`
+    - Sample URLs: `https://pirsch.io/pt/glossary/404-not-found`, `https://pirsch.io/fr/glossary/channel`, `https://pirsch.io/de/glossary/cost-per-click`
+  - `/atlas/[atla_slug]` — **144 URLs** (15.4% of site) · Archetype: *Programmatic Directory / Hub (/atlas/...)* · Title Formula: `Enterprise Analytics – Pirsch Analytics`
+    - Sample URLs: `https://pirsch.io/de/atlas/enterprise-analytics`, `https://pirsch.io/fr/atlas/sales-analytics`, `https://pirsch.io/ja/atlas/social-media-analytics`
+  - `/[root-landing-slug]` — **39 URLs** (4.2% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages* · Title Formula: `Analytics para Laravel y Filament – Pirsch Analytics`
+    - Sample URLs: `https://pirsch.io/es/laravel-filament-analytics`, `https://pirsch.io/pt/laravel-filament-analytics`, `https://pirsch.io/nl/white-label-analytics`
+  - `/blog/[blog_slug]` — **18 URLs** (1.9% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `Introducing Pirsch Analytics 2.0: Custom Domains, Themes, Organizations and More`
+    - Sample URLs: `https://pirsch.io/blog/introducing-pirsch-analytics-2.0/`, `https://pirsch.io/blog/google-analytics-declared-illegal-by-austrian-dsb/`, `https://pirsch.io/blog/our-recap-of-2021/`
+  - `/discourse/[discourse_slug]` — **8 URLs** (0.9% of site) · Archetype: *Programmatic Directory / Hub (/discourse/...)* · Title Formula: `Iniciar sesión en Discourse – Pirsch Analytics`
+    - Sample URLs: `https://pirsch.io/es/discourse/login`, `https://pirsch.io/fr/discourse/login`, `https://pirsch.io/it/discourse/login`
+  - `/[locale]` — **7 URLs** (0.7% of site) · Archetype: *Localized Homepage*
+    - Sample URLs: `https://pirsch.io/ja`, `https://pirsch.io/de`, `https://pirsch.io/it`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `1` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Pair a 560-Page `/glossary/[term]` Engine with a 144-Page `/atlas/[region]` Data Hub: Even in a crowded market like privacy analytics, Pirsch built 704 programmatic reference pages to capture top-of-funnel developer and marketer searches.
+  1. Publish Honest Annual Founder Recaps (`/blog/our-recap-of-2025/`): Radical transparency about MRR ($14,300), subscriber count (627), and net volume ($130k) earns recurring Hacker News and Indie Hackers backlinks.
+  1. Differentiate via Backend SDKs & White-Label APIs: When UI features commoditize, offering first-class server-side SDKs (Go, PHP, Python, Node) and agency white-labeling locks in low-churn B2B customers.
+
+### 3.18 SiteGuru (`siteguru.co`) — $14,000 MRR ($168,000 ARR)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/siteguru/
+- **Founders**: Rick van Haasteren (Solo founder, Netherlands)
+- **Category**: Actionable SEO Audit & Monitoring SaaS
+- **Revenue Disclosure (2025-10-02)**: https://www.indiehackers.com/post/tech/building-an-seo-product-to-14k-mrr-in-a-crowded-market-gU4DE1l094cpj1GjNHwu (Secondary: https://www.siteguru.co/pricing)
+- **Incumbent Wedge**: Replaces overwhelming 500-column enterprise crawlers (Screaming Frog, Ahrefs, Semrush) with a plain-English prioritized weekly SEO Todo List connectable to Google Search Console & GA4.
+- **Core Value Proposition**: An actionable SEO todo list — we audit your website and tell you exactly where to start to improve your rankings.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `254`
+  - Programmatic SEO (pSEO) URLs: `228` (`89.8%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/seo-academy/[seo_academy_slug]` — **172 URLs** (67.7% of site) · Archetype: *Programmatic Directory / Hub (/seo-academy/...)* · Title Formula: `{Primary Keyword / Variable Title} | SiteGuru`
+    - Sample URLs: `https://www.siteguru.co/seo-academy/seo-fundamentals`, `https://www.siteguru.co/seo-academy/on-page-optimization`, `https://www.siteguru.co/seo-academy/technical-seo`
+  - `/features/[feature_slug]` — **21 URLs** (8.3% of site) · Archetype: *Programmatic Directory / Hub (/features/...)* · Title Formula: `{Primary Keyword / Variable Title} | SiteGuru`
+    - Sample URLs: `https://www.siteguru.co/features/technical-seo-audit`, `https://www.siteguru.co/features/backlink-monitoring`, `https://www.siteguru.co/features/backlink-insights`
+  - `/free-seo-tools/[free_seo_tool_slug]` — **16 URLs** (6.3% of site) · Archetype: *Programmatic Directory / Hub (/free-seo-tools/...)* · Title Formula: `{Primary Keyword / Variable Title} | SiteGuru`
+    - Sample URLs: `https://www.siteguru.co/free-seo-tools/meta-description-generator`, `https://www.siteguru.co/free-seo-tools/page-title-generator`, `https://www.siteguru.co/free-seo-tools/ctr-curve`
+  - `/client-stories/[client_storie_slug]` — **6 URLs** (2.4% of site) · Archetype: *Programmatic Directory / Hub (/client-stories/...)* · Title Formula: `{Primary Keyword / Variable Title} | SiteGuru`
+    - Sample URLs: `https://www.siteguru.co/client-stories/the-search-engineers`, `https://www.siteguru.co/client-stories/vingard-digital-marketing`, `https://www.siteguru.co/client-stories/the-brand-auditors`
+  - `/[root-landing-slug]` — **3 URLs** (1.2% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages* · Title Formula: `{Primary Keyword / Variable Title} | SiteGuru`
+    - Sample URLs: `https://www.siteguru.co/screaming-frog-alternative`, `https://www.siteguru.co/se-ranking-alternative`, `https://www.siteguru.co/free-seo-tools`
+  - `/seo-academy/how-to-[topic]` — **3 URLs** (1.2% of site) · Archetype: *Programmatic Directory / Hub (/seo-academy/...)*
+    - Sample URLs: `https://www.siteguru.co/seo-academy/how-to-use-siteguru`, `https://www.siteguru.co/seo-academy/how-to-set-up-shopify-crawl-signatures`, `https://www.siteguru.co/seo-academy/what-is-backlink-spam-score`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `4` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Build 10–15 Single-Purpose Free Checkers (`/free-seo-tools/[slug]`): Extract one micro-check from your paid backend and expose it as an instant free web tool with an upsell to "Monitor your entire site weekly".
+  1. Price by Website Count with Identical Feature Access (`$49` Small 5 sites -> `$99` Medium 15 sites `[Most popular]` -> `$199` Large 50 sites): Including `MCP access` and `White label reports` across all tiers makes agency upgrades frictionless.
+  1. Localize into Your Home Non-English Market (`/nl/`): SiteGuru includes Dutch (`nl`) pages alongside English.
+
+### 3.19 SEO Utils (`seoutils.app`) — ~$10,400/mo ($15,800/mo founder portfolio)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/seoutils/
+- **Founders**: Phuc Le (Solo indie founder)
+- **Category**: Desktop SEO Application (macOS, Windows, Linux) + BYOK Data API
+- **Revenue Disclosure (2026-02-24)**: https://www.indiehackers.com/post/tech/staying-close-to-customers-and-hitting-16k-mo-VTKxLk4uanWJbmSdG4km (Secondary: https://seoutils.app/#pricing)
+- **Incumbent Wedge**: Eliminates $129–$499/mo recurring Ahrefs/Semrush subscriptions by offering a native cross-platform desktop app ($69 license + $59.99/yr updates) that plugs directly into pay-as-you-go DataForSEO APIs ($1.50–$2.30 per thousand queries).
+- **Core Value Proposition**: An SEO desktop application built for macOS, Windows, and Linux — pay only pennies for raw SEO data instead of $200+/mo subscriptions.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `19`
+  - Programmatic SEO (pSEO) URLs: `16` (`84.2%` pSEO share)
+  - `robots.txt` Present: `No`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/_nuxt/[_nuxt_slug]` — **13 URLs** (68.4% of site) · Archetype: *Programmatic Directory / Hub (/_nuxt/...)*
+    - Sample URLs: `https://seoutils.app/_nuxt/entry.85c63de4.js`, `https://seoutils.app/_nuxt/index.53c2bd6a.js`, `https://seoutils.app/_nuxt/Footer.614cebeb.js`
+  - `/[root-landing-slug]` — **2 URLs** (10.5% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages* · Title Formula: `apple-touch-icon.png (192×192)`
+    - Sample URLs: `https://seoutils.app/apple-touch-icon.png`, `https://seoutils.app/fan-out-query`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `0` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Use BYOK (Bring Your Own Key / Wholesale API) + Desktop License to Undercut $200/mo SaaS Giants: When data APIs cost pennies wholesale, packaging a slick local UI for $69 + $59.99/yr renewal creates an irresistible math equation.
+  1. Ship Feature Landing Pages for Brand-New Industry Jargon (`/fan-out-query`): Be the first tool with a dedicated landing page for new technical terms before big incumbents update their marketing.
+  1. Anchor Your Pricing Against Annual Incumbent Spend ($4,200/yr vs $69): Showing 12-month cumulative competitor cost makes a $69 purchase feel like an instant 98% savings.
+
+### 3.20 Leave Me Alone (`leavemealone.com`) — $10,000/mo (Open Startup verified)
+- **Canonical Teardown URL**: https://taste-skill.pages.dev/teardowns/leavemealone/
+- **Founders**: Danielle Johnson & James Ivings (2 co-founders)
+- **Category**: Consumer & Prosumer Privacy SaaS / Email Unsubscribe & Inbox Shield
+- **Revenue Disclosure (2023-08-15)**: https://leavemealone.com/blog/from-indie-side-project-to-profitable-business/ (Secondary: https://leavemealone.com/blog/how-we-share-company-stats-and-metrics-publicly/)
+- **Incumbent Wedge**: Competes with 'free' email cleaners (Unroll.me, which famously got caught selling user inbox receipt data to Uber) by charging transparent privacy-first prices and never storing or selling email content.
+- **Core Value Proposition**: Easily unsubscribe from unwanted emails and clean your inbox without sacrificing your privacy.
+- **Sitemap & GEO Telemetry**:
+  - Total Sitemap URLs Discovered: `14802`
+  - Programmatic SEO (pSEO) URLs: `14623` (`98.8%` pSEO share)
+  - `robots.txt` Present: `Yes`
+  - `/llms.txt` Present: `No`
+- **Top Programmatic Route Families**:
+  - `/how-to-unsubscribe-from/[how_to_unsubscribe_from_slug]` — **14264 URLs** (96.4% of site) · Archetype: *Programmatic Directory / Hub (/how-to-unsubscribe-from/...)* · Title Formula: `{Primary Keyword / Variable} — Leave Me Alone`
+    - Sample URLs: `https://leavemealone.com/how-to-unsubscribe-from/amazon/`, `https://leavemealone.com/fr/how-to-unsubscribe-from/amazon/`, `https://leavemealone.com/it/how-to-unsubscribe-from/amazon/`
+  - `/blog/[blog_slug]` — **153 URLs** (1% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Leave Me Alone`
+    - Sample URLs: `https://leavemealone.com/blog/why-that-scam-email-knows-so-much-about-you/`, `https://leavemealone.com/blog/burner-email-addresses/`, `https://leavemealone.com/fr/blog/burner-email-addresses/`
+  - `/[root-landing-slug]` — **74 URLs** (0.5% of site) · Archetype: *Root-Level Long-Tail SEO Landing Pages* · Title Formula: `{Primary Keyword / Variable} — Leave Me Alone`
+    - Sample URLs: `https://leavemealone.com/do-not-disturb/`, `https://leavemealone.com/fr/do-not-disturb/`, `https://leavemealone.com/it/do-not-disturb/`
+  - `/blog/how-to-[topic]` — **38 URLs** (0.3% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Leave Me Alone`
+    - Sample URLs: `https://leavemealone.com/blog/how-to-send-an-anonymous-email/`, `https://leavemealone.com/fr/blog/how-to-send-an-anonymous-email/`, `https://leavemealone.com/blog/how-to-choose-a-vpn/`
+  - `/blog/tag/[sub_item_slug]` — **34 URLs** (0.2% of site) · Archetype: *Content / Editorial Blog Cluster* · Title Formula: `{Primary Keyword / Variable} — Leave Me Alone`
+    - Sample URLs: `https://leavemealone.com/blog/tag/addy`, `https://leavemealone.com/blog/tag/aliases`, `https://leavemealone.com/blog/tag/anonymous-email`
+  - `/favicons/[favicon_slug]` — **14 URLs** (0.1% of site) · Archetype: *Programmatic Directory / Hub (/favicons/...)*
+    - Sample URLs: `https://leavemealone.com/favicons/apple-icon-57x57.png`, `https://leavemealone.com/favicons/apple-icon-60x60.png`, `https://leavemealone.com/favicons/apple-icon-72x72.png`
+- **Pricing & Conversion Mechanics**:
+  - Tiers Detected: `4` | Annual Discount: `20% OFF` | Free Trial / Tier: `Trial/Paid`
+- **Replicable Engineering & Growth Actions**:
+  1. Build a 10,000+ Page `/how-to-[action]-from-[entity]` Programmatic Directory: Leave Me Alone’s **14,264 `/how-to-unsubscribe-from/[brand]` pages** are the ultimate textbook example of long-tail entity pSEO — capturing frustrated users searching how to stop emails from specific brands and converting them on the spot.
+  1. Offer Flexible Pass vs Subscription Pricing (`$7.50` 7-Day Pass vs `$4.50/mo` Yearly vs `$19/mo` Monthly): Since inbox cleaning can be episodic, offering a 7-day pass alongside recurring Inbox Shield plans captures both one-time and recurring buyers.
+  1. Position Paid Privacy Against 'Free Data-Harvesting Incumbents': Turn the fact that you charge money into your #1 trust badge.
+
+
+---
+
+## 4. How to Replicate This GEO + pSEO Architecture on Your Own Site
+
+1. **Welcome AI Search Crawlers in `/robots.txt`**: Explicitly allow `GPTBot`, `OAI-SearchBot`, `ChatGPT-User`, `ClaudeBot`, `Claude-SearchBot`, `Claude-User`, `PerplexityBot`, `Perplexity-User`, and `Google-Extended`, and add comments pointing to `/sitemap.xml`, `/llms.txt`, `/llms-full.txt`, and `/help-md/*.md`.
+2. **Serve Dual-Layer `/llms.txt` + Pure Markdown Mirrors (`/help-md/*.md`)**: LLMs waste context window tokens parsing noisy HTML DOM trees. Serving clean Markdown endpoints like `/help-md/overview.md` and `/help-md/pseo-teardown.md` makes your product trivially citable by ChatGPT, Claude, and Perplexity.
+3. **Scaffold High-Intent pSEO Route Families First**: Start with 10–20 `/vs/[competitor]` and `/alternatives/[competitor]` pages + a 2D `/use-cases/[role]-for-[industry]` matrix using `generate-nextjs-pseo-routes.mjs` and `generate-comparison-matrix.mjs`.
+

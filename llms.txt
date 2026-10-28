@@ -1,0 +1,103 @@
+# taste-skill — 30 Flagship Design System SKILL.md Library + 20 Verified $10k–$422k/mo Indie SaaS pSEO & /llms.txt Teardowns
+
+> **taste-skill** (`npx github:WuDao0123/taste-skill`) is an open-source Design System Token Extractor (Part B) and Commercial Growth & Revenue Agent Skills Suite (Part A) for **Cursor**, **Claude Code**, **OpenAI Codex**, **Windsurf**, and **Trae**.
+> - **Part B (Aesthetic Design System Layer — MIT Free)**: 30 Playwright DOM area-weighted flagship design system `SKILL.md` specifications (Linear, Stripe, Cursor, Vercel, Raycast, Anthropic, Notion, Resend, Supabase, etc.) + local CLI & web workbench that extracts deterministic design tokens from any URL or pasted UI screenshot (`Cmd+V`) to eliminate default "purple-gradient AI slop".
+> - **Part A (Growth & Revenue Layer — $69 Early-Bird / $49 with `*VIP` Code)**: Empirical teardown dataset of **20 verified `$10,000–$422,000/mo` indie SaaS websites** (`27,360` core sitemap URLs analyzed, `91.4%` pSEO route ratio, `50%` `/llms.txt` adoption) + 4 executable Growth Agent `SKILL.md` playbooks + 5 local Node.js/Playwright crawlers + 4 production Next.js/React conversion components.
+
+## Pure Markdown Documentation & Machine-Readable Endpoints (Zero HTML Noise)
+
+- [Complete Machine-Readable Corpus (/llms-full.txt)](https://taste-skill.pages.dev/llms-full.txt): Full combined specification of all 30 design systems + all 20 indie SaaS pSEO teardowns.
+- [Pure Markdown Architecture & 30-Brand Token Reference (/help-md/overview.md)](https://taste-skill.pages.dev/help-md/overview.md): Complete CLI guide, VIP code redemption, and 30 flagship design system hex/font/layout token tables.
+- [Pure Markdown 20-Site $10k–$422k/mo pSEO & /llms.txt Empirical Study (/help-md/pseo-teardown.md)](https://taste-skill.pages.dev/help-md/pseo-teardown.md): Full 27,360-URL sitemap cluster analysis, route formulas, and conversion mechanics.
+- [Canonical XML Sitemap (/sitemap.xml)](https://taste-skill.pages.dev/sitemap.xml): All 54 canonical URLs across `/taste/*`, `/teardowns/*`, and `/showcase/*`.
+- [Interactive Workbench & Screenshot-to-SKILL.md Inspector](https://taste-skill.pages.dev/): Paste any UI screenshot (`Cmd+V`) or enter a VIP code (`*VIP` / `*G1M`) with zero signup and zero credit card.
+
+## Quick Install for AI Coding Agents (Cursor / Claude Code / Codex / Windsurf)
+
+- List all 30 flagship design systems: `npx --yes github:WuDao0123/taste-skill list`
+- Search by aesthetic vibe: `npx --yes github:WuDao0123/taste-skill find "dark precision saas"`
+- Install a brand's `SKILL.md` into `.cursor/skills/`: `npx --yes github:WuDao0123/taste-skill add linear`
+- Extract `SKILL.md` from any live URL: `npx --yes github:WuDao0123/taste-skill extract https://stripe.com`
+- Extract `SKILL.md` from a UI screenshot: `npx --yes github:WuDao0123/taste-skill from-image ./screenshot.png`
+
+## Zero-Card Personalized VIP Code Support (`*VIP` / `*G1M`)
+
+- Builders holding a personalized VIP code (e.g., `RUNCHENGLNVIP`, `LEAFVIP`, or any `<HANDLE>VIP` / `*G1M` code) can redeem it at `https://taste-skill.pages.dev/#pricing-section` or via URL parameter `https://taste-skill.pages.dev/?vip=RUNCHENGLNVIP`.
+- **Unlocks with Zero Credit Card**:
+  1. **$0 Free 30-Brand Starter Pack + 27,360-URL pSEO Teardown Dataset** (immediate access, no trial card trap).
+  2. **50% OFF Pro Bundle VIP Founder Rate ($49 USD One-Time vs $99 Regular / Extra $20 OFF $69 Early-Bird)**.
+
+---
+
+## 30 Flagship Aesthetic Design System Token Specifications (`/taste/*`)
+
+| # | Brand (Domain) | Mode | Archetype | Canvas | Surface | Text | Accent | Border | Fonts (Heading / Mono) | H1 Scale | Canonical URL |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **Linear** (`linear.app`) | dark | Dark Precision SaaS & Industrial Craftsmanship | `#08090A` | `#0F1011` | `#F7F8F8` | `#5E6AD2` | `rgba(255, 255, 255, 0.08)` | Inter Variable / Berkeley Mono | 64px / -0.022em (w510) | [Token Page](https://taste-skill.pages.dev/taste/linear/) |
+| 2 | **Stripe** (`stripe.com`) | dual | High-Craft Financial Infrastructure & Editorial Light/Navy Dual-Mode | `#FFFFFF` | `#F8FAFD` | `#061B31` | `#533AFD` | `#E5EDF5` | Söhne Variable (sohne-var) / SourceCodePro | 48px–56px / -0.025em (w300) | [Token Page](https://taste-skill.pages.dev/taste/stripe/) |
+| 3 | **Resend** (`resend.com`) | dark | Obsidian Developer Luxury & Editorial Serif-Meets-Mono | `#000000` | `#141517` | `#F0F0F0` | `#00A3FF` | `rgba(212, 234, 255, 0.19)` | Domaine / ABC Favorit / CommitMono | 96px / -0.01em (Domaine) | [Token Page](https://taste-skill.pages.dev/taste/resend/) |
+| 4 | **Vercel** (`vercel.com`) | light | Geist Architectural Grid & Swiss Precision Monochrome | `#FAFAFA` | `#FFFFFF` | `#171717` | `#0070F3` | `#EBEBEB` | GeistSans / GeistMono | 64px / -0.06em (w400) | [Token Page](https://taste-skill.pages.dev/taste/vercel/) |
+| 5 | **Supabase** (`supabase.com`) | light | Postgres Emerald Technical Clarity & Clean Modular Bento | `#FDFDFD` | `#FFFFFF` | `#030303` | `#0E7E4E` | `rgba(0, 0, 0, 0.08)` | Manrope / Source Code Pro | 46px / 0em (w500) | [Token Page](https://taste-skill.pages.dev/taste/supabase/) |
+| 6 | **Raycast** (`raycast.com`) | dark | Desktop-Class macOS Acrylic Glass & Crimson Spotlight | `#07080A` | `#141517` | `#FFFFFF` | `#FF6363` | `rgba(255, 255, 255, 0.08)` | Inter / JetBrains Mono | 64px / 1.1 (w600) | [Token Page](https://taste-skill.pages.dev/taste/raycast/) |
+| 7 | **Cursor** (`cursor.com`) | light | Warm Archival Paper & Frontier AI Research Craft | `#F7F7F4` | `#F2F1ED` | `#26251E` | `#26251E` | `rgba(39, 39, 29, 0.1)` | CursorGothic / berkeleyMono | 36px / -0.02em (w400) | [Token Page](https://taste-skill.pages.dev/taste/cursor/) |
+| 8 | **Clerk** (`clerk.com`) | light | Tactile Micro-Shadow Auth Components & Electric Violet | `#F7F7F8` | `#FFFFFF` | `#131316` | `#6C47FF` | `rgba(0, 0, 0, 0.06)` | Geist / geistNumbers / soehneMono | 56px / -0.035em (w700) | [Token Page](https://taste-skill.pages.dev/taste/clerk/) |
+| 9 | **Mintlify** (`mintlify.com`) | light | Warm Daylight Documentation & Editorial Arizona Flare Serif | `#FFFFFF` | `#F9F6F3` | `#121715` | `#0077A6` | `#F1F0EE` | arizonaFlare / JetBrains Mono | 50px / -0.04em (w400) | [Token Page](https://taste-skill.pages.dev/taste/mintlify/) |
+| 10 | **Cal.com** (`cal.com`) | light | Neo-Brutalist Swiss Scheduling & Geometric Cal Sans | `#F4F4F4` | `#FFFFFF` | `#242424` | `#242424` | `#E5E5E5` | Cal Sans / Roboto Mono | 64px / 1.1 (w600) | [Token Page](https://taste-skill.pages.dev/taste/cal/) |
+| 11 | **Dub** (`dub.co`) | light | Modern Link Attribution & Crisp Satoshi/Geist Minimalist | `#FAFAFA` | `#FFFFFF` | `#171717` | `#000000` | `#E5E5E5` | Satoshi / GeistMono | 48px / 1.15 (w500) | [Token Page](https://taste-skill.pages.dev/taste/dub/) |
+| 12 | **Trigger.dev** (`trigger.dev`) | dark | Industrial Dark Slate & Electric Acid-Lime Telemetry | `#121317` | `#15171A` | `#D7D9DD` | `#A8FF53` | `#1C1E21` | Satoshi-Variable / Geist Mono | 60px / 1.0 (w600) | [Token Page](https://taste-skill.pages.dev/taste/trigger/) |
+| 13 | **Railway** (`railway.com`) | dark | Deep Cosmic Violet Infrastructure & IBM Plex Serif Editorial | `#13111C` | `#1B2132` | `#FFFFFF` | `#8B5CF6` | `rgba(255, 255, 255, 0.1)` | IBM Plex Serif / IBM Plex Mono | 54px / -0.036em (w500) | [Token Page](https://taste-skill.pages.dev/taste/railway/) |
+| 14 | **PlanetScale** (`planetscale.com`) | light | Pure Monospace ASCII Engineering Manual & Zero-Radius Brutalism | `#FAFAFA` | `#FFFFFF` | `#111111` | `#F35815` | `#C1C1C1` | SF Mono / ui-monospace / SF Mono / ui-monospace | 20px Mono / -0.02em (w700) | [Token Page](https://taste-skill.pages.dev/taste/planetscale/) |
+| 15 | **Turso** (`turso.tech`) | dark | Deep Oceanic Teal & Neon Aquamarine Edge Database | `#0F1317` | `#0D1318` | `#FFFFFF` | `#4FF8D2` | `#283945` | Inter (800 ExtraBold) / JetBrains Mono | 60px / -0.025em (w800) | [Token Page](https://taste-skill.pages.dev/taste/turso/) |
+| 16 | **Neon** (`neon.tech`) | dark | Serverless Pitch-Black & Luminous Cyber-Mint Postgres | `#000000` | `#131415` | `#FFFFFF` | `#34D59A` | `#242628` | Inter / JetBrains Mono | 56px / -0.04em (w400) | [Token Page](https://taste-skill.pages.dev/taste/neon/) |
+| 17 | **Upstash** (`upstash.com`) | light | Oversized Emerald Typography & Clean Serverless Daylight | `#F5F5F5` | `#FFFFFF` | `#022C22` | `#00BC7D` | `rgba(0, 0, 0, 0.05)` | Inter Tight / JetBrains Mono | 128px / -0.025em (w700) | [Token Page](https://taste-skill.pages.dev/taste/upstash/) |
+| 18 | **Inngest** (`inngest.com`) | dark | Warm Obsidian Stone & Swiss Whyte / Coral-Cobalt Contrast | `#0C0A09` | `#1C1C1C` | `#FFFFFF` | `#F76246` | `rgba(255, 255, 255, 0.08)` | WhyteV1 / CircularXXMono | 72px / 0.95 (w400) | [Token Page](https://taste-skill.pages.dev/taste/inngest/) |
+| 19 | **WorkOS** (`workos.com`) | light | Enterprise-Ready Architectural Precision & Untitled Sans | `#F9F9FB` | `#FFFFFF` | `#29363D` | `#6363F1` | `#E8EAED` | Untitled Sans / IBM Plex Mono | 80px / -0.07em (w500) | [Token Page](https://taste-skill.pages.dev/taste/workos/) |
+| 20 | **Loops** (`loops.so`) | light | Warm Editorial SaaS & Newsreader Serif Craft | `#FDFDFC` | `#F9F9F8` | `#21201C` | `#7D1B0C` | `#E9E8E6` | Newsreader / SF Mono | 44px / -0.02em (w500) | [Token Page](https://taste-skill.pages.dev/taste/loops/) |
+| 21 | **Attio** (`attio.com`) | light | Next-Gen CRM Spreadsheet-Grid Precision & Inter Display | `#FFFFFF` | `#F3F4F6` | `#1C1D1F` | `#1C1D1F` | `#E4E7EC` | interDisplay / JetBrains Mono | 64px / 0.95 (w600) | [Token Page](https://taste-skill.pages.dev/taste/attio/) |
+| 22 | **Ashby** (`ashbyhq.com`) | light | Analytics-Driven Recruiting SaaS & Royal Indigo TTNormsPro | `#FFFFFF` | `#FCFCFE` | `#141415` | `#473BCE` | `#EEEDEF` | TTNormsPro / SF Mono | 72px / -0.04em (w575) | [Token Page](https://taste-skill.pages.dev/taste/ashby/) |
+| 23 | **Notion** (`notion.so`) | light | Warm Workspace Canvas & Monumental NotionInter Display | `#FFFFFF` | `#F6F5F4` | `#000000` | `#0075DE` | `rgba(0, 0, 0, 0.1)` | NotionInter / SFMono-Regular | 96px / -0.048em (w600) | [Token Page](https://taste-skill.pages.dev/taste/notion/) |
+| 24 | **Framer** (`framer.com`) | dark | Pitch-Black Interactive Canvas & Electric #0099FF Blue Glow | `#000000` | `#111111` | `#FFFFFF` | `#0099FF` | `rgba(0, 153, 255, 0.42)` | GT Walsheim Medium / JetBrains Mono | 54px / -0.04em (w500) | [Token Page](https://taste-skill.pages.dev/taste/framer/) |
+| 25 | **Tailwind CSS** (`tailwindcss.com`) | light | Engineered CSS Grid Lines & Technical Blueprint Precision | `#FFFFFF` | `#F8FAFC` | `#030712` | `#0EA5E9` | `rgba(0, 0, 20, 0.05)` | Inter / IBM Plex Mono (plexMono) | 96px / -0.05em (w400) | [Token Page](https://taste-skill.pages.dev/taste/tailwindcss/) |
+| 26 | **shadcn/ui** (`ui.shadcn.com`) | light | Zinc Monochrome Component Primitives & Zero-Distraction Craft | `#FFFFFF` | `#F5F5F5` | `#0A0A0A` | `#171717` | `#E5E5E5` | Geist / Geist Mono | 48px / -0.05em (w600) | [Token Page](https://taste-skill.pages.dev/taste/shadcn/) |
+| 27 | **Anthropic** (`anthropic.com`) | light | Humanist Warm Parchment & Literary AI Safety Editorial | `#FAF9F5` | `#F5F4ED` | `#141413` | `#D97757` | `#DEDCD1` | anthropicSerif / JetBrains Mono | 40.8px / -0.01em (w400) | [Token Page](https://taste-skill.pages.dev/taste/anthropic/) |
+| 28 | **ElevenLabs** (`elevenlabs.io`) | light | Swiss Audio Minimalist & Light-Weight Waldenburg Precision | `#FDFCFC` | `#F5F3F1` | `#000000` | `#000000` | `rgba(0, 0, 0, 0.07)` | Waldenburg (w300) / Geist Mono | 48px / -0.02em (w300) | [Token Page](https://taste-skill.pages.dev/taste/elevenlabs/) |
+| 29 | **Polar** (`polar.sh`) | dark | Nordic Dark Monetization & PP Neue Montreal Minimalist | `#090909` | `#111111` | `#FFFFFF` | `#FFFFFF` | `#212121` | PP Neue Montreal / GeistMono | 36px / 1.25 (w400) | [Token Page](https://taste-skill.pages.dev/taste/polar/) |
+| 30 | **PostHog** (`posthog.com`) | light | Tactile Retro-OS Brutalist & Warm Sand / Amber Craft | `#EEEFE9` | `#E5E7E0` | `#23251D` | `#EB9D2A` | `#B17816` | RoundHog / Matter / Source Code Pro | 36px / -0.025em (w800) | [Token Page](https://taste-skill.pages.dev/taste/posthog/) |
+
+---
+
+## 20 Verified $10k–$422k/mo Indie SaaS pSEO & `/llms.txt` Teardowns (`/teardowns/*`)
+
+- **Aggregate Benchmark**: `27,360` core sitemap URLs analyzed (`27,990` total discovered across sub-sitemaps) · **`91.4%` pSEO route ratio** · **`50.0%` (`10/20`) `/llms.txt` adoption**.
+
+| # | SaaS Name & Domain | Disclosed MRR / ARR | Sitemap URLs | pSEO URLs (% Share) | `/llms.txt` Status | Top Programmatic Route Pattern | Canonical Teardown & Primary Proof |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **Tally** (`tally.so`) | **$422,000 MRR ($5,000,000 ARR)** | 445 | 413 (**92.8%**) | ✅ Yes (4316 chars) | `/templates/[template_slug]/[sub_item_slug]` (179) | [Teardown](https://taste-skill.pages.dev/teardowns/tally/) · [Proof](https://blog.tally.so/the-road-from-4m-to-5m-arr/) |
+| 2 | **Typefully** (`typefully.com`) | **~$167,000/mo (~$2,000,000 ARR)** | 228 | 212 (**93%**) | ✅ Yes (1619 chars) | `/changelog/[changelog_slug]` (111) | [Teardown](https://taste-skill.pages.dev/teardowns/typefully/) · [Proof](https://indiemakerlist.com/leaderboard/saas/) |
+| 3 | **Carrd** (`carrd.co`) | **$85,000+ MRR ($1,000,000+ ARR, 2.5M+ sites)** | 18 | 4 (**22.2%**) | ❌ No | `/docs/[doc_slug]/[sub_item_slug]` (2) | [Teardown](https://taste-skill.pages.dev/teardowns/carrd/) · [Proof](https://www.indiehackers.com/post/hi-im-aj-maker-of-carrd-and-after-2-5m-sites-1m-arr-and-a-funding-round-probably-time-for-an-ama-1b7fcf52fe) |
+| 4 | **Plausible Analytics** (`plausible.io`) | **$83,637 MRR ($1,000,000+ ARR)** | 180 | 150 (**83.3%**) | ❌ No | `/blog/[blog_slug]` (104) | [Teardown](https://taste-skill.pages.dev/teardowns/plausible/) · [Proof](https://plausible.io/blog/open-source-saas) |
+| 5 | **StandOut CV** (`standout-cv.com`) | **£40,000 MRR (~$52,000/mo)** | 1103 | 1089 (**98.7%**) | ✅ Yes (270815 chars) | `/cv-examples/[cv_example_slug]/[sub_item_slug]` (809) | [Teardown](https://taste-skill.pages.dev/teardowns/standout-cv/) · [Proof](https://www.indiehackers.com/post/how-i-grew-my-saas-business-to-40k-mrr-with-seo-3287452853) |
+| 6 | **Bannerbear** (`bannerbear.com`) | **$50,000 MRR (~$600,000+ ARR)** | 1372 | 1351 (**98.5%**) | ✅ Yes (8732 chars) | `/templates/[template_slug]` (319) | [Teardown](https://taste-skill.pages.dev/teardowns/bannerbear/) · [Proof](https://www.bannerbear.com/open/) |
+| 7 | **Senja** (`senja.io`) | **$50,000 MRR ($600,000 ARR)** | 733 | 710 (**96.9%**) | ❌ No | `/use-cases/[use_case_slug]` (360) | [Teardown](https://taste-skill.pages.dev/teardowns/senja/) · [Proof](https://www.indiehackers.com/post/from-zero-to-50k-mrr-the-story-of-senjas-growth-6874d85edd) |
+| 8 | **FlowMapp** (`flowmapp.com`) | **$50,000 MRR ($600,000 ARR)** | 175 | 153 (**87.4%**) | ✅ Yes (10934 chars) | `/blog/[blog_slug]/[sub_item_slug]` (58) | [Teardown](https://taste-skill.pages.dev/teardowns/flowmapp/) · [Proof](https://indiemakerlist.com/leaderboard/saas/) |
+| 9 | **Simple Analytics** (`simpleanalytics.com`) | **$45,000 MRR ($540,000 ARR)** | 487 | 398 (**81.7%**) | ✅ Yes (17187 chars) | `/blog/[blog_slug]` (167) | [Teardown](https://taste-skill.pages.dev/teardowns/simple-analytics/) · [Proof](https://www.indiehackers.com/post/tech/joining-a-technical-co-founder-and-growing-the-product-to-45k-mrr-119Zbnde7pTET0QOiZLH) |
+| 10 | **Papermark** (`papermark.com`) | **$45,000 MRR ($540,000 ARR)** | 2732 | 2638 (**96.6%**) | ✅ Yes (11875 chars) | `/blog/[blog_slug]` (1030) | [Teardown](https://taste-skill.pages.dev/teardowns/papermark/) · [Proof](https://www.indiehackers.com/post/tech/after-11-failed-products-this-founder-hit-45k-mrr-in-a-little-over-a-year-xyRkxAsD8Rys7URjYd5d) |
+| 11 | **Subscribr** (`subscribr.ai`) | **$41,600+ MRR ($500k+ YTD, $1M/yr run-rate)** | 747 | 717 (**96%**) | ✅ Yes (1655 chars) | `/youtube-strategy/[youtube_strategy_slug]` (588) | [Teardown](https://taste-skill.pages.dev/teardowns/subscribr/) · [Proof](https://www.indiehackers.com/post/tech/leaving-a-funded-startup-and-bootstrapping-to-1m-yr-in-18-months-kPBpdxsTeQitOWOOVs2g) |
+| 12 | **My AskAI** (`myaskai.com`) | **$40,000 MRR (~$500,000 ARR)** | 99 | 80 (**80.8%**) | ❌ No | `/blog/[blog_slug]` (24) | [Teardown](https://taste-skill.pages.dev/teardowns/myaskai/) · [Proof](https://www.indiehackers.com/post/tech/bootstrapping-to-40k-mrr-after-his-vc-backed-startup-failed-LF1CwRs1vL3oVLcuoIoE) |
+| 13 | **Testimonial.to** (`testimonial.to`) | **$33,333+ MRR ($400,000+ ARR, later $800k+ ARR)** | 802 | 780 (**97.3%**) | ✅ Yes (772 chars) | `/resources/[resource_slug]` (455) | [Teardown](https://taste-skill.pages.dev/teardowns/testimonial/) · [Proof](https://thebootstrappedfounder.com/a-conversation-with-damon-chen/) |
+| 14 | **ScreenshotOne** (`screenshotone.com`) | **$33,000 MRR (~$400k ARR; ~$36k MRR by Sept 2026)** | 644 | 617 (**95.8%**) | ✅ Yes (926 chars) | `/changelog/[changelog_slug]` (165) | [Teardown](https://taste-skill.pages.dev/teardowns/screenshotone/) · [Proof](https://dmytrokrasun.com/posts/screenshotone-4-years/) |
+| 15 | **SuperX** (`superx.so`) | **$23,000 MRR ($276,000 ARR)** | 1664 | 1636 (**98.3%**) | ❌ No | `/creators/[creator_slug]` (828) | [Teardown](https://taste-skill.pages.dev/teardowns/superx/) · [Proof](https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ) |
+| 16 | **Hypefury** (`hypefury.com`) | **$23,000+ MRR ($276,000+ ARR)** | 548 | 466 (**85%**) | ❌ No | `/blog/[blog_slug]/[sub_item_slug]` (219) | [Teardown](https://taste-skill.pages.dev/teardowns/hypefury/) · [Proof](https://www.indiehackers.com/post/flying-past-23k-mrr-in-2-years-hypefury-45f73f0c0a) |
+| 17 | **Pirsch Analytics** (`pirsch.io`) | **$14,300 MRR (~$130,000/yr net volume)** | 938 | 789 (**84.1%**) | ❌ No | `/glossary/[glossary_slug]` (560) | [Teardown](https://taste-skill.pages.dev/teardowns/pirsch/) · [Proof](https://pirsch.io/blog/our-recap-of-2025/) |
+| 18 | **SiteGuru** (`siteguru.co`) | **$14,000 MRR ($168,000 ARR)** | 254 | 228 (**89.8%**) | ❌ No | `/seo-academy/[seo_academy_slug]` (172) | [Teardown](https://taste-skill.pages.dev/teardowns/siteguru/) · [Proof](https://www.indiehackers.com/post/tech/building-an-seo-product-to-14k-mrr-in-a-crowded-market-gU4DE1l094cpj1GjNHwu) |
+| 19 | **SEO Utils** (`seoutils.app`) | **~$10,400/mo ($15,800/mo founder portfolio)** | 19 | 16 (**84.2%**) | ❌ No | `/_nuxt/[_nuxt_slug]` (13) | [Teardown](https://taste-skill.pages.dev/teardowns/seoutils/) · [Proof](https://www.indiehackers.com/post/tech/staying-close-to-customers-and-hitting-16k-mo-VTKxLk4uanWJbmSdG4km) |
+| 20 | **Leave Me Alone** (`leavemealone.com`) | **$10,000/mo (Open Startup verified)** | 14802 | 14623 (**98.8%**) | ❌ No | `/how-to-unsubscribe-from/[how_to_unsubscribe_from_slug]` (14264) | [Teardown](https://taste-skill.pages.dev/teardowns/leavemealone/) · [Proof](https://leavemealone.com/blog/from-indie-side-project-to-profitable-business/) |
+
+---
+
+## One-Time Commercial Pricing Matrix (Part A — Growth & Revenue Pro Pack)
+
+- **Community / Open-Source ($0 — MIT)**: `npx github:WuDao0123/taste-skill` CLI + all 30 Flagship `SKILL.md` files + online Screenshot-to-`SKILL.md` workbench + 20-Site Teardown Vault.
+- **Single Growth Skill ($29 One-Time · $19 with VIP Code)**: Any 1 of the 4 Paid Growth Skills + matching local Node.js/Playwright script.
+- **Growth & Revenue Pro Pack ($69 Early-Bird · $49 with `*VIP` Code · Regular $99)**: All 4 Paid Growth Skills (`pseo-competitor-teardown`, `x-alternative-pages`, `pricing-paywall-retention`, `launch-kit`) + 5 local Playwright/Node scripts + 4 Next.js/React conversion templates + 22 raw JSON competitor blueprints.
+- **Team & Agency License ($169 One-Time · $99 with VIP Code)**: Up to 5 seats + unlimited client commercial delivery & white-label rights.
