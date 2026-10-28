@@ -489,8 +489,8 @@ async function processScreenshotDataUrl(dataUrl, customName) {
   document.getElementById("modalAvatar").style.background = c.canvas;
   document.getElementById("modalTitle").textContent = `${result.name} [${result.dimensions.width}x${result.dimensions.height}px]`;
   document.getElementById("modalArchetype").textContent = `v1.1 Screenshot-to-Taste · Closest Twin: ${result.primaryTwin.name} (${result.primaryTwin.similarity}% Match)`;
-  document.getElementById("btnCopyCli").textContent = `$ npx taste-skill from-image ./shot.png`;
-  document.getElementById("modalSkillPath").textContent = `.cursor/skills/taste-${result.slug}/SKILL.md`;
+  document.getElementById("btnCopyCli").textContent = `$ npx taste-skill from-image ./shot.png --target all`;
+  document.getElementById("modalSkillPath").textContent = `.claude/skills/taste-${result.slug}/SKILL.md · CLAUDE.md · AGENTS.md · .cursor/rules/`;
   document.getElementById("modalSkillMarkdown").textContent = result.skillMarkdown;
   document.getElementById("upsellSiteName").textContent = result.primaryTwin.name;
 

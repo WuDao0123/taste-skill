@@ -176,8 +176,8 @@ async function openInspector(slug) {
   document.getElementById('modalAvatar').style.background = c.canvas || '#08090A';
   document.getElementById('modalTitle').textContent = `${detail.name} (${detail.domain})`;
   document.getElementById('modalArchetype').textContent = `${detail.archetype} · ${detail.category}`;
-  document.getElementById('btnCopyCli').textContent = `$ npx github:WuDao0123/taste-skill add ${detail.slug}`;
-  document.getElementById('modalSkillPath').textContent = `.cursor/skills/taste-${detail.slug}/SKILL.md`;
+  document.getElementById('btnCopyCli').textContent = `$ npx github:WuDao0123/taste-skill add ${detail.slug} --target all`;
+  document.getElementById('modalSkillPath').textContent = `.claude/skills/taste-${detail.slug}/SKILL.md · CLAUDE.md · AGENTS.md · .cursor/rules/`;
   document.getElementById('modalSkillMarkdown').textContent = detail.skillMarkdown || '';
   document.getElementById('upsellSiteName').textContent = detail.name;
 
@@ -208,7 +208,7 @@ async function openInspector(slug) {
 
 function closeInspector() { document.getElementById('inspectorModal').classList.remove('open'); }
 function copyCurrentSkill() { if (activeSkillDetail) copyText(activeSkillDetail.skillMarkdown, `Copied ${activeSkillDetail.name} SKILL.md!`); }
-function copyCurrentCli() { if (activeSkillDetail) copyText(`npx github:WuDao0123/taste-skill add ${activeSkillDetail.slug}`); }
+function copyCurrentCli() { if (activeSkillDetail) copyText(`npx github:WuDao0123/taste-skill add ${activeSkillDetail.slug} --target all`); }
 function downloadCurrentSkill() {
   if (!activeSkillDetail) return;
   const a = document.createElement('a');
