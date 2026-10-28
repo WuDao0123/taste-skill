@@ -11,7 +11,9 @@
     "src/",
     "samples/",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "teardowns/",
+    "data/"
   ],
   "scripts": {
     "start": "node ./bin/taste-skill.js",
@@ -35,7 +37,7 @@
     "type": "git",
     "url": "https://github.com/WuDao0123/taste-skill.git"
   },
-  "homepage": "https://wudao0123.github.io/taste-skill/",
+  "homepage": "https://taste-skill.pages.dev/",
   "bugs": {
     "url": "https://github.com/WuDao0123/taste-skill/issues"
   }

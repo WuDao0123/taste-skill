@@ -1,0 +1,3196 @@
+{
+  "generatedAt": "2026-10-27T13:25:02.597Z",
+  "selectionCriteria": "Verified Indie / Bootstrapped SaaS with founder-disclosed revenue >= $10,000 MRR and verifiable public primary source URL.",
+  "zeroFabricationPolicy": "All revenue numbers link to primary founder disclosures. All SEO/URL/pricing metrics are extracted directly from live sitemaps, llms.txt, and DOM rendering without paid APIs or traffic guesses.",
+  "totalSites": 20,
+  "sites": [
+    {
+      "slug": "tally",
+      "name": "Tally",
+      "domain": "tally.so",
+      "url": "https://tally.so",
+      "pseoFile": "tally-so-pseo-blueprint.json",
+      "pricingFile": "tally-so-pricing-teardown.json",
+      "disclosedRevenue": "$422,000 MRR ($5,000,000 ARR)",
+      "disclosedMrrUsd": 422000,
+      "disclosureDate": "2026-04-15",
+      "primarySourceUrl": "https://blog.tally.so/the-road-from-4m-to-5m-arr/",
+      "secondarySourceUrl": "https://www.indiehackers.com/post/bootstrapping-tally-to-150k-mrr-by-doing-less-better-68e340156f",
+      "secondarySourceNote": "Earlier $150k MRR milestone verified on Indie Hackers (2024-11-12)",
+      "founders": "Marie Martens & Filip Minev (bootstrapped, lean team)",
+      "category": "Form Builder / No-Code SaaS",
+      "incumbentWedge": "Disrupts Typeform & Jotform predatory response caps by offering unlimited forms and unlimited responses for free (~99% of features free), monetizing only team collaboration, custom domains, and branding removal at $29/mo.",
+      "coreValueProposition": "The simplest way to create forms for free — works like a Notion text document with zero response limits on the free tier.",
+      "heroCopyBreakdown": "Uses a radical anti-paywall hook (\"Create forms for free, without limits\") paired with an instant in-browser editor that requires zero signup to test. Social proof highlights 500,000+ creators and teams.",
+      "acquisitionChannels": [
+        "Product-Led Viral Loop: \"Made with Tally\" badge on free forms drives ~3% referral conversion from form respondents into new creators.",
+        "Programmatic Template & Alternative SEO: 179 `/templates/[category]/[template_slug]` pages + 13 high-intent `/help/[competitor]-alternatives` comparison pages (`typeform-alternative`, `jotform-alternative`).",
+        "GEO / AI Search Readiness: Deployed a structured 4.3 KB `/llms.txt` index so ChatGPT, Claude, and Perplexity recommend Tally first for \"free form builder\" queries."
+      ],
+      "replicableActions": [
+        "Attack Your Incumbent's Most Hated Metered Limit: If competitors gate volume (responses, exports, views) at $25/mo, make volume free and charge $29/mo for branding removal + custom domains.",
+        "Build Dual-Layer pSEO (`/templates/[category]/[slug]` + `/[competitor]-alternative`): Pair high-volume use-case templates (179 pages) with high-intent competitor switching pages (13 pages).",
+        "Publish `/llms.txt` + `WebApplication` JSON-LD: Tally explicitly exposes a clean Markdown index at `/llms.txt` so AI assistants cite its free-tier generosity accurately."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 4316,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 445,
+        "pseoPageCount": 413,
+        "pseoSharePct": 92.8,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/templates/[template_slug]/[sub_item_slug]",
+            "archetype": "Template Gallery pSEO (/templates/[template-slug])",
+            "count": 179,
+            "sharePct": 40.2,
+            "variableSlots": [
+              "template_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://tally.so/templates/registration-form-template/ywaZnM",
+              "https://tally.so/templates/contact-form-template/dnWe3O",
+              "https://tally.so/templates/lead-generation-form-template/l3jQmM"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Tally form template"
+          },
+          {
+            "pattern": "/help/[help_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 142,
+            "sharePct": 31.9,
+            "variableSlots": [
+              "help_slug"
+            ],
+            "sampleUrls": [
+              "https://tally.so/help/get-started",
+              "https://tally.so/help/create-a-form",
+              "https://tally.so/help/free-ai-form-builder"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Free Form Builder"
+          },
+          {
+            "pattern": "/help/how-to-[topic]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 42,
+            "sharePct": 9.4,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://tally.so/help/how-to-create-a-thank-you-page",
+              "https://tally.so/help/how-to-name-fields",
+              "https://tally.so/help/how-to-create-a-multi-step-form"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Free Form Builder"
+          },
+          {
+            "pattern": "/community-stories/[community_storie_slug]",
+            "archetype": "Programmatic Directory / Hub (/community-stories/...)",
+            "count": 16,
+            "sharePct": 3.6,
+            "variableSlots": [
+              "community_storie_slug"
+            ],
+            "sampleUrls": [
+              "https://tally.so/community-stories/charlie-ward",
+              "https://tally.so/community-stories/orangily",
+              "https://tally.so/community-stories/tomas-serti"
+            ],
+            "inferredTitleFormula": "Tally Community Stories: Charlie Ward"
+          },
+          {
+            "pattern": "/help/[competitor]-alternatives",
+            "archetype": "Competitor Alternative Landing Pages",
+            "count": 13,
+            "sharePct": 2.9,
+            "variableSlots": [
+              "competitor_slug"
+            ],
+            "sampleUrls": [
+              "https://tally.so/help/tally-a-free-notion-forms-alternative",
+              "https://tally.so/help/tally-a-free-typeform-alternative",
+              "https://tally.so/help/tally-a-free-and-powerful-google-forms-alternative"
+            ],
+            "inferredTitleFormula": "Tally, a powerful and free Notion Forms alternative"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 10,
+            "sharePct": 2.2,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://tally.so/multi-step-forms",
+              "https://tally.so/hubspot-online-form-builder-free",
+              "https://tally.so/website-design-intake-form-template"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Tally - Create Beautiful Forms for Free | Unlimited Forms &amp; Submissions",
+        "h1": "The simplest way to create forms",
+        "metaDescription": "The simplest way to create beautiful, professional forms in seconds. Unlimited forms, unlimited submissions, forever free. Just start typing - no coding needed.",
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "SoftwareApplication",
+          "ImageObject"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://tally.so/pricing",
+        "billingToggles": [
+          "Pay monthly",
+          "Pay yearly"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$24",
+          "$74"
+        ],
+        "riskReversalSignals": [],
+        "paymentProvidersDetected": [],
+        "tierCount": 0,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "typefully",
+      "name": "Typefully",
+      "domain": "typefully.com",
+      "url": "https://typefully.com",
+      "pseoFile": "typefully-com-pseo-blueprint.json",
+      "pricingFile": "typefully-com-pricing-teardown.json",
+      "disclosedRevenue": "~$167,000/mo (~$2,000,000 ARR)",
+      "disclosedMrrUsd": 167000,
+      "disclosureDate": "2026-03-15",
+      "primarySourceUrl": "https://indiemakerlist.com/leaderboard/saas/",
+      "secondarySourceUrl": "https://typefully.com/llms.txt",
+      "secondarySourceNote": "Co-founders Fabrizio Rinaldi & Francesco Di Lorenzo scaled Typefully (originally a Mailbrew side project) to ~$2M ARR (~$167k/mo) across X, LinkedIn, Threads, Bluesky, and Mastodon.",
+      "founders": "Fabrizio Rinaldi & Francesco Di Lorenzo (2 Italian co-founders)",
+      "category": "Creator Economy / Multi-Platform Social Publishing & API Suite",
+      "incumbentWedge": "Replaces clunky enterprise social schedulers (Hootsuite, Sprout Social) with a distraction-free minimalist writing studio, collaborative team review comments, and an AI-Agent-ready OpenAPI + Markdown documentation stack.",
+      "coreValueProposition": "Write better content and grow on social media faster — cross-post seamlessly to X, LinkedIn, Threads, Bluesky, and Mastodon.",
+      "heroCopyBreakdown": "Hero H1 (`Write better content Grow on social media faster`) pairs calm editorial typography with an interactive multi-network composer preview and a dedicated `/llms.txt` pointing AI agents to `typefully.com/ai-agents.md`.",
+      "acquisitionChannels": [
+        "111-Page Public Product Changelog Engine (`/changelog/[changelog_slug]` — 111 pages!): Turns every feature release (Bluesky scheduling, LinkedIn carousels, API v2) into an indexable long-tail landing page.",
+        "High-Intent Competitor Alternatives & How-To Blog (`/blog/[slug]` — 63 pages + `/blog/how-to-[topic]` — 11 pages + `/blog/[competitor]-alternatives` — 8 pages = 228 total URLs, 93.0% pSEO).",
+        "AI-Agent-First `/llms.txt` (`1,619 chars`) + `/ai-agents.md`: Explicitly exposes Markdown API docs (`/docs/api.md`) and OpenAPI 3.x JSON so Claude Code and Cursor agents can draft and schedule posts for users."
+      ],
+      "replicableActions": [
+        "Expose `/ai-agents.md` and `/docs/api.md` Inside Your `/llms.txt`: Typefully is a textbook example of 2026 GEO — its `/llms.txt` directly teaches AI agents how to authenticate and call its v2 API.",
+        "Index Every Product Update as a Standalone SEO URL (`/changelog/[slug]` — 111 pages): Instead of hiding updates in a single modal, publish each feature launch at its own descriptive slug to rank for platform-specific queries.",
+        "Publish Focused `/blog/[competitor]-alternatives` Pages (8 pages): Capture creators churning from Buffer, Hypefury, and Taplio with clean design-led comparison guides."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 1619,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 228,
+        "pseoPageCount": 212,
+        "pseoSharePct": 93,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/changelog/[changelog_slug]",
+            "archetype": "Programmatic Directory / Hub (/changelog/...)",
+            "count": 111,
+            "sharePct": 48.7,
+            "variableSlots": [
+              "changelog_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/changelog/bluesky-sign-in-custom-pds",
+              "https://typefully.com/changelog/writing-assistant-comments",
+              "https://typefully.com/changelog/polls-linkedin-threads-mastodon"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Typefully Changelog"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 63,
+            "sharePct": 27.6,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/blog/x-analytics-ai-agents",
+              "https://typefully.com/blog/schedule-x-articles",
+              "https://typefully.com/blog/post-mortem-security-incident-june-9th-2026"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Typefully"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 11,
+            "sharePct": 4.8,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/blog/what-is-my-linkedin-url",
+              "https://typefully.com/blog/how-to-create-a-linkedin-business-page",
+              "https://typefully.com/blog/how-to-cancel-linkedin-premium"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Typefully"
+          },
+          {
+            "pattern": "/blog/[competitor]-alternatives",
+            "archetype": "Competitor Alternative Landing Pages",
+            "count": 8,
+            "sharePct": 3.5,
+            "variableSlots": [
+              "competitor_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/blog/taplio-alternatives",
+              "https://typefully.com/blog/authoredup-review-alternative",
+              "https://typefully.com/blog/sprout-social-review-alternative"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Typefully"
+          },
+          {
+            "pattern": "/tools/[tool_slug]",
+            "archetype": "Free Tool / Micro-Utility Hub (/tools/[tool-slug])",
+            "count": 6,
+            "sharePct": 2.6,
+            "variableSlots": [
+              "tool_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/tools/ai",
+              "https://typefully.com/tools/fake-tweet-generator",
+              "https://typefully.com/tools/linkedin-text-formatter"
+            ],
+            "inferredTitleFormula": "Free AI Writing Tools by Typefully (latest AI models)"
+          },
+          {
+            "pattern": "/changelog/[changelog_slug]/[sub_item_slug]",
+            "archetype": "Programmatic Directory / Hub (/changelog/...)",
+            "count": 5,
+            "sharePct": 2.2,
+            "variableSlots": [
+              "changelog_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://typefully.com/changelog/page/2",
+              "https://typefully.com/changelog/page/3",
+              "https://typefully.com/changelog/page/4"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Typefully: Best social media tool for creators &amp; businesses",
+        "h1": "Write better content Grow on social media faster",
+        "metaDescription": "Create, schedule, and publish social media posts on X (Twitter), LinkedIn, Threads, Bluesky, and more. Grow faster with analytics, tools and automations.",
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "WebPage"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://typefully.com/pricing",
+        "billingToggles": [
+          "Annual billing only"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [],
+        "riskReversalSignals": [],
+        "paymentProvidersDetected": [],
+        "tierCount": 2,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "carrd",
+      "name": "Carrd",
+      "domain": "carrd.co",
+      "url": "https://carrd.co",
+      "pseoFile": "carrd-co-pseo-blueprint.json",
+      "pricingFile": "carrd-co-pricing-teardown.json",
+      "disclosedRevenue": "$85,000+ MRR ($1,000,000+ ARR, 2.5M+ sites)",
+      "disclosedMrrUsd": 85000,
+      "disclosureDate": "2021-04-30",
+      "primarySourceUrl": "https://www.indiehackers.com/post/hi-im-aj-maker-of-carrd-and-after-2-5m-sites-1m-arr-and-a-funding-round-probably-time-for-an-ama-1b7fcf52fe",
+      "secondarySourceUrl": "https://carrd.co/pro",
+      "secondarySourceNote": "Founder AJ (@ajlkn) disclosed passing $1M+ ARR (~$85k+ MRR) and 2.5 million sites built with just a 2-person team (AJ on dev/product, Doni on operations).",
+      "founders": "AJ (@ajlkn) & Doni (2-person team)",
+      "category": "No-Code Website Builder / One-Page Landing Page Platform",
+      "incumbentWedge": "Eliminates the complexity and $20–$30/month cost of Squarespace, Webflow, and WordPress for simple one-page sites by charging an impulse-buy $9 to $49 per YEAR and letting users build without even creating an account first.",
+      "coreValueProposition": "Simple, free, fully responsive one-page sites for pretty much anything.",
+      "heroCopyBreakdown": "Ultra-concise H1 (`Simple, free, fully responsive one-page sites for pretty much anything`) paired with a zero-signup `Choose a Starting Point` button that drops visitors straight into the live canvas editor.",
+      "acquisitionChannels": [
+        "2.5M+ Hosted User Sites as a Backlink & Viral Loop Engine: Every free `.carrd.co` site and footer credit acts as a live billboard and high-authority referral funnel.",
+        "Zero-Signup Editor Onboarding: Visitors pick from dozens of curated one-page templates and customize their site before ever hitting a registration form.",
+        "Radical Impulse-Price Word-of-Mouth (`$9/year` Pro Lite -> `$19/year` Pro Standard -> `$49/year` Pro Plus): At $19/year (less than 1 month of Webflow), every indie hacker and creator recommends Carrd as the default landing page starter."
+      ],
+      "replicableActions": [
+        "Let Users Build in the Editor Before Asking for an Email: Carrd’s highest-leverage conversion trick is delaying account creation until the user has already invested 10 minutes designing their page.",
+        "Use Annual Impulse Pricing (`$9/yr`, `$19/yr`, `$49/yr`) When Marginal Hosting Costs Are Pennies: Static one-page sites cost fractions of a cent on AWS/Cloudflare, allowing $19/yr pricing to generate $1M+ ARR at massive volume.",
+        "Turn Every Free Tier Output into a Tasteful Viral Badge: Millions of creators proudly share their `*.carrd.co` profile links in social bios, creating unstoppable organic distribution."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 18,
+        "pseoPageCount": 4,
+        "pseoSharePct": 22.2,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/docs/[doc_slug]/[sub_item_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 2,
+            "sharePct": 11.1,
+            "variableSlots": [
+              "doc_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://carrd.co/docs/general/changelog",
+              "https://carrd.co/docs/forms/setting-up-a-signup-form"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Carrd"
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Carrd - Simple, free, fully responsive one-page sites for pretty much anything",
+        "h1": "Carrd",
+        "metaDescription": "A free platform for building simple, fully responsive one-page sites for pretty much anything.",
+        "jsonLdTypes": []
+      },
+      "pricingStats": {
+        "pricingUrl": "https://carrd.com/pro",
+        "billingToggles": [],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$19 / year",
+          "$9 / year",
+          "$49 / year"
+        ],
+        "riskReversalSignals": [],
+        "paymentProvidersDetected": [
+          "Stripe"
+        ],
+        "tierCount": 6,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "plausible",
+      "name": "Plausible Analytics",
+      "domain": "plausible.io",
+      "url": "https://plausible.io",
+      "pseoFile": "plausible-io-pseo-blueprint.json",
+      "pricingFile": "plausible-io-pricing-teardown.json",
+      "disclosedRevenue": "$83,637 MRR ($1,000,000+ ARR)",
+      "disclosedMrrUsd": 83637,
+      "disclosureDate": "2022-06-02",
+      "primarySourceUrl": "https://plausible.io/blog/open-source-saas",
+      "secondarySourceUrl": "https://plausible.io/plausible.io",
+      "secondarySourceNote": "Official milestone post by co-founder Marko Saric documenting the journey from $400 MRR to $83,637 MRR ($1M ARR) completely bootstrapped.",
+      "founders": "Uku Taht & Marko Saric (2 co-founders, 100% bootstrapped & open-source)",
+      "category": "Privacy-First Web Analytics",
+      "incumbentWedge": "Positions directly against Google Analytics 4 (GA4) bloat, cookie banner requirements, and GDPR privacy concerns with a <1 KB script.",
+      "coreValueProposition": "Easy to use and privacy-friendly Google Analytics alternative that requires no cookie banners and loads 75x smaller than GA4.",
+      "heroCopyBreakdown": "Hero H1 explicitly targets the #1 search keyword (\"Easy to use and privacy-friendly Google Analytics alternative\"). Directly below the CTA sits a live interactive demo link (`plausible.io/plausible.io`) with zero signup friction.",
+      "acquisitionChannels": [
+        "Direct Competitor Comparison Pages (`/[tool_a]-vs-[tool_b]`): 8 high-converting head-to-head pages (`/vs-google-analytics`, `/matomo-vs-google-analytics`, `/simple-analytics-vs-plausible`, `/fathom-analytics-vs-plausible`, `/cloudflare-web-analytics-vs-plausible`).",
+        "Interactive Engineering Micro-Tools: Free standalone tools on root slugs like `/google-analytics-script-size` and `/ad-cost-calculator` that prove GA4 bloat with real numbers.",
+        "Open-Source & Privacy Advocacy Content: 104 deep-dive `/blog/[slug]` articles on GDPR, cookie laws, andGA4 migration that rank on Hacker News and organic search."
+      ],
+      "replicableActions": [
+        "Include Yourself in Competitor vs Competitor Searches: Don't just write `Us vs Incumbent`; publish `Matomo vs Google Analytics` and position your tool as the lightweight modern third option.",
+        "Ship a Live Public Dashboard Instead of Static Screenshots: Linking to a live read-only production dashboard (`plausible.io/plausible.io`) converts skeptical developers far better than marketing graphics.",
+        "Transparent Pageview Slider + 30-Day No-Card Trial: Embed pricing directly on `#pricing` (`$9/mo` Starter, `$14/mo` Growth, `$19/mo` Business) with \"2 months free\" annual toggle."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 180,
+        "pseoPageCount": 150,
+        "pseoSharePct": 83.3,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 104,
+            "sharePct": 57.8,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://plausible.io/blog/the-analytics-tool-i-want",
+              "https://plausible.io/blog/learning-design-as-a-developer",
+              "https://plausible.io/blog/technology-choices"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Plausible Analytics"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 26,
+            "sharePct": 14.4,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://plausible.io/ad-cost-calculator",
+              "https://plausible.io/google-analytics-script-size",
+              "https://plausible.io/conversion-rate-calculator"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Plausible Analytics"
+          },
+          {
+            "pattern": "/[tool_a]-vs-[tool_b]",
+            "archetype": "Head-to-Head Versus Comparison Pages",
+            "count": 4,
+            "sharePct": 2.2,
+            "variableSlots": [
+              "comparison_pair"
+            ],
+            "sampleUrls": [
+              "https://plausible.io/vs-cloudflare-web-analytics",
+              "https://plausible.io/vs-google-analytics",
+              "https://plausible.io/vs-matomo"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Plausible Analytics"
+          },
+          {
+            "pattern": "/blog/[tool_a]-vs-[tool_b]",
+            "archetype": "Head-to-Head Versus Comparison Pages",
+            "count": 4,
+            "sharePct": 2.2,
+            "variableSlots": [
+              "comparison_pair"
+            ],
+            "sampleUrls": [
+              "https://plausible.io/blog/ua-vs-ga4",
+              "https://plausible.io/blog/time-on-page-ga-vs-plausible",
+              "https://plausible.io/blog/eu-hosted-analytics-vs-eu-owned-analytics"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Plausible Analytics"
+          },
+          {
+            "pattern": "/jobs/[job_slug]",
+            "archetype": "Programmatic Directory / Hub (/jobs/...)",
+            "count": 3,
+            "sharePct": 1.7,
+            "variableSlots": [
+              "job_slug"
+            ],
+            "sampleUrls": [
+              "https://plausible.io/jobs/customer-success",
+              "https://plausible.io/jobs/infrastructure-engineer",
+              "https://plausible.io/jobs/product-engineer"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Plausible Analytics"
+          },
+          {
+            "pattern": "/assets/[asset_slug]/[sub_item_slug]/[deep_slug]",
+            "archetype": "Programmatic Directory / Hub (/assets/...)",
+            "count": 3,
+            "sharePct": 1.7,
+            "variableSlots": [
+              "asset_slug",
+              "sub_item_slug",
+              "deep_slug_3"
+            ],
+            "sampleUrls": [
+              "https://plausible.io/assets/images/icon/apple-touch-icon.png",
+              "https://plausible.io/assets/images/icon/favicon.ico",
+              "https://plausible.io/assets/images/icon/favicon.svg"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Plausible Analytics | Simple, privacy-friendly Google Analytics alternative",
+        "h1": "Easy to use and privacy-friendly Google Analytics alternative",
+        "metaDescription": "Plausible is a lightweight and open-source Google Analytics alternative. Your website data is 100% yours and the privacy of your visitors is respected.",
+        "jsonLdTypes": [
+          "WebSite"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://plausible.io/#pricing",
+        "billingToggles": [
+          "Monthly Yearly",
+          "Monthly",
+          "Yearly",
+          "monthly pageviews"
+        ],
+        "annualDiscountBadges": [
+          "2 months free Monthly Yearly Up to 10k monthly pageviews 10k 10k 10M+",
+          "2 months free Monthly Yearly",
+          "2 months free"
+        ],
+        "priceTokensFound": [
+          "$9 /mo",
+          "$14 /mo",
+          "$19 /mo"
+        ],
+        "riskReversalSignals": [
+          "No credit card required",
+          "30-day free trial"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 4,
+        "faqCount": 1
+      }
+    },
+    {
+      "slug": "standout-cv",
+      "name": "StandOut CV",
+      "domain": "standout-cv.com",
+      "url": "https://standout-cv.com",
+      "pseoFile": "standout-cv-com-pseo-blueprint.json",
+      "pricingFile": null,
+      "disclosedRevenue": "£40,000 MRR (~$52,000/mo)",
+      "disclosedMrrUsd": 52000,
+      "disclosureDate": "2025-09-25",
+      "primarySourceUrl": "https://www.indiehackers.com/post/how-i-grew-my-saas-business-to-40k-mrr-with-seo-3287452853",
+      "secondarySourceUrl": "https://standout-cv.com/llms.txt",
+      "secondarySourceNote": "Founder Andrew Fennell disclosed growing from a pure content site to £40,000 MRR by launching an in-house SaaS CV builder fed by organic SEO.",
+      "founders": "Andrew Fennell (Solo founder + small content/dev team)",
+      "category": "Career Tech / Resume & CV Builder SaaS",
+      "incumbentWedge": "Captures job seekers at the exact moment they search for role-specific CV examples (e.g., \"Finance Manager CV example\") and converts them directly into an interactive CV builder.",
+      "coreValueProposition": "Write a job-winning CV in minutes using recruiter-approved templates and role-specific examples.",
+      "heroCopyBreakdown": "Every programmatic `/cv-examples/[category]/[role-cv]` page opens with the exact target job title in the H1 (`Finance manager CV example + writing guide [Get noticed]`), followed immediately by an \"Edit this CV in our builder\" CTA.",
+      "acquisitionChannels": [
+        "Massive Role-Specific pSEO Matrix (809 `/cv-examples/[category]/[role]` pages + 43 US `/usa/resume-examples/[role]` pages): Covers nearly every job title across UK and US search intent.",
+        "PR Backlink Magnet Pages (`/stats/[slug]`): 31 dedicated statistics hubs (e.g. `/stats/cv-statistics-uk`, `/stats/job-search-statistics-uk`) engineered specifically so journalists and HR bloggers cite them with natural dofollow backlinks.",
+        "Largest `/llms.txt` Index in Our Benchmark (270.8 KB): Exposes a comprehensive 270,815-character `/llms.txt` index cataloging every career guide and CV template for AI search engines."
+      ],
+      "replicableActions": [
+        "Pair `/examples/[role]` Pages with a \"/stats/[topic]\" Link-Bait Cluster: Use `/stats/[topic]` pages to earn high-DR journalist links for free, then pass internal link equity to your commercial `/examples/[role]` pages.",
+        "Localize URL Prefixes for UK vs US Terminology (`/cv-examples/...` vs `/usa/resume-examples/...`): Same SaaS engine underneath, doubled addressable search volume by matching local terminology.",
+        "Embed \"Use This Template\" Above the Fold on Every Content Page: Turn passive readers into active SaaS builders within 5 seconds of landing."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 270815,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 1103,
+        "pseoPageCount": 1089,
+        "pseoSharePct": 98.7,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/cv-examples/[cv_example_slug]/[sub_item_slug]",
+            "archetype": "Programmatic Directory / Hub (/cv-examples/...)",
+            "count": 809,
+            "sharePct": 73.3,
+            "variableSlots": [
+              "cv_example_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://standout-cv.com/cv-examples/teaching-and-education/tutor-cv",
+              "https://standout-cv.com/cv-examples/marketing/seo-executive-cv",
+              "https://standout-cv.com/cv-examples/driving-and-logistics/transport-planner-cv"
+            ],
+            "inferredTitleFormula": "3 Tutor CV examples + easy guide [Build your business fast]"
+          },
+          {
+            "pattern": "/usa/[usa_slug]/[sub_item_slug]",
+            "archetype": "Programmatic Directory / Hub (/usa/...)",
+            "count": 43,
+            "sharePct": 3.9,
+            "variableSlots": [
+              "usa_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://standout-cv.com/usa/resume-examples/stem-resume-example",
+              "https://standout-cv.com/usa/resume-examples/chick-fil-a-resume-example",
+              "https://standout-cv.com/usa/resume-examples/fpa-resume-example"
+            ],
+            "inferredTitleFormula": "STEM resume example + guide [Get a great job]"
+          },
+          {
+            "pattern": "/cv-advice/[cv_advice_slug]",
+            "archetype": "Programmatic Directory / Hub (/cv-advice/...)",
+            "count": 41,
+            "sharePct": 3.7,
+            "variableSlots": [
+              "cv_advice_slug"
+            ],
+            "sampleUrls": [
+              "https://standout-cv.com/cv-advice/cv-writing-tips",
+              "https://standout-cv.com/cv-advice/hobbies-interests-cv",
+              "https://standout-cv.com/cv-advice/cv-education-section"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Get more interviews"
+          },
+          {
+            "pattern": "/cv-examples/[cv_example_slug]",
+            "archetype": "Programmatic Directory / Hub (/cv-examples/...)",
+            "count": 34,
+            "sharePct": 3.1,
+            "variableSlots": [
+              "cv_example_slug"
+            ],
+            "sampleUrls": [
+              "https://standout-cv.com/cv-examples/accounting",
+              "https://standout-cv.com/cv-examples/administration-and-office",
+              "https://standout-cv.com/cv-examples/animal-care"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Land a top accounting job"
+          },
+          {
+            "pattern": "/stats/[stat_slug]",
+            "archetype": "Programmatic Directory / Hub (/stats/...)",
+            "count": 31,
+            "sharePct": 2.8,
+            "variableSlots": [
+              "stat_slug"
+            ],
+            "sampleUrls": [
+              "https://standout-cv.com/stats/average-uk-salary",
+              "https://standout-cv.com/stats/networking-statistics",
+              "https://standout-cv.com/stats/job-interview-statistics"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | UK and global data"
+          },
+          {
+            "pattern": "/cover-letter-examples/[cover_letter_example_slug]",
+            "archetype": "Programmatic Directory / Hub (/cover-letter-examples/...)",
+            "count": 26,
+            "sharePct": 2.4,
+            "variableSlots": [
+              "cover_letter_example_slug"
+            ],
+            "sampleUrls": [
+              "https://standout-cv.com/cover-letter-examples/ski-season",
+              "https://standout-cv.com/cover-letter-examples/speculative",
+              "https://standout-cv.com/cover-letter-examples/pharmacy-assistant"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Online CV builder + CV examples, CV templates &amp; advice",
+        "h1": "Create an interview-winning CV with our online CV builder",
+        "metaDescription": "Create a winning CV in minutes with our simple online CV builder or use our CV examples, CV templates and CV writing advice to land the job you want.",
+        "jsonLdTypes": [
+          "BreadcrumbList",
+          "FAQPage",
+          "Organization",
+          "WebPage",
+          "WebSite"
+        ]
+      },
+      "pricingStats": null
+    },
+    {
+      "slug": "bannerbear",
+      "name": "Bannerbear",
+      "domain": "bannerbear.com",
+      "url": "https://www.bannerbear.com",
+      "pseoFile": "bannerbear-com-pseo-blueprint.json",
+      "pricingFile": "bannerbear-com-pricing-teardown.json",
+      "disclosedRevenue": "$50,000 MRR (~$600,000+ ARR)",
+      "disclosedMrrUsd": 50000,
+      "disclosureDate": "2023-07-15",
+      "primarySourceUrl": "https://www.bannerbear.com/open/",
+      "secondarySourceUrl": "https://www.bannerbear.com/blog/7-lessons-growing-a-bootstrapped-saas-to-50k-mrr/",
+      "secondarySourceNote": "Publicly documented on Bannerbear's `/open/` metrics page and founder Jon Yongfook's \"50% Coding, 50% Marketing\" retrospective.",
+      "founders": "Jon Yongfook (Solo technical founder)",
+      "category": "Developer API / Automated Image & Video Generation",
+      "incumbentWedge": "Replaces brittle headless Puppeteer scripts and manual Canva design workflows with a deterministic REST API + Zapier/Airtable/Make integrations.",
+      "coreValueProposition": "API for automated image and video generation — auto-generate social media visuals, ecommerce banners, and dynamic PDFs at scale.",
+      "heroCopyBreakdown": "Hero H1 (`Wait—you're still creating visuals manually?! Bannerbear automates that for you`) agitates the pain of repetitive design work, backed by `FAQPage` JSON-LD right on the homepage.",
+      "acquisitionChannels": [
+        "4-Pillar Programmatic SEO Architecture (1,372 total URLs, 98.5% pSEO): Combines `/templates/[slug]` (319 pages), `/help/articles/[slug]` (195 pages), `/blog/how-to-[topic]` (171 pages), and `/use-cases/scenarios/[slug]` (90 pages).",
+        "Free Public Tool Hooks (`/tools/[tool_slug]`): 8 free utility generators (online certificate maker, twitter header generator) that capture non-developer search traffic and upsell the API.",
+        "Strict \"50% Coding, 50% Marketing\" Cadence: Jon Yongfook famously alternated 1 week of product engineering with 1 week of shipping programmatic templates and integration tutorials."
+      ],
+      "replicableActions": [
+        "Turn Every Template in Your Database into a Public Static URL (`/templates/[slug]`): Bannerbear's 319 template preview pages act as long-tail landing pages for \"real estate instagram template API\", \"podcast audiogram template\", etc.",
+        "Combine `/use-cases/scenarios/[slug]` (90 pages) with `/integrations/[slug]` (17 pages): Map every `Tool A + Your API -> Outcome B` permutation.",
+        "Credit-Based API Tiering (`$49` Automate 1,000 credits -> `$149` Scale 10,000 credits `[MOST POPULAR]` -> `$299` Enterprise 50,000 credits): Pure usage-based expansion revenue without per-seat friction."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 8732,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 1372,
+        "pseoPageCount": 1351,
+        "pseoSharePct": 98.5,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/templates/[template_slug]",
+            "archetype": "Template Gallery pSEO (/templates/[template-slug])",
+            "count": 319,
+            "sharePct": 23.3,
+            "variableSlots": [
+              "template_slug"
+            ],
+            "sampleUrls": [
+              "https://www.bannerbear.com/templates/gobzvgdzwqpoka5wpp-green-black-modern-marketing-youtube-thumbnail/",
+              "https://www.bannerbear.com/templates/le6wpao85lr3xqknmq-blue-modern-business-youtube-thumbnail/",
+              "https://www.bannerbear.com/templates/en6kagoqmyoopxzgbl-violet-pink-gradient-podcast-youtube-thumbnail/"
+            ],
+            "inferredTitleFormula": "Auto Generate Images / Videos from the Green Black Modern Marketing YouTube Thumbnail template"
+          },
+          {
+            "pattern": "/help/[help_slug]/[sub_item_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 195,
+            "sharePct": 14.2,
+            "variableSlots": [
+              "help_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://www.bannerbear.com/help/articles/203-what-are-api-credits/",
+              "https://www.bannerbear.com/help/articles/253-what-can-i-use-bannerbear-for/",
+              "https://www.bannerbear.com/help/articles/205-what-are-projects/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Bannerbear"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 171,
+            "sharePct": 12.5,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://www.bannerbear.com/blog/how-to-design-impactful-reusable-youtube-thumbnail-templates/",
+              "https://www.bannerbear.com/blog/how-to-generate-wedding-invites-for-your-entire-guest-list/",
+              "https://www.bannerbear.com/blog/how-to-auto-produce-job-listing-graphics-for-linkedin-carousel-using-make/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Bannerbear"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 162,
+            "sharePct": 11.8,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://www.bannerbear.com/blog/best-coding-languages-to-learn-in-2026-especially-if-youre-into-vibe-coding/",
+              "https://www.bannerbear.com/blog/adding-links-to-graphics-at-scale/",
+              "https://www.bannerbear.com/blog/automatically-turn-a-tweet-into-a-fleet/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Bannerbear"
+          },
+          {
+            "pattern": "/v5/[v5_slug]/[sub_item_slug]/[deep_slug]",
+            "archetype": "Programmatic Directory / Hub (/v5/...)",
+            "count": 93,
+            "sharePct": 6.8,
+            "variableSlots": [
+              "v5_slug",
+              "sub_item_slug",
+              "deep_slug_3"
+            ],
+            "sampleUrls": [
+              "https://www.bannerbear.com/v5/help/articles/534-what-are-workspaces/",
+              "https://www.bannerbear.com/v5/help/articles/535-how-do-i-switch-between-workspaces/",
+              "https://www.bannerbear.com/v5/help/articles/536-how-to-create-a-new-workspace/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Bannerbear"
+          },
+          {
+            "pattern": "/use-cases/[use_case_slug]/[sub_item_slug]",
+            "archetype": "Use-Case Solution Pages (/use-cases/[persona-or-workflow])",
+            "count": 90,
+            "sharePct": 6.6,
+            "variableSlots": [
+              "use_case_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://www.bannerbear.com/use-cases/scenarios/auto-generate-images-via-api/",
+              "https://www.bannerbear.com/use-cases/scenarios/auto-generate-instagram-posts-via-api/",
+              "https://www.bannerbear.com/use-cases/scenarios/auto-generate-instagram-stories-via-api/"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "API for Automated Image and Video Generation - Bannerbear",
+        "h1": "Automate &amp; Scale Your Marketing",
+        "metaDescription": "Auto-generate template-based social media videos, ecommerce banners and more with the Bannerbear API, AI agents and no-code integrations.",
+        "jsonLdTypes": [
+          "Organization"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://www.bannerbear.com/pricing/",
+        "billingToggles": [],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$49",
+          "$149",
+          "$299"
+        ],
+        "riskReversalSignals": [
+          "no credit card required"
+        ],
+        "paymentProvidersDetected": [
+          "Stripe"
+        ],
+        "tierCount": 4,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "senja",
+      "name": "Senja",
+      "domain": "senja.io",
+      "url": "https://senja.io",
+      "pseoFile": "senja-io-pseo-blueprint.json",
+      "pricingFile": "senja-io-pricing-teardown.json",
+      "disclosedRevenue": "$50,000 MRR ($600,000 ARR)",
+      "disclosedMrrUsd": 50000,
+      "disclosureDate": "2024-11-19",
+      "primarySourceUrl": "https://www.indiehackers.com/post/from-zero-to-50k-mrr-the-story-of-senjas-growth-6874d85edd",
+      "secondarySourceUrl": "https://senja.io/pricing",
+      "secondarySourceNote": "Founders Olly Meakings & Wilson Wilson shared the full breakdown from $0 to $50k MRR (reached Oct 2024) via #buildinpublic and programmatic SEO.",
+      "founders": "Olly Meakings & Wilson Wilson (2 co-founders)",
+      "category": "Social Proof & Testimonial Collection SaaS",
+      "incumbentWedge": "Out-executes legacy enterprise review widgets and early indie tools (Testimonial.to, Boast.io) with 30+ import sources, superior Wall of Love design aesthetics, and aggressive pSEO.",
+      "coreValueProposition": "The easiest way to collect, manage, and share video & text testimonials everywhere.",
+      "heroCopyBreakdown": "Social-proof-first hero showing real customer faces + instant \"Collect your first 15 testimonials free forever\" hook. Uses clear outcome framing: turn happy customers into your highest-converting sales asset.",
+      "acquisitionChannels": [
+        "Cartesian-Product Use-Case pSEO (`/use-cases/[source]-to-[destination]` — 360 pages!): Generates pages for every combination of review source + website builder, e.g., `/use-cases/add-airbnb-reviews-to-carrd`, `/use-cases/add-g2-reviews-to-webflow`.",
+        "4 Distinct High-Intent pSEO Clusters (733 URLs total, 96.9% pSEO): `/use-cases/[slug]` (360), `/testimonial-examples/[slug]` (112), `/testimonial-software/[industry]` (25), `/testimonial-widgets/[platform]` (25), and `/compare/[competitor]-alternatives` (19 pages like `boast-io-alternatives`).",
+        "Powered-by Widget Virality + Build-in-Public on X: Every embedded Wall of Love widget links back to Senja."
+      ],
+      "replicableActions": [
+        "Steal the `Source × Destination` Cartesian URL Formula: If your product connects Source $A$ (20 platforms) to Destination $B$ (18 CMS builders), generate $20 \\times 18 = 360$ `/use-cases/add-[source]-to-[destination]` pages.",
+        "Build 3 Vertical Intent Layers (`/testimonial-examples/[x]`, `/testimonial-widgets/[x]`, `/testimonial-software/[x]`): Captures top-of-funnel inspiration, mid-funnel widget embeds, and bottom-of-funnel buyer searches.",
+        "Simple 3-Tier Pricing (`Free $0` -> `Starter $29/mo` -> `Pro $59/mo [Most Popular]`) with \"2 months free\" annual toggle and 14 objection-crushing FAQ items."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 733,
+        "pseoPageCount": 710,
+        "pseoSharePct": 96.9,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/use-cases/[use_case_slug]",
+            "archetype": "Use-Case Solution Pages (/use-cases/[persona-or-workflow])",
+            "count": 360,
+            "sharePct": 49.1,
+            "variableSlots": [
+              "use_case_slug"
+            ],
+            "sampleUrls": [
+              "https://senja.io/use-cases/add-airbnb-reviews-to-carrd",
+              "https://senja.io/use-cases/add-airbnb-reviews-to-elementor",
+              "https://senja.io/use-cases/add-airbnb-reviews-to-godaddy"
+            ],
+            "inferredTitleFormula": "Add Airbnb Reviews to Carrd in 5 minutes for free!"
+          },
+          {
+            "pattern": "/testimonial-examples/[testimonial_example_slug]",
+            "archetype": "Programmatic Directory / Hub (/testimonial-examples/...)",
+            "count": 112,
+            "sharePct": 15.3,
+            "variableSlots": [
+              "testimonial_example_slug"
+            ],
+            "sampleUrls": [
+              "https://senja.io/testimonial-examples/1-online-website-feedback-tool-ruttl",
+              "https://senja.io/testimonial-examples/90-minute-grow-your-fro-long-hair-crash-course-lto",
+              "https://senja.io/testimonial-examples/about-you-ve-got-clients"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Ruttl - Testimonial Examples - Senja"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 97,
+            "sharePct": 13.2,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://senja.io/blog/5-easy-ways-to-get-and-use-testimonials-start-using-senja-in-less-than-an-hour",
+              "https://senja.io/blog/8-fresh-ways-to-use-testimonials-and-social-proof",
+              "https://senja.io/blog/ai-testimonial-video-creator"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Senja"
+          },
+          {
+            "pattern": "/testimonial-software/[testimonial_software_slug]",
+            "archetype": "Programmatic Directory / Hub (/testimonial-software/...)",
+            "count": 25,
+            "sharePct": 3.4,
+            "variableSlots": [
+              "testimonial_software_slug"
+            ],
+            "sampleUrls": [
+              "https://senja.io/testimonial-software/agencies",
+              "https://senja.io/testimonial-software/analysis",
+              "https://senja.io/testimonial-software/chrome-extension"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Senja"
+          },
+          {
+            "pattern": "/testimonial-widgets/[testimonial_widget_slug]",
+            "archetype": "Programmatic Directory / Hub (/testimonial-widgets/...)",
+            "count": 25,
+            "sharePct": 3.4,
+            "variableSlots": [
+              "testimonial_widget_slug"
+            ],
+            "sampleUrls": [
+              "https://senja.io/testimonial-widgets/andoya-carousel-testimonial-widget",
+              "https://senja.io/testimonial-widgets/avatars-pro",
+              "https://senja.io/testimonial-widgets/bold-highlights"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Testimonial Widgets by Senja"
+          },
+          {
+            "pattern": "/compare/[competitor]-alternatives",
+            "archetype": "Head-to-Head Comparison Hub (/compare/[a]-vs-[b])",
+            "count": 19,
+            "sharePct": 2.6,
+            "variableSlots": [
+              "competitor_slug"
+            ],
+            "sampleUrls": [
+              "https://senja.io/compare/boast-io-alternative",
+              "https://senja.io/compare/bonjoro-alternative",
+              "https://senja.io/compare/delighted-alternative"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Senja - Collect, Manage and Share Testimonials",
+        "h1": "Meet Senja. The easiest way to gather customer testimonials and case studies, then share them everywhere to increase trust and sales.",
+        "metaDescription": "The easiest way to collect testimonials and add them to your website. Get started for free.",
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "WebPage"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://senja.io/pricing",
+        "billingToggles": [
+          "Monthly Yearly 2 months free 💸",
+          "Monthly",
+          "Yearly"
+        ],
+        "annualDiscountBadges": [
+          "Monthly Yearly 2 months free 💸",
+          "2 months free 💸"
+        ],
+        "priceTokensFound": [
+          "$0/mo",
+          "$29/mo",
+          "$59/mo",
+          "$10/mo",
+          "$5/mo"
+        ],
+        "riskReversalSignals": [
+          "Cancel anytime"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 2,
+        "faqCount": 14
+      }
+    },
+    {
+      "slug": "flowmapp",
+      "name": "FlowMapp",
+      "domain": "flowmapp.com",
+      "url": "https://www.flowmapp.com",
+      "pseoFile": "flowmapp-com-pseo-blueprint.json",
+      "pricingFile": "flowmapp-com-pricing-teardown.json",
+      "disclosedRevenue": "$50,000 MRR ($600,000 ARR)",
+      "disclosedMrrUsd": 50000,
+      "disclosureDate": "2026-02-10",
+      "primarySourceUrl": "https://indiemakerlist.com/leaderboard/saas/",
+      "secondarySourceUrl": "https://www.flowmapp.com/llms.txt",
+      "secondarySourceNote": "Founder Paul Mit scaled FlowMapp to $600,000 ARR ($50,000 MRR) serving web design agencies, UX planners, and product teams.",
+      "founders": "Paul Mit & bootstrapped product team",
+      "category": "UX Planning, Visual Sitemap & Website Wireframe SaaS",
+      "incumbentWedge": "Replaces messy spreadsheets and over-complicated Figma files during the pre-design discovery phase with a dedicated visual sitemap, AI wireframe, and project estimation workspace.",
+      "coreValueProposition": "Visual platform for planning UX, interactive sitemaps, wireframes, and pitching web design projects.",
+      "heroCopyBreakdown": "Hero H1 (`Visual platform for planning UX and pitching web design`) speaks directly to agencies who need to win client pitches faster, backed by a structured 10.9 KB `/llms.txt` declaring `llm-usage: allowed`.",
+      "acquisitionChannels": [
+        "53 Dedicated Feature Landing Pages (`/features/[feature_slug]` — 53 pages!): Every micro-capability (visual sitemap generator, user flow builder, project cost estimator, content brief tool) has its own high-intent SEO landing page.",
+        "76-Page UX & Agency Blog Cluster (`/blog/[category]/[slug]` — 58 pages + `/blog/[category]/how-to-[topic]` — 18 pages = 175 total URLs, 87.4% pSEO).",
+        "Machine-Readable 10.9 KB `/llms.txt` Directory: Explicitly declares `llm-usage: allowed` and lists structured `url:`, `title:`, and `description:` records for every core page."
+      ],
+      "replicableActions": [
+        "Unbundle Your Product into 50+ `/features/[capability-slug]` Landing Pages: Don’t bury your sub-tools on one homepage — FlowMapp created 53 distinct `/features/*` URLs so every specific job-to-be-done ranks independently.",
+        "Use `url: / title: / description:` Key-Value Blocks in `/llms.txt` (`10,934 chars`): Gives AI search crawlers clean, zero-noise metadata for every feature route.",
+        "Highlight a High-Contrast Annual Discount (`Billed annually 45% off` — `$8.25/mo` vs `$15/mo`, `$19.25/mo` vs `$35/mo`): Drives immediate annual cashflow from agency buyers."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 10934,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 175,
+        "pseoPageCount": 153,
+        "pseoSharePct": 87.4,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/blog/[blog_slug]/[sub_item_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 58,
+            "sharePct": 33.1,
+            "variableSlots": [
+              "blog_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/blog/qa/10-ux-design-onboarding-tips",
+              "https://www.flowmapp.com/blog/qa/20-basic-typographic-terms-ui",
+              "https://www.flowmapp.com/blog/qa/5-second-test"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | FlowMapp design blog"
+          },
+          {
+            "pattern": "/features/[feature_slug]",
+            "archetype": "Programmatic Directory / Hub (/features/...)",
+            "count": 53,
+            "sharePct": 30.3,
+            "variableSlots": [
+              "feature_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/features/content",
+              "https://www.flowmapp.com/features/flowchart",
+              "https://www.flowmapp.com/features/generate-sitemap-online"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Online UX tool to create user flow charts"
+          },
+          {
+            "pattern": "/blog/[blog_slug]/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 18,
+            "sharePct": 10.3,
+            "variableSlots": [
+              "blog_slug",
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/blog/qa/how-to-design-flowcharts",
+              "https://www.flowmapp.com/blog/qa/how-to-make-flowchart",
+              "https://www.flowmapp.com/blog/qa/how-to-make-perfect-a-b-test"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | FlowMapp design blog"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 9,
+            "sharePct": 5.1,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/blog/information-architecture",
+              "https://www.flowmapp.com/blog/news",
+              "https://www.flowmapp.com/blog/ui-design"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Information architecture"
+          },
+          {
+            "pattern": "/features/how-to-[topic]",
+            "archetype": "Programmatic Directory / Hub (/features/...)",
+            "count": 8,
+            "sharePct": 4.6,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/features/how-to-plan-a-website-structure-step-by-step-guide",
+              "https://www.flowmapp.com/features/how-to-design-sitemap",
+              "https://www.flowmapp.com/features/how-to-create-user-flow"
+            ],
+            "inferredTitleFormula": "How to plan a website structure: step-by-step guide"
+          },
+          {
+            "pattern": "/pricing/[pricing_slug]",
+            "archetype": "Programmatic Directory / Hub (/pricing/...)",
+            "count": 4,
+            "sharePct": 2.3,
+            "variableSlots": [
+              "pricing_slug"
+            ],
+            "sampleUrls": [
+              "https://www.flowmapp.com/pricing/education",
+              "https://www.flowmapp.com/pricing/student",
+              "https://flowmapp.com/pricing/student"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Flowmapp website planning tool: Sitemaps, User Flows, Wireframes, and Content",
+        "h1": "Visual platform for planning UX and pitching web design",
+        "metaDescription": "Flowmapp is an AI-driven planning platform for creating effective website sales proposals by adding brief, designing sitemap, planning website structure, making wireframes, creating content, estimating project costs and creating invoices.",
+        "jsonLdTypes": []
+      },
+      "pricingStats": {
+        "pricingUrl": "https://www.flowmapp.com/pricing",
+        "billingToggles": [
+          "Billed monthly Billed annually 45% off",
+          "Billed monthly",
+          "Billed annually"
+        ],
+        "annualDiscountBadges": [
+          "Billed monthly Billed annually 45% off",
+          "45% off",
+          "Purchase an annual subscription to get 45% off for the whole ✨ year",
+          "Get 45% off for the whole ✨ year",
+          "Honored by G2 Capterra admitted Get 45% off for the whole ✨ year"
+        ],
+        "priceTokensFound": [
+          "$0",
+          "$15",
+          "$8.25 / mo",
+          "$35",
+          "$19.25 / mo",
+          "$99",
+          "$54.45 / mo"
+        ],
+        "riskReversalSignals": [
+          "No credit card required"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 0,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "simple-analytics",
+      "name": "Simple Analytics",
+      "domain": "simpleanalytics.com",
+      "url": "https://www.simpleanalytics.com",
+      "pseoFile": "simpleanalytics-com-pseo-blueprint.json",
+      "pricingFile": "simpleanalytics-com-pricing-teardown.json",
+      "disclosedRevenue": "$45,000 MRR ($540,000 ARR)",
+      "disclosedMrrUsd": 45000,
+      "disclosureDate": "2025-10-15",
+      "primarySourceUrl": "https://www.indiehackers.com/post/tech/joining-a-technical-co-founder-and-growing-the-product-to-45k-mrr-119Zbnde7pTET0QOiZLH",
+      "secondarySourceUrl": "https://www.simpleanalytics.com/open",
+      "secondarySourceNote": "Co-founder Iron Brands documented joining technical founder Adriaan van Rossum and scaling Simple Analytics to $45k MRR via SEO, alternatives pages, and EU regulatory tailwinds.",
+      "founders": "Adriaan van Rossum & Iron Brands (2 co-founders, Amsterdam)",
+      "category": "EU-Compliant Privacy Web Analytics",
+      "incumbentWedge": "Positions on strict EU data sovereignty (100% EU-hosted, zero PII, GDPR/PECR/Schrems II compliant out-of-the-box) plus AI analytics insights.",
+      "coreValueProposition": "Simple, privacy-first Google Analytics alternative hosted in the EU — no cookies, no consent banners needed.",
+      "heroCopyBreakdown": "Hero H1 (`Web analytics that plays nice with privacy laws`) immediately resolves legal anxiety for European businesses and agencies, backed by a 17.2 KB `/llms.txt` index.",
+      "acquisitionChannels": [
+        "Root-Level Problem & Alternative Landing Pages (`/[root-landing-slug]` — 76 pages): Targets both regulatory pain points (`/analytics-without-consent`, `/cookieless-web-analytics`, `/eu-hosted-web-analytics`) and direct competitors (`/piwik-pro-alternative`, `/matomo-alternative`).",
+        "Glossary & Country-by-Country GDPR Ruling Hubs (`/glossaries/[slug]` + `/blog/[slug]` — 184 pages): Whenever an EU Data Protection Authority rules against Google Analytics, Simple Analytics ships a dedicated breakdown page.",
+        "AI Search Optimization (`/llms.txt` — 17,187 chars): Comprehensive structured Markdown directory for LLM citation."
+      ],
+      "replicableActions": [
+        "Create Regulatory & Pain-Point Root Slugs (`/analytics-without-consent`): Users don't just search product categories; they search how to avoid a painful compliance requirement.",
+        "Deploy a Rich `/llms.txt` (17 KB+): Explicitly list your comparison guides, glossary definitions, and regulatory compliance proofs in `/llms.txt`.",
+        "Dual-Path Trial Funnel on `/pricing`: Offers both a self-serve 14-day free trial (`No credit card required`) AND a 30-day guided Proof of Concept (POC) for higher-ACV B2B teams."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 17187,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 487,
+        "pseoPageCount": 398,
+        "pseoSharePct": 81.7,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 167,
+            "sharePct": 34.3,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://www.simpleanalytics.com/blog/the-eu-wants-to-kill-cookie-banners-by-moving-consent-to-your-browser",
+              "https://www.simpleanalytics.com/blog/google-is-tracking-you-even-when-you-use-duck-duck-go",
+              "https://www.simpleanalytics.com/blog/german-court-rules-meta-s-tracking-tech-violates-gdpr"
+            ],
+            "inferredTitleFormula": "The EU wants to kill cookie banners"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 76,
+            "sharePct": 15.6,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://www.simpleanalytics.com/analytics-without-consent",
+              "https://www.simpleanalytics.com/sessions-without-consent",
+              "https://www.simpleanalytics.com/eu-hosted-analytics"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Simple Analytics"
+          },
+          {
+            "pattern": "/_nuxt/[_nuxt_slug]",
+            "archetype": "Programmatic Directory / Hub (/_nuxt/...)",
+            "count": 64,
+            "sharePct": 13.1,
+            "variableSlots": [
+              "_nuxt_slug"
+            ],
+            "sampleUrls": [
+              "https://www.simpleanalytics.com/_nuxt/Navbar.DNfpWAoD.css",
+              "https://www.simpleanalytics.com/_nuxt/FlowDiagram.CZN07pCw.css",
+              "https://www.simpleanalytics.com/_nuxt/CnbSkFzU.js"
+            ],
+            "inferredTitleFormula": ""
+          },
+          {
+            "pattern": "/guides/[guide_slug]",
+            "archetype": "Programmatic Directory / Hub (/guides/...)",
+            "count": 31,
+            "sharePct": 6.4,
+            "variableSlots": [
+              "guide_slug"
+            ],
+            "sampleUrls": [
+              "https://www.simpleanalytics.com/guides/track-button-click",
+              "https://www.simpleanalytics.com/guides/track-blog-reactions",
+              "https://www.simpleanalytics.com/guides/track-bing-traffic"
+            ],
+            "inferredTitleFormula": "How to track button clicks with Simple Analytics"
+          },
+          {
+            "pattern": "/press/[pres_slug]",
+            "archetype": "Programmatic Directory / Hub (/press/...)",
+            "count": 12,
+            "sharePct": 2.5,
+            "variableSlots": [
+              "pres_slug"
+            ],
+            "sampleUrls": [
+              "https://www.simpleanalytics.com/press/bnr",
+              "https://www.simpleanalytics.com/press/code-story",
+              "https://www.simpleanalytics.com/press/ethical-allies"
+            ],
+            "inferredTitleFormula": "Simple Analytics on BNR Nieuwsradio"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 7,
+            "sharePct": 1.4,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://www.simpleanalytics.com/blog/how-to-export-data-from-google-analytics",
+              "https://www.simpleanalytics.com/blog/what-is-phi-under-hipaa",
+              "https://www.simpleanalytics.com/blog/how-to-track-form-submissions-using-google-tag-manager"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Simple Analytics",
+        "h1": "See the traffic Google Analytics misses",
+        "metaDescription": "Run Simple Analytics alongside GA4 to compare observed website traffic. Book a demo to plan a free 30-day proof of concept.",
+        "jsonLdTypes": [
+          "WebSite",
+          "WebPage",
+          "Organization"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://www.simpleanalytics.com/pricing",
+        "billingToggles": [
+          "Monthly",
+          "Annually"
+        ],
+        "annualDiscountBadges": [
+          "Payment frequency Monthly Annually 2 months free",
+          "2 months free"
+        ],
+        "priceTokensFound": [
+          "$20 /mo",
+          "$20/mo"
+        ],
+        "riskReversalSignals": [
+          "No credit card required",
+          "cancel anytime",
+          "Free forever"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 0,
+        "faqCount": 14
+      }
+    },
+    {
+      "slug": "papermark",
+      "name": "Papermark",
+      "domain": "papermark.com",
+      "url": "https://www.papermark.com",
+      "pseoFile": "papermark-com-pseo-blueprint.json",
+      "pricingFile": "papermark-com-pricing-teardown.json",
+      "disclosedRevenue": "$45,000 MRR ($540,000 ARR)",
+      "disclosedMrrUsd": 45000,
+      "disclosureDate": "2025-08-20",
+      "primarySourceUrl": "https://www.indiehackers.com/post/tech/after-11-failed-products-this-founder-hit-45k-mrr-in-a-little-over-a-year-xyRkxAsD8Rys7URjYd5d",
+      "secondarySourceUrl": "https://www.papermark.com/llms.txt",
+      "secondarySourceNote": "Founders Marc Seitz & Iuliia Shnai shared how open-sourcing a DocSend alternative and executing programmatic SEO + multilingual routes took them to $45k MRR in just over a year.",
+      "founders": "Marc Seitz & Iuliia Shnai (married co-founder duo)",
+      "category": "Open-Source Document Sharing & Virtual Data Room (DocSend Alternative)",
+      "incumbentWedge": "Attacks DocSend's expensive per-user pricing ($15–$65/user/mo) and dated UI with an open-source, self-hostable, custom-branded pitch deck & data room platform.",
+      "coreValueProposition": "The open-source DocSend alternative for securely sharing pitch decks, sales documents, and virtual data rooms with page-by-page analytics.",
+      "heroCopyBreakdown": "Positions immediately as the modern DocSend & Notion data room replacement, featuring custom domains, dynamic watermarking, and granular page-level engagement tracking.",
+      "acquisitionChannels": [
+        "4-Language Multilingual pSEO Multiplier (`en` + `/de/` 449 pages + `/es/` 449 pages + `/fr/` 448 pages = 2,732 total URLs!): Translates high-performing document sharing, NDA, and data room pages into German, Spanish, and French to capture low-competition European B2B queries.",
+        "5-Cluster Programmatic Content Engine: `/blog/[slug]` (1,030 pages including curated investor lists & due diligence checklists), `/help/article/[slug]` (579 pages), `/[root-landing-slug]` (82 commercial pages like `/data-room`, `/pitch-deck-software`, `/share-notion-page`), `/customers/[slug]` (76 case studies), and `/workflows/[slug]` (62 pages).",
+        "Dual `/llms.txt` (11.9 KB) + `/llms-full.txt` (246 KB): Full AI-agent readable documentation and comparison corpus."
+      ],
+      "replicableActions": [
+        "Multiply Winning SEO Pages Across `/de/`, `/es/`, `/fr/` Subfolders: Once an English pSEO cluster converts, localize it into German, Spanish, and French with proper `hreflang` tags — Papermark scaled to 2,732 indexed URLs this way.",
+        "Publish Curated Investor & Due-Diligence Checklist Pages for Founders: Target the exact upstream workflow of your buyer (founders raising seed/Series A need investor lists -> then they need a pitch deck tracker & data room).",
+        "Ship Both `/llms.txt` (11.9 KB summary) and `/llms-full.txt` (246 KB full corpus) so LLM agents have complete product context."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 11875,
+        "llmsFullTxtFound": true,
+        "llmsFullTxtLength": 246040,
+        "totalUrlsDiscovered": 2732,
+        "pseoPageCount": 2638,
+        "pseoSharePct": 96.6,
+        "detectedLocales": {
+          "de": 449,
+          "es": 449,
+          "fr": 448
+        },
+        "topFamilies": [
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 1030,
+            "sharePct": 37.7,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://www.papermark.com/blog/product-hunt-launch",
+              "https://www.papermark.com/blog/a16z-data-room-checklist",
+              "https://www.papermark.com/blog/advertising-investors"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Papermark"
+          },
+          {
+            "pattern": "/help/[help_slug]/[sub_item_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 491,
+            "sharePct": 18,
+            "variableSlots": [
+              "help_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://www.papermark.com/help/article/add-custom-domain-team-settings",
+              "https://www.papermark.com/help/article/add-documents-to-dataroom",
+              "https://www.papermark.com/help/article/add-folders-to-dataroom"
+            ],
+            "inferredTitleFormula": "How to add a custom domain to your Papermark team account"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 345,
+            "sharePct": 12.6,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://www.papermark.com/blog/how-to-acquire-company",
+              "https://www.papermark.com/blog/how-to-choose-virtual-data-room",
+              "https://www.papermark.com/blog/how-to-collect-documents-from-clients-securely"
+            ],
+            "inferredTitleFormula": "How to Acquire a Company in 2026: A Step-by-Step Guide for First-Time Buyers"
+          },
+          {
+            "pattern": "/changelog/[changelog_slug]",
+            "archetype": "Programmatic Directory / Hub (/changelog/...)",
+            "count": 103,
+            "sharePct": 3.8,
+            "variableSlots": [
+              "changelog_slug"
+            ],
+            "sampleUrls": [
+              "https://www.papermark.com/changelog/multi-folder-upload-permissions",
+              "https://www.papermark.com/changelog/download-data-room-archive",
+              "https://www.papermark.com/changelog/freeze-datarooms"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Changelog"
+          },
+          {
+            "pattern": "/help/[help_slug]/how-to-[topic]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 88,
+            "sharePct": 3.2,
+            "variableSlots": [
+              "help_slug",
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://www.papermark.com/help/article/how-to-add-agreements",
+              "https://www.papermark.com/help/article/how-to-add-custom-domain-to-link",
+              "https://www.papermark.com/help/article/how-to-connect-slack"
+            ],
+            "inferredTitleFormula": "How to add agreements before viewing documents or data rooms?"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 82,
+            "sharePct": 3,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://www.papermark.com/open-source-investors",
+              "https://www.papermark.com/ideals-vdr-alternatives",
+              "https://www.papermark.com/data-room-due-diligence"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Papermark | Secure data rooms for modern dealmakers",
+        "h1": "Close Deals Faster.",
+        "metaDescription": "Secure data rooms and document sharing for M&amp;A, due diligence, fundraising, and high-stakes deals. DocSend alternative with page-level analytics, granular permissions, and audit-friendly controls.",
+        "jsonLdTypes": [
+          "Organization"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://www.papermark.com/pricing",
+        "billingToggles": [
+          "Monthly Annually",
+          "Monthly",
+          "Annually"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "€0 /mo",
+          "€24 /mo",
+          "€59 /mo",
+          "€20",
+          "€99 /mo",
+          "€33",
+          "€0",
+          "€24",
+          "€59",
+          "€99"
+        ],
+        "riskReversalSignals": [
+          "No credit card required",
+          "7-day free trial"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 1,
+        "faqCount": 1
+      }
+    },
+    {
+      "slug": "subscribr",
+      "name": "Subscribr",
+      "domain": "subscribr.ai",
+      "url": "https://subscribr.ai",
+      "pseoFile": "subscribr-ai-pseo-blueprint.json",
+      "pricingFile": "subscribr-ai-pricing-teardown.json",
+      "disclosedRevenue": "$41,600+ MRR ($500k+ YTD, $1M/yr run-rate)",
+      "disclosedMrrUsd": 41600,
+      "disclosureDate": "2025-08-27",
+      "primarySourceUrl": "https://www.indiehackers.com/post/tech/leaving-a-funded-startup-and-bootstrapping-to-1m-yr-in-18-months-kPBpdxsTeQitOWOOVs2g",
+      "secondarySourceUrl": "https://subscribr.ai/llms.txt",
+      "secondarySourceNote": "Solo founder Gil Hildebrand disclosed hitting $10k MRR in 100 days after launch (April 2024) and surpassing $500k YTD on a $1M/yr run-rate with 4,000+ customers.",
+      "founders": "Gil Hildebrand (Solo technical founder)",
+      "category": "Creator Economy / AI YouTube Scriptwriting & Video Ideation Engine",
+      "incumbentWedge": "Replaces generic ChatGPT prompts and scattered Google Docs with a YouTube-native content engine grounded in channel voice, outlier video intel, thumbnail/title packaging, and CLI/MCP agent workflows.",
+      "coreValueProposition": "Ideate, script, and edit a month of high-retention YouTube videos today — grounded in your channel voice and real outlier data.",
+      "heroCopyBreakdown": "Hero H1 (`Ideate, Script and Edit A Month of YouTube Videos Today`) sells concrete time-compression (1 month of videos in 1 day), while its `/llms.txt` directly instructs AI agents how to install `@subscribrai/cli`.",
+      "acquisitionChannels": [
+        "588-Page YouTube Strategy Programmatic Hub (`/youtube-strategy/[slug]` — 588 pages + 20 `[tool_a]-vs-[tool_b]` pages + 16 `how-to-[topic]` pages = 747 total URLs, 96.0% pSEO): Captures every creator niche, script template, and competitor comparison.",
+        "AI-Agent-Native `/llms.txt` Onboarding (`1,655 chars`): Explicitly includes a `## For AI agents` section pointing Claude Code/Cursor agents to `https://subscribr.ai/agent-setup/prompt.md` and `npm install -g @subscribrai/cli`.",
+        "Affiliate + SEO Flywheel: High-ticket creator plans ($99/mo to $499/mo) fund generous affiliate commissions while 624+ strategy pages capture organic YouTube creator queries."
+      ],
+      "replicableActions": [
+        "Add a `## For AI agents` Block Inside Your `/llms.txt`: Subscribr doesn't just list web links in `/llms.txt` — it links directly to `/agent-setup/prompt.md` and its CLI/MCP skill installer so AI agents can onboard users autonomously.",
+        "Nest Competitor Comparisons Inside Your Topical Authority Silo (`/youtube-strategy/[tool_a]-vs-[tool_b]` — 20 pages): Keeps all 624 strategy and comparison URLs inside one high-authority subfolder.",
+        "Price for Serious Creators & Studios (`$0` Free -> `$99/mo` Creator -> `$249/mo` Automation -> `$499/mo` Scale with `Annual 2 months free`): High ARPU allows profitable growth with just a few thousand customers."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 1655,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 747,
+        "pseoPageCount": 717,
+        "pseoSharePct": 96,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/youtube-strategy/[youtube_strategy_slug]",
+            "archetype": "Programmatic Directory / Hub (/youtube-strategy/...)",
+            "count": 588,
+            "sharePct": 78.7,
+            "variableSlots": [
+              "youtube_strategy_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/youtube-strategy/youtube-keyword-research-ultimate-guide",
+              "https://subscribr.ai/youtube-strategy/advanced-youtube-keyword-research",
+              "https://subscribr.ai/youtube-strategy/new-youtube-videos-no-views-fix"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Subscribr"
+          },
+          {
+            "pattern": "/help/[help_slug]/[sub_item_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 44,
+            "sharePct": 5.9,
+            "variableSlots": [
+              "help_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/help/video-ideas/intel",
+              "https://subscribr.ai/help/getting-started/audience-avatar",
+              "https://subscribr.ai/help/getting-started/channels"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Subscribr"
+          },
+          {
+            "pattern": "/youtube-strategy/[tool_a]-vs-[tool_b]",
+            "archetype": "Head-to-Head Versus Comparison Pages",
+            "count": 20,
+            "sharePct": 2.7,
+            "variableSlots": [
+              "comparison_pair"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/youtube-strategy/long-tail-vs-short-tail-keywords-youtube",
+              "https://subscribr.ai/youtube-strategy/youtube-shorts-vs-long-form-business",
+              "https://subscribr.ai/youtube-strategy/cost-ai-youtube-tools-free-vs-paid"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Subscribr"
+          },
+          {
+            "pattern": "/youtube-strategy/how-to-[topic]",
+            "archetype": "Programmatic Directory / Hub (/youtube-strategy/...)",
+            "count": 16,
+            "sharePct": 2.1,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/youtube-strategy/how-to-choose-youtube-niche",
+              "https://subscribr.ai/youtube-strategy/how-to-write-clickable-youtube-titles",
+              "https://subscribr.ai/youtube-strategy/how-to-write-youtube-titles-newbies"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Subscribr"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 12,
+            "sharePct": 1.6,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/free-youtube-tools",
+              "https://subscribr.ai/youtube-title-generator",
+              "https://subscribr.ai/youtube-video-breakdown"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Subscribr"
+          },
+          {
+            "pattern": "/help/[help_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 10,
+            "sharePct": 1.3,
+            "variableSlots": [
+              "help_slug"
+            ],
+            "sampleUrls": [
+              "https://subscribr.ai/help/video-ideas",
+              "https://subscribr.ai/help/getting-started",
+              "https://subscribr.ai/help/chat-ideation"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Subscribr — Ideate, Script and Edit A Month of YouTube Videos Today",
+        "h1": "Ideate, Script and Edit A Month of YouTube Videos Today",
+        "metaDescription": "Automate your YouTube channel: viral ideas, titles, thumbnails, scripts, and fully edited videos. Free skills, free workspace, works with Claude, ChatGPT, Codex, Cursor, and any MCP agent.",
+        "jsonLdTypes": [
+          "SoftwareApplication",
+          "Organization",
+          "FAQPage"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://subscribr.ai/pricing",
+        "billingToggles": [
+          "Monthly Annual 2 months free",
+          "Monthly",
+          "Annual 2 months free",
+          "billed monthly"
+        ],
+        "annualDiscountBadges": [
+          "Monthly Annual 2 months free",
+          "Annual 2 months free",
+          "2 months free"
+        ],
+        "priceTokensFound": [
+          "$0",
+          "$99 /mo",
+          "$1.50",
+          "$249 /mo",
+          "$1.35",
+          "$499 /mo",
+          "$1.20",
+          "$99/mo",
+          "$249/mo",
+          "$499/mo"
+        ],
+        "riskReversalSignals": [],
+        "paymentProvidersDetected": [],
+        "tierCount": 1,
+        "faqCount": 10
+      }
+    },
+    {
+      "slug": "myaskai",
+      "name": "My AskAI",
+      "domain": "myaskai.com",
+      "url": "https://myaskai.com",
+      "pseoFile": "myaskai-com-pseo-blueprint.json",
+      "pricingFile": "myaskai-com-pricing-teardown.json",
+      "disclosedRevenue": "$40,000 MRR (~$500,000 ARR)",
+      "disclosedMrrUsd": 40000,
+      "disclosureDate": "2025-07-10",
+      "primarySourceUrl": "https://www.indiehackers.com/post/tech/bootstrapping-to-40k-mrr-after-his-vc-backed-startup-failed-LF1CwRs1vL3oVLcuoIoE",
+      "secondarySourceUrl": "https://myaskai.com/pricing",
+      "secondarySourceNote": "Co-founders Alex Rainey & Mike Heap disclosed handling 75,000+ support chats/month and generating $40,000 MRR (~$500k ARR) as a two-person bootstrapped team.",
+      "founders": "Alex Rainey & Mike Heap (2 co-founders, UK)",
+      "category": "B2B AI Customer Support Agent (Intercom / Zendesk / Gorgias Drop-in)",
+      "incumbentWedge": "Undercuts Intercom Fin and Zendesk AI ($0.99/resolution) by nearly 90% ($0.10–$0.12/ticket or $49–$199/mo) while plugging directly into the helpdesk the company already uses.",
+      "coreValueProposition": "Match or beat the quality of your helpdesk's native AI agent at a fraction of the cost — plugs straight into Intercom, Zendesk, Freshdesk, and HubSpot.",
+      "heroCopyBreakdown": "Hero H1 (`Match or beat the quality of your helpdesk’s AI at a fraction of the cost`) attacks incumbent pricing head-on, immediately speaking to support leaders shocked by Intercom Fin bills.",
+      "acquisitionChannels": [
+        "High-Intent Helpdesk Comparison Matrix (`/compare/[tool_a]-vs-[tool_b]` — 10 pages): Targets buyers comparing Intercom Fin, Zendesk AI, Ada, and CustomGPT.",
+        "Helpdesk Integration Landing Pages (`/ai-agent-integration/[slug]` — 8 pages + `/features/[slug]` — 10 pages): Dedicated landing pages for every major helpdesk ecosystem (Intercom, Zendesk, Gorgias, Freshdesk, HubSpot).",
+        "Case Study & ROI Proof Engine (`/blog/[slug]` — 24 deep-dive articles): Publishes exact ticket deflection rates and cost-per-resolution benchmarks."
+      ],
+      "replicableActions": [
+        "Build a Drop-In Tax Cutter for Expensive Incumbent Add-Ons: When incumbents like Intercom or Zendesk charge $0.99 per AI resolution, positioning right inside their ecosystem at $0.10/ticket creates an instant ROI calculation.",
+        "Pair `/compare/[incumbent]-vs-[you]` (10 pages) with `/ai-agent-integration/[platform]` (8 pages): Capture both users researching native helpdesk AI pricing and users searching for third-party plugins.",
+        "Offer Annual 33% Discount + Monthly Account Audits on Higher Tiers (`$49/mo`, `$199/mo`, `$499/mo`): Combines self-serve SaaS with high-retention white-glove ticket audits."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 99,
+        "pseoPageCount": 80,
+        "pseoSharePct": 80.8,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 24,
+            "sharePct": 24.2,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/blog/my-askai-traveljoy-case-study-2026",
+              "https://myaskai.com/blog/my-askai-givecard-case-study",
+              "https://myaskai.com/blog/my-askai-honeygain-case-study"
+            ],
+            "inferredTitleFormula": "How TravelJoy hit 80% AI resolution, saving 193 hrs/month"
+          },
+          {
+            "pattern": "/compare/[tool_a]-vs-[tool_b]",
+            "archetype": "Head-to-Head Comparison Hub (/compare/[a]-vs-[b])",
+            "count": 10,
+            "sharePct": 10.1,
+            "variableSlots": [
+              "comparison_pair"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/compare/freshdesk-vs-zendesk-ai-pricing",
+              "https://myaskai.com/compare/intercom-vs-hubspot-ai-pricing",
+              "https://myaskai.com/compare/gorgias-vs-zendesk-ai-pricing"
+            ],
+            "inferredTitleFormula": "Freshdesk Freddy vs Zendesk AI Pricing Compared [2026]"
+          },
+          {
+            "pattern": "/features/[feature_slug]",
+            "archetype": "Programmatic Directory / Hub (/features/...)",
+            "count": 10,
+            "sharePct": 10.1,
+            "variableSlots": [
+              "feature_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/features/testing-and-qa",
+              "https://myaskai.com/features/copilot-internal-note-reply",
+              "https://myaskai.com/features/chatbot-to-human-handoff"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | My AskAI"
+          },
+          {
+            "pattern": "/ai-agent-integration/[ai_agent_integration_slug]",
+            "archetype": "Programmatic Directory / Hub (/ai-agent-integration/...)",
+            "count": 8,
+            "sharePct": 8.1,
+            "variableSlots": [
+              "ai_agent_integration_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/ai-agent-integration/intercom",
+              "https://myaskai.com/ai-agent-integration/hubspot",
+              "https://myaskai.com/ai-agent-integration/zendesk-messaging"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | My AskAI"
+          },
+          {
+            "pattern": "/industry-use-cases/[industry_use_case_slug]",
+            "archetype": "Programmatic Directory / Hub (/industry-use-cases/...)",
+            "count": 8,
+            "sharePct": 8.1,
+            "variableSlots": [
+              "industry_use_case_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/industry-use-cases/saas",
+              "https://myaskai.com/industry-use-cases/marketplace",
+              "https://myaskai.com/industry-use-cases/ecommerce"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | My AskAI"
+          },
+          {
+            "pattern": "/ai-support-agent-roi-calculator/[ai_support_agent_roi_calculator_slug]",
+            "archetype": "Programmatic Directory / Hub (/ai-support-agent-roi-calculator/...)",
+            "count": 7,
+            "sharePct": 7.1,
+            "variableSlots": [
+              "ai_support_agent_roi_calculator_slug"
+            ],
+            "sampleUrls": [
+              "https://myaskai.com/ai-support-agent-roi-calculator/intercom",
+              "https://myaskai.com/ai-support-agent-roi-calculator/hubspot",
+              "https://myaskai.com/ai-support-agent-roi-calculator/zendesk-messaging"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "AI Customer Service Agent for Your Helpdesk | My AskAI",
+        "h1": "Match or beat the quality of your helpdesk’s AI at a fraction of the cost",
+        "metaDescription": "Deflect support requests by 75% with an AI customer service agent. Add to your existing live chat providers, like Intercom, Zendesk or Freshdesk. And start saving your team &amp; customers time.",
+        "jsonLdTypes": [
+          "SoftwareApplication,WebApplication",
+          "Organization",
+          "WebSite",
+          "HowTo"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://myaskai.com/pricing",
+        "billingToggles": [
+          "Monthly Annual (33% Discount)",
+          "Monthly",
+          "Annual (33% Discount)",
+          "Monthly account audit (identifying issues & opportunities)"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$199/mo",
+          "$0.12",
+          "$49/mo",
+          "$499/mo",
+          "$0.10",
+          "$999/mo",
+          "$709 / mo",
+          "$3,004 / mo",
+          "$510/mo",
+          "$0/mo",
+          "$0.02",
+          "$0.05",
+          "$3,713 / mo",
+          "$0.99",
+          "$50"
+        ],
+        "riskReversalSignals": [
+          "No credit card required",
+          "30 day free trial",
+          "cancel anytime"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 0,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "testimonial",
+      "name": "Testimonial.to",
+      "domain": "testimonial.to",
+      "url": "https://testimonial.to",
+      "pseoFile": "testimonial-to-pseo-blueprint.json",
+      "pricingFile": "testimonial-to-pricing-teardown.json",
+      "disclosedRevenue": "$33,333+ MRR ($400,000+ ARR, later $800k+ ARR)",
+      "disclosedMrrUsd": 33333,
+      "disclosureDate": "2022-11-18",
+      "primarySourceUrl": "https://thebootstrappedfounder.com/a-conversation-with-damon-chen/",
+      "secondarySourceUrl": "https://www.indiehackers.com/post/hit-100k-arr-after-9-months-grinding-as-a-solo-founder-ama-584379b1f6",
+      "secondarySourceNote": "Solo founder Damon Chen disclosed cancelling lifetime deals on Jan 1, 2021, hitting $100k ARR in 9 months on Indie Hackers, and scaling past $400,000 ARR solo.",
+      "founders": "Damon Chen (Solo technical founder)",
+      "category": "Video & Text Testimonial Collection & Wall of Love SaaS",
+      "incumbentWedge": "Pioneered the frictionless browser-based video testimonial collector and embeddable Wall of Love widget for B2B SaaS, creators, and agencies without requiring customers to download an app.",
+      "coreValueProposition": "Capture, measure & showcase customer love — collect video and text testimonials in minutes and embed a Wall of Love with zero code.",
+      "heroCopyBreakdown": "Hero H1 (`Capture, measure & showcase customer love`) expands beyond simple video collection into NPS surveys, case studies, and brand monitoring, supported by a clean 772-char `/llms.txt`.",
+      "acquisitionChannels": [
+        "141 Platform Integration Pages (`/integrations/[integration_slug]` — 141 pages!): Captures every query like \"embed video testimonials in Webflow / Shopify / Kajabi / Notion / WordPress\".",
+        "560-Page Resource & How-To SEO Cluster (`/resources/[slug]` — 455 pages + `/resources/how-to-[topic]` — 105 pages + `/tutorials/[slug]` — 18 pages = 802 total URLs, 97.3% pSEO): Massive bottom- and mid-funnel content library.",
+        "Viral Customer-to-Customer Invite Links + Embedded Wall of Love Backlinks: Every testimonial request link and embedded widget exposes new business owners to Testimonial.to."
+      ],
+      "replicableActions": [
+        "Kill Lifetime Deals (LTDs) Early When Hosting Costs Scale: Damon Chen famously killed his LTD after 10 days ($5,124) and forced himself to build recurring MRR, reaching $100k ARR 9 months later.",
+        "Ship 140+ `/integrations/[platform]` Pages for Every No-Code & CMS Tool: Even if your embed works via a universal 2-line `<script>` tag, create a dedicated step-by-step guide page for each of the 141 platforms your buyers use.",
+        "Deploy a Concise `/llms.txt` Index (`772 chars`): Maps core product routes (`/features`, `/pricing`, `/widgets`, `/wall-of-love`, `/integrations`) for instant AI search citation."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 772,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 802,
+        "pseoPageCount": 780,
+        "pseoSharePct": 97.3,
+        "detectedLocales": {
+          "ja": 1,
+          "es": 1,
+          "de": 1,
+          "fr": 1,
+          "ko": 1,
+          "pt": 1,
+          "ar": 1,
+          "it": 1
+        },
+        "topFamilies": [
+          {
+            "pattern": "/resources/[resource_slug]",
+            "archetype": "Programmatic Directory / Hub (/resources/...)",
+            "count": 455,
+            "sharePct": 56.7,
+            "variableSlots": [
+              "resource_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/resources/twitter-monitoring",
+              "https://testimonial.to/resources/nps-survey-examples",
+              "https://testimonial.to/resources/in-app-nps-survey"
+            ],
+            "inferredTitleFormula": "How to Monitor Brand Mentions on X (Twitter)"
+          },
+          {
+            "pattern": "/integrations/[integration_slug]",
+            "archetype": "Integration Ecosystem pSEO (/integrations/[app-slug])",
+            "count": 141,
+            "sharePct": 17.6,
+            "variableSlots": [
+              "integration_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/integrations/wix",
+              "https://testimonial.to/integrations/carrd",
+              "https://testimonial.to/integrations/notion"
+            ],
+            "inferredTitleFormula": "How to embed reviews on Wix"
+          },
+          {
+            "pattern": "/resources/how-to-[topic]",
+            "archetype": "Programmatic Directory / Hub (/resources/...)",
+            "count": 105,
+            "sharePct": 13.1,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/resources/how-to-create-nps-survey",
+              "https://testimonial.to/resources/how-to-calculate-nps",
+              "https://testimonial.to/resources/what-is-database-management"
+            ],
+            "inferredTitleFormula": "How to Create an NPS Survey (20-Minute Setup)"
+          },
+          {
+            "pattern": "/tutorials/[tutorial_slug]",
+            "archetype": "Programmatic Directory / Hub (/tutorials/...)",
+            "count": 18,
+            "sharePct": 2.2,
+            "variableSlots": [
+              "tutorial_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/tutorials/answering-testimonial-questions",
+              "https://testimonial.to/tutorials/collect-testimonials-within-course",
+              "https://testimonial.to/tutorials/embed-capterra-reviews-on-webflow"
+            ],
+            "inferredTitleFormula": "Answering the most Googled questions"
+          },
+          {
+            "pattern": "/static/[static_slug]/[sub_item_slug]",
+            "archetype": "Programmatic Directory / Hub (/static/...)",
+            "count": 14,
+            "sharePct": 1.7,
+            "variableSlots": [
+              "static_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/static/js/index.05fdca4d.js",
+              "https://testimonial.to/static/js/80829e7a.js",
+              "https://testimonial.to/static/js/5d665eb4.js"
+            ],
+            "inferredTitleFormula": ""
+          },
+          {
+            "pattern": "/tools/[tool_slug]",
+            "archetype": "Free Tool / Micro-Utility Hub (/tools/[tool-slug])",
+            "count": 10,
+            "sharePct": 1.2,
+            "variableSlots": [
+              "tool_slug"
+            ],
+            "sampleUrls": [
+              "https://testimonial.to/tools/case-study-generator",
+              "https://testimonial.to/tools/email-template-generator",
+              "https://testimonial.to/tools/video-testimonial-script-generator"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Testimonial — Capture, measure &amp; showcase customer love",
+        "h1": "Capture, measure &amp; showcase customer love",
+        "metaDescription": "The all-in-one platform to capture, measure, and showcase customer love — testimonials, case studies, NPS, and brand monitoring in one place.",
+        "jsonLdTypes": []
+      },
+      "pricingStats": {
+        "pricingUrl": "https://testimonial.to/pricing/",
+        "billingToggles": [
+          "Billed Monthly Billed Yearly 2 months off 🎁",
+          "Billed Monthly",
+          "Monthly mentions"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$0 /mo",
+          "$25 /mo",
+          "$300",
+          "$50 /mo",
+          "$600",
+          "$95 /mo",
+          "$1,140",
+          "$600/year",
+          "$1,140/year"
+        ],
+        "riskReversalSignals": [
+          "7-day free trial",
+          "cancel anytime",
+          "Free forever"
+        ],
+        "paymentProvidersDetected": [
+          "Stripe"
+        ],
+        "tierCount": 0,
+        "faqCount": 10
+      }
+    },
+    {
+      "slug": "screenshotone",
+      "name": "ScreenshotOne",
+      "domain": "screenshotone.com",
+      "url": "https://screenshotone.com",
+      "pseoFile": "screenshotone-com-pseo-blueprint.json",
+      "pricingFile": "screenshotone-com-pricing-teardown.json",
+      "disclosedRevenue": "$33,000 MRR (~$400k ARR; ~$36k MRR by Sept 2026)",
+      "disclosedMrrUsd": 33000,
+      "disclosureDate": "2026-05-29",
+      "primarySourceUrl": "https://dmytrokrasun.com/posts/screenshotone-4-years/",
+      "secondarySourceUrl": "https://dmytrokrasun.com/posts/20k-mrr-whats-next/",
+      "secondarySourceNote": "Solo founder Dmytro Krasun documented growing ScreenshotOne from launch (May 2022) to $10k MRR (Sept 2024), $20k MRR (June 2025), and $33k MRR with 1,000+ paying customers and 100M+ API calls (May 2026).",
+      "founders": "Dmytro Krasun (Solo technical founder)",
+      "category": "Developer API / Automated Website Screenshot & Rendering Engine",
+      "incumbentWedge": "Solves the nightmare of maintaining headless Chromium clusters, cookie-banner blocking, ad blocking, and residential proxies with a clean REST API and SDKs built specifically for developers and AI agents.",
+      "coreValueProposition": "The screenshot API for developers and AI agents — render clean screenshots, PDFs, and videos without cookie banners or ads in one API call.",
+      "heroCopyBreakdown": "Hero Title (`Website Screenshot API for Developers and AI Agents`) explicitly adds `and AI Agents` to capture the 2025–2026 boom in multimodal LLM agents needing visual web rendering.",
+      "acquisitionChannels": [
+        "4-Pillar Developer SEO Matrix (644 total URLs, 95.8% pSEO): Combines `/changelog/[slug]` (165 pages), `/blog/[slug]` (134 technical tutorials), `/docs/[slug]/[sub]` (65 SDK & parameter docs), and `/use-cases/[slug]` (49 pages).",
+        "Dedicated `/ai-information/` + `/llms.txt` (`926 chars`): ScreenshotOne built a special page (`https://screenshotone.com/ai-information/`) linked from the very top of its `/llms.txt` containing capabilities, pricing, limitations, and customer evidence formatted specifically for LLMs!",
+        "Radical Founder Transparency Blog: Dmytro’s milestone posts ($10k, $20k, $33k MRR) earn massive organic distribution across Hacker News, Indie Hackers, and X."
+      ],
+      "replicableActions": [
+        "Create a Dedicated `/ai-information/` Page and Link It First in `/llms.txt`: ScreenshotOne explicitly feeds AI assistants a single ground-truth page with verified pricing, limits, and SDK links so LLMs never hallucinate its specs.",
+        "Pair 49 `/use-cases/[slug]` Pages with 134 Technical Language Tutorials (`Puppeteer vs Playwright vs API`): Capture developers at the exact moment their self-hosted headless Chrome script crashes in production.",
+        "Clear Usage-Tier Pricing (`$17/mo` -> `$79/mo` -> `$259/mo` with `Annually 2 months free` + 10 objection-handling FAQs)."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": true,
+        "llmsTxtLength": 926,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 644,
+        "pseoPageCount": 617,
+        "pseoSharePct": 95.8,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/changelog/[changelog_slug]",
+            "archetype": "Programmatic Directory / Hub (/changelog/...)",
+            "count": 165,
+            "sharePct": 25.6,
+            "variableSlots": [
+              "changelog_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/changelog/2/",
+              "https://screenshotone.com/changelog/3/",
+              "https://screenshotone.com/changelog/4/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Page 2"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 134,
+            "sharePct": 20.8,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/blog/2/",
+              "https://screenshotone.com/blog/3/",
+              "https://screenshotone.com/blog/4/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Page 2"
+          },
+          {
+            "pattern": "/docs/[doc_slug]/[sub_item_slug]",
+            "archetype": "Documentation / Knowledge Base",
+            "count": 65,
+            "sharePct": 10.1,
+            "variableSlots": [
+              "doc_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/docs/code-examples/c-net/",
+              "https://screenshotone.com/docs/code-examples/go/",
+              "https://screenshotone.com/docs/code-examples/java/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | ScreenshotOne Docs"
+          },
+          {
+            "pattern": "/use-cases/[use_case_slug]",
+            "archetype": "Use-Case Solution Pages (/use-cases/[persona-or-workflow])",
+            "count": 49,
+            "sharePct": 7.6,
+            "variableSlots": [
+              "use_case_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/use-cases/ai-agents/",
+              "https://screenshotone.com/use-cases/ai-landing-page-roasting/",
+              "https://screenshotone.com/use-cases/ai-vision-web-page-analysis/"
+            ],
+            "inferredTitleFormula": "The Screenshot API for AI Agents With Browser Observation"
+          },
+          {
+            "pattern": "/contributors/[contributor_slug]",
+            "archetype": "Programmatic Directory / Hub (/contributors/...)",
+            "count": 31,
+            "sharePct": 4.8,
+            "variableSlots": [
+              "contributor_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/contributors/anatoly-pashias/",
+              "https://screenshotone.com/contributors/andy-hooke/",
+              "https://screenshotone.com/contributors/anthony-alaribe/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | ScreenshotOne"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 28,
+            "sharePct": 4.3,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://screenshotone.com/blog/how-to-add-custom-scripts-to-a-page-in-puppeteer/",
+              "https://screenshotone.com/blog/how-to-add-custom-styles-to-a-page-in-puppeteer/",
+              "https://screenshotone.com/blog/how-to-block-requests-with-puppeteer/"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Website Screenshot API for Developers and AI Agents | ScreenshotOne",
+        "h1": "The screenshot API for developers",
+        "metaDescription": "Capture reliable website screenshots, PDFs, and scrolling videos with one developer-friendly API. Start free with ScreenshotOne.",
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "Person",
+          "ImageObject",
+          "SoftwareApplication",
+          "WebPage",
+          "BreadcrumbList"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://screenshotone.com/pricing/",
+        "billingToggles": [
+          "Monthly",
+          "Annually (2 months free)"
+        ],
+        "annualDiscountBadges": [
+          "Annually (2 months free)",
+          "(2 months free)"
+        ],
+        "priceTokensFound": [
+          "$17",
+          "$0.00",
+          "$79",
+          "$259"
+        ],
+        "riskReversalSignals": [
+          "No credit card required",
+          "Cancel anytime"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 0,
+        "faqCount": 10
+      }
+    },
+    {
+      "slug": "superx",
+      "name": "SuperX",
+      "domain": "superx.so",
+      "url": "https://superx.so",
+      "pseoFile": "superx-so-pseo-blueprint.json",
+      "pricingFile": "superx-so-pricing-teardown.json",
+      "disclosedRevenue": "$23,000 MRR ($276,000 ARR)",
+      "disclosedMrrUsd": 23000,
+      "disclosureDate": "2025-09-10",
+      "primarySourceUrl": "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ",
+      "secondarySourceUrl": "https://superx.so/pricing",
+      "secondarySourceNote": "Founder Rob Hallam documented reaching $23,000 MRR within 6 months of launching SuperX after 5 prior failed products.",
+      "founders": "Rob Hallam (Indie founder)",
+      "category": "Creator Economy / X (Twitter) Analytics & Growth Suite",
+      "incumbentWedge": "Out-positions legacy Twitter schedulers (TweetHunter, Hypefury, Typefully) with real-time algorithm analytics, Chrome sidebar integration, and public creator profile intelligence.",
+      "coreValueProposition": "Find your voice, spot rising trends, and grow faster on X with AI-assisted analytics and scheduling.",
+      "heroCopyBreakdown": "Hero H1 (`Find Your Voice. Grow Faster on X.`) focuses on creator authenticity rather than spammy auto-DM bots, backed by live creator leaderboard widgets.",
+      "acquisitionChannels": [
+        "Public Creator Profile pSEO Directory (`/creators/[creator_slug]` — 828 pages!): Automatically generates public analytics & best-tweet breakdown pages for 828 prominent X accounts, capturing vanity searches and \"how does @handle grow on X\" queries.",
+        "Real-Time Regional Trend Hubs (`/twitter-trends/[country]` — 19 pages) + Influencer Tweet Archives (`/tweets/[handle]` — 11 pages): Captures high-volume daily trend traffic (`united-states`, `japan`, `united-kingdom`).",
+        "Direct Competitor Comparison Pages (`/[tool_a]-vs-[tool_b]` — 6 pages): Targets every major rival directly (`/superx-vs-tweethunter`, `/superx-vs-hypefury`, `/superx-vs-typefully`) plus `/free-tools/[slug]` (6 free tools)."
+      ],
+      "replicableActions": [
+        "Build a Public Profile Directory (`/creators/[handle]` — 828 pages): If your SaaS analyzes public entities (creators, repos, domains, podcasts, stores), pre-generate 500–1,000 public analysis pages. Ego-searches and creator shares drive zero-cost viral traffic.",
+        "Ship `/[your_brand]-vs-[competitor]` for the Top 5 Incumbents on Day 1: SuperX targets `tweethunter`, `hypefury`, and `typefully` directly at root URL slugs.",
+        "Charge Premium Creator Pricing (`$49/mo` -> `$99/mo` Advanced -> `$199/mo` Ultra): Avoid $9/mo race-to-the-bottom pricing when your tool directly drives audience & revenue growth."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 1664,
+        "pseoPageCount": 1636,
+        "pseoSharePct": 98.3,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/creators/[creator_slug]",
+            "archetype": "Programmatic Directory / Hub (/creators/...)",
+            "count": 828,
+            "sharePct": 49.8,
+            "variableSlots": [
+              "creator_slug"
+            ],
+            "sampleUrls": [
+              "https://superx.so/creators/popular",
+              "https://superx.so/creators/new",
+              "https://superx.so/creators/best"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Top Creators & Influencers Analysis"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 546,
+            "sharePct": 32.8,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://superx.so/blog/superx-playbook",
+              "https://superx.so/blog/twitter-keywords-analysis",
+              "https://superx.so/blog/twitter-analytics-mobile"
+            ],
+            "inferredTitleFormula": "SuperX Playbook"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 177,
+            "sharePct": 10.6,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://superx.so/blog/what-is-twitter-analytics",
+              "https://superx.so/blog/what-is-influencer",
+              "https://superx.so/blog/how-to-delete-tweet-on-twitter"
+            ],
+            "inferredTitleFormula": "What Is Twitter Analytics in 2026? a Plain-English Guide"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 28,
+            "sharePct": 1.7,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://superx.so/tweet-hunter-alternatives",
+              "https://superx.so/x-profile-audit",
+              "https://superx.so/best-time-to-tweet"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | Health Score & Account Analysis Tool"
+          },
+          {
+            "pattern": "/twitter-trends/[twitter_trend_slug]",
+            "archetype": "Programmatic Directory / Hub (/twitter-trends/...)",
+            "count": 19,
+            "sharePct": 1.1,
+            "variableSlots": [
+              "twitter_trend_slug"
+            ],
+            "sampleUrls": [
+              "https://superx.so/twitter-trends/united-states",
+              "https://superx.so/twitter-trends/united-kingdom",
+              "https://superx.so/twitter-trends/india"
+            ],
+            "inferredTitleFormula": "Twitter Trends in United States: Live Topics"
+          },
+          {
+            "pattern": "/creators/[creator_slug]/[sub_item_slug]",
+            "archetype": "Programmatic Directory / Hub (/creators/...)",
+            "count": 14,
+            "sharePct": 0.8,
+            "variableSlots": [
+              "creator_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://superx.so/creators/archetypes/achiever",
+              "https://superx.so/creators/archetypes/activist",
+              "https://superx.so/creators/archetypes/analyst"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "SuperX | X Growth Tool: Scheduling, Analytics, AI Content",
+        "h1": "Grow and monetize your audience, smarter faster",
+        "metaDescription": "The X growth tool used by 11,294+ creators. AI content, smart scheduling, engagement tools, and analytics in one platform. Start free.",
+        "jsonLdTypes": [
+          "Organization",
+          "SoftwareApplication"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://superx.so/pricing",
+        "billingToggles": [],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$49 /mo",
+          "$99",
+          "$99/mo",
+          "$199 /mo"
+        ],
+        "riskReversalSignals": [
+          "cancel anytime"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 0,
+        "faqCount": 9
+      }
+    },
+    {
+      "slug": "hypefury",
+      "name": "Hypefury",
+      "domain": "hypefury.com",
+      "url": "https://hypefury.com",
+      "pseoFile": "hypefury-com-pseo-blueprint.json",
+      "pricingFile": "hypefury-com-pricing-teardown.json",
+      "disclosedRevenue": "$23,000+ MRR ($276,000+ ARR)",
+      "disclosedMrrUsd": 23000,
+      "disclosureDate": "2021-08-15",
+      "primarySourceUrl": "https://www.indiehackers.com/post/flying-past-23k-mrr-in-2-years-hypefury-45f73f0c0a",
+      "secondarySourceUrl": "https://www.indiehackers.com/post/i-co-founded-hypefury-and-scaled-it-to-22k-mrr-ama-318a451a36",
+      "secondarySourceNote": "Co-founders Samy Dindane & Yannick Veys documented scaling from $500 MRR to $23,000+ MRR with 1,000+ paying subscribers and 45,000 monthly organic search visitors.",
+      "founders": "Samy Dindane & Yannick Veys (Co-founders, met on Indie Hackers)",
+      "category": "Creator Economy / Social Media Scheduling & Monetization Automation",
+      "incumbentWedge": "Differentiated from Buffer and Hootsuite by focusing purely on audience growth and monetization loops (auto-retweeting evergreen posts, auto-plugging newsletters/Gumroad links under viral tweets).",
+      "coreValueProposition": "Social media scheduling & automation for creators — build and monetize your X, LinkedIn, Instagram, and email list on autopilot.",
+      "heroCopyBreakdown": "Hero H1 (`Build your 𝕏 LinkedIn Instagram, Email List Success`) connects social scheduling directly to revenue and email list building.",
+      "acquisitionChannels": [
+        "14 Free Creator Micro-Tools (`/tools/[tool_slug]` — 14 pages) + 63 Root Commercial Landing Pages (`/[root-landing-slug]`): Captures creator utility searches and platform-specific scheduler queries.",
+        "259-Page Topic Cluster Blog (`/blog/[category]/[slug]` — 219 pages + `/blog/[category]/how-to-[topic]` — 40 pages = 548 total URLs, 85.0% pSEO): Drives 45,000+ monthly organic visitors.",
+        "Auto-Plug Product Virality: When power users' tweets go viral, Hypefury automatically replies with their newsletter or course link, showcasing the workflow in public."
+      ],
+      "replicableActions": [
+        "Build Features That Advertise Themselves in Public Feeds: Hypefury's Auto-Plug and Tweet-to-Instagram-Screenshot templates naturally prompt followers to ask \"What tool are you using?\"",
+        "Combine `/tools/[tool_slug]` (14 free tools) with `/blog/[category]/how-to-[topic]` (259 articles): Use how-to guides to rank for creator questions and funnel readers into free interactive tools.",
+        "Test Price Increases to Cut High-Maintenance Churn: In their IH AMA, Yannick revealed raising prices boosted MRR from $13k to $19k (+46%) while ultimately stabilizing churn at 7%."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 548,
+        "pseoPageCount": 466,
+        "pseoSharePct": 85,
+        "detectedLocales": {
+          "fr": 6,
+          "es": 6,
+          "pt": 6
+        },
+        "topFamilies": [
+          {
+            "pattern": "/blog/[blog_slug]/[sub_item_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 219,
+            "sharePct": 40,
+            "variableSlots": [
+              "blog_slug",
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/blog/en/how-alex-brogan-went-from-4-7k-to-280k-followers-in-20-months-and-multiplied-his-income-sources/",
+              "https://hypefury.com/blog/en/the-best-twitter-tools/",
+              "https://hypefury.com/blog/en/schedule-tweets-scheduler-twitter/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 63,
+            "sharePct": 11.5,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/reel-daily-confirmed/",
+              "https://hypefury.com/join-linkedin-growth-notes-from-autoresponder/",
+              "https://hypefury.com/the-ultimate-bluesky-growth-guide/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/blog/[blog_slug]/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 40,
+            "sharePct": 7.3,
+            "variableSlots": [
+              "blog_slug",
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/blog/en/how-to-download-a-bluesky-video/",
+              "https://hypefury.com/blog/uncategorized/how-to-schedule-linkedin-posts-in-2026/",
+              "https://hypefury.com/blog/en/how-to-turn-your-tweets-to-instagram-posts/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/tools/[tool_slug]",
+            "archetype": "Free Tool / Micro-Utility Hub (/tools/[tool-slug])",
+            "count": 14,
+            "sharePct": 2.6,
+            "variableSlots": [
+              "tool_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/tools/x-twitter-fonts-generator/",
+              "https://hypefury.com/tools/fake-revenue-generator/",
+              "https://hypefury.com/tools/fake-x-twitter-creator-payouts-generator/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/instagram/[instagram_slug]",
+            "archetype": "Programmatic Directory / Hub (/instagram/...)",
+            "count": 11,
+            "sharePct": 2,
+            "variableSlots": [
+              "instagram_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/instagram/best-instagram-hashtags/",
+              "https://hypefury.com/instagram/growing-followers-on-instagram/",
+              "https://hypefury.com/instagram/instagram-trends/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Social Media Scheduling &amp; Automation"
+          },
+          {
+            "pattern": "/instagram/how-to-[topic]",
+            "archetype": "Programmatic Directory / Hub (/instagram/...)",
+            "count": 9,
+            "sharePct": 1.6,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://hypefury.com/instagram/how-to-download-an-instagram-reel/",
+              "https://hypefury.com/instagram/how-to-create-an-instagram-grid-post/",
+              "https://hypefury.com/instagram/how-to-turn-off-comments-on-instagram/"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Hypefury - Social media scheduling &amp; automation for creators",
+        "h1": "Build your 𝕏 LinkedIn Instagram, Email&nbsp;List&nbsp; Success",
+        "metaDescription": "We help you build an audience and monetize your socials. Get inspired to create and use Hypefury to increase your revenue.",
+        "jsonLdTypes": [
+          "Person,Organization",
+          "WebSite",
+          "ImageObject",
+          "WebPage",
+          "Person",
+          "Article"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://hypefury.com/features-pricing",
+        "billingToggles": [
+          "Monthly Yearly",
+          "Monthly",
+          "Yearly"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$ 6 /mo",
+          "$ 19 /mo"
+        ],
+        "riskReversalSignals": [
+          "No credit card required",
+          "7-day free trial"
+        ],
+        "paymentProvidersDetected": [
+          "Paddle"
+        ],
+        "tierCount": 2,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "pirsch",
+      "name": "Pirsch Analytics",
+      "domain": "pirsch.io",
+      "url": "https://pirsch.io",
+      "pseoFile": "pirsch-io-pseo-blueprint.json",
+      "pricingFile": "pirsch-io-pricing-teardown.json",
+      "disclosedRevenue": "$14,300 MRR (~$130,000/yr net volume)",
+      "disclosedMrrUsd": 14300,
+      "disclosureDate": "2025-12-20",
+      "primarySourceUrl": "https://pirsch.io/blog/our-recap-of-2025/",
+      "secondarySourceUrl": "https://www.indiehackers.com/post/2024-recap-being-in-the-weird-state-of-a-mid-sized-saas-YCFfLxRmJWUEPz7hv9cZ",
+      "secondarySourceNote": "Co-founder Marvin Blum transparently publishes annual recaps showing growth from $6,000 MRR to $11,000 MRR in 2024 and $14,300 MRR (627 subscribers) in 2025.",
+      "founders": "Marvin Blum & Daniel (2 German technical co-founders)",
+      "category": "Privacy-Friendly Cookie-Free Web Analytics (Go-based)",
+      "incumbentWedge": "Competes with GA4, Plausible, and Fathom by offering an ultra-fast Go backend, built-in server-side tracking SDKs, URL shortener, and lower entry pricing ($6/mo) with full white-label agency support.",
+      "coreValueProposition": "See beyond clicks with the best privacy-friendly, cookie-free Google Analytics alternative — built in Germany for speed and developer extensibility.",
+      "heroCopyBreakdown": "Hero H1 (`See Beyond Clicks With the Best Google Analytics Alternative`) pairs direct category keyword targeting with a live interactive dashboard and dark/color-blind mode previews.",
+      "acquisitionChannels": [
+        "560-Page Analytics & Privacy Glossary (`/glossary/[glossary_slug]` — 560 pages!): Captures long-tail definitions across web metrics, GDPR compliance, and attribution modeling.",
+        "144-Page Global Privacy & Traffic Atlas (`/atlas/[atlas_slug]` — 144 pages!): Programmatic country/region data privacy and internet metric reference pages.",
+        "39 Root Landing & Comparison Pages (`/[root-landing-slug]` — 39 pages): Targets direct competitor switching and server-side integration use cases (938 total URLs, 84.1% pSEO)."
+      ],
+      "replicableActions": [
+        "Pair a 560-Page `/glossary/[term]` Engine with a 144-Page `/atlas/[region]` Data Hub: Even in a crowded market like privacy analytics, Pirsch built 704 programmatic reference pages to capture top-of-funnel developer and marketer searches.",
+        "Publish Honest Annual Founder Recaps (`/blog/our-recap-of-2025/`): Radical transparency about MRR ($14,300), subscriber count (627), and net volume ($130k) earns recurring Hacker News and Indie Hackers backlinks.",
+        "Differentiate via Backend SDKs & White-Label APIs: When UI features commoditize, offering first-class server-side SDKs (Go, PHP, Python, Node) and agency white-labeling locks in low-churn B2B customers."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 938,
+        "pseoPageCount": 789,
+        "pseoSharePct": 84.1,
+        "detectedLocales": {
+          "de": 114,
+          "fr": 113,
+          "ja": 113,
+          "it": 113,
+          "es": 113,
+          "pt": 113,
+          "nl": 113
+        },
+        "topFamilies": [
+          {
+            "pattern": "/glossary/[glossary_slug]",
+            "archetype": "SEO Glossary / Concept Wiki (/glossary/[term])",
+            "count": 560,
+            "sharePct": 59.7,
+            "variableSlots": [
+              "glossary_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/pt/glossary/404-not-found",
+              "https://pirsch.io/fr/glossary/channel",
+              "https://pirsch.io/de/glossary/cost-per-click"
+            ],
+            "inferredTitleFormula": "404 Não Encontrado – Pirsch Analytics"
+          },
+          {
+            "pattern": "/atlas/[atla_slug]",
+            "archetype": "Programmatic Directory / Hub (/atlas/...)",
+            "count": 144,
+            "sharePct": 15.4,
+            "variableSlots": [
+              "atla_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/de/atlas/enterprise-analytics",
+              "https://pirsch.io/fr/atlas/sales-analytics",
+              "https://pirsch.io/ja/atlas/social-media-analytics"
+            ],
+            "inferredTitleFormula": "Enterprise Analytics – Pirsch Analytics"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 39,
+            "sharePct": 4.2,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/es/laravel-filament-analytics",
+              "https://pirsch.io/pt/laravel-filament-analytics",
+              "https://pirsch.io/nl/white-label-analytics"
+            ],
+            "inferredTitleFormula": "Analytics para Laravel y Filament – Pirsch Analytics"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 18,
+            "sharePct": 1.9,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/blog/introducing-pirsch-analytics-2.0/",
+              "https://pirsch.io/blog/google-analytics-declared-illegal-by-austrian-dsb/",
+              "https://pirsch.io/blog/our-recap-of-2021/"
+            ],
+            "inferredTitleFormula": "Introducing Pirsch Analytics 2.0: Custom Domains, Themes, Organizations and More"
+          },
+          {
+            "pattern": "/discourse/[discourse_slug]",
+            "archetype": "Programmatic Directory / Hub (/discourse/...)",
+            "count": 8,
+            "sharePct": 0.9,
+            "variableSlots": [
+              "discourse_slug"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/es/discourse/login",
+              "https://pirsch.io/fr/discourse/login",
+              "https://pirsch.io/it/discourse/login"
+            ],
+            "inferredTitleFormula": "Iniciar sesión en Discourse – Pirsch Analytics"
+          },
+          {
+            "pattern": "/[locale]",
+            "archetype": "Localized Homepage",
+            "count": 7,
+            "sharePct": 0.7,
+            "variableSlots": [
+              "locale"
+            ],
+            "sampleUrls": [
+              "https://pirsch.io/ja",
+              "https://pirsch.io/de",
+              "https://pirsch.io/it"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Pirsch – The Best, Privacy-Friendly Google Analytics Alternative",
+        "h1": "See Beyond Clicks With the Best Google Analytics Alternative",
+        "metaDescription": "Pirsch is a powerful, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free, and easily integrated into any website or app.",
+        "jsonLdTypes": []
+      },
+      "pricingStats": {
+        "pricingUrl": "https://pirsch.io/#pricing",
+        "billingToggles": [],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [],
+        "riskReversalSignals": [
+          "no credit card required",
+          "30-day Free Trial"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 1,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "siteguru",
+      "name": "SiteGuru",
+      "domain": "siteguru.co",
+      "url": "https://www.siteguru.co",
+      "pseoFile": "siteguru-co-pseo-blueprint.json",
+      "pricingFile": "siteguru-co-pricing-teardown.json",
+      "disclosedRevenue": "$14,000 MRR ($168,000 ARR)",
+      "disclosedMrrUsd": 14000,
+      "disclosureDate": "2025-10-02",
+      "primarySourceUrl": "https://www.indiehackers.com/post/tech/building-an-seo-product-to-14k-mrr-in-a-crowded-market-gU4DE1l094cpj1GjNHwu",
+      "secondarySourceUrl": "https://www.siteguru.co/pricing",
+      "secondarySourceNote": "Solo founder Rick van Haasteren documented growing SiteGuru to $14,000 recurring MRR in the hyper-competitive SEO tool market.",
+      "founders": "Rick van Haasteren (Solo founder, Netherlands)",
+      "category": "Actionable SEO Audit & Monitoring SaaS",
+      "incumbentWedge": "Replaces overwhelming 500-column enterprise crawlers (Screaming Frog, Ahrefs, Semrush) with a plain-English prioritized weekly SEO Todo List connectable to Google Search Console & GA4.",
+      "coreValueProposition": "An actionable SEO todo list — we audit your website and tell you exactly where to start to improve your rankings.",
+      "heroCopyBreakdown": "Hero H1 (`We'll tell you where to start`) directly addresses the #1 anxiety of SMBs and agencies: drowning in technical SEO spreadsheets without knowing what actually moves rankings.",
+      "acquisitionChannels": [
+        "16 Free Interactive Micro-Tools (`/free-seo-tools/[tool_slug]`): High-utility calculators and checkers (`hreflang-checker`, `schema-checker`, `robots-txt-validator`, `sitemap-extractor`) that capture technical searches and upsell the full automated audit.",
+        "172-Page Structured Knowledge Base (`/seo-academy/[slug]`): Comprehensive educational cluster covering every technical SEO issue SiteGuru detects, interlinked directly to `/features/[slug]` (21 pages).",
+        "Targeted Competitor Alternatives (`/screaming-frog-alternative`, `/se-ranking-alternative`): Captures users frustrated with desktop-only crawlers."
+      ],
+      "replicableActions": [
+        "Build 10–15 Single-Purpose Free Checkers (`/free-seo-tools/[slug]`): Extract one micro-check from your paid backend and expose it as an instant free web tool with an upsell to \"Monitor your entire site weekly\".",
+        "Price by Website Count with Identical Feature Access (`$49` Small 5 sites -> `$99` Medium 15 sites `[Most popular]` -> `$199` Large 50 sites): Including `MCP access` and `White label reports` across all tiers makes agency upgrades frictionless.",
+        "Localize into Your Home Non-English Market (`/nl/`): SiteGuru includes Dutch (`nl`) pages alongside English."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 254,
+        "pseoPageCount": 228,
+        "pseoSharePct": 89.8,
+        "detectedLocales": {
+          "nl": 5
+        },
+        "topFamilies": [
+          {
+            "pattern": "/seo-academy/[seo_academy_slug]",
+            "archetype": "Programmatic Directory / Hub (/seo-academy/...)",
+            "count": 172,
+            "sharePct": 67.7,
+            "variableSlots": [
+              "seo_academy_slug"
+            ],
+            "sampleUrls": [
+              "https://www.siteguru.co/seo-academy/seo-fundamentals",
+              "https://www.siteguru.co/seo-academy/on-page-optimization",
+              "https://www.siteguru.co/seo-academy/technical-seo"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | SiteGuru"
+          },
+          {
+            "pattern": "/features/[feature_slug]",
+            "archetype": "Programmatic Directory / Hub (/features/...)",
+            "count": 21,
+            "sharePct": 8.3,
+            "variableSlots": [
+              "feature_slug"
+            ],
+            "sampleUrls": [
+              "https://www.siteguru.co/features/technical-seo-audit",
+              "https://www.siteguru.co/features/backlink-monitoring",
+              "https://www.siteguru.co/features/backlink-insights"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | SiteGuru"
+          },
+          {
+            "pattern": "/free-seo-tools/[free_seo_tool_slug]",
+            "archetype": "Programmatic Directory / Hub (/free-seo-tools/...)",
+            "count": 16,
+            "sharePct": 6.3,
+            "variableSlots": [
+              "free_seo_tool_slug"
+            ],
+            "sampleUrls": [
+              "https://www.siteguru.co/free-seo-tools/meta-description-generator",
+              "https://www.siteguru.co/free-seo-tools/page-title-generator",
+              "https://www.siteguru.co/free-seo-tools/ctr-curve"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | SiteGuru"
+          },
+          {
+            "pattern": "/client-stories/[client_storie_slug]",
+            "archetype": "Programmatic Directory / Hub (/client-stories/...)",
+            "count": 6,
+            "sharePct": 2.4,
+            "variableSlots": [
+              "client_storie_slug"
+            ],
+            "sampleUrls": [
+              "https://www.siteguru.co/client-stories/the-search-engineers",
+              "https://www.siteguru.co/client-stories/vingard-digital-marketing",
+              "https://www.siteguru.co/client-stories/the-brand-auditors"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | SiteGuru"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 3,
+            "sharePct": 1.2,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://www.siteguru.co/screaming-frog-alternative",
+              "https://www.siteguru.co/se-ranking-alternative",
+              "https://www.siteguru.co/free-seo-tools"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable Title} | SiteGuru"
+          },
+          {
+            "pattern": "/seo-academy/how-to-[topic]",
+            "archetype": "Programmatic Directory / Hub (/seo-academy/...)",
+            "count": 3,
+            "sharePct": 1.2,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://www.siteguru.co/seo-academy/how-to-use-siteguru",
+              "https://www.siteguru.co/seo-academy/how-to-set-up-shopify-crawl-signatures",
+              "https://www.siteguru.co/seo-academy/what-is-backlink-spam-score"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "SiteGuru | The SEO tool for online marketers",
+        "h1": "Turn SEO chaos into a clear action plan",
+        "metaDescription": "SEO can be overwhelming. SiteGuru simplifies SEO with step-by-step guidance. We help you improve your website and grow your organic traffic. Try it for free!",
+        "jsonLdTypes": [
+          "WebApplication"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://www.siteguru.co/pricing",
+        "billingToggles": [
+          "Monthly Annually (-20%)",
+          "Monthly",
+          "Annually (-20%)",
+          "monthly"
+        ],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$49",
+          "$99",
+          "$199"
+        ],
+        "riskReversalSignals": [
+          "no credit card required"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 4,
+        "faqCount": 9
+      }
+    },
+    {
+      "slug": "seoutils",
+      "name": "SEO Utils",
+      "domain": "seoutils.app",
+      "url": "https://seoutils.app",
+      "pseoFile": "seoutils-app-pseo-blueprint.json",
+      "pricingFile": "seoutils-app-pricing-teardown.json",
+      "disclosedRevenue": "~$10,400/mo ($15,800/mo founder portfolio)",
+      "disclosedMrrUsd": 10400,
+      "disclosureDate": "2026-02-24",
+      "primarySourceUrl": "https://www.indiehackers.com/post/tech/staying-close-to-customers-and-hitting-16k-mo-VTKxLk4uanWJbmSdG4km",
+      "secondarySourceUrl": "https://seoutils.app/#pricing",
+      "secondarySourceNote": "Solo founder Phuc Le disclosed $15,800/mo across his indie portfolio in Feb 2026 (with sister app Ring Tonic at $5,400 MRR and SEO Utils generating ~$10,400/mo).",
+      "founders": "Phuc Le (Solo indie founder)",
+      "category": "Desktop SEO Application (macOS, Windows, Linux) + BYOK Data API",
+      "incumbentWedge": "Eliminates $129–$499/mo recurring Ahrefs/Semrush subscriptions by offering a native cross-platform desktop app ($69 license + $59.99/yr updates) that plugs directly into pay-as-you-go DataForSEO APIs ($1.50–$2.30 per thousand queries).",
+      "coreValueProposition": "An SEO desktop application built for macOS, Windows, and Linux — pay only pennies for raw SEO data instead of $200+/mo subscriptions.",
+      "heroCopyBreakdown": "Hero H1 (`An SEO desktop application built for macOS, Windows, Linux`) immediately differentiates on form factor + radical cost transparency ($4,200/yr Semrush vs $69 + pennies in API credits).",
+      "acquisitionChannels": [
+        "Cutting-Edge AI Search Feature Landing Pages (`/fan-out-query`): Rapidly ships dedicated landing pages for emerging 2025–2026 SEO concepts like Google AI Mode \"Query Fan-Out\" extraction.",
+        "Aggressive Cost-Comparison Anchoring on `#pricing`: Side-by-side table showing $4,200 / $2,800 / $1,950 annual incumbent costs vs SEO Utils $69 desktop license + $1.50 API usage.",
+        "Community & Word-of-Mouth in Technical SEO Circles + Lemon Squeezy Affiliate/Checkout Stack: Runs a lean Nuxt marketing site with Lemon Squeezy checkout."
+      ],
+      "replicableActions": [
+        "Use BYOK (Bring Your Own Key / Wholesale API) + Desktop License to Undercut $200/mo SaaS Giants: When data APIs cost pennies wholesale, packaging a slick local UI for $69 + $59.99/yr renewal creates an irresistible math equation.",
+        "Ship Feature Landing Pages for Brand-New Industry Jargon (`/fan-out-query`): Be the first tool with a dedicated landing page for new technical terms before big incumbents update their marketing.",
+        "Anchor Your Pricing Against Annual Incumbent Spend ($4,200/yr vs $69): Showing 12-month cumulative competitor cost makes a $69 purchase feel like an instant 98% savings."
+      ],
+      "seoStats": {
+        "robotsTxtFound": false,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 19,
+        "pseoPageCount": 16,
+        "pseoSharePct": 84.2,
+        "detectedLocales": {},
+        "topFamilies": [
+          {
+            "pattern": "/_nuxt/[_nuxt_slug]",
+            "archetype": "Programmatic Directory / Hub (/_nuxt/...)",
+            "count": 13,
+            "sharePct": 68.4,
+            "variableSlots": [
+              "_nuxt_slug"
+            ],
+            "sampleUrls": [
+              "https://seoutils.app/_nuxt/entry.85c63de4.js",
+              "https://seoutils.app/_nuxt/index.53c2bd6a.js",
+              "https://seoutils.app/_nuxt/Footer.614cebeb.js"
+            ],
+            "inferredTitleFormula": ""
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 2,
+            "sharePct": 10.5,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://seoutils.app/apple-touch-icon.png",
+              "https://seoutils.app/fan-out-query"
+            ],
+            "inferredTitleFormula": "apple-touch-icon.png (192×192)"
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "SEO Utils",
+        "h1": "An SEO desktop application built for macOS, Windows, Linux",
+        "metaDescription": "A set of necessary tools & utilities for your SEO tasks.",
+        "jsonLdTypes": []
+      },
+      "pricingStats": {
+        "pricingUrl": "https://seoutils.app/#pricing",
+        "billingToggles": [],
+        "annualDiscountBadges": [],
+        "priceTokensFound": [
+          "$12.8",
+          "$4,200",
+          "$2,800",
+          "$1,950",
+          "$1.50",
+          "$2.10",
+          "$1.80",
+          "$2.30",
+          "$69",
+          "$5.99 / mo",
+          "$1.99 / mo",
+          "$59.99"
+        ],
+        "riskReversalSignals": [],
+        "paymentProvidersDetected": [
+          "Lemon Squeezy"
+        ],
+        "tierCount": 0,
+        "faqCount": 0
+      }
+    },
+    {
+      "slug": "leavemealone",
+      "name": "Leave Me Alone",
+      "domain": "leavemealone.com",
+      "url": "https://leavemealone.com",
+      "pseoFile": "leavemealone-com-pseo-blueprint.json",
+      "pricingFile": "leavemealone-com-pricing-teardown.json",
+      "disclosedRevenue": "$10,000/mo (Open Startup verified)",
+      "disclosedMrrUsd": 10000,
+      "disclosureDate": "2023-08-15",
+      "primarySourceUrl": "https://leavemealone.com/blog/from-indie-side-project-to-profitable-business/",
+      "secondarySourceUrl": "https://leavemealone.com/blog/how-we-share-company-stats-and-metrics-publicly/",
+      "secondarySourceNote": "Two-person nomadic founders Danielle Johnson & James Ivings documented scaling Leave Me Alone from $500/mo to $10,000/mo with an Open Startup metrics dashboard.",
+      "founders": "Danielle Johnson & James Ivings (2 co-founders)",
+      "category": "Consumer & Prosumer Privacy SaaS / Email Unsubscribe & Inbox Shield",
+      "incumbentWedge": "Competes with 'free' email cleaners (Unroll.me, which famously got caught selling user inbox receipt data to Uber) by charging transparent privacy-first prices and never storing or selling email content.",
+      "coreValueProposition": "Easily unsubscribe from unwanted emails and clean your inbox without sacrificing your privacy.",
+      "heroCopyBreakdown": "Hero H1 (`Easily unsubscribe from emails`) focuses on immediate inbox relief backed by strict privacy guarantees and transparent pricing.",
+      "acquisitionChannels": [
+        "14,264-Page Programmatic Unsubscribe Directory (`/how-to-unsubscribe-from/[sender_slug]` — 14,264 pages out of 14,802 total URLs, 98.8% pSEO!): Automatically generates a step-by-step unsubscribe guide + 1-click automated unsubscribe CTA for over 14,000 newsletter and SaaS senders (Quora, LinkedIn, Pinterest, Uber, etc.).",
+        "74 Root Commercial & Feature Landing Pages (`/[root-landing-slug]`) + 191 Blog & How-To Guides (`/blog/[slug]`).",
+        "Open Startup Transparency & Free Micro-Tools: Publicly sharing revenue, server costs, and environmental impact builds deep trust with privacy-conscious buyers."
+      ],
+      "replicableActions": [
+        "Build a 10,000+ Page `/how-to-[action]-from-[entity]` Programmatic Directory: Leave Me Alone’s **14,264 `/how-to-unsubscribe-from/[brand]` pages** are the ultimate textbook example of long-tail entity pSEO — capturing frustrated users searching how to stop emails from specific brands and converting them on the spot.",
+        "Offer Flexible Pass vs Subscription Pricing (`$7.50` 7-Day Pass vs `$4.50/mo` Yearly vs `$19/mo` Monthly): Since inbox cleaning can be episodic, offering a 7-day pass alongside recurring Inbox Shield plans captures both one-time and recurring buyers.",
+        "Position Paid Privacy Against 'Free Data-Harvesting Incumbents': Turn the fact that you charge money into your #1 trust badge."
+      ],
+      "seoStats": {
+        "robotsTxtFound": true,
+        "llmsTxtFound": false,
+        "llmsTxtLength": 0,
+        "llmsFullTxtFound": false,
+        "llmsFullTxtLength": 0,
+        "totalUrlsDiscovered": 14802,
+        "pseoPageCount": 14623,
+        "pseoSharePct": 98.8,
+        "detectedLocales": {
+          "fr": 7187,
+          "it": 57,
+          "de": 57,
+          "es": 57
+        },
+        "topFamilies": [
+          {
+            "pattern": "/how-to-unsubscribe-from/[how_to_unsubscribe_from_slug]",
+            "archetype": "Programmatic Directory / Hub (/how-to-unsubscribe-from/...)",
+            "count": 14264,
+            "sharePct": 96.4,
+            "variableSlots": [
+              "how_to_unsubscribe_from_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/how-to-unsubscribe-from/amazon/",
+              "https://leavemealone.com/fr/how-to-unsubscribe-from/amazon/",
+              "https://leavemealone.com/it/how-to-unsubscribe-from/amazon/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/blog/[blog_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 153,
+            "sharePct": 1,
+            "variableSlots": [
+              "blog_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/blog/why-that-scam-email-knows-so-much-about-you/",
+              "https://leavemealone.com/blog/burner-email-addresses/",
+              "https://leavemealone.com/fr/blog/burner-email-addresses/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/[root-landing-slug]",
+            "archetype": "Root-Level Long-Tail SEO Landing Pages",
+            "count": 74,
+            "sharePct": 0.5,
+            "variableSlots": [
+              "root_landing_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/do-not-disturb/",
+              "https://leavemealone.com/fr/do-not-disturb/",
+              "https://leavemealone.com/it/do-not-disturb/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/blog/how-to-[topic]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 38,
+            "sharePct": 0.3,
+            "variableSlots": [
+              "topic_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/blog/how-to-send-an-anonymous-email/",
+              "https://leavemealone.com/fr/blog/how-to-send-an-anonymous-email/",
+              "https://leavemealone.com/blog/how-to-choose-a-vpn/"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/blog/tag/[sub_item_slug]",
+            "archetype": "Content / Editorial Blog Cluster",
+            "count": 34,
+            "sharePct": 0.2,
+            "variableSlots": [
+              "sub_item_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/blog/tag/addy",
+              "https://leavemealone.com/blog/tag/aliases",
+              "https://leavemealone.com/blog/tag/anonymous-email"
+            ],
+            "inferredTitleFormula": "{Primary Keyword / Variable} — Leave Me Alone"
+          },
+          {
+            "pattern": "/favicons/[favicon_slug]",
+            "archetype": "Programmatic Directory / Hub (/favicons/...)",
+            "count": 14,
+            "sharePct": 0.1,
+            "variableSlots": [
+              "favicon_slug"
+            ],
+            "sampleUrls": [
+              "https://leavemealone.com/favicons/apple-icon-57x57.png",
+              "https://leavemealone.com/favicons/apple-icon-60x60.png",
+              "https://leavemealone.com/favicons/apple-icon-72x72.png"
+            ],
+            "inferredTitleFormula": ""
+          }
+        ]
+      },
+      "landingPageSample": {
+        "title": "Easily Unsubscribe from Unwanted Emails and Clean Your Inbox - Leave Me Alone",
+        "h1": "Easily unsubscribe from emails",
+        "metaDescription": "Discover how to easily unsubscribe from unwanted emails and take control of your inbox. Unsubscribe from subscriptions in one click and stop unwanted messages with Leave Me Alone. Try it for free!",
+        "jsonLdTypes": [
+          "Organization",
+          "WebSite",
+          "SoftwareApplication"
+        ]
+      },
+      "pricingStats": {
+        "pricingUrl": "https://leavemealone.com/pricing/",
+        "billingToggles": [
+          "Pay monthly Pay yearly Choose yearly, save money!",
+          "Pay monthly",
+          "Pay yearly"
+        ],
+        "annualDiscountBadges": [
+          "Welcome! To thank you for your first visit, here's up to 60% off!",
+          "Seven Day Pass 0% off!",
+          "0% off!",
+          "(2 months free)",
+          "Casual Emailer 40% off!",
+          "40% off!",
+          "Inbox Zero Hero 60% off!",
+          "60% off!"
+        ],
+        "priceTokensFound": [
+          "$19",
+          "$19.00",
+          "$ 19.00",
+          "$7.50",
+          "$4.50/mo",
+          "$36.00",
+          "$54.00/year",
+          "$13.33",
+          "$5.33/mo",
+          "$96.00",
+          "$64.00/year"
+        ],
+        "riskReversalSignals": [
+          "no credit card required",
+          "14 day money back guarantee"
+        ],
+        "paymentProvidersDetected": [],
+        "tierCount": 4,
+        "faqCount": 11
+      }
+    }
+  ]
+}
