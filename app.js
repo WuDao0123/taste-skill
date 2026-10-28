@@ -260,10 +260,10 @@ function renderTeardownVault() {
 
 // Section IV: Pricing Matrix ($0 / $29 / $69 Early-Bird / $169)
 function renderPricingMatrix() {
-  const grid = document.getElementById('pricingGrid');
+  const grid = document.getElementById("pricingGrid");
   if (!grid || !unifiedData?.pricingConfig) return;
   grid.innerHTML = unifiedData.pricingConfig.tiers.map((t) => {
-    const proTreeHtml = (t.id === 'pro' || t.popular) ? `
+    const proTreeHtml = (t.id === "pro" || t.popular) ? `
       <div style="margin:10px 0 12px 0;padding:10px 12px;background:#090B10;border:1px solid rgba(16,185,129,0.4);border-radius:8px;">
         <div style="font-family:var(--font-mono);font-size:10.5px;font-weight:700;color:#6EE7B7;margin-bottom:4px;">
           📦 Inspect Exact ZIP File Tree (growth-revenue-skills-pro-v1.0.0.zip — 385 KB)
@@ -279,46 +279,36 @@ function renderPricingMatrix() {
 ├── data/*.json (22 $10k-$422k MRR Blueprints)
 ├── templates/*.tsx (4 Next.js/Tailwind UI)
 └── skills/*/SKILL.md (4 Agent Playbooks)</pre>
-      </div>` : '';
+      </div>` : "";
+    const priceStr = String(t.price).startsWith("$") ? t.price : ("$" + t.price);
+    const regStr = t.regularPrice ? (String(t.regularPrice).startsWith("$") ? t.regularPrice : ("$" + t.regularPrice)) : "";
     return `
-    <div class="pricing-card ${t.popular ? 'popular' : ''}">
+    <div class="pricing-card ${t.popular ? "popular" : ""}">
       <div>
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
-          <span class="badge-pro" style="${t.popular ? '' : 'background:rgba(255,255,255,0.08);color:var(--text-secondary);'}">${t.badge}</span>
+          <span class="badge-pro" style="${t.popular ? "" : "background:rgba(255,255,255,0.08);color:var(--text-secondary);"}">${t.badge}</span>
           <span style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted);">${t.id.toUpperCase()}</span>
         </div>
         <h3 style="font-size:18px;font-weight:600;color:#fff;">${t.name}</h3>
         <div class="price-tag-large">
-          <span>${String(t.price).startsWith('
-
-window.addEventListener('DOMContentLoaded', initUnifiedApp);
-) ? t.price : '
-
-window.addEventListener('DOMContentLoaded', initUnifiedApp);
- + t.price}</span>
-          ${t.regularPrice ? `<span class="price-strike">${String(t.regularPrice).startsWith('
-
-window.addEventListener('DOMContentLoaded', initUnifiedApp);
-) ? t.regularPrice : '
-
-window.addEventListener('DOMContentLoaded', initUnifiedApp);
- + t.regularPrice}</span>` : ''}
+          <span>${priceStr}</span>
+          ${regStr ? `<span class="price-strike">${regStr}</span>` : ""}
           <span style="font-size:12px;color:var(--text-muted);font-weight:400;">USD</span>
         </div>
         <div style="font-family:var(--font-mono);font-size:11.5px;color:#6EE7B7;margin-bottom:8px;">${t.billing}</div>
         <p style="font-size:12.5px;color:var(--text-muted);line-height:1.45;">${t.description}</p>
-        ${t.anchorNote ? `<div class="anchor-callout">⚡ ${t.anchorNote}</div>` : ''}
+        ${t.anchorNote ? `<div class="anchor-callout">⚡ ${t.anchorNote}</div>` : ""}
         <ul class="tier-features">
-          ${t.features.map((f) => `<li>${f}</li>`).join('')}
+          ${t.features.map((f) => `<li>${f}</li>`).join("")}
         </ul>
         ${proTreeHtml}
       </div>
-      <button class="${t.popular ? 'pro-cta-btn' : 'action-btn primary'}" style="width:100%;padding:11px;font-size:13px;" onclick="openCheckoutModal('${t.id}')">
+      <button class="${t.popular ? "pro-cta-btn" : "action-btn primary"}" style="width:100%;padding:11px;font-size:13px;" onclick="openCheckoutModal(\x27${t.id}\x27)">
         ${t.cta} &rarr;
       </button>
     </div>
   `;
-  }).join('');
+  }).join("");
 }
 
-window.addEventListener('DOMContentLoaded', initUnifiedApp);
+window.addEventListener("DOMContentLoaded", initUnifiedApp);
