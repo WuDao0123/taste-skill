@@ -89,3 +89,10 @@ Pair your visual `SKILL.md` with our 4 executable monetization skills reverse-en
 
 
 👉 **Live Interactive Workbench, Screenshot-to-Taste Demo & Pro Checkout**: [https://wudao0123.github.io/taste-skill/](https://wudao0123.github.io/taste-skill/)
+
+
+## 🤝 Creators & Affiliates (Earn 50% — $34.50 / Sale)
+
+Share TasteSkill with your Claude Code, Cursor, Codex, or indie hacker audience and earn **50% commission ($34.50 per $69 Pro Pack sale or $84.50 per $169 Team sale)**:
+- Your instant referral link: `https://wudao0123.github.io/taste-skill/?ref=YOUR_X_HANDLE`
+- Automatically persisted for **30 days** in `localStorage.ts_affiliate_ref` and attributed across all Early-Bird orders.
