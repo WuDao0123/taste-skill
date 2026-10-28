@@ -30,23 +30,115 @@ function parseArgs(argv) {
   return { positional, flags };
 }
 
+function buildCursorMdc(slug, skillMd) {
+  const body = skillMd.replace(/^---[\s\S]*?---\s*/, '');
+  return [
+    '---',
+    `description: TasteSkill Design System & UI Architecture Rules (taste-${slug})`,
+    'globs: ["**/*.tsx", "**/*.jsx", "**/*.ts", "**/*.js", "**/*.html", "**/*.css", "**/*.vue", "**/*.svelte"]',
+    'alwaysApply: true',
+    '---',
+    '',
+    body
+  ].join('\n');
+}
+
+function upsertSectionInMarkdownFile(filePath, markerId, headerTitle, skillMd, relSkillPath) {
+  const startTag = `<!-- TASTE-SKILL:${markerId}:START -->`;
+  const endTag = `<!-- TASTE-SKILL:${markerId}:END -->`;
+  const block = [
+    startTag,
+    `## ${headerTitle} (taste-${markerId})`,
+    `> Auto-synced by \`taste-skill\`. Full specification: \`${relSkillPath}\``,
+    '',
+    `Always follow the design tokens, color contrast ratios, typography scale, layout architecture, and strict anti-patterns defined in \`${relSkillPath}\` whenever building or modifying UI components, landing pages, or stylesheets.`,
+    endTag
+  ].join('\n');
+
+  let existing = '';
+  if (fs.existsSync(filePath)) {
+    existing = fs.readFileSync(filePath, 'utf8');
+  }
+  const regex = new RegExp(`${startTag}[\\s\\S]*?${endTag}`, 'g');
+  const updated = regex.test(existing)
+    ? existing.replace(regex, block)
+    : (existing.trim() ? `${existing.trim()}\n\n${block}\n` : `# Project Coding & Design Agent Instructions\n\n${block}\n`);
+  fs.writeFileSync(filePath, updated, 'utf8');
+}
+
+function exportUniversalAgentAdapters(baseDir, slug, skillMd, targetMode = 'all') {
+  const written = [];
+  const mode = String(targetMode || 'all').toLowerCase();
+  const isPreset = ['all', 'code', 'claude', 'codex', 'cursor', 'windsurf'].includes(mode);
+
+  if (!isPreset) {
+    const customDir = path.resolve(baseDir, targetMode);
+    fs.mkdirSync(customDir, { recursive: true });
+    const f = customDir.endsWith('.md') ? customDir : path.join(customDir, 'SKILL.md');
+    fs.mkdirSync(path.dirname(f), { recursive: true });
+    fs.writeFileSync(f, skillMd, 'utf8');
+    written.push({ agent: 'Custom Path', file: f });
+    return written;
+  }
+
+  // 1. Claude Code (.claude/skills/taste-<slug>/SKILL.md + CLAUDE.md)
+  if (['all', 'code', 'claude'].includes(mode)) {
+    const claudeSkill = path.join(baseDir, '.claude', 'skills', `taste-${slug}`, 'SKILL.md');
+    fs.mkdirSync(path.dirname(claudeSkill), { recursive: true });
+    fs.writeFileSync(claudeSkill, skillMd, 'utf8');
+    written.push({ agent: 'Claude Code Skill', file: claudeSkill });
+
+    const claudeMd = path.join(baseDir, 'CLAUDE.md');
+    upsertSectionInMarkdownFile(claudeMd, slug, 'Claude Code Aesthetic & UI Design System', skillMd, `.claude/skills/taste-${slug}/SKILL.md`);
+    written.push({ agent: 'Claude Code Root', file: claudeMd });
+  }
+
+  // 2. OpenAI Codex / OpenCode / Universal Code Agents (.agents/skills/taste-<slug>/SKILL.md + AGENTS.md)
+  if (['all', 'code', 'codex'].includes(mode)) {
+    const agentSkill = path.join(baseDir, '.agents', 'skills', `taste-${slug}`, 'SKILL.md');
+    fs.mkdirSync(path.dirname(agentSkill), { recursive: true });
+    fs.writeFileSync(agentSkill, skillMd, 'utf8');
+    written.push({ agent: 'Codex / Universal Agent Skill', file: agentSkill });
+
+    const agentsMd = path.join(baseDir, 'AGENTS.md');
+    upsertSectionInMarkdownFile(agentsMd, slug, 'Universal Code Agent Design System', skillMd, `.agents/skills/taste-${slug}/SKILL.md`);
+    written.push({ agent: 'Codex / AGENTS.md', file: agentsMd });
+  }
+
+  // 3. Cursor (.cursor/skills/taste-<slug>/SKILL.md + .cursor/rules/taste-<slug>.mdc)
+  if (['all', 'code', 'cursor'].includes(mode)) {
+    const cursorSkill = path.join(baseDir, '.cursor', 'skills', `taste-${slug}`, 'SKILL.md');
+    fs.mkdirSync(path.dirname(cursorSkill), { recursive: true });
+    fs.writeFileSync(cursorSkill, skillMd, 'utf8');
+    written.push({ agent: 'Cursor Skill', file: cursorSkill });
+
+    const cursorMdc = path.join(baseDir, '.cursor', 'rules', `taste-${slug}.mdc`);
+    fs.mkdirSync(path.dirname(cursorMdc), { recursive: true });
+    fs.writeFileSync(cursorMdc, buildCursorMdc(slug, skillMd), 'utf8');
+    written.push({ agent: 'Cursor .mdc Rule', file: cursorMdc });
+  }
+
+  // 4. Windsurf (.windsurfrules)
+  if (['all', 'code', 'windsurf'].includes(mode)) {
+    const windsurfFile = path.join(baseDir, '.windsurfrules');
+    upsertSectionInMarkdownFile(windsurfFile, slug, 'Windsurf Design System Rules', skillMd, `.cursor/skills/taste-${slug}/SKILL.md`);
+    written.push({ agent: 'Windsurf Rules', file: windsurfFile });
+  }
+
+  return written;
+}
+
 function printHelp() {
   console.log(`
-taste-skill v1.1.0 — URL-to-Taste Design System Extractor & Semantic Router
+taste-skill v1.2.0 — URL & Screenshot to Taste Extractor (Universal Code Agent Edition)
+Supports: Claude Code (.claude/skills + CLAUDE.md) · Codex/OpenCode (AGENTS.md) · Cursor (.cursor/rules) · Windsurf
 
 Usage:
-  npx github:WuDao0123/taste-skill extract <url> [--out <dir>] [--json <file>]
-  npx github:WuDao0123/taste-skill from-image <image-path> [--name <custom-name>] [--out <dir>]
+  npx github:WuDao0123/taste-skill add <slug> [--target all|code|claude|codex|cursor|windsurf|<dir>]
+  npx github:WuDao0123/taste-skill from-image <image-path> [--name <custom-name>] [--target all|code|<dir>]
+  npx github:WuDao0123/taste-skill extract <url> [--out <dir>] [--target all|code]
   npx github:WuDao0123/taste-skill find "<natural language query>" [--limit <n>]
-  npx github:WuDao0123/taste-skill add <slug> [--target <dir>]
   npx github:WuDao0123/taste-skill list
-
-Examples:
-  npx github:WuDao0123/taste-skill extract https://linear.app --out ./samples/linear
-  npx github:WuDao0123/taste-skill find "dark precision saas"
-  npx github:WuDao0123/taste-skill find "fintech light editorial mesh gradient"
-  npx github:WuDao0123/taste-skill find "obsidian developer email serif mono"
-  npx github:WuDao0123/taste-skill add linear --target ./.cursor/skills/taste-linear
 `);
 }
 
@@ -59,11 +151,10 @@ async function main() {
     process.exit(0);
   }
 
-
   if (cmd === 'from-image' || cmd === 'image' || cmd === 'screenshot') {
     const imgPath = positional[1];
     if (!imgPath) {
-      console.error('Error: Missing <image-path>. Usage: taste-skill from-image <image-path> [--name <name>] [--out <dir>]');
+      console.error('Error: Missing <image-path>. Usage: taste-skill from-image <image-path> [--name <name>] [--target all|code]');
       process.exit(1);
     }
     console.log(`[taste-skill] Analyzing screenshot pixels, spatial layout & 30-site aesthetic twins for: ${imgPath} ...`);
@@ -84,14 +175,20 @@ async function main() {
     console.log(`  - Extracted Tokens: Canvas ${res.colors.canvas} | Surface ${res.colors.surface} | Text ${res.colors.text} | Accent ${res.colors.accent}`);
     console.log(`  - Layout Skeleton:  ${res.layout.inferredContainerWidth} | Navbar ${res.layout.inferredNavbarHeight} | ${res.layout.gridArchitecture}`);
     console.log(`  - Top Design Twins: ${res.twins.map((t) => `${t.name} (${t.similarity}%)`).join(', ')}`);
-    console.log(`  - SKILL.md Saved:   ${skillFile}`);
+    console.log(`  - Primary SKILL.md: ${skillFile}`);
+
+    if (flags.target) {
+      const written = exportUniversalAgentAdapters(process.cwd(), res.slug, res.skillMarkdown, flags.target);
+      console.log(`  - Universal Code Agent Exports (${written.length} files):`);
+      written.forEach((w) => console.log(`      ✔ [${w.agent}] ${path.relative(process.cwd(), w.file) || w.file}`));
+    }
     return;
   }
 
   if (cmd === 'extract') {
     const rawUrl = positional[1];
     if (!rawUrl) {
-      console.error('Error: Missing <url>. Usage: taste-skill extract <url> [--out <dir>]');
+      console.error('Error: Missing <url>. Usage: taste-skill extract <url> [--out <dir>] [--target all|code]');
       process.exit(1);
     }
     const targetUrl = /^https?:\/\//i.test(rawUrl) ? rawUrl : `https://${rawUrl}`;
@@ -127,6 +224,12 @@ async function main() {
     console.log(`  - Hero H1 Font:     ${extractedData.typography.h1[0]?.fontFamily?.split(',')[0] || 'N/A'} (${extractedData.typography.h1[0]?.fontSize || 'N/A'})`);
     console.log(`  - Raw JSON Saved:   ${jsonPath}`);
     console.log(`  - SKILL.md Saved:   ${skillFile}`);
+
+    if (flags.target) {
+      const written = exportUniversalAgentAdapters(process.cwd(), slug, skillMd, flags.target);
+      console.log(`  - Universal Code Agent Exports (${written.length} files):`);
+      written.forEach((w) => console.log(`      ✔ [${w.agent}] ${path.relative(process.cwd(), w.file) || w.file}`));
+    }
     return;
   }
 
@@ -153,7 +256,7 @@ async function main() {
       if (r.skillPath) {
         console.log(`     SKILL.md:  ${r.skillPath}`);
       }
-      console.log(`     Install:   npx github:WuDao0123/taste-skill add ${r.slug}  (or: npx taste-skill add ${r.slug})\n`);
+      console.log(`     Install (Claude Code + Codex + Cursor): npx github:WuDao0123/taste-skill add ${r.slug} --target all\n`);
     });
     return;
   }
@@ -161,7 +264,7 @@ async function main() {
   if (cmd === 'add' || cmd === 'install') {
     const slug = (positional[1] || '').replace(/^taste-/, '').toLowerCase();
     if (!slug) {
-      console.error('Error: Missing <slug>. Usage: taste-skill add <slug> [--target <dir>]');
+      console.error('Error: Missing <slug>. Usage: taste-skill add <slug> [--target all|code|claude|codex|cursor|windsurf|<dir>]');
       process.exit(1);
     }
     const sourceSkill = path.join(ROOT_DIR, 'samples', slug, 'SKILL.md');
@@ -169,14 +272,13 @@ async function main() {
       console.error(`Error: Skill "taste-${slug}" is not extracted yet. Run: npx github:WuDao0123/taste-skill extract https://${slug}.com`);
       process.exit(1);
     }
-    const customTarget = flags.target || flags.out;
-    const targetDir = customTarget
-      ? path.resolve(process.cwd(), customTarget)
-      : path.resolve(process.cwd(), '.cursor', 'skills', `taste-${slug}`);
-    fs.mkdirSync(targetDir, { recursive: true });
-    const destFile = path.join(targetDir, 'SKILL.md');
-    fs.copyFileSync(sourceSkill, destFile);
-    console.log(`[taste-skill] Installed taste-${slug} -> ${destFile}`);
+    const skillMd = fs.readFileSync(sourceSkill, 'utf8');
+    const targetMode = flags.target || flags.out || 'all';
+    const written = exportUniversalAgentAdapters(process.cwd(), slug, skillMd, targetMode);
+    console.log(`[taste-skill] Installed taste-${slug} across Universal Code Agents (${written.length} targets):`);
+    written.forEach((w) => {
+      console.log(`  ✔ [${w.agent.padEnd(28)}] -> ${path.relative(process.cwd(), w.file) || w.file}`);
+    });
     return;
   }
 
