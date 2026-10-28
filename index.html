@@ -1528,7 +1528,7 @@
           <span style="font-family:var(--font-mono);font-size:13px;color:#9CA3AF;">@</span>
           <input id="affiliateHandleInput" type="text" placeholder="your_x_handle" oninput="window.generateAffiliateLink(this.value)" style="width:100%;background:#12151E;border:1px solid rgba(99,102,241,0.45);border-radius:8px;padding:9px 12px;color:#fff;font-family:var(--font-mono);font-size:13px;outline:none;" />
         </div>
-        <div style="background:#11141C;border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:9px 12px;font-family:var(--font-mono);font-size:12px;color:#6EE7B7;overflow-x:auto;white-space:nowrap;" id="affiliateGeneratedUrl">https://wudao0123.github.io/taste-skill/?ref=your_handle</div>
+        <div style="background:#11141C;border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:9px 12px;font-family:var(--font-mono);font-size:12px;color:#6EE7B7;overflow-x:auto;white-space:nowrap;" id="affiliateGeneratedUrl">https://taste-skill.pages.dev/?ref=your_handle</div>
         <button id="btnCopyAffiliateLink" type="button" class="pro-cta-btn" style="padding:10px 16px;font-size:12.5px;white-space:nowrap;" onclick="window.copyAffiliateLink()">Copy 50% Partner Link &rarr;</button>
       </div>
     </div>
@@ -1727,7 +1727,7 @@ window.CHECKOUT_TIERS = {
     const input = document.getElementById("affiliateHandleInput");
     const raw = customHandle !== undefined ? customHandle : (input ? input.value : "");
     const handle = sanitizeRef(raw) || "your_handle";
-    const link = `https://wudao0123.github.io/taste-skill/?ref=${handle}`;
+    const link = `https://taste-skill.pages.dev/?ref=${handle}`;
     const outEl = document.getElementById("affiliateGeneratedUrl");
     if (outEl) outEl.textContent = link;
     return link;

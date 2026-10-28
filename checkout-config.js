@@ -102,7 +102,7 @@ window.CHECKOUT_TIERS = {
     const input = document.getElementById("affiliateHandleInput");
     const raw = customHandle !== undefined ? customHandle : (input ? input.value : "");
     const handle = sanitizeRef(raw) || "your_handle";
-    const link = `https://wudao0123.github.io/taste-skill/?ref=${handle}`;
+    const link = `https://taste-skill.pages.dev/?ref=${handle}`;
     const outEl = document.getElementById("affiliateGeneratedUrl");
     if (outEl) outEl.textContent = link;
     return link;
