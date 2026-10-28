@@ -166,6 +166,10 @@ tbody th { font-weight: 500; }
 .side-box p { font-size: 14px; color: var(--muted); }
 .side-box a { padding: 4px 0; }
 
+.sources h2 { font-size: 18px !important; letter-spacing: 0; }
+.sources ul { margin: 0; padding-left: 20px; font-size: 14px; color: var(--muted); }
+.sources a { word-break: break-all; }
+
 /* index */
 .az { display: flex; flex-direction: column; gap: 12px; }
 .az h2 { font-family: var(--mono); font-size: 20px; color: var(--muted); }

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // CancelKit static site generator. Zero dependencies: `node build.mjs` writes ./dist.
 // Guides with `verified: null` are built as drafts: noindex, a visible banner,
-// and left out of sitemap.xml and llms.txt until someone checks the steps by hand.
+// and left out of sitemap.xml and llms.txt until someone checks the steps against the service's official help pages.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -19,17 +19,16 @@ const SHARED_METHODS = {
     steps: [
       { title: 'Open Settings on your iPhone', body: 'Tap your name at the top.' },
       { title: 'Tap Subscriptions', body: 'You see every subscription billed through Apple.' },
-      { title: 'Choose the subscription', body: 'Pick it from the Active list.' },
-      { title: 'Tap Cancel Subscription', body: 'Confirm. Apple shows the date it ends.' }
+      { title: 'Tap the subscription', body: 'Pick the one you want to end.' },
+      { title: 'Tap Cancel Subscription', body: 'Scroll down if you do not see it. No button usually means it is already cancelled. Cancel trials at least 24 hours before they end.' }
     ]
   },
   google: {
     label: 'Android (Google Play billing)',
     steps: [
-      { title: 'Open the Google Play Store', body: 'Tap your profile icon in the top right.' },
-      { title: 'Go to Payments & subscriptions', body: 'Then tap Subscriptions.' },
-      { title: 'Choose the subscription', body: 'Select it from the list.' },
-      { title: 'Tap Cancel subscription', body: 'Follow the prompts to confirm.' }
+      { title: 'Open your Google Play subscriptions', body: 'On your Android device, go to play.google.com/store/account/subscriptions, signed in to the Google Account that pays.' },
+      { title: 'Select the subscription', body: 'Uninstalling the app does not cancel it.' },
+      { title: 'Tap Cancel subscription', body: 'Follow the on-screen instructions to confirm.' }
     ]
   }
 };
@@ -116,20 +115,25 @@ function footer() {
 <div><h2>Free tools</h2><a href="/tools/subscription-cost-calculator/">Subscription cost calculator</a><a href="/tools/cancellation-letter/">Cancellation letter generator</a></div>
 <div><h2>${esc(site.name)}</h2><a href="/pricing/">Pricing</a><a href="/how-to-cancel/">All guides A–Z</a><a href="/llms.txt">llms.txt</a></div>
 </div>
-<p class="fineprint">${esc(site.name)} is not affiliated with the services listed. Guides are checked by hand and show the date they were last verified.</p>
+<p class="fineprint">${esc(site.name)} is not affiliated with the services listed. Guides are checked against each service's official help pages and show the date they were last checked.</p>
 </div>
 </footer>`;
 }
 
 function verifiedBadge(s) {
   return isVerified(s)
-    ? `<span class="meta-item ok">${CHECK}Verified by hand on ${esc(s.verified)}</span>`
+    ? `<span class="meta-item ok">${CHECK}Checked against official help pages on ${esc(s.verified)}</span>`
     : '<span class="meta-item">Not yet verified</span>';
 }
 
 function draftBanner(s) {
   if (isVerified(s)) return '';
-  return `<div class="draft" role="note"><strong>Draft guide.</strong> These steps have not been checked by hand yet and may be out of date. Cancel menus change often; confirm on ${esc(s.domain)}.</div>`;
+  return `<div class="draft" role="note"><strong>Draft guide.</strong> These steps have not been checked against the official help pages yet and may be out of date. Cancel menus change often; confirm on ${esc(s.domain)}.</div>`;
+}
+
+function sourcesBlock(s) {
+  if (!s.sources?.length) return '';
+  return `<section class="sources"><h2>Sources</h2><ul>${s.sources.map((u) => `<li><a href="${esc(u)}" rel="nofollow noopener" target="_blank">${esc(u.replace(/^https?:\/\//, '').replace(/\?.*$/, ''))}</a></li>`).join('')}</ul></section>`;
 }
 
 function guideCard(s) {
@@ -174,7 +178,7 @@ ${calculatorWidget()}
 <h2>Three steps. No phone tree.</h2>
 <div class="grid-3">
 <div class="step"><span class="mono accent">01</span><h3>Search the service</h3><p>Each guide covers the web, iPhone and Android billing paths, and the cases that need a visit or a letter.</p></div>
-<div class="step"><span class="mono accent">02</span><h3>Follow the checked steps</h3><p>Every guide shows the date it was last verified by hand, so you know how fresh it is.</p></div>
+<div class="step"><span class="mono accent">02</span><h3>Follow the checked steps</h3><p>Every guide is checked against the service's own help pages, links to them, and shows when it was last checked.</p></div>
 <div class="step"><span class="mono accent">03</span><h3>Keep proof, get reminded</h3><p>Save the confirmation in your tracker. We email you before any trial or renewal charges again.</p></div>
 </div>
 </section>
@@ -288,6 +292,7 @@ ${alts.length ? `<section><h2>Before you cancel: compare</h2><div class="grid-ca
 <h2>${esc(s.name)} cancellation FAQ</h2>
 ${faqList(s.faq)}
 </section>
+${sourcesBlock(s)}
 </article>
 <aside class="guide-side">
 <div class="promo">
@@ -476,7 +481,7 @@ function llmsTxt() {
 ${site.name} publishes hand-checked, dated guides for cancelling subscriptions. Each guide lists every billing path (web, Apple App Store, Google Play, in person, by letter) and what happens after cancelling.
 
 ## Cancel guides
-${verified.length ? verified.map((s) => `- [How to cancel ${s.name}](${abs(guideUrl(s))}): ${s.quickAnswer.split('. ')[0]}.`).join('\n') : '- Guides are listed here once verified by hand.'}
+${verified.length ? verified.map((s) => `- [How to cancel ${s.name}](${abs(guideUrl(s))}): ${s.quickAnswer.split('. ')[0]}.`).join('\n') : '- Guides are listed here once checked against official sources.'}
 
 ## Categories
 ${categories.map((c) => `- [${c.name}](${abs(`/category/${c.slug}/`)}): ${c.blurb}`).join('\n')}
@@ -493,7 +498,7 @@ ${categories.map((c) => `- [${c.name}](${abs(`/category/${c.slug}/`)}): ${c.blur
 
 function llmsFull() {
   return `# ${site.name}: full guide text\n\n` + sorted.filter(isVerified).map((s) => {
-    const parts = [`## How to cancel ${s.name}`, `Source: ${abs(guideUrl(s))}`, `Last verified: ${s.verified}`, '', s.quickAnswer, ''];
+    const parts = [`## How to cancel ${s.name}`, `Guide: ${abs(guideUrl(s))}`, `Last checked: ${s.verified}`, ...(s.sources || []).map((u) => `Official source: ${u}`), '', s.quickAnswer, ''];
     for (const m of methodsOf(s)) {
       parts.push(`### ${m.label}`);
       m.steps.forEach((st, i) => parts.push(`${i + 1}. ${st.title}. ${st.body}`));

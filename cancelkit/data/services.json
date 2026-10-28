@@ -1,10 +1,35 @@
 {
   "categories": [
-    { "slug": "streaming", "name": "Streaming", "blurb": "Video streaming services and their cancel paths." },
-    { "slug": "music-audio", "name": "Music & audio", "blurb": "Music, audiobook and podcast subscriptions." },
-    { "slug": "software-ai", "name": "Software & AI", "blurb": "Creative suites, AI assistants and other software plans." },
-    { "slug": "shopping", "name": "Shopping memberships", "blurb": "Retail memberships with shipping and member perks." },
-    { "slug": "fitness", "name": "Gyms & fitness", "blurb": "Gym memberships, including the ones that make leaving hard." }
+    {
+      "slug": "streaming",
+      "name": "Streaming",
+      "blurb": "Video streaming services and their cancel paths."
+    },
+    {
+      "slug": "music-audio",
+      "name": "Music & audio",
+      "blurb": "Music, audiobook and podcast subscriptions."
+    },
+    {
+      "slug": "software-ai",
+      "name": "Software & AI",
+      "blurb": "Creative suites, AI assistants and other software plans."
+    },
+    {
+      "slug": "shopping",
+      "name": "Shopping memberships",
+      "blurb": "Retail memberships with shipping and member perks."
+    },
+    {
+      "slug": "fitness",
+      "name": "Gyms & fitness",
+      "blurb": "Gym memberships, including the ones that make leaving hard."
+    },
+    {
+      "slug": "app-stores",
+      "name": "App store subscriptions",
+      "blurb": "Subscriptions billed through Apple or Google Play, for any app."
+    }
   ],
   "services": [
     {
@@ -12,67 +37,122 @@
       "name": "Netflix",
       "category": "streaming",
       "domain": "netflix.com",
-      "verified": null,
-      "minutes": 2,
-      "quickAnswer": "Sign in at netflix.com in a browser, open Account, choose Cancel Membership, then confirm with Finish Cancellation. You keep access until the end of the billing period. If you pay through Apple, Google or your phone carrier, cancel there instead.",
+      "verified": "2026-10-28",
+      "minutes": 1,
+      "quickAnswer": "Sign in to Netflix in a web browser, go to the Manage your membership page, choose Cancel, then Finish Cancellation. You keep access until the end of the billing period. If there is no cancel option, you are billed by a partner such as Apple or your TV provider and must cancel with them.",
       "methods": [
         {
           "id": "web",
           "label": "On the web",
           "steps": [
-            { "title": "Sign in at netflix.com", "body": "Use a web browser on a phone or computer. The TV app cannot cancel a membership." },
-            { "title": "Open Account", "body": "Select your profile icon in the top right, then Account." },
-            { "title": "Choose Cancel Membership", "body": "Netflix may show a cheaper plan first. Skip it and continue to cancel." },
-            { "title": "Confirm with Finish Cancellation", "body": "Netflix shows the date your access ends. Take a screenshot as proof." }
+            {
+              "title": "Open Manage your membership",
+              "body": "Sign in to Netflix in a web browser and go to the Manage your membership page. The TV app cannot cancel a membership."
+            },
+            {
+              "title": "Choose Cancel",
+              "body": "Netflix may suggest a cheaper plan first. Skip it if you want to leave."
+            },
+            {
+              "title": "Select Finish Cancellation",
+              "body": "Netflix emails a confirmation to your account address. Keep it as proof."
+            }
           ]
         },
-        { "id": "apple", "shared": "apple" },
-        { "id": "google", "shared": "google" }
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
+        }
       ],
       "after": [
-        "You can keep watching until the last day you already paid for.",
-        "Your profiles and viewing history are kept for a while, so restarting brings them back.",
-        "Netflix does not normally refund partial billing periods."
+        "You keep access until the current billing period ends, then the account closes automatically.",
+        "Your viewing activity, ratings and account details are kept for 24 months, so restarting within that time restores them.",
+        "Signing out or deleting the app does not cancel your membership."
       ],
       "faq": [
-        { "q": "Can I get a refund after cancelling Netflix?", "a": "Netflix generally does not refund partial billing periods. Billing errors and unauthorized charges go through Netflix support." },
-        { "q": "Why is there no Cancel button in my Netflix account?", "a": "You are probably billed by a third party such as Apple, Google or your phone or TV provider. Cancel with that company instead." },
-        { "q": "Can I cancel Netflix on my TV?", "a": "No. Use a web browser on any phone or computer." }
+        {
+          "q": "Can I get a refund after cancelling Netflix?",
+          "a": "Netflix generally does not refund partial billing periods. Billing errors and unauthorized charges go through Netflix support."
+        },
+        {
+          "q": "Why is there no Cancel button in my Netflix account?",
+          "a": "You are billed by a partner such as Apple, Google or your phone or TV provider. Your Account page shows who bills you and links to their cancel steps."
+        },
+        {
+          "q": "Can I cancel Netflix on my TV?",
+          "a": "No. Use a web browser on any phone or computer."
+        }
       ],
-      "alternatives": ["hulu", "disney-plus"]
+      "alternatives": [
+        "hulu",
+        "disney-plus"
+      ],
+      "sources": [
+        "https://help.netflix.com/en/node/407"
+      ]
     },
     {
       "slug": "spotify",
       "name": "Spotify Premium",
       "category": "music-audio",
       "domain": "spotify.com",
-      "verified": null,
-      "minutes": 2,
-      "quickAnswer": "Spotify Premium cannot be cancelled in the app. Sign in at spotify.com/account in a browser, open Manage your plan, choose Cancel Premium and confirm. Your account switches to Spotify Free at the end of the billing period.",
+      "verified": "2026-10-28",
+      "minutes": 1,
+      "quickAnswer": "Sign in at spotify.com/account in a web browser, go to Manage your plan and select Cancel subscription. Premium stays until your next billing date, then your account switches to the free plan. No Cancel option means you are billed through a partner such as your phone or internet provider.",
       "methods": [
         {
           "id": "web",
           "label": "On the web",
           "steps": [
-            { "title": "Go to spotify.com/account", "body": "Sign in in a web browser. The mobile and desktop apps do not have a cancel option." },
-            { "title": "Open Manage your plan", "body": "It is in the Subscription section of your account page." },
-            { "title": "Choose Cancel Premium", "body": "Spotify may offer a cheaper plan. Continue to cancel." },
-            { "title": "Confirm the cancellation", "body": "Spotify shows the date Premium ends. Your playlists stay on the free tier." }
+            {
+              "title": "Go to Manage your plan",
+              "body": "Sign in at spotify.com/account in a web browser and open Manage your plan."
+            },
+            {
+              "title": "Select Cancel subscription",
+              "body": "Spotify may suggest a cheaper plan. Continue to cancel."
+            },
+            {
+              "title": "Check the end date",
+              "body": "Premium stays on until your next billing date, then the account switches to free. No Cancel option? Check Payment on the same page to see which partner bills you."
+            }
           ]
         },
-        { "id": "apple", "shared": "apple" }
+        {
+          "id": "apple",
+          "shared": "apple"
+        }
       ],
       "after": [
-        "Premium features stay on until the end of the period you paid for.",
-        "Your account, playlists and saved music remain on Spotify Free.",
-        "Downloaded songs for offline listening are removed when Premium ends."
+        "Premium stays until your next billing date, then your account switches to free.",
+        "Cancelling during a free trial switches you to free right away, and the trial cannot be reactivated.",
+        "Your playlists and saved music stay on your free account."
       ],
       "faq": [
-        { "q": "Can I cancel Spotify Premium in the app?", "a": "No. Spotify only allows cancelling from your account page in a web browser, or through Apple if you subscribed in the iPhone app." },
-        { "q": "Will I lose my playlists?", "a": "No. Playlists and liked songs stay on your free account." },
-        { "q": "How do I cancel a Family or Duo plan?", "a": "Only the plan manager can cancel. Members of the plan move to Spotify Free when it ends." }
+        {
+          "q": "Where do I cancel Spotify Premium?",
+          "a": "On your account page in a web browser, under Manage your plan. If you subscribed through Apple in the iPhone app, cancel in your Apple subscriptions."
+        },
+        {
+          "q": "Will I lose my playlists?",
+          "a": "No. Playlists and liked songs stay on your free account."
+        },
+        {
+          "q": "How do I cancel a Family or Duo plan?",
+          "a": "Only the plan manager can cancel the whole plan. When a member follows the cancel steps, it removes them from the plan without cancelling it. After cancellation, everyone moves to the free plan from the next payment date."
+        }
       ],
-      "alternatives": ["youtube-premium", "audible"]
+      "alternatives": [
+        "youtube-premium",
+        "audible"
+      ],
+      "sources": [
+        "https://support.spotify.com/us/article/cancel-premium/"
+      ]
     },
     {
       "slug": "amazon-prime",
@@ -87,10 +167,22 @@
           "id": "web",
           "label": "On the web or app",
           "steps": [
-            { "title": "Open Prime Membership", "body": "Go to Account & Lists, then Prime Membership. In the app, it is under Your Account." },
-            { "title": "Choose Manage membership", "body": "Then select End membership." },
-            { "title": "Continue past the offers", "body": "Amazon shows several screens with reminders and offers. Keep choosing the option to continue cancelling." },
-            { "title": "Save the confirmation", "body": "The final screen shows when Prime ends. Take a screenshot as proof." }
+            {
+              "title": "Open Prime Membership",
+              "body": "Go to Account & Lists, then Prime Membership. In the app, it is under Your Account."
+            },
+            {
+              "title": "Choose Manage membership",
+              "body": "Then select End membership."
+            },
+            {
+              "title": "Continue past the offers",
+              "body": "Amazon shows several screens with reminders and offers. Keep choosing the option to continue cancelling."
+            },
+            {
+              "title": "Save the confirmation",
+              "body": "The final screen shows when Prime ends. Take a screenshot as proof."
+            }
           ]
         }
       ],
@@ -100,9 +192,18 @@
         "Prime Video channels billed through Amazon are separate and must be cancelled on their own."
       ],
       "faq": [
-        { "q": "Will Amazon refund my Prime fee?", "a": "Amazon may refund part or all of the current fee if you have not used Prime benefits since it was charged. The cancel flow shows what applies to you." },
-        { "q": "Does cancelling Prime cancel Prime Video channels?", "a": "No. Channels such as Max or Paramount+ added through Prime Video are separate subscriptions. Cancel them under Memberships & Subscriptions." },
-        { "q": "Why does Amazon keep showing offers?", "a": "The cancel flow has several confirmation and offer screens. Your membership is only cancelled once you see the end date." }
+        {
+          "q": "Will Amazon refund my Prime fee?",
+          "a": "Amazon may refund part or all of the current fee if you have not used Prime benefits since it was charged. The cancel flow shows what applies to you."
+        },
+        {
+          "q": "Does cancelling Prime cancel Prime Video channels?",
+          "a": "No. Channels such as Max or Paramount+ added through Prime Video are separate subscriptions. Cancel them under Memberships & Subscriptions."
+        },
+        {
+          "q": "Why does Amazon keep showing offers?",
+          "a": "The cancel flow has several confirmation and offer screens. Your membership is only cancelled once you see the end date."
+        }
       ],
       "alternatives": []
     },
@@ -119,24 +220,51 @@
           "id": "web",
           "label": "On the web",
           "steps": [
-            { "title": "Sign in at hulu.com", "body": "Use a browser and open your Account page from the profile menu." },
-            { "title": "Find Your Subscription", "body": "Select Cancel next to your plan." },
-            { "title": "Continue past the pause offer", "body": "Hulu may offer to pause instead. Choose to continue cancelling if you want to leave." },
-            { "title": "Confirm", "body": "Hulu shows the date your access ends." }
+            {
+              "title": "Sign in at hulu.com",
+              "body": "Use a browser and open your Account page from the profile menu."
+            },
+            {
+              "title": "Find Your Subscription",
+              "body": "Select Cancel next to your plan."
+            },
+            {
+              "title": "Continue past the pause offer",
+              "body": "Hulu may offer to pause instead. Choose to continue cancelling if you want to leave."
+            },
+            {
+              "title": "Confirm",
+              "body": "Hulu shows the date your access ends."
+            }
           ]
         },
-        { "id": "apple", "shared": "apple" },
-        { "id": "google", "shared": "google" }
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
+        }
       ],
       "after": [
         "You keep access until the end of your current billing period.",
         "Add-ons like Live TV or premium channels end with the base plan."
       ],
       "faq": [
-        { "q": "Can I pause Hulu instead of cancelling?", "a": "Hulu offers a pause option for some plans. It is shown during the cancel flow." },
-        { "q": "I have the Disney bundle. How do I cancel just Hulu?", "a": "Bundles are managed by the company that bills you, often Disney+. Change or cancel the bundle there." }
+        {
+          "q": "Can I pause Hulu instead of cancelling?",
+          "a": "Hulu offers a pause option for some plans. It is shown during the cancel flow."
+        },
+        {
+          "q": "I have the Disney bundle. How do I cancel just Hulu?",
+          "a": "Bundles are managed by the company that bills you, often Disney+. Change or cancel the bundle there."
+        }
       ],
-      "alternatives": ["netflix", "disney-plus"]
+      "alternatives": [
+        "netflix",
+        "disney-plus"
+      ]
     },
     {
       "slug": "disney-plus",
@@ -151,86 +279,174 @@
           "id": "web",
           "label": "On the web",
           "steps": [
-            { "title": "Sign in at disneyplus.com", "body": "Open your profile menu and select Account." },
-            { "title": "Select your subscription", "body": "Choose the Disney+ plan or bundle you want to end." },
-            { "title": "Choose Cancel Subscription", "body": "Confirm on the next screen." },
-            { "title": "Check the end date", "body": "Disney+ shows when access ends and emails a confirmation." }
+            {
+              "title": "Sign in at disneyplus.com",
+              "body": "Open your profile menu and select Account."
+            },
+            {
+              "title": "Select your subscription",
+              "body": "Choose the Disney+ plan or bundle you want to end."
+            },
+            {
+              "title": "Choose Cancel Subscription",
+              "body": "Confirm on the next screen."
+            },
+            {
+              "title": "Check the end date",
+              "body": "Disney+ shows when access ends and emails a confirmation."
+            }
           ]
         },
-        { "id": "apple", "shared": "apple" },
-        { "id": "google", "shared": "google" }
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
+        }
       ],
       "after": [
         "Access continues until the end of the period you paid for.",
         "Cancelling a bundle ends every service in that bundle."
       ],
       "faq": [
-        { "q": "Does Disney+ give refunds?", "a": "Disney+ generally does not refund partial billing periods." },
-        { "q": "Can I cancel Disney+ on my TV?", "a": "Usually not. Use a web browser, or the app store that bills you." }
+        {
+          "q": "Does Disney+ give refunds?",
+          "a": "Disney+ generally does not refund partial billing periods."
+        },
+        {
+          "q": "Can I cancel Disney+ on my TV?",
+          "a": "Usually not. Use a web browser, or the app store that bills you."
+        }
       ],
-      "alternatives": ["netflix", "hulu"]
+      "alternatives": [
+        "netflix",
+        "hulu"
+      ]
     },
     {
       "slug": "youtube-premium",
       "name": "YouTube Premium",
       "category": "streaming",
       "domain": "youtube.com",
-      "verified": null,
+      "verified": "2026-10-28",
       "minutes": 2,
-      "quickAnswer": "Go to youtube.com/paid_memberships while signed in, choose Manage membership next to Premium, select Deactivate, then Continue to cancel. If you subscribed through Apple, cancel in your iPhone settings.",
+      "quickAnswer": "Go to youtube.com/paid_memberships, click Manage membership, then Deactivate, then Continue to cancel. Pick a reason and click Yes, cancel. Benefits continue until the end of the billing period. If you joined in the iPhone app, cancel through Apple instead.",
       "methods": [
         {
           "id": "web",
           "label": "On the web",
           "steps": [
-            { "title": "Open youtube.com/paid_memberships", "body": "Sign in with the Google account that pays for Premium." },
-            { "title": "Choose Manage membership", "body": "It is next to YouTube Premium." },
-            { "title": "Select Deactivate", "body": "YouTube may suggest pausing instead." },
-            { "title": "Choose Continue to cancel", "body": "Confirm, and note the date benefits end." }
+            {
+              "title": "Go to youtube.com/paid_memberships",
+              "body": "Sign in with the Google account that pays for Premium."
+            },
+            {
+              "title": "Click Manage membership",
+              "body": "Then click Deactivate."
+            },
+            {
+              "title": "Click Continue to cancel",
+              "body": "YouTube may offer to pause instead."
+            },
+            {
+              "title": "Pick a reason and click Yes, cancel",
+              "body": "Benefits continue until the end of the billing period."
+            }
           ]
         },
-        { "id": "apple", "shared": "apple" }
+        {
+          "id": "apple",
+          "shared": "apple"
+        }
       ],
       "after": [
-        "Premium benefits, including YouTube Music Premium, end at the close of the billing period.",
-        "Family plan members lose Premium when the family manager cancels."
+        "Your paid membership benefits continue until the end of the billing period.",
+        "You will not be charged again unless you subscribe again."
       ],
       "faq": [
-        { "q": "Does cancelling YouTube Premium cancel YouTube Music?", "a": "Yes. YouTube Premium includes YouTube Music Premium, so both end together." },
-        { "q": "Can I pause instead?", "a": "YouTube offers a pause option for some memberships during the cancel flow." }
+        {
+          "q": "Does cancelling YouTube Premium cancel YouTube Music?",
+          "a": "Yes. YouTube Premium includes YouTube Music Premium, so both end together."
+        },
+        {
+          "q": "Can I pause instead?",
+          "a": "Yes. YouTube lets you pause, cancel or resume a paid membership."
+        }
       ],
-      "alternatives": ["spotify"]
+      "alternatives": [
+        "spotify"
+      ],
+      "sources": [
+        "https://support.google.com/youtube/answer/6308278?hl=en&co=GENIE.Platform%3DDesktop"
+      ]
     },
     {
       "slug": "audible",
       "name": "Audible",
       "category": "music-audio",
       "domain": "audible.com",
-      "verified": null,
+      "verified": "2026-10-28",
       "minutes": 3,
-      "quickAnswer": "Use your credits first: unused credits are lost when you cancel. Then sign in at audible.com in a browser, open Account Details, choose Cancel membership and follow the prompts. The Audible iPhone app cannot cancel a membership.",
+      "quickAnswer": "Use your credits first: unused credits are lost at the end of your final billing cycle. Then, on audible.com in a browser, select your name, open Membership details, choose Cancel membership and Confirm cancellation. Deleting the app does not cancel. Billed through the App Store or Google Play? Cancel there.",
       "methods": [
         {
           "id": "web",
           "label": "On the web",
           "steps": [
-            { "title": "Spend your credits", "body": "Unused credits disappear when the membership ends. Books you already bought stay in your library." },
-            { "title": "Sign in at audible.com", "body": "Use a browser, then open Account Details from the account menu." },
-            { "title": "Choose Cancel membership", "body": "Audible may offer a pause or a discount. Continue if you want to cancel." },
-            { "title": "Confirm", "body": "Audible emails a confirmation. Keep it." }
+            {
+              "title": "Spend your credits",
+              "body": "Unused credits are lost at the end of your final billing cycle. Books you already bought stay in your library."
+            },
+            {
+              "title": "Open Membership details",
+              "body": "On audible.com in a browser, select your name in the top navigation, then Membership details."
+            },
+            {
+              "title": "Select Cancel membership",
+              "body": "Audible may offer a pause or a discount. Continue if you want to cancel."
+            },
+            {
+              "title": "Select Confirm cancellation",
+              "body": "Audible emails a confirmation. Keep it."
+            }
           ]
+        },
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
         }
       ],
       "after": [
-        "Audiobooks you bought stay in your library after you cancel.",
-        "Unused credits are lost, so spend them first."
+        "Titles you bought with credits or a card stay in your library.",
+        "Unused credits are lost at the end of your final billing cycle.",
+        "Titles downloaded from the Plus Catalog become locked."
       ],
       "faq": [
-        { "q": "Do I keep my Audible books after cancelling?", "a": "Yes. Titles you bought with credits or cash stay in your library." },
-        { "q": "What happens to my unused credits?", "a": "They are removed when the membership ends. Use them before you cancel." },
-        { "q": "Can I cancel Audible in the app?", "a": "Not in the iPhone app. Use a web browser." }
+        {
+          "q": "Do I keep my Audible books after cancelling?",
+          "a": "Yes. Titles you bought with credits or cash stay in your library."
+        },
+        {
+          "q": "What happens to my unused credits?",
+          "a": "They are removed when the membership ends. Use them before you cancel."
+        },
+        {
+          "q": "Can I cancel Audible in the app?",
+          "a": "No. Deleting the app does not cancel. Use audible.com in a browser, or the App Store or Google Play if they bill you."
+        }
       ],
-      "alternatives": ["spotify"]
+      "alternatives": [
+        "spotify"
+      ],
+      "sources": [
+        "https://help.audible.com/s/article/cancel-membership?language=en_US"
+      ]
     },
     {
       "slug": "chatgpt-plus",
@@ -245,22 +461,46 @@
           "id": "web",
           "label": "On the web",
           "steps": [
-            { "title": "Open chatgpt.com", "body": "Sign in and open your profile menu." },
-            { "title": "Go to your plan settings", "body": "Open Settings and the subscription or account section that shows your plan." },
-            { "title": "Choose Manage, then Cancel plan", "body": "Confirm the cancellation." },
-            { "title": "Check the end date", "body": "Plus features stay on until the end of the billing period." }
+            {
+              "title": "Open chatgpt.com",
+              "body": "Sign in and open your profile menu."
+            },
+            {
+              "title": "Go to your plan settings",
+              "body": "Open Settings and the subscription or account section that shows your plan."
+            },
+            {
+              "title": "Choose Manage, then Cancel plan",
+              "body": "Confirm the cancellation."
+            },
+            {
+              "title": "Check the end date",
+              "body": "Plus features stay on until the end of the billing period."
+            }
           ]
         },
-        { "id": "apple", "shared": "apple" },
-        { "id": "google", "shared": "google" }
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
+        }
       ],
       "after": [
         "Your chats are kept and you move to the free plan when the period ends.",
         "Subscriptions bought in a mobile app can only be cancelled in that app store."
       ],
       "faq": [
-        { "q": "Will I lose my ChatGPT history?", "a": "No. Your conversations stay on the free plan." },
-        { "q": "Why can't I find the cancel option on the web?", "a": "You probably subscribed through Apple or Google. Cancel in that store." }
+        {
+          "q": "Will I lose my ChatGPT history?",
+          "a": "No. Your conversations stay on the free plan."
+        },
+        {
+          "q": "Why can't I find the cancel option on the web?",
+          "a": "You probably subscribed through Apple or Google. Cancel in that store."
+        }
       ],
       "alternatives": []
     },
@@ -269,70 +509,353 @@
       "name": "Adobe Creative Cloud",
       "category": "software-ai",
       "domain": "adobe.com",
-      "verified": null,
+      "verified": "2026-10-28",
       "minutes": 4,
-      "quickAnswer": "Sign in at account.adobe.com, open Plans, choose Manage plan, then Cancel plan and follow the prompts. Check your plan type first: annual plans paid monthly can carry an early termination fee if you cancel after the first 14 days.",
+      "quickAnswer": "Sign in to your Adobe account, open Plans and payment, select Manage plan, then Cancel your plan, and continue to Confirm cancellation. Most plans get a full refund within 14 days of first purchase. On an annual plan paid monthly, cancelling later costs 50% of the remaining contract.",
       "methods": [
         {
           "id": "web",
           "label": "On the web",
           "steps": [
-            { "title": "Check your plan type", "body": "In account.adobe.com, open Plans and note whether you are on monthly, annual paid monthly, or annual prepaid. This decides any fee." },
-            { "title": "Choose Manage plan", "body": "Then select Cancel plan." },
-            { "title": "Answer the reason screen", "body": "Adobe asks why you are leaving and may show offers. Continue to cancel." },
-            { "title": "Review the fee and confirm", "body": "Adobe shows any early termination fee before you confirm. Save the confirmation email." }
+            {
+              "title": "Check your plan type",
+              "body": "Monthly, annual paid monthly, or annual prepaid. It decides the refund or fee."
+            },
+            {
+              "title": "Select Manage plan",
+              "body": "Sign in to your Adobe account and find the plan in Plans and payment."
+            },
+            {
+              "title": "Select Cancel your plan, then Continue to cancel",
+              "body": "Check the plan details, choose a reason and select Continue."
+            },
+            {
+              "title": "Review and select Confirm cancellation",
+              "body": "Adobe shows any fee before you confirm. Cancel each plan separately if you have more than one."
+            }
           ]
         }
       ],
       "after": [
-        "Cancelling within 14 days of purchase generally qualifies for a full refund.",
-        "Annual plans paid monthly may charge a fee for ending the contract early.",
-        "Files in Creative Cloud storage remain reachable for a limited time. Download what you need."
+        "Most plans get a full refund if you cancel within 14 days of the initial purchase.",
+        "Annual plans paid monthly: after 14 days, the fee is 50% of the remaining contract balance.",
+        "Annual prepaid plans are not refunded if you cancel before the year ends.",
+        "Paid apps keep working until the end of the current billing period."
       ],
       "faq": [
-        { "q": "Is there a fee to cancel Adobe?", "a": "On an annual plan paid monthly, cancelling after the first 14 days can trigger an early termination fee. Adobe shows the amount before you confirm." },
-        { "q": "How do I avoid the early termination fee?", "a": "Cancel within 14 days of purchase or renewal, or switch the plan to end at the next annual renewal date." },
-        { "q": "What happens to my files?", "a": "Download anything in Creative Cloud storage before your plan ends." }
+        {
+          "q": "Is there a fee to cancel Adobe?",
+          "a": "On an annual plan paid monthly, cancelling after 14 days costs 50% of the remaining contract balance. Annual prepaid plans are not refunded after 14 days."
+        },
+        {
+          "q": "How do I avoid the early termination fee?",
+          "a": "Cancel within 14 days of the initial purchase. Otherwise the fee depends on your plan type."
+        },
+        {
+          "q": "What happens to my files?",
+          "a": "Paid apps and services keep working until the end of the billing period, and your free Adobe account stays active."
+        }
       ],
-      "alternatives": []
+      "alternatives": [],
+      "sources": [
+        "https://helpx.adobe.com/account/individual/subscriptions-and-plans/renewals-and-cancellations/cancel-adobe-subscription.html",
+        "https://helpx.adobe.com/account/individual/terms-policies-and-regulations/adobe-subscription-terms.html"
+      ]
     },
     {
       "slug": "planet-fitness",
       "name": "Planet Fitness",
       "category": "fitness",
       "domain": "planetfitness.com",
-      "verified": null,
-      "minutes": 15,
-      "quickAnswer": "Many Planet Fitness clubs only accept cancellations in person at your home club or by certified letter. Some locations allow online cancellation. Call or visit your home club to confirm, and get written proof.",
+      "verified": "2026-10-28",
+      "minutes": 10,
+      "quickAnswer": "Planet Fitness lists three ways to cancel: log in to the member portal on planetfitness.com, visit your home club in person, or mail a written request to your home club. To stop the billing on the 17th, the club must receive your request by the 10th. Policies vary by location.",
       "methods": [
+        {
+          "id": "online",
+          "label": "Online",
+          "steps": [
+            {
+              "title": "Log in to the member portal",
+              "body": "Use your account on planetfitness.com."
+            },
+            {
+              "title": "Request cancellation",
+              "body": "Follow the prompts for your membership."
+            },
+            {
+              "title": "Save the confirmation",
+              "body": "Keep it until your statements show billing has stopped."
+            }
+          ]
+        },
         {
           "id": "in-person",
           "label": "In person",
           "steps": [
-            { "title": "Go to your home club", "body": "This is the club where you signed up, listed in the Planet Fitness app." },
-            { "title": "Ask the front desk to cancel", "body": "Bring photo ID. Ask about any remaining payment or annual fee." },
-            { "title": "Get written confirmation", "body": "Ask for a printed or emailed confirmation before you leave." }
+            {
+              "title": "Go to your home club",
+              "body": "The club where you signed up, listed in your account."
+            },
+            {
+              "title": "Ask the front desk to cancel",
+              "body": "Bring photo ID. Ask whether a minimum-term buyout fee applies."
+            },
+            {
+              "title": "Get written confirmation",
+              "body": "Ask for a printed or emailed confirmation before you leave."
+            }
           ]
         },
         {
           "id": "letter",
-          "label": "By certified letter",
+          "label": "By mail",
           "steps": [
-            { "title": "Write a cancellation letter", "body": "Include your full name, member number, home club address and the date. Use our free letter generator." },
-            { "title": "Send it by certified mail", "body": "Send it to your home club and keep the receipt as proof of delivery." },
-            { "title": "Watch your next statement", "body": "If you are charged again, contact the club with your certified mail receipt." }
+            {
+              "title": "Write a cancellation letter",
+              "body": "Include your full name, member number, home club and the date. Use our free letter generator."
+            },
+            {
+              "title": "Mail it to your home club",
+              "body": "Certified mail gives you proof of delivery. Allow time to arrive before the 10th."
+            },
+            {
+              "title": "Watch your next statement",
+              "body": "If you are charged again, contact the club with your proof of mailing."
+            }
           ]
         }
       ],
       "after": [
-        "Check your agreement for notice periods and the annual fee date.",
-        "Keep your confirmation until you see that billing has stopped."
+        "To stop the monthly billing on the 17th, the club must receive your request by the 10th.",
+        "To avoid the annual fee, the request must arrive by the 25th of the prior month.",
+        "If you are still within a minimum contract term, a $58 buyout fee applies. Policies can vary by location."
       ],
       "faq": [
-        { "q": "Can I cancel Planet Fitness online?", "a": "Some clubs allow it. Many still require an in-person visit or a certified letter. Check with your home club." },
-        { "q": "Can I cancel Planet Fitness by phone?", "a": "Generally not. Clubs usually require a visit or a letter." }
+        {
+          "q": "Can I cancel Planet Fitness online?",
+          "a": "Yes. Planet Fitness lists the member portal on its website as one way to cancel, alongside visiting your home club or mailing a request."
+        },
+        {
+          "q": "Can I cancel Planet Fitness by phone?",
+          "a": "Planet Fitness does not list phone cancellation. Use the member portal, visit your home club, or mail a letter."
+        },
+        {
+          "q": "When do I need to cancel to avoid the next charge?",
+          "a": "The club must receive your request by the 10th to stop that month's billing on the 17th, and by the 25th of the prior month to avoid the annual fee."
+        }
       ],
-      "alternatives": []
+      "alternatives": [],
+      "sources": [
+        "https://www.planetfitness.com/about-planet-fitness/customer-service"
+      ]
+    },
+    {
+      "slug": "microsoft-365",
+      "name": "Microsoft 365",
+      "category": "software-ai",
+      "domain": "microsoft.com",
+      "verified": "2026-10-28",
+      "sources": [
+        "https://support.microsoft.com/en-us/accounts-billing/subscriptions/cancel-a-microsoft-365-subscription"
+      ],
+      "minutes": 2,
+      "quickAnswer": "Go to account.microsoft.com/services/microsoft365, select Cancel subscription (it may read Upgrade or Cancel), then select I don't want my subscription. If you see Turn on recurring billing instead, it already ends on the date shown. Bought through Apple, Google Play or a retailer? Cancel with them.",
+      "methods": [
+        {
+          "id": "web",
+          "label": "On the web",
+          "steps": [
+            {
+              "title": "Open your Microsoft 365 services page",
+              "body": "Go to account.microsoft.com/services/microsoft365 and sign in with the Microsoft account that bought the subscription."
+            },
+            {
+              "title": "Select Cancel subscription",
+              "body": "The button may read Upgrade or Cancel. If it says Turn on recurring billing, the subscription already ends on the date shown."
+            },
+            {
+              "title": "Review the offers",
+              "body": "The Please review section may list cheaper plans."
+            },
+            {
+              "title": "Select I don't want my subscription",
+              "body": "It is at the bottom of the page."
+            }
+          ]
+        },
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
+        }
+      ],
+      "after": [
+        "Storage drops to the free allowance: 5 GB shared by OneDrive and Outlook.com attachments, plus 15 GB of Outlook.com mail storage.",
+        "If you are over the free allowance, you cannot upload, edit or sync new OneDrive files, or send and receive Outlook.com email.",
+        "Microsoft says it may delete your OneDrive and its files after 6 months over the limit.",
+        "On Family plans, the people you shared with also lose their extra storage."
+      ],
+      "faq": [
+        {
+          "q": "Will I get a refund for Microsoft 365?",
+          "a": "Not every cancellation is refunded. For subscriptions bought from Microsoft, cancel first, then check Microsoft's refund policy."
+        },
+        {
+          "q": "What happens to my OneDrive files?",
+          "a": "They stay, but if you are over the free 5 GB you cannot add or edit files, and Microsoft may delete them after 6 months. Download or trim them first."
+        },
+        {
+          "q": "I bought Microsoft 365 from Amazon or another store. How do I cancel?",
+          "a": "Contact that retailer, or Apple or Google if you subscribed in their app store."
+        }
+      ],
+      "alternatives": [
+        "dropbox"
+      ]
+    },
+    {
+      "slug": "dropbox",
+      "name": "Dropbox",
+      "category": "software-ai",
+      "domain": "dropbox.com",
+      "verified": "2026-10-28",
+      "sources": [
+        "https://help.dropbox.com/plans/downgrade-dropbox-individual-plans"
+      ],
+      "minutes": 3,
+      "quickAnswer": "Log in at dropbox.com, click your avatar, choose Manage account, click Cancel plan at the bottom, pick a reason and confirm. Your account moves to the free Basic plan with 2 GB at the end of the billing cycle. No Cancel plan button means you bought it in a mobile app store.",
+      "methods": [
+        {
+          "id": "web",
+          "label": "On the web",
+          "steps": [
+            {
+              "title": "Open Manage account",
+              "body": "Log in at dropbox.com, click your avatar in the bottom-left corner and choose Manage account."
+            },
+            {
+              "title": "Click Cancel plan",
+              "body": "It is at the bottom of the page. Not there? You bought through a mobile app store."
+            },
+            {
+              "title": "Pick a reason and confirm",
+              "body": "Click Continue canceling or Confirm change and follow the prompts."
+            },
+            {
+              "title": "Check the confirmation email",
+              "body": "Look for \"Dropbox Plan will not renew\" from no-reply@dropbox.com."
+            }
+          ]
+        },
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
+        }
+      ],
+      "after": [
+        "Your plan runs to the end of the billing cycle, then moves to Basic with 2 GB of storage.",
+        "Over 2 GB, you may be unable to sync, upload, share or preview files, and Dropbox may delete files you own to get under the limit.",
+        "Deleting the app or letting your card expire does not reliably stop charges."
+      ],
+      "faq": [
+        {
+          "q": "Will Dropbox delete my files?",
+          "a": "If you stay over the 2 GB Basic limit, Dropbox may delete files you own. Download or remove files before the plan ends."
+        },
+        {
+          "q": "Why is there no Cancel plan button?",
+          "a": "You probably subscribed in the iPhone or Android app. Cancel through that app store."
+        },
+        {
+          "q": "Can I cancel Dropbox by mail?",
+          "a": "Yes, Dropbox accepts mailed requests, but they take longer and charges made before processing are not refunded."
+        }
+      ],
+      "alternatives": [
+        "microsoft-365"
+      ]
+    },
+    {
+      "slug": "apple-subscriptions",
+      "name": "Apple App Store subscriptions",
+      "category": "app-stores",
+      "domain": "apple.com",
+      "verified": "2026-10-28",
+      "sources": [
+        "https://support.apple.com/en-us/118428"
+      ],
+      "minutes": 1,
+      "quickAnswer": "On iPhone or iPad, open Settings, tap your name, tap Subscriptions, choose the subscription and tap Cancel Subscription. No cancel button usually means it is already cancelled. To avoid a trial renewing, cancel at least 24 hours before it ends.",
+      "methods": [
+        {
+          "id": "apple",
+          "shared": "apple"
+        }
+      ],
+      "after": [
+        "The subscription stays active until the end of the period you paid for.",
+        "A red expiration message means it has already ended."
+      ],
+      "faq": [
+        {
+          "q": "I can't find the subscription in my Apple settings.",
+          "a": "Search your email for \"receipt from Apple\" to see which Apple Account pays for it. If there is no Apple receipt, another company bills you: check your card statement."
+        },
+        {
+          "q": "Can I cancel a family member's subscription?",
+          "a": "No. The person whose Apple Account pays for it has to cancel."
+        },
+        {
+          "q": "When should I cancel a free trial?",
+          "a": "At least 24 hours before the trial ends, or it may renew."
+        }
+      ],
+      "alternatives": [
+        "google-play-subscriptions"
+      ]
+    },
+    {
+      "slug": "google-play-subscriptions",
+      "name": "Google Play subscriptions",
+      "category": "app-stores",
+      "domain": "play.google.com",
+      "verified": "2026-10-28",
+      "sources": [
+        "https://support.google.com/googleplay/answer/7018481?hl=en&co=GENIE.Platform%3DAndroid"
+      ],
+      "minutes": 1,
+      "quickAnswer": "Open play.google.com/store/account/subscriptions on your Android device, signed in to the Google Account that pays. Select the subscription, tap Cancel subscription and follow the prompts. Uninstalling the app does not cancel it.",
+      "methods": [
+        {
+          "id": "google",
+          "shared": "google"
+        }
+      ],
+      "after": [
+        "Uninstalling the app does not cancel the subscription.",
+        "Make sure you are signed in to the Google Account that holds the subscription."
+      ],
+      "faq": [
+        {
+          "q": "Does uninstalling an app cancel its subscription?",
+          "a": "No. You have to cancel in Google Play."
+        },
+        {
+          "q": "I don't see the subscription in Google Play.",
+          "a": "You may be signed in to a different Google Account, or the subscription is billed by Apple or the company directly."
+        }
+      ],
+      "alternatives": [
+        "apple-subscriptions"
+      ]
     }
   ]
 }

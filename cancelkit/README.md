@@ -29,7 +29,7 @@ Deploy `dist/` to any static host. For Cloudflare Pages: build command `node can
 
 Add an object to `services` in `data/services.json`. A method is either written out (`label` + `steps`) or reuses a shared billing path: `{ "id": "apple", "shared": "apple" }` or `"google"`.
 
-**Verification rule:** a guide with `"verified": null` is built as a draft. It shows a warning banner, has `noindex`, and is left out of `sitemap.xml` and `llms.txt`. After checking every step by hand on the live service, set `"verified": "YYYY-MM-DD"` and rebuild. None of the starter guides are verified yet.
+**Verification rule:** a guide with `"verified": null` is built as a draft. It shows a warning banner, has `noindex`, and is left out of `sitemap.xml` and `llms.txt`. After checking every step against the service's official help pages, add those URLs to `sources`, set `"verified": "YYYY-MM-DD"` and rebuild. Guides still marked as drafts: Amazon Prime, Hulu, Disney+ and ChatGPT Plus (their help pages could not be read automatically, so check them in a browser).
 
 ## Configuration (`data/site.json`)
 
