@@ -1,0 +1,11 @@
+{
+  "name": "cancelkit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CancelKit: static pSEO site of step-by-step subscription cancel guides.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && python3 -m http.server 8080 -d dist"
+  }
+}

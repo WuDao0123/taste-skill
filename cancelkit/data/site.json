@@ -1,0 +1,17 @@
+{
+  "name": "CancelKit",
+  "url": "https://cancelkit.example.com",
+  "tagline": "Find the cancel button for any subscription.",
+  "description": "Step-by-step guides to cancel any subscription, plus a tracker that reminds you before the next charge. No bank login, flat price.",
+  "prices": {
+    "pass": 9,
+    "proYearlyPerMonth": 4,
+    "proMonthly": 5
+  },
+  "checkout": {
+    "pass": "",
+    "proYearly": "",
+    "proMonthly": ""
+  },
+  "contactEmail": ""
+}
