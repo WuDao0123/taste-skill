@@ -1,4 +1,4 @@
-// Polar.sh & Creem.io Checkout Configuration + Zero-404 Early-Bird Instant Order Modal
+// Polar.sh & Creem.io Checkout Configuration + Zero-404 Early-Bird Instant Order Modal + 30-Day Affiliate Tracking (?ref=)
 // Set isLive: true once your Polar.sh / Creem.io product checkout links are published.
 window.CHECKOUT_CONFIG = {
   isLive: false,
@@ -10,7 +10,9 @@ window.CHECKOUT_CONFIG = {
   creemTeamUrl: "https://creem.io/checkout/taste-skill-team-169",
   orderEmail: "zongwu835@gmail.com",
   githubIssueUrl: "https://github.com/WuDao0123/taste-skill/issues/new",
-  xDmUrl: "https://x.com/RunChengln"
+  xDmUrl: "https://x.com/RunChengln",
+  formsubmitUrl: "https://formsubmit.co/ajax/zongwu835@gmail.com",
+  affiliateCommissionPct: 50
 };
 
 window.CHECKOUT_TIERS = {
@@ -41,7 +43,7 @@ window.CHECKOUT_TIERS = {
       "5 Local Node.js / Playwright Automation Scripts (.mjs): extract-competitor-pseo.mjs, generate-nextjs-pseo-routes.mjs, generate-comparison-matrix.mjs, audit-pricing-page.mjs, validate-launch-pack.mjs",
       "22 Raw Competitor pSEO & Pricing Blueprints (data/*.json): 20 verified $10k–$422k MRR indie SaaS sites + 2 AI developer platforms (saves ~$129/mo in Ahrefs/Similarweb research)",
       "4 Production Next.js / React / Tailwind Conversion Templates (templates/*.tsx): /vs/ comparison tables, Good-Better-Best pricing walls with PPP banner, 3-step cancel salvage flows & pSEO pages",
-      "4 Complete Agent SKILL.md Playbooks for Cursor, Claude Code, and Windsurf"
+      "4 Complete Agent SKILL.md Playbooks for Claude Code (.claude/skills + CLAUDE.md), Codex (AGENTS.md), Cursor (.mdc), and Windsurf"
     ]
   },
   team: {
@@ -62,6 +64,88 @@ window.CHECKOUT_TIERS = {
 };
 
 (function () {
+  const AFF_KEY = "ts_affiliate_ref";
+  const AFF_TS_KEY = "ts_affiliate_ref_ts";
+  const AFF_TTL_MS = 30 * 24 * 60 * 60 * 1000; // 30 days
+
+  function sanitizeRef(raw) {
+    if (!raw) return "";
+    return String(raw).trim().replace(/^@+/, "").replace(/[^a-zA-Z0-9_.-]/g, "").slice(0, 48);
+  }
+
+  function captureAffiliateRefFromUrl() {
+    try {
+      const params = new URLSearchParams(window.location.search || "");
+      const incoming = sanitizeRef(params.get("ref") || params.get("via") || params.get("utm_source") || params.get("partner"));
+      if (incoming) {
+        localStorage.setItem(AFF_KEY, incoming);
+        localStorage.setItem(AFF_TS_KEY, String(Date.now()));
+        return incoming;
+      }
+      const saved = localStorage.getItem(AFF_KEY) || "";
+      const savedTs = Number(localStorage.getItem(AFF_TS_KEY) || 0);
+      if (saved && savedTs && (Date.now() - savedTs < AFF_TTL_MS)) {
+        return sanitizeRef(saved);
+      }
+      if (saved && !savedTs) {
+        return sanitizeRef(saved);
+      }
+    } catch (e) {}
+    return "";
+  }
+
+  window.getActiveAffiliateRef = function () {
+    return captureAffiliateRefFromUrl();
+  };
+
+  window.generateAffiliateLink = function (customHandle) {
+    const input = document.getElementById("affiliateHandleInput");
+    const raw = customHandle !== undefined ? customHandle : (input ? input.value : "");
+    const handle = sanitizeRef(raw) || "your_handle";
+    const link = `https://wudao0123.github.io/taste-skill/?ref=${handle}`;
+    const outEl = document.getElementById("affiliateGeneratedUrl");
+    if (outEl) outEl.textContent = link;
+    return link;
+  };
+
+  window.copyAffiliateLink = function () {
+    const link = window.generateAffiliateLink();
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(link).catch(() => {});
+    }
+    const btn = document.getElementById("btnCopyAffiliateLink");
+    if (btn) {
+      const orig = btn.innerHTML;
+      btn.innerHTML = "✓ Copied 50% Partner Link ($34.50/sale)!";
+      setTimeout(() => { btn.innerHTML = orig; }, 2400);
+    }
+    if (typeof window.showToast === "function") {
+      window.showToast("Copied 50% Partner Link: " + link);
+    }
+  };
+
+  function renderAffiliateTopBanner() {
+    const ref = window.getActiveAffiliateRef();
+    if (!ref) return;
+    const pricingSec = document.getElementById("pricing-section");
+    if (pricingSec && !document.getElementById("tsAffiliateActiveBanner")) {
+      const banner = document.createElement("div");
+      banner.id = "tsAffiliateActiveBanner";
+      banner.style.cssText = "background:linear-gradient(90deg,rgba(16,185,129,0.18),rgba(99,102,241,0.18));border:1px solid #10B981;border-radius:10px;padding:10px 16px;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#6EE7B7;";
+      banner.innerHTML = `
+        <div>🎁 <strong>Partner Referral Active (@${ref})</strong> — Early-Bird $69 Priority Lock ($30 OFF) + 30-Day Partner Attribution Applied</div>
+        <span style="color:#A5B4FC;font-size:11px;">Ref ID: <code>${ref}</code></span>
+      `;
+      pricingSec.insertBefore(banner, pricingSec.firstChild);
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", renderAffiliateTopBanner);
+  } else {
+    renderAffiliateTopBanner();
+  }
+
   let activeOrderTier = "pro";
   let activePayMethod = "Card / Apple Pay via Polar.sh (GitHub Auto-Invite)";
 
@@ -86,6 +170,7 @@ window.CHECKOUT_TIERS = {
               <span>·</span>
               <span>SAVES ~16 HRS ENGINEERING + $129/MO SEO TOOLS</span>
             </div>
+            <div id="ebPartnerRefBadge" style="display:none;margin-bottom:6px;font-family:\x27JetBrains Mono\x27,monospace;font-size:11.5px;color:#FDE047;background:rgba(234,179,8,0.14);border:1px solid rgba(234,179,8,0.4);padding:4px 10px;border-radius:6px;"></div>
             <h3 id="ebModalHeading" style="font-size:20px;font-weight:700;color:#fff;margin:0;">Early-Bird Pro Pack — $69 USD</h3>
             <div id="ebModalBilling" style="font-family:\x27JetBrains Mono\x27,monospace;font-size:11.5px;color:#A5B4FC;margin-top:4px;"></div>
           </div>
@@ -130,7 +215,7 @@ window.CHECKOUT_TIERS = {
 │   ├── PricingSection.tsx               # Good-Better-Best pricing walls with PPP banner
 │   ├── CancelRetentionFlow.tsx          # 3-step cancel salvage flows (FTC Click-to-Cancel compliant)
 │   └── NextjsPseoPage.tsx               # Programmatic SEO pages with JSON-LD &amp; anti-thin-content guardrails
-└── skills/*/SKILL.md (4 Complete Agent Playbooks for Cursor, Claude Code, and Windsurf)</pre>
+└── skills/*/SKILL.md (Universal Code Agent Playbooks: Claude Code .claude/skills + CLAUDE.md, Codex AGENTS.md, Cursor .mdc &amp; Windsurf)</pre>
             </details>
           </div>
 
@@ -182,6 +267,17 @@ window.CHECKOUT_TIERS = {
     const billing = document.getElementById("ebModalBilling");
     const deliv = document.getElementById("ebDeliverableCode");
     const list = document.getElementById("ebFeatureList");
+    const refBadge = document.getElementById("ebPartnerRefBadge");
+    const activeRef = window.getActiveAffiliateRef();
+
+    if (refBadge) {
+      if (activeRef) {
+        refBadge.style.display = "inline-block";
+        refBadge.innerHTML = `🎁 Partner Referral Active (<strong>@${activeRef}</strong>) — Early-Bird 50% Priority Lock Applied`;
+      } else {
+        refBadge.style.display = "none";
+      }
+    }
 
     if (heading) {
       heading.innerHTML = `${t.name} — <span style="color:#6EE7B7;">$${t.price} USD</span>` + (t.regularPrice ? ` <s style="color:#6B7280;font-size:15px;font-weight:400;">$${t.regularPrice}</s>` : "");
@@ -210,8 +306,10 @@ window.CHECKOUT_TIERS = {
     const methodSelect = document.getElementById("ebPayMethod");
     const buyerEmail = (emailInput && emailInput.value.trim()) ? emailInput.value.trim() : "Not provided (please reply with payment link)";
     const payMethod = (methodSelect && methodSelect.value) ? methodSelect.value : activePayMethod;
+    const partnerRef = window.getActiveAffiliateRef() || "direct (none)";
 
-    const subject = `[TasteSkill Early-Bird Order] ${t.name} ($${t.price} USD) — ${payMethod.split(" ")[0]}`;
+    const refSuffix = partnerRef !== "direct (none)" ? ` [Ref: @${partnerRef}]` : "";
+    const subject = `[TasteSkill Early-Bird Order] ${t.name} ($${t.price} USD) — ${payMethod.split(" ")[0]}${refSuffix}`;
     const bodyLines = [
       `Hi TasteSkill Team,`,
       ``,
@@ -221,11 +319,30 @@ window.CHECKOUT_TIERS = {
       `- Deliverable: ${t.deliverable}`,
       `- Buyer Email / GitHub: ${buyerEmail}`,
       `- Preferred Payment Method: ${payMethod}`,
+      `- Affiliate Referrer (ref): ${partnerRef}`,
       `- Source Page: ${window.location.href}`,
       ``,
       `Please send the ${payMethod} checkout link and GitHub repo invite.`
     ];
     const bodyText = bodyLines.join("\n");
+
+    // Silent background webhook attribution via FormSubmit AJAX when buyer enters email
+    if (buyerEmail && buyerEmail !== "Not provided (please reply with payment link)" && typeof fetch === "function") {
+      try {
+        fetch(cfg.formsubmitUrl || "https://formsubmit.co/ajax/zongwu835@gmail.com", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "Accept": "application/json" },
+          body: JSON.stringify({
+            _subject: subject,
+            tier: `${t.name} ($${t.price} USD)`,
+            buyer_email_or_github: buyerEmail,
+            payment_method: payMethod,
+            affiliate_referrer_ref: partnerRef,
+            source_url: window.location.href
+          })
+        }).catch(() => {});
+      } catch (e) {}
+    }
 
     const statusBox = document.getElementById("ebOrderStatusBox");
     if (statusBox) {
@@ -236,7 +353,7 @@ window.CHECKOUT_TIERS = {
       const ghUrl = `${cfg.githubIssueUrl || "https://github.com/WuDao0123/taste-skill/issues/new"}?title=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`;
       window.open(ghUrl, "_blank", "noopener");
       if (statusBox) {
-        statusBox.innerHTML = `✓ Opened pre-filled GitHub Issue in a new tab! Submit the issue for instant automated notification, or email <strong>${cfg.orderEmail}</strong>.`;
+        statusBox.innerHTML = `✓ Opened pre-filled GitHub Issue in a new tab (Affiliate Ref: <code>${partnerRef}</code>)! Submit the issue for instant automated notification, or email <strong>${cfg.orderEmail}</strong>.`;
       }
       return;
     }
@@ -244,7 +361,7 @@ window.CHECKOUT_TIERS = {
     if (channel === "x") {
       window.open(cfg.xDmUrl || "https://x.com/RunChengln", "_blank", "noopener");
       if (statusBox) {
-        statusBox.innerHTML = `✓ Opened @RunChengln on X! Send a quick DM with "<strong>${t.name} ($${t.price}) - ${buyerEmail}</strong>" for your payment link.`;
+        statusBox.innerHTML = `✓ Opened @RunChengln on X! Send a quick DM with "<strong>${t.name} ($${t.price}) - ${buyerEmail} (ref: ${partnerRef})</strong>" for your payment link.`;
       }
       return;
     }
@@ -252,7 +369,7 @@ window.CHECKOUT_TIERS = {
     const mailtoUrl = `mailto:${cfg.orderEmail || "zongwu835@gmail.com"}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`;
     window.location.href = mailtoUrl;
     if (statusBox) {
-      statusBox.innerHTML = `✓ Prepared your Early-Bird order email to <strong>${cfg.orderEmail || "zongwu835@gmail.com"}</strong>! If your mail client didn\x27t open automatically, click <strong>"Request via GitHub Issue"</strong> above for 1-click browser submission.`;
+      statusBox.innerHTML = `✓ Prepared your Early-Bird order email to <strong>${cfg.orderEmail || "zongwu835@gmail.com"}</strong> (Affiliate Ref: <code>${partnerRef}</code>)! If your mail client didn\x27t open automatically, click <strong>"Request via GitHub Issue"</strong> above for 1-click browser submission.`;
     }
   };
 
@@ -268,15 +385,19 @@ window.CHECKOUT_TIERS = {
 
     const cfg = window.CHECKOUT_CONFIG || {};
     const normTier = (tierId === "single" || tierId === "team" || tierId === "pro") ? tierId : "pro";
+    const activeRef = window.getActiveAffiliateRef();
 
     if (cfg.isLive === true) {
       const useCreem = preferredProvider === "creem";
-      const targetUrl = normTier === "single"
+      let targetUrl = normTier === "single"
         ? (useCreem ? cfg.creemSingleUrl : cfg.singleUrl)
         : normTier === "team"
           ? (useCreem ? cfg.creemTeamUrl : cfg.teamUrl)
           : (useCreem ? cfg.creemProUrl : cfg.proUrl);
       if (targetUrl) {
+        if (activeRef) {
+          targetUrl += (targetUrl.includes("?") ? "&" : "?") + "ref=" + encodeURIComponent(activeRef);
+        }
         window.open(targetUrl, "_blank", "noopener");
         return;
       }

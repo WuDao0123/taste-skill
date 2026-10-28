@@ -30,7 +30,7 @@ async function initUnifiedApp() {
   if (window.__UNIFIED_DATA__) {
     unifiedData = window.__UNIFIED_DATA__;
   } else {
-    const res = await fetch("/taste-skill/unified-data.json");
+    const res = await fetch('/api/unified');
     unifiedData = await res.json();
   }
   fullCatalog = unifiedData.catalog || [];
@@ -211,7 +211,7 @@ function renderGrid() {
         </div>
         <div class="card-footer">
           <code class="cli-cmd-mini" onclick="event.stopPropagation();copyText('npx github:WuDao0123/taste-skill add ${item.slug}')">$ npx github:WuDao0123/taste-skill add ${item.slug}</code>
-          <div style="display:flex;gap:8px;align-items:center;"><a href="/taste-skill/taste/${item.slug}/" onclick="event.stopPropagation()" style="color:#A5B4FC;font-size:11px;font-family:var(--font-mono);text-decoration:none;">pSEO Page &nearr;</a><button class="inspect-btn">Inspect &rarr;</button></div>
+          <div style="display:flex;gap:8px;align-items:center;"><a href="/taste/${item.slug}/" onclick="event.stopPropagation()" style="color:#A5B4FC;font-size:11px;font-family:var(--font-mono);text-decoration:none;">pSEO Page &nearr;</a><button class="inspect-btn">Inspect &rarr;</button></div>
         </div>
       </article>`;
   }).join('');
@@ -251,7 +251,7 @@ function renderTeardownVault() {
           ${llmsBadge}
           <div style="display:flex;align-items:center;gap:10px;">
             <a href="${s.primarySourceUrl}" target="_blank" onclick="event.stopPropagation()" style="color:#93C5FD;text-decoration:none;font-family:var(--font-mono);">Verified Source &nearr;</a>
-            <a href="/taste-skill/teardowns/${s.slug}/" onclick="event.stopPropagation()" style="color:#6EE7B7;font-size:11px;font-family:var(--font-mono);text-decoration:none;">Full pSEO Page &nearr;</a><button class="inspect-btn">Modal &rarr;</button>
+            <a href="/teardowns/${s.slug}/" onclick="event.stopPropagation()" style="color:#6EE7B7;font-size:11px;font-family:var(--font-mono);text-decoration:none;">Full pSEO Page &nearr;</a><button class="inspect-btn">Modal &rarr;</button>
           </div>
         </div>
       </article>`;

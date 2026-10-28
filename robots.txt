@@ -11,5 +11,5 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://wudao0123.github.io/taste-skill/sitemap.xml
-# Structured AI Index: https://wudao0123.github.io/taste-skill/llms.txt
+Sitemap: https://taste-skill.pages.dev/sitemap.xml
+# Structured AI Index: https://taste-skill.pages.dev/llms.txt
