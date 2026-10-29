@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>CiteKit dashboard</title>
+<style>
+:root{--bg:#fbfaf7;--ink:#16181d;--muted:#5d6370;--line:#e4e1d9;--card:#fff;--accent:#1f5eff;--accent-ink:#fff;--bad:#b42318;--good:#1d7a46;--soft:#eef2ff}
+@media (prefers-color-scheme:dark){:root{--bg:#111318;--ink:#eceef2;--muted:#a3a9b6;--line:#2a2e37;--card:#171a21;--accent:#7aa2ff;--accent-ink:#0b0d12;--bad:#ff7a6b;--good:#4cc985;--soft:#1b2235}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px 64px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0;gap:12px;flex-wrap:wrap}
+.logo{font-weight:700;font-size:19px;color:var(--ink);text-decoration:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:16px}
+h2{font-size:18px;margin:0 0 12px}
+label{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
+input{width:100%;padding:10px 12px;font:inherit;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--ink)}
+input[type=color]{padding:2px;height:40px;width:80px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0 16px}
+button,.btn{background:var(--accent);color:var(--accent-ink);border:0;border-radius:9px;padding:10px 16px;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block}
+button.ghost,.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+button:disabled{opacity:.6}
+.muted{color:var(--muted)}
+.msg{margin-top:10px}.msg.err{color:var(--bad)}.msg.ok{color:var(--good)}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:12px;overflow-x:auto;font-size:13px;white-space:pre-wrap;word-break:break-all}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:500}
+.tablewrap{overflow-x:auto}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.plan{border:1px solid var(--line);border-radius:12px;padding:14px}
+.plan .price{font-size:24px;font-weight:700}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;background:var(--soft);font-size:13px;font-weight:600}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="/">CiteKit</a>
+    <div class="row" id="who"></div>
+  </header>
+  <div id="view"><p class="muted">Loading…</p></div>
+</div>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const view = $('#view');
+
+async function api(path, opts = {}) {
+  const res = await fetch(path, { credentials: 'same-origin', headers: { 'content-type': 'application/json' }, ...opts, body: opts.body ? JSON.stringify(opts.body) : undefined });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw Object.assign(new Error(data.error || 'Request failed.'), { status: res.status });
+  return data;
+}
+
+function loginView(note) {
+  $('#who').innerHTML = '';
+  view.innerHTML = `<div class="card" style="max-width:440px;margin:40px auto">
+    <h2>Log in or start free</h2>
+    <p class="muted">Enter your work email and we'll send you a login link. New accounts get a free widget (25 audits a month) to try on your site.</p>
+    <form id="loginForm"><label for="email">Work email</label><input id="email" type="email" required placeholder="you@agency.com">
+    <p style="margin-top:12px"><button>Send login link</button></p></form><div id="loginMsg" class="msg"></div></div>`;
+  if (note) $('#loginMsg').textContent = note;
+  $('#loginForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const msg = $('#loginMsg');
+    try {
+      const r = await api('/api/auth/request', { method: 'POST', body: { email: $('#email').value } });
+      msg.className = 'msg ok';
+      msg.innerHTML = r.devLink ? `Dev mode: <a href="${esc(r.devLink)}">open login link</a>` : 'Check your inbox for the login link.';
+    } catch (err) { msg.className = 'msg err'; msg.textContent = err.message; }
+  });
+}
+
+function embedCode(id) {
+  return `<div id="citekit-audit"></div>\n<script src="${location.origin}/embed.js" data-widget="${id}" async><\/script>`;
+}
+
+function widgetForm(w, limits) {
+  return `<div class="card" data-id="${esc(w.id)}">
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">${esc(w.name)}</h2>
+    <span class="muted">${w.auditsThisMonth} / ${limits.audits} audits this month</span></div>
+    <form class="wform"><div class="grid">
+      <div><label>Agency name</label><input name="name" value="${esc(w.name)}" maxlength="80"></div>
+      <div><label>Logo URL (https)</label><input name="logo_url" value="${esc(w.logo_url)}" placeholder="https://youragency.com/logo.png"></div>
+      <div><label>Headline</label><input name="headline" value="${esc(w.headline)}" maxlength="120"></div>
+      <div><label>Brand color</label><input name="color" type="color" value="${esc(w.color)}"></div>
+      <div><label>Button text</label><input name="cta_text" value="${esc(w.cta_text)}" maxlength="60"></div>
+      <div><label>Button link (booking page)</label><input name="cta_url" value="${esc(w.cta_url)}" placeholder="https://cal.com/you"></div>
+      <div><label>Send new leads to</label><input name="notify_email" type="email" value="${esc(w.notify_email)}"></div>
+      ${limits.webhook ? `<div><label>Webhook URL (Zapier, Make…)</label><input name="webhook_url" value="${esc(w.webhook_url)}" placeholder="https://hooks.zapier.com/…"></div>` : ''}
+    </div><p class="row" style="margin-top:14px"><button>Save</button><a class="btn ghost" target="_blank" href="/app/preview.html?w=${encodeURIComponent(w.id)}">Preview</a></p><div class="msg"></div></form>
+    <label>Paste this where the audit should appear on your site</label>
+    <pre>${esc(embedCode(w.id))}</pre>
+  </div>`;
+}
+
+function plansCard(agency) {
+  if (agency.plan !== 'free') {
+    return `<div class="card"><h2>Plan: <span class="pill">${agency.plan === 'pro' ? 'Agency Pro' : 'Agency'}</span></h2>
+      <button class="ghost" id="portal">Manage billing</button><div class="msg" id="billMsg"></div></div>`;
+  }
+  const plan = (key, name, m, y, items) => `<div class="plan"><strong>${name}</strong><div class="price">$${m}<span class="muted" style="font-size:14px;font-weight:400">/month</span></div>
+    <div class="muted" style="font-size:14px">${items}</div>
+    <p class="row" style="margin:10px 0 0"><button data-plan="${key}" data-interval="month">Monthly</button><button class="ghost" data-plan="${key}" data-interval="year">Yearly $${y}</button></p></div>`;
+  return `<div class="card"><h2>Upgrade</h2><p class="muted">You're on the free plan: 1 widget, 25 audits a month, CiteKit branding.</p><div class="plans">
+    ${plan('agency', 'Agency', 59, 590, '1 widget · 500 audits a month · lead emails')}
+    ${plan('pro', 'Agency Pro', 129, 1290, '5 widgets · 3,000 audits a month · no CiteKit branding · webhooks')}
+    </div><div class="msg" id="billMsg"></div></div>`;
+}
+
+function leadsCard(leads) {
+  const rows = leads.slice(0, 100).map((l) => `<tr><td>${esc(l.created_at)}</td><td>${esc(l.email)}</td><td>${esc(l.site)}</td><td>${l.score ?? ''}</td></tr>`).join('');
+  return `<div class="card"><div class="row" style="justify-content:space-between"><h2 style="margin:0">Leads (${leads.length})</h2><a class="btn ghost" href="/api/leads.csv">Export CSV</a></div>
+    ${leads.length ? `<div class="tablewrap"><table><thead><tr><th>Date (UTC)</th><th>Email</th><th>Website</th><th>Score</th></tr></thead><tbody>${rows}</tbody></table></div>` : '<p class="muted">No leads yet. Paste the embed code on your site to start collecting them.</p>'}</div>`;
+}
+
+async function dashboard() {
+  let data;
+  try { data = await api('/api/me'); } catch (e) { if (e.status === 401) return loginView(); view.innerHTML = `<p class="msg err">${esc(e.message)}</p>`; return; }
+  const { agency, widgets, leads } = data;
+  $('#who').innerHTML = `<span class="muted">${esc(agency.email)}</span><button class="ghost" id="logout">Log out</button>`;
+  $('#logout').onclick = async () => { await api('/api/auth/logout', { method: 'POST' }); loginView(); };
+  const canAdd = widgets.length < agency.limits.widgets;
+  view.innerHTML = (new URLSearchParams(location.search).get('upgraded') ? '<div class="card"><strong>Thanks! Your plan upgrades as soon as Stripe confirms the payment, usually within a minute.</strong></div>' : '') +
+    plansCard(agency) + widgets.map((w) => widgetForm(w, agency.limits)).join('') +
+    (canAdd ? '<p><button class="ghost" id="addWidget">Add another widget</button></p>' : '') + leadsCard(leads);
+
+  view.querySelectorAll('.wform').forEach((form) => form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const id = form.closest('[data-id]').dataset.id;
+    const msg = $('.msg', form);
+    try {
+      await api('/api/widgets/' + encodeURIComponent(id), { method: 'POST', body: Object.fromEntries(new FormData(form)) });
+      msg.className = 'msg ok'; msg.textContent = 'Saved.';
+    } catch (err) { msg.className = 'msg err'; msg.textContent = err.message; }
+  }));
+  view.querySelectorAll('[data-plan]').forEach((b) => b.addEventListener('click', async () => {
+    try { const r = await api('/api/billing/checkout', { method: 'POST', body: { plan: b.dataset.plan, interval: b.dataset.interval } }); location.href = r.url; }
+    catch (err) { $('#billMsg').className = 'msg err'; $('#billMsg').textContent = err.message; }
+  }));
+  const portal = $('#portal');
+  if (portal) portal.onclick = async () => {
+    try { const r = await api('/api/billing/portal', { method: 'POST' }); location.href = r.url; }
+    catch (err) { $('#billMsg').className = 'msg err'; $('#billMsg').textContent = err.message; }
+  };
+  const add = $('#addWidget');
+  if (add) add.onclick = async () => { await api('/api/widgets', { method: 'POST', body: { name: 'New widget' } }); dashboard(); };
+}
+
+(async () => {
+  const token = new URLSearchParams(location.search).get('token');
+  if (token) {
+    history.replaceState(null, '', '/app/');
+    try { await api('/api/auth/verify', { method: 'POST', body: { token } }); }
+    catch (e) { return loginView(e.message); }
+  }
+  dashboard();
+})();
+</script>
+</body>
+</html>

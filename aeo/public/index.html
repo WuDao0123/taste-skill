@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CiteKit — AI visibility audit widget for agencies</title>
+<meta name="description" content="Embed a white-label AI visibility audit on your agency website. Visitors check whether ChatGPT, Claude, Perplexity and Gemini can cite their site; you get the lead. Free plan, then $59/month.">
+<link rel="canonical" href="https://citekit.example/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": "Organization", "name": "CiteKit", "url": "https://citekit.example/"},
+    {"@type": "SoftwareApplication", "name": "CiteKit", "applicationCategory": "BusinessApplication", "operatingSystem": "Web",
+     "description": "White-label, embeddable AI visibility (AEO/GEO) audit widget that generates leads for marketing agencies.",
+     "offers": [
+       {"@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD"},
+       {"@type": "Offer", "name": "Agency", "price": "59", "priceCurrency": "USD"},
+       {"@type": "Offer", "name": "Agency Pro", "price": "129", "priceCurrency": "USD"}
+     ]},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "What does the audit check?", "acceptedAnswer": {"@type": "Answer", "text": "Whether 8 major AI crawlers may read the site, /llms.txt, structured data describing the business, comparison and alternatives pages, a public pricing page, FAQ content and basic page metadata. Each item gets a score and a plain-English fix."}},
+      {"@type": "Question", "name": "How do I add it to my website?", "acceptedAnswer": {"@type": "Answer", "text": "Paste two lines of HTML where the audit should appear. It works on WordPress, Webflow, Framer, Squarespace and any site that allows custom code."}},
+      {"@type": "Question", "name": "Where do the leads go?", "acceptedAnswer": {"@type": "Answer", "text": "Each visitor enters their email to see the report. You get an email for every new lead, can export them as CSV, and on Agency Pro can send them to Zapier or any webhook."}}
+    ]}
+  ]
+}
+</script>
+<style>
+:root{--bg:#fbfaf7;--ink:#16181d;--muted:#5d6370;--line:#e4e1d9;--card:#fff;--accent:#1f5eff;--accent-ink:#fff;--good:#1d7a46;--warn:#a15c00;--bad:#b42318;--soft:#eef2ff}
+@media (prefers-color-scheme:dark){:root{--bg:#111318;--ink:#eceef2;--muted:#a3a9b6;--line:#2a2e37;--card:#171a21;--accent:#7aa2ff;--accent-ink:#0b0d12;--good:#4cc985;--warn:#f0a840;--bad:#ff7a6b;--soft:#1b2235}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-weight:700;letter-spacing:-.02em;font-size:20px;color:var(--ink);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:15px}
+.hero{padding:56px 0 40px}
+.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.1;letter-spacing:-.03em;margin:0 0 16px;max-width:780px}
+.hero p.lead{font-size:19px;color:var(--muted);max-width:640px;margin:0 0 28px}
+form.audit{display:flex;gap:10px;max-width:620px;flex-wrap:wrap}
+form.audit input{flex:1 1 280px;padding:14px 16px;font-size:17px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+button,.btn{background:var(--accent);color:var(--accent-ink);border:0;border-radius:10px;padding:14px 20px;font-size:16px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block}
+button:disabled{opacity:.6;cursor:wait}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.note{color:var(--muted);font-size:14px;margin-top:10px}
+#result{margin-top:28px}
+.report{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+.scorebar{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.score{font-size:48px;font-weight:700;letter-spacing:-.03em}
+.grade{font-weight:700;padding:2px 10px;border-radius:999px;background:var(--soft)}
+.checks{list-style:none;padding:0;margin:18px 0 0}
+.checks li{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.pts{font-weight:700;font-variant-numeric:tabular-nums}
+.pts.good{color:var(--good)}.pts.warn{color:var(--warn)}.pts.bad{color:var(--bad)}
+.checks .fix{color:var(--muted);font-size:15px}
+.error{color:var(--bad)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+section h2{font-size:30px;letter-spacing:-.02em;margin:0 0 8px}
+section p.sub{color:var(--muted);margin:0 0 28px;max-width:680px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.price{font-size:34px;font-weight:700;letter-spacing:-.02em;margin:6px 0}
+.price small{font-size:15px;color:var(--muted);font-weight:400}
+.card ul{padding-left:18px;margin:12px 0 18px;color:var(--muted);font-size:15px}
+.card.feature{border-color:var(--accent)}
+.stat{font-size:36px;font-weight:700;letter-spacing:-.02em}
+details{border-top:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font-weight:600}
+footer{padding:32px 0 48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="logo" href="/">CiteKit</a>
+    <nav><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="/app/">Log in</a></nav>
+  </header>
+
+  <div class="hero">
+    <h1>Turn "is my site visible to ChatGPT?" into leads for your agency.</h1>
+    <p class="lead">Embed a white-label AI visibility audit on your website. Visitors get an instant report on whether ChatGPT, Claude, Perplexity and Gemini can read and cite them. You get their email and a reason to call. Try the audit below.</p>
+    <form class="audit" id="auditForm">
+      <input id="url" name="url" type="text" inputmode="url" placeholder="anywebsite.com" aria-label="Website to audit" required>
+      <button id="go" type="submit">Run free audit</button>
+    </form>
+    <p class="note">This is the same check your visitors will see, with your logo and colors. No signup.</p>
+    <div id="result" aria-live="polite"></div>
+  </div>
+
+  <section>
+    <h2>Every business is asking about AI search</h2>
+    <p class="sub">AI platforms sent an average of 770 million referral visits a month worldwide in the year to May 2026, up 117% year over year (Similarweb). Your prospects want to know where they stand. Answer that on your own site.</p>
+    <div class="grid">
+      <div class="card"><div class="stat">+117%</div><p>Year-over-year growth in AI referral visits, June 2025 to May 2026.</p></div>
+      <div class="card"><div class="stat">−34.5%</div><p>Lower click-through for the #1 Google result when an AI Overview appears (Ahrefs). Clients feel it in their traffic.</p></div>
+      <div class="card"><div class="stat">$1,000+</div><p>Typical monthly entry price for AEO services to small B2B companies. One extra client pays for CiteKit for years.</p></div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>Live on your site in 5 minutes</h2>
+    <p class="sub">No developer needed. Works on WordPress, Webflow, Framer, Squarespace and anything that accepts custom HTML.</p>
+    <div class="grid">
+      <div class="card"><h3>1. Sign up free</h3><p>Enter your email. No card. You get a working widget straight away.</p></div>
+      <div class="card"><h3>2. Brand it</h3><p>Your logo, colors, headline and a button that goes to your booking page.</p></div>
+      <div class="card"><h3>3. Paste two lines</h3><p>Visitors run the audit and enter their email to see the report.</p></div>
+      <div class="card"><h3>4. Get the lead</h3><p>An email for every lead with their site and score, a CSV export, and webhooks on Pro.</p></div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <p class="sub">Start free. Upgrade when the leads come in. Yearly plans get 2 months free. Cancel any time from your dashboard.</p>
+    <div class="grid">
+      <div class="card"><h3>Free</h3><div class="price">$0</div>
+        <ul><li>1 widget</li><li>25 audits a month</li><li>Lead emails and CSV export</li><li>"Powered by CiteKit" link</li></ul>
+        <a class="btn ghost" href="/app/">Start free</a></div>
+      <div class="card feature"><h3>Agency</h3><div class="price">$59 <small>/month</small></div>
+        <ul><li>1 widget</li><li>500 audits a month</li><li>Your logo, colors and booking button</li><li>Lead emails and CSV export</li></ul>
+        <a class="btn" href="/app/">Start free, upgrade later</a></div>
+      <div class="card"><h3>Agency Pro</h3><div class="price">$129 <small>/month</small></div>
+        <ul><li>5 widgets, e.g. one per service page or language</li><li>3,000 audits a month</li><li>No CiteKit branding</li><li>Zapier and webhooks</li></ul>
+        <a class="btn ghost" href="/app/">Start free, upgrade later</a></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <details><summary>What does the audit check?</summary><p>Whether 8 major AI crawlers may read the site, /llms.txt, structured data describing the business, comparison and alternatives pages, a public pricing page, FAQ content and basic page metadata. Each item gets a score and a plain-English fix your team can sell.</p></details>
+    <details><summary>How do I add it to my website?</summary><p>Paste two lines of HTML where the audit should appear. It renders inside its own container, so it will not clash with your theme.</p></details>
+    <details><summary>Where do the leads go?</summary><p>Each visitor enters their email to see the report. You get an email for every new lead, can export them as CSV, and on Agency Pro can send them to Zapier or any webhook.</p></details>
+    <details><summary>What happens if I hit the monthly limit?</summary><p>The widget tells visitors to contact you instead of running the check. Upgrade from your dashboard to lift the limit straight away.</p></details>
+  </section>
+
+  <footer>© CiteKit · <a href="/llms.txt">llms.txt</a> · <a href="mailto:hello@citekit.example">Contact</a></footer>
+</div>
+
+<script>
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const out = document.getElementById('result');
+const btn = document.getElementById('go');
+
+document.getElementById('auditForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const url = document.getElementById('url').value.trim();
+  if (!url) return;
+  btn.disabled = true; btn.textContent = 'Checking…';
+  out.innerHTML = '<p class="note">Reading robots.txt, llms.txt, sitemap and homepage…</p>';
+  try {
+    const res = await fetch('/api/audit?url=' + encodeURIComponent(url));
+    const r = await res.json();
+    if (!res.ok) throw new Error(r.error || 'Audit failed.');
+    const rows = r.checks.map((c) => {
+      const ratio = c.score / c.weight;
+      const cls = ratio >= 0.8 ? 'good' : ratio >= 0.4 ? 'warn' : 'bad';
+      return `<li><span class="pts ${cls}">${c.score}/${c.weight}</span><div><strong>${esc(c.label)}</strong><br>${esc(c.detail)}${c.fix ? `<div class="fix">Fix: ${esc(c.fix)}</div>` : ''}</div></li>`;
+    }).join('');
+    out.innerHTML = `<div class="report">
+      <div class="scorebar"><span class="score">${r.score}<small style="font-size:20px">/100</small></span><span class="grade">Grade ${esc(r.grade)}</span><span class="note">${esc(r.origin)}</span></div>
+      <ul class="checks">${rows}</ul>
+      <p style="margin:18px 0 0">Run an agency? Put this audit on your own site, with your branding, and collect a lead every time someone runs it.</p>
+      <p><a class="btn" href="/app/">Add it to my site free</a></p>
+    </div>`;
+  } catch (err) {
+    out.innerHTML = `<p class="error">${esc(err.message)}</p>`;
+  } finally {
+    btn.disabled = false; btn.textContent = 'Run free audit';
+  }
+});
+</script>
+</body>
+</html>

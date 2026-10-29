@@ -1,0 +1,19 @@
+# CiteKit
+
+> CiteKit is a white-label, embeddable AI visibility (AEO/GEO) audit widget for marketing agencies. Agencies paste two lines of HTML on their website; visitors check whether ChatGPT, Claude, Perplexity and Gemini can read and cite their site, and enter their email to see the report, which becomes a lead for the agency.
+
+## Pricing (USD)
+- Free: $0. 1 widget, 25 audits a month, lead emails and CSV export, "Powered by CiteKit" link.
+- Agency: $59/month or $590/year. 1 widget, 500 audits a month, agency logo, colors and booking button.
+- Agency Pro: $129/month or $1,290/year. 5 widgets, 3,000 audits a month, no CiteKit branding, Zapier and webhooks.
+
+## What the audit checks
+- Access for 8 AI crawlers in robots.txt (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot, Google-Extended, Applebot-Extended)
+- /llms.txt
+- JSON-LD structured data describing the business
+- Comparison and alternatives pages in the sitemap
+- Public pricing page, FAQ content, title, meta description and H1
+
+## Links
+- [Free AI visibility audit](https://citekit.example/)
+- [Sign up or log in](https://citekit.example/app/)
