@@ -453,29 +453,29 @@
       "name": "ChatGPT Plus",
       "category": "software-ai",
       "domain": "chatgpt.com",
-      "verified": null,
+      "verified": "2026-10-29",
       "minutes": 1,
-      "quickAnswer": "In ChatGPT on the web, open your profile menu, go to the subscription settings, choose to manage your plan and cancel it. If you subscribed in the iPhone or Android app, cancel through Apple or Google instead.",
+      "quickAnswer": "Log in to ChatGPT on the web, click your profile icon, open Settings, then Billing, and under Cancel plan select Cancel. Cancel at least 24 hours before your next billing date to avoid another charge. If you subscribed in the iPhone or Android app, cancel through Apple or Google instead.",
       "methods": [
         {
           "id": "web",
           "label": "On the web",
           "steps": [
             {
-              "title": "Open chatgpt.com",
-              "body": "Sign in and open your profile menu."
+              "title": "Log in to ChatGPT",
+              "body": "Use chatgpt.com in a web browser."
             },
             {
-              "title": "Go to your plan settings",
-              "body": "Open Settings and the subscription or account section that shows your plan."
+              "title": "Open Settings",
+              "body": "Click your profile icon and choose Settings."
             },
             {
-              "title": "Choose Manage, then Cancel plan",
-              "body": "Confirm the cancellation."
+              "title": "Go to Billing",
+              "body": "Choose Billing to see your plan."
             },
             {
-              "title": "Check the end date",
-              "body": "Plus features stay on until the end of the billing period."
+              "title": "Select Cancel",
+              "body": "Under Cancel plan, select Cancel and confirm. Do this at least 24 hours before your next billing date so you are not charged again."
             }
           ]
         },
@@ -489,20 +489,32 @@
         }
       ],
       "after": [
-        "Your chats are kept and you move to the free plan when the period ends.",
-        "Subscriptions bought in a mobile app can only be cancelled in that app store."
+        "Cancellation takes effect the day after your next billing date, so you can keep using your paid plan until then.",
+        "Subscription fees are non-refundable under OpenAI's policy. Refund requests have their own help article.",
+        "Subscriptions bought in the iOS or Android app must be cancelled through the App Store or Google Play."
       ],
       "faq": [
         {
-          "q": "Will I lose my ChatGPT history?",
-          "a": "No. Your conversations stay on the free plan."
+          "q": "Will OpenAI refund my ChatGPT Plus payment?",
+          "a": "OpenAI's help center says subscription fees are non-refundable. It links to a separate article for refund requests."
         },
         {
           "q": "Why can't I find the cancel option on the web?",
-          "a": "You probably subscribed through Apple or Google. Cancel in that store."
+          "a": "You probably subscribed through Apple or Google in the mobile app. Cancel in that app store."
+        },
+        {
+          "q": "I can't access my account email. Can I still cancel?",
+          "a": "Yes. OpenAI support can cancel for you if you give the account email, the last four digits of the card, and the date of your latest payment."
+        },
+        {
+          "q": "Does deleting my ChatGPT account cancel Plus?",
+          "a": "Yes, deleting your account also cancels the subscription, but deletion is permanent."
         }
       ],
-      "alternatives": []
+      "alternatives": [],
+      "sources": [
+        "https://help.openai.com/en/articles/7232927-canceling-your-chatgpt-subscription"
+      ]
     },
     {
       "slug": "adobe-creative-cloud",
