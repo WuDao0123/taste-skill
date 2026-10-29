@@ -159,82 +159,93 @@
       "name": "Amazon Prime",
       "category": "shopping",
       "domain": "amazon.com",
-      "verified": null,
-      "minutes": 3,
-      "quickAnswer": "On Amazon, open Account & Lists, then Prime Membership. Choose Manage membership, then End membership, and keep confirming past the offer screens until Amazon shows the cancellation date.",
+      "verified": "2026-10-29",
+      "minutes": 2,
+      "quickAnswer": "Sign in to Amazon, open the Cancel Your Prime Membership page (or Manage Prime from your Prime Membership page) and follow the prompts until Amazon confirms the end date. If you have not used any Prime benefits in the current period, you get a full refund.",
       "methods": [
         {
           "id": "web",
           "label": "On the web or app",
           "steps": [
             {
-              "title": "Open Prime Membership",
-              "body": "Go to Account & Lists, then Prime Membership. In the app, it is under Your Account."
+              "title": "Sign in to Amazon",
+              "body": "Use the Amazon website or app with the account that pays for Prime."
             },
             {
-              "title": "Choose Manage membership",
-              "body": "Then select End membership."
+              "title": "Open Cancel Your Prime Membership",
+              "body": "Amazon's help page links straight to it. You can also go to Account & Lists, then your Prime Membership page, which has more options for managing Prime."
             },
             {
-              "title": "Continue past the offers",
-              "body": "Amazon shows several screens with reminders and offers. Keep choosing the option to continue cancelling."
+              "title": "Follow the prompts",
+              "body": "Keep confirming that you want to cancel until Amazon shows when your membership ends. Take a screenshot as proof."
             },
             {
-              "title": "Save the confirmation",
-              "body": "The final screen shows when Prime ends. Take a screenshot as proof."
+              "title": "Stuck? Contact Amazon",
+              "body": "On the Customer Service homepage, under Can't find what you're looking for, select Something else, then I need help with something else."
             }
           ]
+        },
+        {
+          "id": "google",
+          "shared": "google"
         }
       ],
       "after": [
-        "Amazon may refund the current membership fee if you have not used Prime benefits in that period.",
-        "If you used benefits, Prime usually stays active until the end of the paid period.",
-        "Prime Video channels billed through Amazon are separate and must be cancelled on their own."
+        "Paid members who have not used any Prime benefits in the current period get a full refund of that period. Amazon processes it in three to five business days.",
+        "Prime Video subscriptions such as Paramount+ keep running after Prime ends. Cancel them separately under Memberships & Subscriptions.",
+        "If you joined Prime through Google Play on Android, cancel in Google Play. If Prime came with another company's service, cancel with that company."
       ],
       "faq": [
         {
           "q": "Will Amazon refund my Prime fee?",
-          "a": "Amazon may refund part or all of the current fee if you have not used Prime benefits since it was charged. The cancel flow shows what applies to you."
+          "a": "Yes, in full for the current period if you have not used any Prime benefits since it was charged. The refund takes three to five business days."
         },
         {
           "q": "Does cancelling Prime cancel Prime Video channels?",
-          "a": "No. Channels such as Max or Paramount+ added through Prime Video are separate subscriptions. Cancel them under Memberships & Subscriptions."
+          "a": "No. Subscriptions on Prime Video, like Paramount+, continue after your Prime membership ends. Cancel them under Memberships & Subscriptions."
         },
         {
-          "q": "Why does Amazon keep showing offers?",
-          "a": "The cancel flow has several confirmation and offer screens. Your membership is only cancelled once you see the end date."
+          "q": "I signed up for Prime through Google Play. Where do I cancel?",
+          "a": "Cancel through Google Play subscriptions on your Android device."
+        },
+        {
+          "q": "Can I pause Prime instead?",
+          "a": "Amazon has a separate help article on pausing your Prime membership. Check your Prime Membership page to see if it is available for you."
         }
       ],
-      "alternatives": []
+      "alternatives": [],
+      "sources": [
+        "https://www.amazon.com/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y"
+      ]
     },
     {
       "slug": "hulu",
       "name": "Hulu",
       "category": "streaming",
       "domain": "hulu.com",
-      "verified": null,
+      "verified": "2026-10-29",
       "minutes": 2,
-      "quickAnswer": "Sign in at hulu.com, open your Account page, choose Cancel under Your Subscription, and follow the prompts to confirm. If Hulu is billed through Apple, Google, Amazon or a bundle, cancel with that company.",
+      "quickAnswer": "In a computer or mobile browser, go to your Hulu Account page, select Cancel under Your Subscription, choose Continue to Cancel if Hulu offers a pause, then select Cancel Subscription. If someone else bills you, such as Apple, Google, Amazon, Roku or Disney+, cancel with them.",
       "methods": [
         {
           "id": "web",
           "label": "On the web",
           "steps": [
             {
-              "title": "Sign in at hulu.com",
-              "body": "Use a browser and open your Account page from the profile menu."
+              "title": "Open your Account page",
+              "body": "Sign in on hulu.com in a computer or mobile browser."
             },
             {
-              "title": "Find Your Subscription",
-              "body": "Select Cancel next to your plan."
+              "title": "Select Cancel under Your Subscription",
+              "body": "This option appears if Hulu bills you directly."
             },
             {
-              "title": "Continue past the pause offer",
-              "body": "Hulu may offer to pause instead. Choose to continue cancelling if you want to leave."
+              "title": "Select Continue to Cancel",
+              "body": "Hulu may offer to pause your subscription first. Skip it if you want to leave."
             },
             {
-              "title": "Confirm",
-              "body": "Hulu shows the date your access ends."
+              "title": "Select Cancel Subscription",
+              "body": "Your Account page should then read \"Your subscription will be canceled.\""
             }
           ]
         },
@@ -248,22 +259,35 @@
         }
       ],
       "after": [
-        "You keep access until the end of your current billing period.",
-        "Add-ons like Live TV or premium channels end with the base plan."
+        "Your Account page should say \"Your subscription will be canceled\" and Hulu emails a confirmation. Keep the email.",
+        "You keep access until the end of the current billing cycle and are not charged again.",
+        "If you cancel during a free trial you keep access until it ends, except Hulu + Live TV trials, which end immediately.",
+        "Cancelling does not delete your Hulu account or your Disney account."
       ],
       "faq": [
         {
           "q": "Can I pause Hulu instead of cancelling?",
-          "a": "Hulu offers a pause option for some plans. It is shown during the cancel flow."
+          "a": "Hulu-billed subscribers may be able to pause for up to 12 weeks. The option is offered during the cancel flow."
         },
         {
-          "q": "I have the Disney bundle. How do I cancel just Hulu?",
-          "a": "Bundles are managed by the company that bills you, often Disney+. Change or cancel the bundle there."
+          "q": "How do I know who bills me for Hulu?",
+          "a": "Your Hulu Account page shows your billing party in the Payment Information section."
+        },
+        {
+          "q": "I have a Disney+, Hulu, ESPN+ bundle bought through Disney+. Where do I cancel?",
+          "a": "Manage it in Disney+ or contact Disney+ Support. Bundles bought through HBO Max are managed in HBO Max."
+        },
+        {
+          "q": "Can I come back later?",
+          "a": "Yes. Sign up again with the same login."
         }
       ],
       "alternatives": [
         "netflix",
         "disney-plus"
+      ],
+      "sources": [
+        "https://help.hulu.com/article/hulu-cancel-hulu-subscription"
       ]
     },
     {
@@ -271,29 +295,29 @@
       "name": "Disney+",
       "category": "streaming",
       "domain": "disneyplus.com",
-      "verified": null,
+      "verified": "2026-10-29",
       "minutes": 2,
-      "quickAnswer": "Sign in at disneyplus.com in a browser, open Account, select your subscription, choose Cancel Subscription and confirm. Billed through Apple, Google or Roku? Cancel there.",
+      "quickAnswer": "Log in at DisneyPlus.com in a computer or mobile browser, select your Profile, then Account, select your Disney+ subscription under Subscription and choose Cancel Subscription. If a partner such as Apple, Google or Roku bills you, cancel with them.",
       "methods": [
         {
           "id": "web",
           "label": "On the web",
           "steps": [
             {
-              "title": "Sign in at disneyplus.com",
-              "body": "Open your profile menu and select Account."
+              "title": "Log in at DisneyPlus.com",
+              "body": "Use a computer or mobile browser."
             },
             {
-              "title": "Select your subscription",
-              "body": "Choose the Disney+ plan or bundle you want to end."
+              "title": "Select your Profile",
+              "body": "Then select Account."
             },
             {
-              "title": "Choose Cancel Subscription",
-              "body": "Confirm on the next screen."
+              "title": "Select your Disney+ subscription",
+              "body": "It is listed under Subscription."
             },
             {
-              "title": "Check the end date",
-              "body": "Disney+ shows when access ends and emails a confirmation."
+              "title": "Select Cancel Subscription",
+              "body": "Access continues until the end of your current term."
             }
           ]
         },
@@ -307,22 +331,34 @@
         }
       ],
       "after": [
-        "Access continues until the end of the period you paid for.",
-        "Cancelling a bundle ends every service in that bundle."
+        "You keep access until the end of your current subscription term. The exact date depends on your plan and whether you pay monthly, annually or are in a promotion.",
+        "Cancelling does not delete your Disney+ account or your MyDisney account.",
+        "You can restart before the term ends from your Account page with Restart Subscription. After it ends, you have to subscribe again."
       ],
       "faq": [
         {
-          "q": "Does Disney+ give refunds?",
-          "a": "Disney+ generally does not refund partial billing periods."
+          "q": "Can I pause Disney+ instead of cancelling?",
+          "a": "Monthly subscriptions billed by Disney+ can be paused from Account, then your subscription, then Pause Subscription. Some plans are not eligible, and pausing a bundle pauses every service in it."
         },
         {
           "q": "Can I cancel Disney+ on my TV?",
-          "a": "Usually not. Use a web browser, or the app store that bills you."
+          "a": "Disney+ says to cancel in a computer or mobile browser at DisneyPlus.com. If you are billed by a partner, cancel with that partner."
+        },
+        {
+          "q": "What happens to my old Hulu or ESPN subscription if I cancel my bundle?",
+          "a": "If you had it before upgrading, it continues at the then-current price unless you cancel it separately."
+        },
+        {
+          "q": "I signed up through Hulu. Where do I cancel?",
+          "a": "Plans billed directly by Hulu can still be managed in Hulu, or in Disney+ if eligible."
         }
       ],
       "alternatives": [
         "netflix",
         "hulu"
+      ],
+      "sources": [
+        "https://help.disneyplus.com/article/disneyplus-cancel"
       ]
     },
     {
