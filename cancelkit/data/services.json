@@ -29,6 +29,11 @@
       "slug": "app-stores",
       "name": "App store subscriptions",
       "blurb": "Subscriptions billed through Apple or Google Play, for any app."
+    },
+    {
+      "slug": "delivery",
+      "name": "Delivery & rides",
+      "blurb": "Food delivery and ride memberships like Uber One and DashPass."
     }
   ],
   "services": [
@@ -904,6 +909,343 @@
       "alternatives": [
         "apple-subscriptions"
       ]
+    },
+    {
+      "slug": "hbo-max",
+      "name": "HBO Max",
+      "category": "streaming",
+      "domain": "hbomax.com",
+      "verified": "2026-10-29",
+      "sources": [
+        "https://help.hbomax.com/us/Answer/Detail/000002526"
+      ],
+      "minutes": 2,
+      "quickAnswer": "First check who bills you: go to HBOMax.com/subscription. If HBO Max bills you directly, choose Cancel Your Subscription and confirm. No cancel option means Apple, Google, Amazon, Roku or your TV or mobile provider bills you, so cancel with them. Deleting the app does not cancel.",
+      "methods": [
+        {
+          "id": "web",
+          "label": "On the web",
+          "steps": [
+            {
+              "title": "Go to HBOMax.com/subscription",
+              "body": "Sign in if needed. The top of the page shows who bills you."
+            },
+            {
+              "title": "Choose Cancel Your Subscription",
+              "body": "No cancel option? Note who bills you at the top of the screen and cancel with them."
+            },
+            {
+              "title": "Confirm and note the expiration date",
+              "body": "You can stream until the end of the billing period."
+            }
+          ]
+        },
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
+        }
+      ],
+      "after": [
+        "You can keep streaming until the subscription expires at the end of the billing period.",
+        "The Extra Member Add-On is cancelled when your base plan expires, with a prorated refund for remaining add-on days.",
+        "Deleting the HBO Max app does not cancel your subscription."
+      ],
+      "faq": [
+        {
+          "q": "How do I find out who bills me for HBO Max?",
+          "a": "Go to HBOMax.com/subscription, or in the app choose your profile, then Subscription. The billing company is shown at the top."
+        },
+        {
+          "q": "Why don't I see a cancel option?",
+          "a": "A third party such as Apple, Google Play, Amazon, Roku or your internet, mobile or TV provider bills you. Cancel through them."
+        },
+        {
+          "q": "Will I get a refund?",
+          "a": "You keep access until the billing period ends. Only the Extra Member Add-On gets a prorated refund for remaining days."
+        }
+      ],
+      "alternatives": [
+        "netflix",
+        "hulu"
+      ]
+    },
+    {
+      "slug": "peacock",
+      "name": "Peacock",
+      "category": "streaming",
+      "domain": "peacocktv.com",
+      "verified": "2026-10-29",
+      "sources": [
+        "https://www.peacocktv.com/help/article/cancellation"
+      ],
+      "minutes": 2,
+      "quickAnswer": "Log in to your Peacock account, select Cancel All Subscriptions and follow the steps until you see a confirmation. Your plan will not renew at the end of the term. No Cancel All Subscriptions option means a third party such as Apple, Google, Roku, Amazon or your TV provider bills you. Peacock gives no refunds for partial periods unless required by law.",
+      "methods": [
+        {
+          "id": "web",
+          "label": "Peacock account",
+          "steps": [
+            {
+              "title": "Log in to your Peacock account",
+              "body": "The Subscriptions tab shows your plan, add-ons and payment method."
+            },
+            {
+              "title": "Select Cancel All Subscriptions",
+              "body": "This cancels your base plan and all add-ons. To drop only an add-on, select it and choose Remove Add-On."
+            },
+            {
+              "title": "Follow the steps to confirm",
+              "body": "You see a confirmation on screen and get an email, which can take a few hours."
+            }
+          ]
+        },
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
+        }
+      ],
+      "after": [
+        "Your plan will not renew at the end of its current subscription term.",
+        "Add-ons like regional sports networks are set to auto-cancel with the plan.",
+        "No refunds or credits are issued for prior payments unless required by law."
+      ],
+      "faq": [
+        {
+          "q": "Why is there no Cancel All Subscriptions option?",
+          "a": "You probably subscribed through a third party like Apple, Google, Roku, Amazon, Spectrum, Verizon or Xfinity. Peacock cannot cancel those plans; cancel with that company."
+        },
+        {
+          "q": "Can I cancel Peacock without logging in?",
+          "a": "Yes. Peacock offers cancellation through its help center chat if you cannot log in."
+        },
+        {
+          "q": "Does Peacock give refunds?",
+          "a": "No refunds or credits are issued when you cancel, unless required by law."
+        }
+      ],
+      "alternatives": [
+        "netflix",
+        "hbo-max"
+      ]
+    },
+    {
+      "slug": "linkedin-premium",
+      "name": "LinkedIn Premium",
+      "category": "software-ai",
+      "domain": "linkedin.com",
+      "verified": "2026-10-29",
+      "sources": [
+        "https://www.linkedin.com/help/linkedin/answer/a545578"
+      ],
+      "minutes": 2,
+      "quickAnswer": "If you bought Premium on LinkedIn, open LinkedIn's Premium cancellation page and follow the prompts. Bought it in the App Store or Google Play? Cancel there. Cancel at least one day before your billing date. Paid plans stay active until the end of the cycle; free trials end immediately.",
+      "methods": [
+        {
+          "id": "web",
+          "label": "Bought on LinkedIn",
+          "steps": [
+            {
+              "title": "Open the Premium cancellation page",
+              "body": "Signed in to LinkedIn, use the Cancel Premium link on LinkedIn's help article for direct purchases. It takes you straight to the cancellation page."
+            },
+            {
+              "title": "Follow the prompts to confirm",
+              "body": "Do it at least one day before your next billing date to avoid another charge."
+            },
+            {
+              "title": "Check the end date",
+              "body": "Premium features stay until the end of the current billing cycle, then the account returns to Basic."
+            }
+          ]
+        },
+        {
+          "id": "apple",
+          "shared": "apple"
+        },
+        {
+          "id": "google",
+          "shared": "google"
+        }
+      ],
+      "after": [
+        "A paid Premium plan stays active until the end of the current billing cycle.",
+        "Cancelling a free trial ends Premium access immediately.",
+        "Your account returns to Basic and loses InMail credits, LinkedIn Learning and the Premium badge."
+      ],
+      "faq": [
+        {
+          "q": "When should I cancel LinkedIn Premium?",
+          "a": "At least one day before your next billing date, or you may be charged for another cycle."
+        },
+        {
+          "q": "I forgot to cancel my free trial. Can I get a refund?",
+          "a": "Check LinkedIn's refund policy, linked from its cancellation help page."
+        },
+        {
+          "q": "Does cancelling a trial keep Premium until the trial ends?",
+          "a": "No. Cancelling a free trial ends Premium access right away."
+        }
+      ],
+      "alternatives": []
+    },
+    {
+      "slug": "uber-one",
+      "name": "Uber One",
+      "category": "delivery",
+      "domain": "uber.com",
+      "verified": "2026-10-29",
+      "sources": [
+        "https://help.uber.com/en/riders/article/how-do-i-cancel-my-uber-one-membership?nodeId=2748c138-d8b9-49a7-b6ee-3e2bb07bae28"
+      ],
+      "minutes": 1,
+      "quickAnswer": "In the Uber app, tap Account, then Uber One, scroll to Manage Membership and select End Membership. Cancel at least 48 hours before your billing day to avoid the next charge. Paid members keep benefits until the end of the period; free trials end right away.",
+      "methods": [
+        {
+          "id": "app",
+          "label": "In the Uber app",
+          "steps": [
+            {
+              "title": "Tap the Account icon",
+              "body": "In the Uber or Uber Eats app."
+            },
+            {
+              "title": "Tap Uber One",
+              "body": "Then scroll and tap Manage Membership."
+            },
+            {
+              "title": "Select End Membership",
+              "body": "Follow the prompt. Less than 48 hours before renewal? Contact Uber support instead."
+            }
+          ]
+        }
+      ],
+      "after": [
+        "Paid members keep benefits until the end of the current billing period.",
+        "Free-trial and paused memberships end immediately on cancellation.",
+        "If your payment is refunded, you cannot buy Uber One again for 3 days."
+      ],
+      "faq": [
+        {
+          "q": "How early do I need to cancel Uber One?",
+          "a": "At least 48 hours before your billing day, or you may be charged for the next cycle."
+        },
+        {
+          "q": "Can I cancel Uber One online?",
+          "a": "Yes, Uber says you can cancel in the app or online."
+        }
+      ],
+      "alternatives": [
+        "doordash-dashpass"
+      ]
+    },
+    {
+      "slug": "doordash-dashpass",
+      "name": "DoorDash DashPass",
+      "category": "delivery",
+      "domain": "doordash.com",
+      "verified": "2026-10-29",
+      "sources": [
+        "https://help.doordash.com/en-us/consumers/article/how-do-i-cancel-my-dashpass-subscription"
+      ],
+      "minutes": 1,
+      "quickAnswer": "In the DoorDash app or on doordash.com, tap the account icon, go to Manage DashPass, tap Cancel Membership, pick a reason and select Cancel DashPass. Cancel at least 24 hours before your next payment. Benefits last until the end of the billing period, except during a free period.",
+      "methods": [
+        {
+          "id": "app",
+          "label": "App or doordash.com",
+          "steps": [
+            {
+              "title": "Tap the account icon",
+              "body": "In the DoorDash app or on doordash.com."
+            },
+            {
+              "title": "Go to Manage DashPass",
+              "body": "Then tap Cancel Membership. You can choose Pause Membership instead."
+            },
+            {
+              "title": "Select a reason, then Cancel DashPass",
+              "body": "Select Got it to finish. DoorDash emails a confirmation."
+            }
+          ]
+        }
+      ],
+      "after": [
+        "DashPass benefits stay valid through the end of the current billing period.",
+        "If you cancel during a free period, benefits end immediately.",
+        "DoorDash emails a confirmation that the membership is cancelled."
+      ],
+      "faq": [
+        {
+          "q": "When should I cancel DashPass?",
+          "a": "At least 24 hours before your next scheduled payment."
+        },
+        {
+          "q": "Can I pause DashPass instead?",
+          "a": "Yes. On the Manage DashPass page, select Pause Membership, then Pause DashPass."
+        }
+      ],
+      "alternatives": [
+        "uber-one"
+      ]
+    },
+    {
+      "slug": "grammarly",
+      "name": "Grammarly",
+      "category": "software-ai",
+      "domain": "grammarly.com",
+      "verified": "2026-10-29",
+      "sources": [
+        "https://support.grammarly.com/hc/en-us/articles/115000090172-How-do-I-cancel-my-subscription"
+      ],
+      "minutes": 2,
+      "quickAnswer": "Sign in to Grammarly, open the Account tab, go to Your account, then Subscription, click Cancel Subscription, click Continue, choose a reason and click Cancel Subscription. On a phone, use account.grammarly.com. Bought it in the App Store? Cancel through Apple.",
+      "methods": [
+        {
+          "id": "web",
+          "label": "On the web",
+          "steps": [
+            {
+              "title": "Open Subscription",
+              "body": "Sign in, click the Account tab in the left sidebar, then Your account, then Subscription. On mobile, go to account.grammarly.com."
+            },
+            {
+              "title": "Click Cancel Subscription",
+              "body": "It is at the bottom of the page. Then click Continue."
+            },
+            {
+              "title": "Choose a reason and confirm",
+              "body": "Click Cancel Subscription again. No button? Make sure you are signed in to the account that pays."
+            }
+          ]
+        },
+        {
+          "id": "apple",
+          "shared": "apple"
+        }
+      ],
+      "after": [
+        "Paid features stay on for the rest of your current subscription period.",
+        "Cancelling through Grammarly also applies across the other Superhuman apps tied to the account."
+      ],
+      "faq": [
+        {
+          "q": "Why don't I see the Cancel Subscription button?",
+          "a": "You are probably signed in to a different account than the one that pays, or you subscribed through the App Store."
+        },
+        {
+          "q": "Can I get a refund from Grammarly?",
+          "a": "Grammarly has a separate refund article; cancelling only stops the next renewal."
+        }
+      ],
+      "alternatives": []
     }
   ]
 }
