@@ -1,0 +1,14 @@
+# CiteKit
+
+> CiteKit is an answer engine optimization (AEO) studio for bootstrapped B2B SaaS. We get software products cited and recommended by ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews.
+
+## Services and pricing (USD)
+- AI Visibility Audit: $490 one-time. 50 buyer questions across 4 AI engines, competitor citation analysis, technical check, prioritized fix list. Credited toward a monthly plan.
+- Starter: $1,500/month, 3-month minimum. Technical fixes, 4 comparison or alternatives pages a month, monthly tracking report.
+- Growth: $2,900/month, 3-month minimum. Starter plus 8 pages a month, third-party citation outreach, weekly tracking.
+
+## Free tool
+- [Free AI visibility audit](https://citekit.example/): checks AI crawler access in robots.txt, /llms.txt, JSON-LD structured data, comparison and alternatives pages, pricing page, FAQ and page metadata.
+
+## Who it is for
+- Bootstrapped and indie B2B SaaS with roughly $20k to $500k in monthly revenue and no in-house SEO team.

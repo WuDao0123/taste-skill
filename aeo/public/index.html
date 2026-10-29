@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CiteKit — Get your SaaS recommended by ChatGPT</title>
+<meta name="description" content="Free AI visibility audit for SaaS. See whether ChatGPT, Claude, Perplexity and Gemini can read and cite your site, then let us fix it. Done-for-you AEO from $1,500/month.">
+<link rel="canonical" href="https://citekit.example/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": "Organization", "name": "CiteKit", "url": "https://citekit.example/", "description": "Answer engine optimization (AEO) studio for bootstrapped B2B SaaS."},
+    {"@type": "Service", "name": "AI visibility audit and AEO retainer", "provider": {"@type": "Organization", "name": "CiteKit"},
+     "offers": [
+       {"@type": "Offer", "name": "AI Visibility Audit", "price": "490", "priceCurrency": "USD"},
+       {"@type": "Offer", "name": "Starter", "price": "1500", "priceCurrency": "USD"},
+       {"@type": "Offer", "name": "Growth", "price": "2900", "priceCurrency": "USD"}
+     ]},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "Can you guarantee ChatGPT will recommend us?", "acceptedAnswer": {"@type": "Answer", "text": "No one can. AI answers change daily. We commit to concrete deliverables every month and measure your share of answers against named competitors, so you can see whether it is working."}},
+      {"@type": "Question", "name": "How long until we see results?", "acceptedAnswer": {"@type": "Answer", "text": "Technical fixes are picked up within weeks. Content and third-party citations usually take 2 to 4 months, which is why monthly plans start with a 3-month term."}},
+      {"@type": "Question", "name": "What does the free audit check?", "acceptedAnswer": {"@type": "Answer", "text": "Whether 8 major AI crawlers may read your site, whether you publish /llms.txt, structured data describing your product, comparison and alternatives pages, a public pricing page, FAQ content and basic page metadata."}}
+    ]}
+  ]
+}
+</script>
+<style>
+:root{--bg:#fbfaf7;--ink:#16181d;--muted:#5d6370;--line:#e4e1d9;--card:#fff;--accent:#1f5eff;--accent-ink:#fff;--good:#1d7a46;--warn:#a15c00;--bad:#b42318;--soft:#eef2ff}
+@media (prefers-color-scheme:dark){:root{--bg:#111318;--ink:#eceef2;--muted:#a3a9b6;--line:#2a2e37;--card:#171a21;--accent:#7aa2ff;--accent-ink:#0b0d12;--good:#4cc985;--warn:#f0a840;--bad:#ff7a6b;--soft:#1b2235}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-weight:700;letter-spacing:-.02em;font-size:20px;color:var(--ink);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:15px}
+.hero{padding:56px 0 40px}
+.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.1;letter-spacing:-.03em;margin:0 0 16px;max-width:780px}
+.hero p.lead{font-size:19px;color:var(--muted);max-width:640px;margin:0 0 28px}
+form.audit{display:flex;gap:10px;max-width:620px;flex-wrap:wrap}
+form.audit input{flex:1 1 280px;padding:14px 16px;font-size:17px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+button,.btn{background:var(--accent);color:var(--accent-ink);border:0;border-radius:10px;padding:14px 20px;font-size:16px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block}
+button:disabled{opacity:.6;cursor:wait}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.note{color:var(--muted);font-size:14px;margin-top:10px}
+#result{margin-top:28px}
+.report{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+.scorebar{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.score{font-size:48px;font-weight:700;letter-spacing:-.03em}
+.grade{font-weight:700;padding:2px 10px;border-radius:999px;background:var(--soft)}
+.checks{list-style:none;padding:0;margin:18px 0 0}
+.checks li{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.pts{font-weight:700;font-variant-numeric:tabular-nums}
+.pts.good{color:var(--good)}.pts.warn{color:var(--warn)}.pts.bad{color:var(--bad)}
+.checks .fix{color:var(--muted);font-size:15px}
+.error{color:var(--bad)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+section h2{font-size:30px;letter-spacing:-.02em;margin:0 0 8px}
+section p.sub{color:var(--muted);margin:0 0 28px;max-width:680px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.price{font-size:34px;font-weight:700;letter-spacing:-.02em;margin:6px 0}
+.price small{font-size:15px;color:var(--muted);font-weight:400}
+.card ul{padding-left:18px;margin:12px 0 18px;color:var(--muted);font-size:15px}
+.card.feature{border-color:var(--accent)}
+.stat{font-size:36px;font-weight:700;letter-spacing:-.02em}
+details{border-top:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font-weight:600}
+footer{padding:32px 0 48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="logo" href="/">CiteKit</a>
+    <nav><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></nav>
+  </header>
+
+  <div class="hero">
+    <h1>When buyers ask ChatGPT for the best tool in your category, are you in the answer?</h1>
+    <p class="lead">CiteKit gets bootstrapped B2B SaaS cited by ChatGPT, Claude, Perplexity and Google AI Overviews. Start with a free 30-second audit of your site.</p>
+    <form class="audit" id="auditForm">
+      <input id="url" name="url" type="text" inputmode="url" placeholder="yourproduct.com" aria-label="Your website" required>
+      <button id="go" type="submit">Run free audit</button>
+    </form>
+    <p class="note">Checks 7 on-site signals AI engines rely on. No signup.</p>
+    <div id="result" aria-live="polite"></div>
+  </div>
+
+  <section>
+    <h2>AI search is now a sales channel</h2>
+    <p class="sub">AI platforms sent an average of 770 million referral visits a month worldwide in the year to May 2026, up 117% year over year (Similarweb). Buyers ask "what's the best X for Y" and shortlist whatever the assistant names.</p>
+    <div class="grid">
+      <div class="card"><div class="stat">+117%</div><p>Year-over-year growth in AI referral visits, June 2025 to May 2026.</p></div>
+      <div class="card"><div class="stat">10 of 20</div><p>Indie SaaS with verified $10k+ monthly revenue that already publish /llms.txt, in our own crawl of their sites.</p></div>
+      <div class="card"><div class="stat">−34.5%</div><p>Lower click-through for the #1 Google result when an AI Overview appears (Ahrefs). Being cited matters more than ranking.</p></div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>How it works</h2>
+    <p class="sub">The same four steps every month, with a report you can show your co-founder.</p>
+    <div class="grid">
+      <div class="card"><h3>1. Measure</h3><p>We ask 50 real buyer questions across ChatGPT, Perplexity, Gemini and AI Overviews, and record who gets named and which pages get cited.</p></div>
+      <div class="card"><h3>2. Fix the plumbing</h3><p>Crawler access, /llms.txt, a facts page for AI, and structured data for your product and pricing.</p></div>
+      <div class="card"><h3>3. Publish what AI quotes</h3><p>Comparison and alternatives pages written as clear, citable facts: price, features, who it's for.</p></div>
+      <div class="card"><h3>4. Earn citations</h3><p>Get listed in the round-ups, Reddit threads and review sites the assistants already cite for your category.</p></div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <p class="sub">Monthly plans have a 3-month minimum, because AI visibility takes 2 to 4 months to move. The audit fee is credited if you continue.</p>
+    <div class="grid">
+      <div class="card"><h3>AI Visibility Audit</h3><div class="price">$490 <small>one-time</small></div>
+        <ul><li>50 buyer questions × 4 AI engines</li><li>Competitor citation analysis</li><li>Technical check</li><li>Prioritized fix list</li></ul>
+        <a class="btn ghost" data-cta="audit" href="#">Order audit</a></div>
+      <div class="card feature"><h3>Starter</h3><div class="price">$1,500 <small>/month</small></div>
+        <ul><li>Everything in the audit</li><li>Technical fixes implemented</li><li>4 comparison or alternatives pages a month</li><li>Monthly tracking report</li></ul>
+        <a class="btn" data-cta="call" href="#">Book a call</a></div>
+      <div class="card"><h3>Growth</h3><div class="price">$2,900 <small>/month</small></div>
+        <ul><li>Everything in Starter</li><li>8 pages a month</li><li>Third-party citation outreach</li><li>Weekly tracking</li></ul>
+        <a class="btn ghost" data-cta="call" href="#">Book a call</a></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <details><summary>Can you guarantee ChatGPT will recommend us?</summary><p>No one can. AI answers change daily. We commit to concrete deliverables every month and measure your share of answers against named competitors, so you can see whether it is working.</p></details>
+    <details><summary>How long until we see results?</summary><p>Technical fixes are picked up within weeks. Content and third-party citations usually take 2 to 4 months, which is why monthly plans start with a 3-month term.</p></details>
+    <details><summary>What does the free audit check?</summary><p>Whether 8 major AI crawlers may read your site, whether you publish /llms.txt, structured data describing your product, comparison and alternatives pages, a public pricing page, FAQ content and basic page metadata. The paid audit adds what the AI engines actually answer.</p></details>
+    <details><summary>Who is this for?</summary><p>Bootstrapped and indie B2B SaaS, roughly $20k to $500k in monthly revenue, without an in-house SEO team.</p></details>
+  </section>
+
+  <footer>© CiteKit · <a href="/llms.txt">llms.txt</a> · <a data-cta="email" href="#">Contact</a></footer>
+</div>
+
+<script>
+// Fill these in before launch.
+const CONFIG = {
+  email: 'hello@citekit.example',
+  bookingUrl: '',      // e.g. a Cal.com link
+  auditPaymentUrl: '', // Stripe payment link for the $490 audit
+};
+
+function mailto(subject, body) {
+  return `mailto:${CONFIG.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body || '')}`;
+}
+document.querySelectorAll('[data-cta]').forEach((a) => {
+  const k = a.dataset.cta;
+  if (k === 'audit') a.href = CONFIG.auditPaymentUrl || mailto('AI Visibility Audit', 'Our website: ');
+  else if (k === 'call') a.href = CONFIG.bookingUrl || mailto('AEO call', 'Our website: ');
+  else a.href = mailto('Hello');
+});
+
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const out = document.getElementById('result');
+const btn = document.getElementById('go');
+
+document.getElementById('auditForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const url = document.getElementById('url').value.trim();
+  if (!url) return;
+  btn.disabled = true; btn.textContent = 'Checking…';
+  out.innerHTML = '<p class="note">Reading robots.txt, llms.txt, sitemap and homepage…</p>';
+  try {
+    const res = await fetch('/api/audit?url=' + encodeURIComponent(url));
+    const r = await res.json();
+    if (!res.ok) throw new Error(r.error || 'Audit failed.');
+    const rows = r.checks.map((c) => {
+      const ratio = c.score / c.weight;
+      const cls = ratio >= 0.8 ? 'good' : ratio >= 0.4 ? 'warn' : 'bad';
+      return `<li><span class="pts ${cls}">${c.score}/${c.weight}</span><div><strong>${esc(c.label)}</strong><br>${esc(c.detail)}${c.fix ? `<div class="fix">Fix: ${esc(c.fix)}</div>` : ''}</div></li>`;
+    }).join('');
+    const body = `Please send the full AI answer check for ${r.origin} (free audit score ${r.score}/100).`;
+    out.innerHTML = `<div class="report">
+      <div class="scorebar"><span class="score">${r.score}<small style="font-size:20px">/100</small></span><span class="grade">Grade ${esc(r.grade)}</span><span class="note">${esc(r.origin)}</span></div>
+      <ul class="checks">${rows}</ul>
+      <p style="margin:18px 0 0">This checks whether AI <em>can</em> cite you. Want to know whether ChatGPT actually <em>does</em> recommend you over your competitors?</p>
+      <p><a class="btn" href="${esc(mailto('Full AI answer check', body))}">Get the full answer check</a></p>
+    </div>`;
+  } catch (err) {
+    out.innerHTML = `<p class="error">${esc(err.message)}</p>`;
+  } finally {
+    btn.disabled = false; btn.textContent = 'Run free audit';
+  }
+});
+</script>
+</body>
+</html>
