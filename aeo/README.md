@@ -1,23 +1,33 @@
-# CiteKit (working name): AEO studio site + free AI visibility audit
+# CiteKit (working name): white-label AI visibility audit widget for agencies
 
-Lead-generation site for a done-for-you AEO (answer engine optimization) service for bootstrapped B2B SaaS.
+Self-serve SaaS. Marketing agencies embed a branded AI visibility (AEO/GEO) audit on their site; visitors enter their email to see the report, and the agency gets the lead. Free plan, then $59 or $129 a month through Stripe.
 
-- `public/` static site (landing page, pricing, FAQ, `/llms.txt`).
-- `functions/api/audit.js` Cloudflare Pages Function behind the free audit form (`GET /api/audit?url=example.com`).
-- `lib/audit.mjs` audit logic: AI crawler access in robots.txt, `/llms.txt`, homepage JSON-LD, comparison and alternatives pages from the sitemap, pricing page, FAQ, title/description/H1. Scores out of 100.
-- `bin/audit.mjs` same audit from the command line, for prospect research: `node aeo/bin/audit.mjs example.com [--json]`.
+| Path | What it is |
+| --- | --- |
+| `public/index.html` | Marketing site with a live demo of the audit |
+| `public/embed.js` | The embeddable widget (shadow DOM, no dependencies) |
+| `public/app/` | Agency dashboard: magic-link login, widget settings, embed code, leads, billing |
+| `functions/api/[[path]].js` | Cloudflare Pages Function, forwards every `/api/*` request to `lib/app.mjs` |
+| `lib/app.mjs` | API: auth, widgets, leads, usage limits, Stripe checkout, portal and webhook |
+| `lib/audit.mjs` | The audit itself (robots.txt AI crawlers, llms.txt, JSON-LD, comparison pages, pricing, FAQ, metadata) |
+| `bin/audit.mjs` | Same audit from the command line: `node aeo/bin/audit.mjs example.com [--json]` |
+| `schema.sql` | D1 tables |
+| `test/smoke.mjs` | End-to-end test against a running dev server |
 
 ## Run locally
 
 ```bash
-node aeo/dev-server.mjs   # http://localhost:8788
+cd aeo
+npx wrangler d1 execute citekit --local --file=schema.sql
+npx wrangler pages dev public --d1 DB=citekit --binding DEV=1   # http://localhost:8788
+node test/smoke.mjs http://localhost:8788
 ```
 
-## Deploy (Cloudflare Pages)
+With `DEV=1` the login API returns the magic link instead of emailing it.
 
-Project root directory `aeo`, no build command, output directory `public`. Functions in `aeo/functions` deploy automatically.
+## Launch checklist
 
-## Before launch
-
-1. Pick the final name and domain, then replace `citekit.example` in `public/`.
-2. Fill `CONFIG` at the bottom of `public/index.html`: contact email, booking link, Stripe payment link for the $490 audit.
+1. Domain, then replace `citekit.example` in `public/` and `wrangler.toml`.
+2. Cloudflare: `npx wrangler d1 create citekit`, put the id in `wrangler.toml`, run `schema.sql` with `--remote`, create a Pages project from this folder (output `public`).
+3. Resend: verify the domain, set `RESEND_API_KEY` and `EMAIL_FROM`.
+4. Stripe: create two products (Agency $59/month and $590/year, Agency Pro $129/month and $1,290/year), set the four `STRIPE_PRICE_*` ids and `STRIPE_SECRET_KEY`. Add a webhook to `https://<domain>/api/stripe/webhook` for `checkout.session.completed` and `customer.subscription.created/updated/deleted`, set `STRIPE_WEBHOOK_SECRET`. Turn on the customer portal.

@@ -1,14 +1,19 @@
 # CiteKit
 
-> CiteKit is an answer engine optimization (AEO) studio for bootstrapped B2B SaaS. We get software products cited and recommended by ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews.
+> CiteKit is a white-label, embeddable AI visibility (AEO/GEO) audit widget for marketing agencies. Agencies paste two lines of HTML on their website; visitors check whether ChatGPT, Claude, Perplexity and Gemini can read and cite their site, and enter their email to see the report, which becomes a lead for the agency.
 
-## Services and pricing (USD)
-- AI Visibility Audit: $490 one-time. 50 buyer questions across 4 AI engines, competitor citation analysis, technical check, prioritized fix list. Credited toward a monthly plan.
-- Starter: $1,500/month, 3-month minimum. Technical fixes, 4 comparison or alternatives pages a month, monthly tracking report.
-- Growth: $2,900/month, 3-month minimum. Starter plus 8 pages a month, third-party citation outreach, weekly tracking.
+## Pricing (USD)
+- Free: $0. 1 widget, 25 audits a month, lead emails and CSV export, "Powered by CiteKit" link.
+- Agency: $59/month or $590/year. 1 widget, 500 audits a month, agency logo, colors and booking button.
+- Agency Pro: $129/month or $1,290/year. 5 widgets, 3,000 audits a month, no CiteKit branding, Zapier and webhooks.
 
-## Free tool
-- [Free AI visibility audit](https://citekit.example/): checks AI crawler access in robots.txt, /llms.txt, JSON-LD structured data, comparison and alternatives pages, pricing page, FAQ and page metadata.
+## What the audit checks
+- Access for 8 AI crawlers in robots.txt (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot, Google-Extended, Applebot-Extended)
+- /llms.txt
+- JSON-LD structured data describing the business
+- Comparison and alternatives pages in the sitemap
+- Public pricing page, FAQ content, title, meta description and H1
 
-## Who it is for
-- Bootstrapped and indie B2B SaaS with roughly $20k to $500k in monthly revenue and no in-house SEO team.
+## Links
+- [Free AI visibility audit](https://citekit.example/)
+- [Sign up or log in](https://citekit.example/app/)

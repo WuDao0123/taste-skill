@@ -3,24 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CiteKit — Get your SaaS recommended by ChatGPT</title>
-<meta name="description" content="Free AI visibility audit for SaaS. See whether ChatGPT, Claude, Perplexity and Gemini can read and cite your site, then let us fix it. Done-for-you AEO from $1,500/month.">
+<title>CiteKit — AI visibility audit widget for agencies</title>
+<meta name="description" content="Embed a white-label AI visibility audit on your agency website. Visitors check whether ChatGPT, Claude, Perplexity and Gemini can cite their site; you get the lead. Free plan, then $59/month.">
 <link rel="canonical" href="https://citekit.example/">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "Organization", "name": "CiteKit", "url": "https://citekit.example/", "description": "Answer engine optimization (AEO) studio for bootstrapped B2B SaaS."},
-    {"@type": "Service", "name": "AI visibility audit and AEO retainer", "provider": {"@type": "Organization", "name": "CiteKit"},
+    {"@type": "Organization", "name": "CiteKit", "url": "https://citekit.example/"},
+    {"@type": "SoftwareApplication", "name": "CiteKit", "applicationCategory": "BusinessApplication", "operatingSystem": "Web",
+     "description": "White-label, embeddable AI visibility (AEO/GEO) audit widget that generates leads for marketing agencies.",
      "offers": [
-       {"@type": "Offer", "name": "AI Visibility Audit", "price": "490", "priceCurrency": "USD"},
-       {"@type": "Offer", "name": "Starter", "price": "1500", "priceCurrency": "USD"},
-       {"@type": "Offer", "name": "Growth", "price": "2900", "priceCurrency": "USD"}
+       {"@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD"},
+       {"@type": "Offer", "name": "Agency", "price": "59", "priceCurrency": "USD"},
+       {"@type": "Offer", "name": "Agency Pro", "price": "129", "priceCurrency": "USD"}
      ]},
     {"@type": "FAQPage", "mainEntity": [
-      {"@type": "Question", "name": "Can you guarantee ChatGPT will recommend us?", "acceptedAnswer": {"@type": "Answer", "text": "No one can. AI answers change daily. We commit to concrete deliverables every month and measure your share of answers against named competitors, so you can see whether it is working."}},
-      {"@type": "Question", "name": "How long until we see results?", "acceptedAnswer": {"@type": "Answer", "text": "Technical fixes are picked up within weeks. Content and third-party citations usually take 2 to 4 months, which is why monthly plans start with a 3-month term."}},
-      {"@type": "Question", "name": "What does the free audit check?", "acceptedAnswer": {"@type": "Answer", "text": "Whether 8 major AI crawlers may read your site, whether you publish /llms.txt, structured data describing your product, comparison and alternatives pages, a public pricing page, FAQ content and basic page metadata."}}
+      {"@type": "Question", "name": "What does the audit check?", "acceptedAnswer": {"@type": "Answer", "text": "Whether 8 major AI crawlers may read the site, /llms.txt, structured data describing the business, comparison and alternatives pages, a public pricing page, FAQ content and basic page metadata. Each item gets a score and a plain-English fix."}},
+      {"@type": "Question", "name": "How do I add it to my website?", "acceptedAnswer": {"@type": "Answer", "text": "Paste two lines of HTML where the audit should appear. It works on WordPress, Webflow, Framer, Squarespace and any site that allows custom code."}},
+      {"@type": "Question", "name": "Where do the leads go?", "acceptedAnswer": {"@type": "Answer", "text": "Each visitor enters their email to see the report. You get an email for every new lead, can export them as CSV, and on Agency Pro can send them to Zapier or any webhook."}}
     ]}
   ]
 }
@@ -76,86 +77,69 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:14px;border-top:1px soli
 <div class="wrap">
   <header class="top">
     <a class="logo" href="/">CiteKit</a>
-    <nav><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></nav>
+    <nav><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="/app/">Log in</a></nav>
   </header>
 
   <div class="hero">
-    <h1>When buyers ask ChatGPT for the best tool in your category, are you in the answer?</h1>
-    <p class="lead">CiteKit gets bootstrapped B2B SaaS cited by ChatGPT, Claude, Perplexity and Google AI Overviews. Start with a free 30-second audit of your site.</p>
+    <h1>Turn "is my site visible to ChatGPT?" into leads for your agency.</h1>
+    <p class="lead">Embed a white-label AI visibility audit on your website. Visitors get an instant report on whether ChatGPT, Claude, Perplexity and Gemini can read and cite them. You get their email and a reason to call. Try the audit below.</p>
     <form class="audit" id="auditForm">
-      <input id="url" name="url" type="text" inputmode="url" placeholder="yourproduct.com" aria-label="Your website" required>
+      <input id="url" name="url" type="text" inputmode="url" placeholder="anywebsite.com" aria-label="Website to audit" required>
       <button id="go" type="submit">Run free audit</button>
     </form>
-    <p class="note">Checks 7 on-site signals AI engines rely on. No signup.</p>
+    <p class="note">This is the same check your visitors will see, with your logo and colors. No signup.</p>
     <div id="result" aria-live="polite"></div>
   </div>
 
   <section>
-    <h2>AI search is now a sales channel</h2>
-    <p class="sub">AI platforms sent an average of 770 million referral visits a month worldwide in the year to May 2026, up 117% year over year (Similarweb). Buyers ask "what's the best X for Y" and shortlist whatever the assistant names.</p>
+    <h2>Every business is asking about AI search</h2>
+    <p class="sub">AI platforms sent an average of 770 million referral visits a month worldwide in the year to May 2026, up 117% year over year (Similarweb). Your prospects want to know where they stand. Answer that on your own site.</p>
     <div class="grid">
       <div class="card"><div class="stat">+117%</div><p>Year-over-year growth in AI referral visits, June 2025 to May 2026.</p></div>
-      <div class="card"><div class="stat">10 of 20</div><p>Indie SaaS with verified $10k+ monthly revenue that already publish /llms.txt, in our own crawl of their sites.</p></div>
-      <div class="card"><div class="stat">−34.5%</div><p>Lower click-through for the #1 Google result when an AI Overview appears (Ahrefs). Being cited matters more than ranking.</p></div>
+      <div class="card"><div class="stat">−34.5%</div><p>Lower click-through for the #1 Google result when an AI Overview appears (Ahrefs). Clients feel it in their traffic.</p></div>
+      <div class="card"><div class="stat">$1,000+</div><p>Typical monthly entry price for AEO services to small B2B companies. One extra client pays for CiteKit for years.</p></div>
     </div>
   </section>
 
   <section id="how">
-    <h2>How it works</h2>
-    <p class="sub">The same four steps every month, with a report you can show your co-founder.</p>
+    <h2>Live on your site in 5 minutes</h2>
+    <p class="sub">No developer needed. Works on WordPress, Webflow, Framer, Squarespace and anything that accepts custom HTML.</p>
     <div class="grid">
-      <div class="card"><h3>1. Measure</h3><p>We ask 50 real buyer questions across ChatGPT, Perplexity, Gemini and AI Overviews, and record who gets named and which pages get cited.</p></div>
-      <div class="card"><h3>2. Fix the plumbing</h3><p>Crawler access, /llms.txt, a facts page for AI, and structured data for your product and pricing.</p></div>
-      <div class="card"><h3>3. Publish what AI quotes</h3><p>Comparison and alternatives pages written as clear, citable facts: price, features, who it's for.</p></div>
-      <div class="card"><h3>4. Earn citations</h3><p>Get listed in the round-ups, Reddit threads and review sites the assistants already cite for your category.</p></div>
+      <div class="card"><h3>1. Sign up free</h3><p>Enter your email. No card. You get a working widget straight away.</p></div>
+      <div class="card"><h3>2. Brand it</h3><p>Your logo, colors, headline and a button that goes to your booking page.</p></div>
+      <div class="card"><h3>3. Paste two lines</h3><p>Visitors run the audit and enter their email to see the report.</p></div>
+      <div class="card"><h3>4. Get the lead</h3><p>An email for every lead with their site and score, a CSV export, and webhooks on Pro.</p></div>
     </div>
   </section>
 
   <section id="pricing">
     <h2>Pricing</h2>
-    <p class="sub">Monthly plans have a 3-month minimum, because AI visibility takes 2 to 4 months to move. The audit fee is credited if you continue.</p>
+    <p class="sub">Start free. Upgrade when the leads come in. Yearly plans get 2 months free. Cancel any time from your dashboard.</p>
     <div class="grid">
-      <div class="card"><h3>AI Visibility Audit</h3><div class="price">$490 <small>one-time</small></div>
-        <ul><li>50 buyer questions × 4 AI engines</li><li>Competitor citation analysis</li><li>Technical check</li><li>Prioritized fix list</li></ul>
-        <a class="btn ghost" data-cta="audit" href="#">Order audit</a></div>
-      <div class="card feature"><h3>Starter</h3><div class="price">$1,500 <small>/month</small></div>
-        <ul><li>Everything in the audit</li><li>Technical fixes implemented</li><li>4 comparison or alternatives pages a month</li><li>Monthly tracking report</li></ul>
-        <a class="btn" data-cta="call" href="#">Book a call</a></div>
-      <div class="card"><h3>Growth</h3><div class="price">$2,900 <small>/month</small></div>
-        <ul><li>Everything in Starter</li><li>8 pages a month</li><li>Third-party citation outreach</li><li>Weekly tracking</li></ul>
-        <a class="btn ghost" data-cta="call" href="#">Book a call</a></div>
+      <div class="card"><h3>Free</h3><div class="price">$0</div>
+        <ul><li>1 widget</li><li>25 audits a month</li><li>Lead emails and CSV export</li><li>"Powered by CiteKit" link</li></ul>
+        <a class="btn ghost" href="/app/">Start free</a></div>
+      <div class="card feature"><h3>Agency</h3><div class="price">$59 <small>/month</small></div>
+        <ul><li>1 widget</li><li>500 audits a month</li><li>Your logo, colors and booking button</li><li>Lead emails and CSV export</li></ul>
+        <a class="btn" href="/app/">Start free, upgrade later</a></div>
+      <div class="card"><h3>Agency Pro</h3><div class="price">$129 <small>/month</small></div>
+        <ul><li>5 widgets, e.g. one per service page or language</li><li>3,000 audits a month</li><li>No CiteKit branding</li><li>Zapier and webhooks</li></ul>
+        <a class="btn ghost" href="/app/">Start free, upgrade later</a></div>
     </div>
   </section>
 
   <section id="faq">
     <h2>FAQ</h2>
-    <details><summary>Can you guarantee ChatGPT will recommend us?</summary><p>No one can. AI answers change daily. We commit to concrete deliverables every month and measure your share of answers against named competitors, so you can see whether it is working.</p></details>
-    <details><summary>How long until we see results?</summary><p>Technical fixes are picked up within weeks. Content and third-party citations usually take 2 to 4 months, which is why monthly plans start with a 3-month term.</p></details>
-    <details><summary>What does the free audit check?</summary><p>Whether 8 major AI crawlers may read your site, whether you publish /llms.txt, structured data describing your product, comparison and alternatives pages, a public pricing page, FAQ content and basic page metadata. The paid audit adds what the AI engines actually answer.</p></details>
-    <details><summary>Who is this for?</summary><p>Bootstrapped and indie B2B SaaS, roughly $20k to $500k in monthly revenue, without an in-house SEO team.</p></details>
+    <details><summary>What does the audit check?</summary><p>Whether 8 major AI crawlers may read the site, /llms.txt, structured data describing the business, comparison and alternatives pages, a public pricing page, FAQ content and basic page metadata. Each item gets a score and a plain-English fix your team can sell.</p></details>
+    <details><summary>How do I add it to my website?</summary><p>Paste two lines of HTML where the audit should appear. It renders inside its own container, so it will not clash with your theme.</p></details>
+    <details><summary>Where do the leads go?</summary><p>Each visitor enters their email to see the report. You get an email for every new lead, can export them as CSV, and on Agency Pro can send them to Zapier or any webhook.</p></details>
+    <details><summary>What happens if I hit the monthly limit?</summary><p>The widget tells visitors to contact you instead of running the check. Upgrade from your dashboard to lift the limit straight away.</p></details>
   </section>
 
-  <footer>© CiteKit · <a href="/llms.txt">llms.txt</a> · <a data-cta="email" href="#">Contact</a></footer>
+  <footer>© CiteKit · <a href="/llms.txt">llms.txt</a> · <a href="mailto:hello@citekit.example">Contact</a></footer>
 </div>
 
 <script>
-// Fill these in before launch.
-const CONFIG = {
-  email: 'hello@citekit.example',
-  bookingUrl: '',      // e.g. a Cal.com link
-  auditPaymentUrl: '', // Stripe payment link for the $490 audit
-};
-
-function mailto(subject, body) {
-  return `mailto:${CONFIG.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body || '')}`;
-}
-document.querySelectorAll('[data-cta]').forEach((a) => {
-  const k = a.dataset.cta;
-  if (k === 'audit') a.href = CONFIG.auditPaymentUrl || mailto('AI Visibility Audit', 'Our website: ');
-  else if (k === 'call') a.href = CONFIG.bookingUrl || mailto('AEO call', 'Our website: ');
-  else a.href = mailto('Hello');
-});
-
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const out = document.getElementById('result');
 const btn = document.getElementById('go');
@@ -175,12 +159,11 @@ document.getElementById('auditForm').addEventListener('submit', async (e) => {
       const cls = ratio >= 0.8 ? 'good' : ratio >= 0.4 ? 'warn' : 'bad';
       return `<li><span class="pts ${cls}">${c.score}/${c.weight}</span><div><strong>${esc(c.label)}</strong><br>${esc(c.detail)}${c.fix ? `<div class="fix">Fix: ${esc(c.fix)}</div>` : ''}</div></li>`;
     }).join('');
-    const body = `Please send the full AI answer check for ${r.origin} (free audit score ${r.score}/100).`;
     out.innerHTML = `<div class="report">
       <div class="scorebar"><span class="score">${r.score}<small style="font-size:20px">/100</small></span><span class="grade">Grade ${esc(r.grade)}</span><span class="note">${esc(r.origin)}</span></div>
       <ul class="checks">${rows}</ul>
-      <p style="margin:18px 0 0">This checks whether AI <em>can</em> cite you. Want to know whether ChatGPT actually <em>does</em> recommend you over your competitors?</p>
-      <p><a class="btn" href="${esc(mailto('Full AI answer check', body))}">Get the full answer check</a></p>
+      <p style="margin:18px 0 0">Run an agency? Put this audit on your own site, with your branding, and collect a lead every time someone runs it.</p>
+      <p><a class="btn" href="/app/">Add it to my site free</a></p>
     </div>`;
   } catch (err) {
     out.innerHTML = `<p class="error">${esc(err.message)}</p>`;

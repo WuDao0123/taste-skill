@@ -1,0 +1,16 @@
+# Cloudflare Pages config for CiteKit. Deploy from this directory: npx wrangler pages deploy
+name = "citekit"
+pages_build_output_dir = "public"
+compatibility_date = "2024-09-23"
+
+[vars]
+APP_URL = "https://citekit.example"
+EMAIL_FROM = "CiteKit <hello@citekit.example>"
+# Set these as secrets in the Cloudflare dashboard, not here:
+# RESEND_API_KEY, STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET,
+# STRIPE_PRICE_AGENCY_MONTHLY, STRIPE_PRICE_AGENCY_YEARLY, STRIPE_PRICE_PRO_MONTHLY, STRIPE_PRICE_PRO_YEARLY
+
+[[d1_databases]]
+binding = "DB"
+database_name = "citekit"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
