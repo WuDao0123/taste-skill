@@ -1,0 +1,2372 @@
+{
+  "lisbon": [
+    {
+      "name": "Manteigaria",
+      "query": "Manteigaria Rua do Loreto Lisboa",
+      "lat": 38.71076,
+      "lon": -9.14406,
+      "osm": "https://www.openstreetmap.org/node/3798492284",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Pastel de nata, still warm. Eat it at the counter."
+    },
+    {
+      "name": "A Brasileira",
+      "query": "A Brasileira Chiado Lisboa",
+      "lat": 38.71068,
+      "lon": -9.14201,
+      "osm": "https://www.openstreetmap.org/node/489736332",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A bica at the bar, the old way."
+    },
+    {
+      "name": "Museu Nacional do Azulejo",
+      "query": "Museu Nacional do Azulejo Lisboa",
+      "lat": 38.72472,
+      "lon": -9.11391,
+      "osm": "https://www.openstreetmap.org/way/1451054092",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Five centuries of Portuguese tiles under one roof."
+    },
+    {
+      "name": "Ler Devagar",
+      "query": "Ler Devagar, Lisboa",
+      "lat": 38.70276,
+      "lon": -9.17843,
+      "osm": "https://www.openstreetmap.org/node/7827698785",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "A bookshop inside an old printworks."
+    },
+    {
+      "name": "Time Out Market",
+      "query": "Time Out Market Lisboa",
+      "lat": 38.70709,
+      "lon": -9.1459,
+      "osm": "https://www.openstreetmap.org/way/1286260412",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Pick one stall and stop there."
+    },
+    {
+      "name": "Mercado de Campo de Ourique",
+      "query": "Mercado de Campo de Ourique Lisboa",
+      "lat": 38.71621,
+      "lon": -9.16678,
+      "osm": "https://www.openstreetmap.org/way/317549565",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "The neighbourhood market locals actually use."
+    },
+    {
+      "name": "Miradouro de Santa Luzia",
+      "query": "Miradouro de Santa Luzia Lisboa",
+      "lat": 38.71174,
+      "lon": -9.13013,
+      "osm": "https://www.openstreetmap.org/node/5446794770",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Tiles, bougainvillea and the river below."
+    },
+    {
+      "name": "MAAT",
+      "query": "MAAT Museu de Arte Arquitetura e Tecnologia Lisboa",
+      "lat": 38.69565,
+      "lon": -9.19691,
+      "osm": "https://www.openstreetmap.org/way/834059891",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "Walk over the roof, or go inside if it's wet."
+    },
+    {
+      "name": "Miradouro da Senhora do Monte",
+      "query": "Miradouro da Senhora do Monte Lisboa",
+      "lat": 38.71908,
+      "lon": -9.13291,
+      "osm": "https://www.openstreetmap.org/node/14243536001",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The highest view in town."
+    },
+    {
+      "name": "Miradouro de São Pedro de Alcântara",
+      "query": "Miradouro de São Pedro de Alcântara Lisboa",
+      "lat": 38.71546,
+      "lon": -9.14404,
+      "osm": "https://www.openstreetmap.org/node/419313189",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The castle across the valley, turning gold."
+    },
+    {
+      "name": "Taberna da Rua das Flores",
+      "query": "Taberna da Rua das Flores Lisboa",
+      "lat": 38.71014,
+      "lon": -9.14359,
+      "osm": "https://www.openstreetmap.org/node/4213522792",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Small plates, no bookings. Go early."
+    },
+    {
+      "name": "Cervejaria Ramiro",
+      "query": "Cervejaria Ramiro Lisboa",
+      "lat": 38.7202,
+      "lon": -9.13571,
+      "osm": "https://www.openstreetmap.org/node/2503432815",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Prawns, then a steak sandwich for dessert."
+    }
+  ],
+  "porto": [
+    {
+      "name": "Majestic Café",
+      "query": "Majestic Café Porto",
+      "lat": 41.14717,
+      "lon": -8.60664,
+      "osm": "https://www.openstreetmap.org/node/12453652303",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Belle Époque mirrors and a slow coffee."
+    },
+    {
+      "name": "Café Guarany",
+      "query": "Café Guarany Porto",
+      "lat": 41.1478,
+      "lon": -8.6116,
+      "osm": "https://www.openstreetmap.org/way/215162474",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Since 1933 on Avenida dos Aliados."
+    },
+    {
+      "name": "Livraria Lello",
+      "query": "Livraria Lello Porto",
+      "lat": 41.14682,
+      "lon": -8.61491,
+      "osm": "https://www.openstreetmap.org/node/6541146293",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The red staircase. Go right at opening."
+    },
+    {
+      "name": "Serralves",
+      "query": "Fundação de Serralves Porto",
+      "lat": 41.15904,
+      "lon": -8.65935,
+      "osm": "https://www.openstreetmap.org/node/9560987799",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Modern art in a pink Art Deco villa."
+    },
+    {
+      "name": "Mercado do Bolhão",
+      "query": "Mercado do Bolhão Porto",
+      "lat": 41.14889,
+      "lon": -8.60838,
+      "osm": "https://www.openstreetmap.org/node/10918243146",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "The restored market. Cheese, cod, fruit."
+    },
+    {
+      "name": "Café Santiago",
+      "query": "Café Santiago Porto",
+      "lat": 41.14645,
+      "lon": -8.60478,
+      "osm": "https://www.openstreetmap.org/node/4606966389",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "The francesinha everyone argues about."
+    },
+    {
+      "name": "Cais da Ribeira",
+      "query": "Cais da Ribeira Porto",
+      "lat": 41.1403,
+      "lon": -8.61356,
+      "osm": "https://www.openstreetmap.org/node/4846604323",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Along the river under the stacked houses."
+    },
+    {
+      "name": "Palácio da Bolsa",
+      "query": "Palácio da Bolsa Porto",
+      "lat": 41.14131,
+      "lon": -8.616,
+      "osm": "https://www.openstreetmap.org/relation/5424595",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "The Arab Room, when it rains."
+    },
+    {
+      "name": "Jardim do Morro",
+      "query": "Jardim do Morro Vila Nova de Gaia",
+      "lat": 41.13761,
+      "lon": -8.60871,
+      "osm": "https://www.openstreetmap.org/node/6632372469",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The whole city across the bridge."
+    },
+    {
+      "name": "Miradouro da Vitória",
+      "query": "Miradouro da Vitória Porto",
+      "lat": 41.14312,
+      "lon": -8.61577,
+      "osm": "https://www.openstreetmap.org/node/2712350986",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Rooftops, the river and the port lodges."
+    },
+    {
+      "name": "Taberna dos Mercadores",
+      "query": "Taberna dos Mercadores Porto",
+      "lat": 41.14136,
+      "lon": -8.61304,
+      "osm": "https://www.openstreetmap.org/node/5906124223",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Tiny room, grilled fish, book ahead."
+    },
+    {
+      "name": "Cantinho do Avillez",
+      "query": "Cantinho do Avillez Porto",
+      "lat": 41.14318,
+      "lon": -8.61344,
+      "osm": "https://www.openstreetmap.org/node/4553000619",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Easy Portuguese plates near the river."
+    }
+  ],
+  "barcelona": [
+    {
+      "name": "Granja M. Viader",
+      "query": "Granja Viader Barcelona",
+      "lat": 41.38302,
+      "lon": 2.17105,
+      "osm": "https://www.openstreetmap.org/node/672140163",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Hot chocolate since 1870."
+    },
+    {
+      "name": "El Magnífico",
+      "query": "Cafés El Magnífico Barcelona",
+      "lat": 41.38352,
+      "lon": 2.18101,
+      "osm": "https://www.openstreetmap.org/node/2598482829",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A Born roaster with a tiny bar."
+    },
+    {
+      "name": "Sagrada Família",
+      "query": "Sagrada Família Barcelona",
+      "lat": 41.4035,
+      "lon": 2.17443,
+      "osm": "https://www.openstreetmap.org/relation/9194723",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Stand in the nave when the light comes in."
+    },
+    {
+      "name": "Museu Picasso",
+      "query": "Museu Picasso Barcelona",
+      "lat": 41.3851,
+      "lon": 2.1812,
+      "osm": "https://www.openstreetmap.org/way/188938001",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Picasso's early years, in medieval palaces."
+    },
+    {
+      "name": "Mercat de la Boqueria",
+      "query": "Mercat de la Boqueria Barcelona",
+      "lat": 41.38174,
+      "lon": 2.17155,
+      "osm": "https://www.openstreetmap.org/relation/6288735",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Skip the juice. Sit at a bar inside."
+    },
+    {
+      "name": "Mercat de Santa Caterina",
+      "query": "Mercat de Santa Caterina Barcelona",
+      "lat": 41.38614,
+      "lon": 2.1785,
+      "osm": "https://www.openstreetmap.org/way/31957078",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "The wavy roof and a quieter crowd."
+    },
+    {
+      "name": "Park Güell",
+      "query": "Park Güell Barcelona",
+      "lat": 41.41325,
+      "lon": 2.16058,
+      "osm": "https://www.openstreetmap.org/node/11381138275",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Mosaics and the city falling to the sea."
+    },
+    {
+      "name": "Palau de la Música Catalana",
+      "query": "Palau de la Música Catalana Barcelona",
+      "lat": 41.38758,
+      "lon": 2.17523,
+      "osm": "https://www.openstreetmap.org/way/377216661",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "The stained-glass hall, if it's raining."
+    },
+    {
+      "name": "Bunkers del Carmel",
+      "query": "Bunkers del Carmel Barcelona",
+      "lat": 41.41939,
+      "lon": 2.1617,
+      "osm": "https://www.openstreetmap.org/way/142894789",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "A 360° view from old gun emplacements."
+    },
+    {
+      "name": "Castell de Montjuïc",
+      "query": "Castell de Montjuïc Barcelona",
+      "lat": 41.36338,
+      "lon": 2.16614,
+      "osm": "https://www.openstreetmap.org/relation/19658818",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The port and the sea turning pink."
+    },
+    {
+      "name": "Bar Cañete",
+      "query": "Bar Cañete Barcelona",
+      "lat": 41.37914,
+      "lon": 2.17314,
+      "osm": "https://www.openstreetmap.org/node/4137531392",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Sit at the counter and watch the kitchen."
+    },
+    {
+      "name": "Cal Pep",
+      "query": "Cal Pep Barcelona",
+      "lat": 41.38393,
+      "lon": 2.18339,
+      "osm": "https://www.openstreetmap.org/node/1192701218",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Queue for the bar. Order what they suggest."
+    }
+  ],
+  "paris": [
+    {
+      "name": "Café de Flore",
+      "query": "Café de Flore Paris",
+      "lat": 48.85414,
+      "lon": 2.33263,
+      "osm": "https://www.openstreetmap.org/node/251699776",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Expensive, famous and still worth one coffee."
+    },
+    {
+      "name": "Boot Café",
+      "query": "Boot Café Paris",
+      "lat": 48.86117,
+      "lon": 2.36533,
+      "osm": "https://www.openstreetmap.org/node/4682209804",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A coffee bar in an old cobbler's shop."
+    },
+    {
+      "name": "Musée d'Orsay",
+      "query": "Musée d'Orsay Paris",
+      "lat": 48.85992,
+      "lon": 2.32658,
+      "osm": "https://www.openstreetmap.org/way/63178753",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Go straight up to the clock windows."
+    },
+    {
+      "name": "Musée de l'Orangerie",
+      "query": "Musée de l'Orangerie Paris",
+      "lat": 48.86377,
+      "lon": 2.32266,
+      "osm": "https://www.openstreetmap.org/way/54188996",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Two rooms of Water Lilies. That's enough."
+    },
+    {
+      "name": "Marché des Enfants Rouges",
+      "query": "Marché des Enfants Rouges Paris",
+      "lat": 48.86277,
+      "lon": 2.36252,
+      "osm": "https://www.openstreetmap.org/node/3200443067",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "The oldest covered market in Paris."
+    },
+    {
+      "name": "L'As du Fallafel",
+      "query": "L'As du Fallafel Paris",
+      "lat": 48.85742,
+      "lon": 2.35907,
+      "osm": "https://www.openstreetmap.org/node/4413941090",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "The falafel line in the Marais moves fast."
+    },
+    {
+      "name": "Jardin du Luxembourg",
+      "query": "Jardin du Luxembourg Paris",
+      "lat": 48.84672,
+      "lon": 2.33641,
+      "osm": "https://www.openstreetmap.org/way/128206209",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Grab a green chair by the fountain."
+    },
+    {
+      "name": "Galerie Vivienne",
+      "query": "Galerie Vivienne Paris",
+      "lat": 48.86653,
+      "lon": 2.34011,
+      "osm": "https://www.openstreetmap.org/way/1192963471",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "A covered passage made for rainy days."
+    },
+    {
+      "name": "Sacré-Cœur",
+      "query": "Basilique du Sacré-Cœur Paris",
+      "lat": 48.88681,
+      "lon": 2.34302,
+      "osm": "https://www.openstreetmap.org/way/23762981",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The steps, the whole city, the light going."
+    },
+    {
+      "name": "Pont des Arts",
+      "query": "Pont des Arts Paris",
+      "lat": 48.85846,
+      "lon": 2.33757,
+      "osm": "https://www.openstreetmap.org/way/454298362",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The Seine, the Louvre and the Institut."
+    },
+    {
+      "name": "Bouillon Chartier",
+      "query": "Bouillon Chartier Paris",
+      "lat": 48.87194,
+      "lon": 2.34301,
+      "osm": "https://www.openstreetmap.org/node/10804882603",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "1896 dining hall, cheap and loud."
+    },
+    {
+      "name": "Le Comptoir du Relais",
+      "query": "Le Comptoir du Relais Paris",
+      "lat": 48.85196,
+      "lon": 2.33883,
+      "osm": "https://www.openstreetmap.org/node/315769031",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "A classic bistro at the Odéon crossroads."
+    }
+  ],
+  "rome": [
+    {
+      "name": "Sant'Eustachio Il Caffè",
+      "query": "Sant'Eustachio Il Caffè Roma",
+      "lat": 41.89825,
+      "lon": 12.47543,
+      "osm": "https://www.openstreetmap.org/node/261859088",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Order the gran caffè, standing."
+    },
+    {
+      "name": "Pantheon",
+      "query": "Pantheon Roma",
+      "lat": 41.89862,
+      "lon": 12.47683,
+      "osm": "https://www.openstreetmap.org/relation/3374342",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Look up at the oculus. Rain falls straight through."
+    },
+    {
+      "name": "Galleria Borghese",
+      "query": "Galleria Borghese Roma",
+      "lat": 41.91411,
+      "lon": 12.49211,
+      "osm": "https://www.openstreetmap.org/node/1440405490",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Bernini in marble. Timed tickets only."
+    },
+    {
+      "name": "Mercato di Testaccio",
+      "query": "Mercato di Testaccio Roma",
+      "lat": 41.87775,
+      "lon": 12.47367,
+      "osm": "https://www.openstreetmap.org/node/4609630092",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Sandwiches from a market stall."
+    },
+    {
+      "name": "Antico Forno Roscioli",
+      "query": "Antico Forno Roscioli Roma",
+      "lat": 41.89466,
+      "lon": 12.47459,
+      "osm": "https://www.openstreetmap.org/node/6920380585",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Pizza bianca by weight, eaten outside."
+    },
+    {
+      "name": "Piazza di Santa Maria in Trastevere",
+      "query": "Piazza di Santa Maria in Trastevere Roma",
+      "lat": 41.88956,
+      "lon": 12.47051,
+      "osm": "https://www.openstreetmap.org/relation/2736270",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Wander the lanes around the fountain."
+    },
+    {
+      "name": "Musei Capitolini",
+      "query": "Musei Capitolini Roma",
+      "lat": 41.89267,
+      "lon": 12.4822,
+      "osm": "https://www.openstreetmap.org/relation/9909127",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "The bronze she-wolf, out of the rain."
+    },
+    {
+      "name": "Giardino degli Aranci",
+      "query": "Giardino degli Aranci Roma",
+      "lat": 41.88543,
+      "lon": 12.47991,
+      "osm": "https://www.openstreetmap.org/node/653947448",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Orange trees and St Peter's dome."
+    },
+    {
+      "name": "Terrazza del Pincio",
+      "query": "Pincio, Roma",
+      "lat": 41.91113,
+      "lon": 12.47955,
+      "osm": "https://www.openstreetmap.org/relation/14026944",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Over Piazza del Popolo as the sky turns."
+    },
+    {
+      "name": "Da Enzo al 29",
+      "query": "Da Enzo al 29 Roma",
+      "lat": 41.88809,
+      "lon": 12.47781,
+      "osm": "https://www.openstreetmap.org/node/1833917665",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Carbonara in Trastevere. Arrive before it opens."
+    },
+    {
+      "name": "Armando al Pantheon",
+      "query": "Armando al Pantheon Roma",
+      "lat": 41.89906,
+      "lon": 12.4762,
+      "osm": "https://www.openstreetmap.org/node/2276143197",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "A family trattoria since 1961."
+    }
+  ],
+  "amsterdam": [
+    {
+      "name": "Back to Black",
+      "query": "Back to Black, Amsterdam",
+      "lat": 52.36104,
+      "lon": 4.88859,
+      "osm": "https://www.openstreetmap.org/node/2737963725",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A canal-side coffee on Weteringstraat."
+    },
+    {
+      "name": "Rijksmuseum",
+      "query": "Rijksmuseum Amsterdam",
+      "lat": 52.35984,
+      "lon": 4.88504,
+      "osm": "https://www.openstreetmap.org/way/29989787",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Go straight to The Night Watch, then leave."
+    },
+    {
+      "name": "Van Gogh Museum",
+      "query": "Van Gogh Museum Amsterdam",
+      "lat": 52.35837,
+      "lon": 4.88109,
+      "osm": "https://www.openstreetmap.org/relation/6577680",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Book a slot. Start at the top floor."
+    },
+    {
+      "name": "Foodhallen",
+      "query": "Foodhallen Amsterdam",
+      "lat": 52.36706,
+      "lon": 4.86822,
+      "osm": "https://www.openstreetmap.org/node/9208574918",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "An old tram depot full of food stalls."
+    },
+    {
+      "name": "Winkel 43",
+      "query": "Winkel 43 Amsterdam",
+      "lat": 52.37908,
+      "lon": 4.88623,
+      "osm": "https://www.openstreetmap.org/node/13404073479",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "The apple pie with whipped cream."
+    },
+    {
+      "name": "Vondelpark",
+      "query": "Vondelpark Amsterdam",
+      "lat": 52.35927,
+      "lon": 4.87369,
+      "osm": "https://www.openstreetmap.org/way/161598144",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Bikes, ponds and long straight paths."
+    },
+    {
+      "name": "Stedelijk Museum",
+      "query": "Stedelijk Museum Amsterdam",
+      "lat": 52.3579,
+      "lon": 4.87986,
+      "osm": "https://www.openstreetmap.org/way/44508819",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "The bathtub building, for wet afternoons."
+    },
+    {
+      "name": "A'DAM Lookout",
+      "query": "A'DAM Lookout Amsterdam",
+      "lat": 52.38386,
+      "lon": 4.9021,
+      "osm": "https://www.openstreetmap.org/node/4382053996",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Across the IJ from Centraal Station."
+    },
+    {
+      "name": "NEMO Science Museum roof",
+      "query": "NEMO Science Museum Amsterdam",
+      "lat": 52.37385,
+      "lon": 4.91211,
+      "osm": "https://www.openstreetmap.org/node/2741083161",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "A free sloping roof over the harbour."
+    },
+    {
+      "name": "Moeders",
+      "query": "Restaurant Moeders Amsterdam",
+      "lat": 52.37184,
+      "lon": 4.87498,
+      "osm": "https://www.openstreetmap.org/node/1328355092",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Dutch home cooking under hundreds of mum photos."
+    },
+    {
+      "name": "Café de Klos",
+      "query": "Café de Klos Amsterdam",
+      "lat": 52.36535,
+      "lon": 4.88567,
+      "osm": "https://www.openstreetmap.org/node/2626432820",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Ribs in a smoky brown café."
+    }
+  ],
+  "london": [
+    {
+      "name": "Monmouth Coffee",
+      "query": "Monmouth Coffee Borough London",
+      "lat": 51.51437,
+      "lon": -0.1268,
+      "osm": "https://www.openstreetmap.org/node/12920922057",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "The Borough queue is part of it."
+    },
+    {
+      "name": "Prufrock Coffee",
+      "query": "Prufrock Coffee Leather Lane London",
+      "lat": 51.51995,
+      "lon": -0.10952,
+      "osm": "https://www.openstreetmap.org/node/4185611903",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Serious coffee on Leather Lane."
+    },
+    {
+      "name": "British Museum",
+      "query": "British Museum London",
+      "lat": 51.51931,
+      "lon": -0.12671,
+      "osm": "https://www.openstreetmap.org/relation/177044",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The Great Court, then one room only."
+    },
+    {
+      "name": "Tate Modern",
+      "query": "Tate Modern London",
+      "lat": 51.50743,
+      "lon": -0.09934,
+      "osm": "https://www.openstreetmap.org/way/24642569",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The Turbine Hall and the tenth-floor view."
+    },
+    {
+      "name": "Borough Market",
+      "query": "Borough Market London",
+      "lat": 51.50553,
+      "lon": -0.09044,
+      "osm": "https://www.openstreetmap.org/way/24282400",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Walk once around before you buy anything."
+    },
+    {
+      "name": "Dishoom Covent Garden",
+      "query": "Dishoom Covent Garden London",
+      "lat": 51.51243,
+      "lon": -0.12686,
+      "osm": "https://www.openstreetmap.org/way/207104925",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Bombay café food. Queue early."
+    },
+    {
+      "name": "St James's Park",
+      "query": "St James's Park London",
+      "lat": 51.50313,
+      "lon": -0.13317,
+      "osm": "https://www.openstreetmap.org/way/374960368",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Pelicans and the palace at the end."
+    },
+    {
+      "name": "National Gallery",
+      "query": "National Gallery London",
+      "lat": 51.50888,
+      "lon": -0.12838,
+      "osm": "https://www.openstreetmap.org/way/4372002",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "Free, dry, and full of Turners."
+    },
+    {
+      "name": "Primrose Hill",
+      "query": "Primrose Hill London",
+      "lat": 51.53954,
+      "lon": -0.16076,
+      "osm": "https://www.openstreetmap.org/node/1378548329",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The skyline from the top of the grass."
+    },
+    {
+      "name": "Waterloo Bridge",
+      "query": "Waterloo Bridge London",
+      "lat": 51.50966,
+      "lon": -0.11776,
+      "osm": "https://www.openstreetmap.org/way/225025827",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The best river view, both directions."
+    },
+    {
+      "name": "Padella",
+      "query": "Padella Borough London",
+      "lat": 51.50513,
+      "lon": -0.08991,
+      "osm": "https://www.openstreetmap.org/node/14181043755",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Fresh pasta, no bookings, worth the wait."
+    },
+    {
+      "name": "Rules",
+      "query": "Rules Restaurant Maiden Lane London",
+      "lat": 51.51083,
+      "lon": -0.12319,
+      "osm": "https://www.openstreetmap.org/way/558928361",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "London's oldest restaurant, 1798."
+    }
+  ],
+  "kyoto": [
+    {
+      "name": "% Arabica Higashiyama",
+      "query": "% Arabica Kyoto Higashiyama",
+      "lat": 34.99864,
+      "lon": 135.77828,
+      "osm": "https://www.openstreetmap.org/node/4551239595",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A latte on the way up to Kiyomizu."
+    },
+    {
+      "name": "Kurasu",
+      "query": "Kurasu, Kyoto",
+      "lat": 35.01485,
+      "lon": 135.76217,
+      "osm": "https://www.openstreetmap.org/node/12422063275",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Pour-over near Kyoto Station."
+    },
+    {
+      "name": "Kyoto National Museum",
+      "query": "Kyoto National Museum",
+      "lat": 34.9899,
+      "lon": 135.77286,
+      "osm": "https://www.openstreetmap.org/way/31843043",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Calligraphy, armour and quiet rooms."
+    },
+    {
+      "name": "Kyoto International Manga Museum",
+      "query": "Kyoto International Manga Museum",
+      "lat": 35.01199,
+      "lon": 135.75946,
+      "osm": "https://www.openstreetmap.org/node/11830474161",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "A school turned into a manga library."
+    },
+    {
+      "name": "Nishiki Market",
+      "query": "Nishiki Market Kyoto",
+      "lat": 35.00502,
+      "lon": 135.76557,
+      "osm": "https://www.openstreetmap.org/way/772134672",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Covered street of pickles, tofu and skewers."
+    },
+    {
+      "name": "Honke Owariya",
+      "query": "Honke Owariya Kyoto",
+      "lat": 35.01275,
+      "lon": 135.76015,
+      "osm": "https://www.openstreetmap.org/node/4454698389",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Soba in a 550-year-old shop."
+    },
+    {
+      "name": "Fushimi Inari Taisha",
+      "query": "Fushimi Inari Taisha Kyoto",
+      "lat": 34.96752,
+      "lon": 135.77971,
+      "osm": "https://www.openstreetmap.org/way/96291583",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Walk the torii gates past the crowds."
+    },
+    {
+      "name": "Sanjūsangen-dō",
+      "query": "Sanjusangendo Kyoto",
+      "lat": 34.98908,
+      "lon": 135.77174,
+      "osm": "https://www.openstreetmap.org/node/3006140859",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "1,001 golden Kannon statues, indoors."
+    },
+    {
+      "name": "Kiyomizu-dera",
+      "query": "Kiyomizu-dera Kyoto",
+      "lat": 34.9943,
+      "lon": 135.78444,
+      "osm": "https://www.openstreetmap.org/way/336641107",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The wooden stage over the city."
+    },
+    {
+      "name": "Shogunzuka Seiryuden",
+      "query": "Shogunzuka Seiryuden Kyoto",
+      "lat": 35.00224,
+      "lon": 135.78743,
+      "osm": "https://www.openstreetmap.org/way/220473225",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "A glass platform above the whole valley."
+    },
+    {
+      "name": "Pontocho",
+      "query": "Pontocho Kyoto",
+      "lat": 35.00822,
+      "lon": 135.77104,
+      "osm": "https://www.openstreetmap.org/way/619919303",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Lantern-lit alley along the river."
+    },
+    {
+      "name": "Hanamikoji",
+      "query": "花見小路通",
+      "lat": 35.00802,
+      "lon": 135.77546,
+      "osm": "https://www.openstreetmap.org/way/28020529",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Gion's main street, then a side lane."
+    }
+  ],
+  "tokyo": [
+    {
+      "name": "Fuglen Asakusa",
+      "query": "Fuglen, Tokyo",
+      "lat": 35.71441,
+      "lon": 139.79391,
+      "osm": "https://www.openstreetmap.org/way/99172466",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Oslo coffee a few streets from Sensō-ji."
+    },
+    {
+      "name": "Blue Bottle Kiyosumi",
+      "query": "Blue Bottle Coffee, Koto",
+      "lat": 35.67777,
+      "lon": 139.80058,
+      "osm": "https://www.openstreetmap.org/way/606993803",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "The first Blue Bottle outside the US."
+    },
+    {
+      "name": "teamLab Planets",
+      "query": "teamLab Planets Tokyo",
+      "lat": 35.64938,
+      "lon": 139.78973,
+      "osm": "https://www.openstreetmap.org/node/6291685287",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Barefoot through rooms of light and water."
+    },
+    {
+      "name": "Tokyo National Museum",
+      "query": "Tokyo National Museum Ueno",
+      "lat": 35.71904,
+      "lon": 139.77597,
+      "osm": "https://www.openstreetmap.org/way/33439660",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Japan's biggest collection, in Ueno Park."
+    },
+    {
+      "name": "Tsukiji Outer Market",
+      "query": "Tsukiji Outer Market Tokyo",
+      "lat": 35.66525,
+      "lon": 139.7693,
+      "osm": "https://www.openstreetmap.org/node/7079144581",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Tamagoyaki and tuna from the stalls."
+    },
+    {
+      "name": "Ichiran Shibuya",
+      "query": "Ichiran Shibuya Tokyo",
+      "lat": 35.66096,
+      "lon": 139.6987,
+      "osm": "https://www.openstreetmap.org/node/4536691593",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Ramen in a solo booth."
+    },
+    {
+      "name": "Yanaka Ginza",
+      "query": "Yanaka Ginza Tokyo",
+      "lat": 35.72731,
+      "lon": 139.76521,
+      "osm": "https://www.openstreetmap.org/way/736938228",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Old Tokyo shopping street and cats."
+    },
+    {
+      "name": "Mori Art Museum",
+      "query": "Mori Art Museum Roppongi",
+      "lat": 35.66043,
+      "lon": 139.72926,
+      "osm": "https://www.openstreetmap.org/node/1420786660",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "Contemporary art on the 53rd floor."
+    },
+    {
+      "name": "Shibuya Sky",
+      "query": "Shibuya Sky Tokyo",
+      "lat": 35.65829,
+      "lon": 139.70226,
+      "osm": "https://www.openstreetmap.org/node/6952876785",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Open-air roof over the scramble."
+    },
+    {
+      "name": "Tokyo Metropolitan Government Building",
+      "query": "東京都庁",
+      "lat": 35.68974,
+      "lon": 139.693,
+      "osm": "https://www.openstreetmap.org/relation/11045959",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Free observatory. Fuji on a clear day."
+    },
+    {
+      "name": "Omoide Yokocho",
+      "query": "Omoide Yokocho Shinjuku",
+      "lat": 35.69287,
+      "lon": 139.69955,
+      "osm": "https://www.openstreetmap.org/way/103063334",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Yakitori in a smoky alley."
+    },
+    {
+      "name": "Harmonica Yokocho",
+      "query": "Harmonica Yokocho Kichijoji",
+      "lat": 35.70375,
+      "lon": 139.57932,
+      "osm": "https://www.openstreetmap.org/way/145129803",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Tiny bars in a covered maze."
+    }
+  ],
+  "new-york": [
+    {
+      "name": "La Colombe Tribeca",
+      "query": "La Colombe Coffee Roasters Tribeca New York",
+      "lat": 40.71989,
+      "lon": -74.00383,
+      "osm": "https://www.openstreetmap.org/node/5227527424",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A draft latte on Lafayette."
+    },
+    {
+      "name": "Devoción",
+      "query": "Devocion Williamsburg Brooklyn",
+      "lat": 40.71476,
+      "lon": -73.96223,
+      "osm": "https://www.openstreetmap.org/node/4334482651",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A skylit roastery full of plants."
+    },
+    {
+      "name": "The Met",
+      "query": "Metropolitan Museum of Art New York",
+      "lat": 40.77944,
+      "lon": -73.96338,
+      "osm": "https://www.openstreetmap.org/relation/3698894",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The Temple of Dendur, then the roof."
+    },
+    {
+      "name": "MoMA",
+      "query": "Museum of Modern Art New York",
+      "lat": 40.76161,
+      "lon": -73.9775,
+      "osm": "https://www.openstreetmap.org/way/278346578",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Fifth floor first. Starry Night is there."
+    },
+    {
+      "name": "Chelsea Market",
+      "query": "Chelsea Market New York",
+      "lat": 40.74181,
+      "lon": -74.00499,
+      "osm": "https://www.openstreetmap.org/node/2601850441",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "An old biscuit factory full of counters."
+    },
+    {
+      "name": "Katz's Delicatessen",
+      "query": "Katz's Delicatessen New York",
+      "lat": 40.72234,
+      "lon": -73.98735,
+      "osm": "https://www.openstreetmap.org/node/1915398676",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Pastrami on rye. Keep your ticket."
+    },
+    {
+      "name": "The High Line",
+      "query": "High Line New York",
+      "lat": 40.7406,
+      "lon": -74.00811,
+      "osm": "https://www.openstreetmap.org/way/277945772",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "A park on an old rail line above the street."
+    },
+    {
+      "name": "New York Public Library",
+      "query": "Stephen A. Schwarzman Building",
+      "lat": 40.75334,
+      "lon": -73.98215,
+      "osm": "https://www.openstreetmap.org/way/265302076",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "The Rose Main Reading Room, out of the rain."
+    },
+    {
+      "name": "Brooklyn Bridge Park",
+      "query": "Brooklyn Bridge Park",
+      "lat": 40.69829,
+      "lon": -73.99993,
+      "osm": "https://www.openstreetmap.org/way/56469108",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Manhattan lights up across the water."
+    },
+    {
+      "name": "Top of the Rock",
+      "query": "Top of the Rock New York",
+      "lat": 40.75903,
+      "lon": -73.9794,
+      "osm": "https://www.openstreetmap.org/node/5844051585",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The Empire State Building, from above."
+    },
+    {
+      "name": "Joe's Pizza",
+      "query": "Joe's Pizza Carmine Street New York",
+      "lat": 40.73057,
+      "lon": -74.00209,
+      "osm": "https://www.openstreetmap.org/node/931799207",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "A plain slice, folded, standing up."
+    },
+    {
+      "name": "Via Carota",
+      "query": "Via Carota New York",
+      "lat": 40.73311,
+      "lon": -74.00365,
+      "osm": "https://www.openstreetmap.org/node/2562463952",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "West Village trattoria. Walk in early."
+    }
+  ],
+  "athens": [
+    {
+      "name": "Little Tree Books & Coffee",
+      "query": "Little Tree, Athens",
+      "lat": 37.96814,
+      "lon": 23.72703,
+      "osm": "https://www.openstreetmap.org/node/5123686228",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Books, a flat white and the Acropolis around the corner."
+    },
+    {
+      "name": "Mokka",
+      "query": "Mokka Athinas Athens",
+      "lat": 37.98082,
+      "lon": 23.72736,
+      "osm": "https://www.openstreetmap.org/node/1618000518",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "The old roaster by the central market. Greek coffee, briki-made."
+    },
+    {
+      "name": "Acropolis Museum",
+      "query": "Acropolis Museum",
+      "lat": 37.96853,
+      "lon": 23.72847,
+      "osm": "https://www.openstreetmap.org/way/983921252",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Walk over the glass floor. The Parthenon gallery is at the top."
+    },
+    {
+      "name": "National Archaeological Museum",
+      "query": "National Archaeological Museum Athens",
+      "lat": 37.98901,
+      "lon": 23.73296,
+      "osm": "https://www.openstreetmap.org/relation/2828",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The Antikythera mechanism and a bronze god mid-throw."
+    },
+    {
+      "name": "Varvakios Agora",
+      "query": "Varvakios Agora Athens",
+      "lat": 37.98037,
+      "lon": 23.72762,
+      "osm": "https://www.openstreetmap.org/way/152257802",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "The central meat and fish market. Eat at the tavern inside."
+    },
+    {
+      "name": "Anafiotika",
+      "query": "Anafiotika Athens",
+      "lat": 37.97241,
+      "lon": 23.72813,
+      "osm": "https://www.openstreetmap.org/node/3828340298",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "A Cycladic island village under the Acropolis wall."
+    },
+    {
+      "name": "Ancient Agora",
+      "query": "Ancient Agora of Athens",
+      "lat": 37.97471,
+      "lon": 23.72249,
+      "osm": "https://www.openstreetmap.org/relation/13139942",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Where Socrates argued. The Temple of Hephaestus is intact."
+    },
+    {
+      "name": "Areopagus Hill",
+      "query": "Areopagus Hill Athens",
+      "lat": 37.97225,
+      "lon": 23.72335,
+      "osm": "https://www.openstreetmap.org/node/4944879670",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Slippery marble, the best view of the Acropolis going pink."
+    },
+    {
+      "name": "Lycabettus Hill",
+      "query": "Lycabettus Hill Athens",
+      "lat": 37.98032,
+      "lon": 23.74401,
+      "osm": "https://www.openstreetmap.org/way/421626322",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The whole white city down to the sea."
+    },
+    {
+      "name": "Diporto",
+      "query": "Diporto Sokratous Athens",
+      "lat": 37.98073,
+      "lon": 23.72584,
+      "osm": "https://www.openstreetmap.org/node/9192556595",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "A basement with no menu. Whatever's in the pot."
+    },
+    {
+      "name": "Karamanlidika",
+      "query": "Καραμανλίδικα",
+      "lat": 37.98001,
+      "lon": 23.72592,
+      "osm": "https://www.openstreetmap.org/node/6477025625",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Cured meats and cheese from Asia Minor."
+    }
+  ],
+  "copenhagen": [
+    {
+      "name": "Andersen & Maillard",
+      "query": "Andersen & Maillard Nørrebro Copenhagen",
+      "lat": 55.69036,
+      "lon": 12.55509,
+      "osm": "https://www.openstreetmap.org/node/5418412773",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A croissant worth crossing the city for."
+    },
+    {
+      "name": "Coffee Collective Torvehallerne",
+      "query": "Coffee Collective Torvehallerne",
+      "lat": 55.68357,
+      "lon": 12.56951,
+      "osm": "https://www.openstreetmap.org/node/9362578011",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Light roast at the market's glass hall."
+    },
+    {
+      "name": "Glyptoteket",
+      "query": "Ny Carlsberg Glyptotek",
+      "lat": 55.67253,
+      "lon": 12.57177,
+      "osm": "https://www.openstreetmap.org/relation/1322262",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Marble and a palm-filled winter garden under a dome."
+    },
+    {
+      "name": "Designmuseum Danmark",
+      "query": "Designmuseum Danmark",
+      "lat": 55.68637,
+      "lon": 12.59441,
+      "osm": "https://www.openstreetmap.org/relation/5693118",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Every Danish chair you have ever sat on."
+    },
+    {
+      "name": "Torvehallerne",
+      "query": "Torvehallerne Copenhagen",
+      "lat": 55.68387,
+      "lon": 12.56955,
+      "osm": "https://www.openstreetmap.org/way/77037963",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Smørrebrød at Hallernes, standing up."
+    },
+    {
+      "name": "Reffen",
+      "query": "Reffen Copenhagen",
+      "lat": 55.69317,
+      "lon": 12.60978,
+      "osm": "https://www.openstreetmap.org/node/5632388880",
+      "slot": "lunch",
+      "indoor": false,
+      "blurb": "Street food on the old shipyard, by the water."
+    },
+    {
+      "name": "Nyhavn",
+      "query": "Nyhavn Copenhagen",
+      "lat": 55.67993,
+      "lon": 12.58935,
+      "osm": "https://www.openstreetmap.org/way/1702965",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "The painted harbour houses, then keep walking north."
+    },
+    {
+      "name": "Assistens Kirkegård",
+      "query": "Assistens Kirkegård Copenhagen",
+      "lat": 55.69092,
+      "lon": 12.54944,
+      "osm": "https://www.openstreetmap.org/way/3099111",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "A cemetery locals use as a park. Hans Christian Andersen is here."
+    },
+    {
+      "name": "Rundetaarn",
+      "query": "Rundetaarn Copenhagen",
+      "lat": 55.68136,
+      "lon": 12.57579,
+      "osm": "https://www.openstreetmap.org/way/1011492033",
+      "slot": "sunset",
+      "indoor": true,
+      "blurb": "Walk the spiral ramp to the roofs."
+    },
+    {
+      "name": "Dronning Louises Bro",
+      "query": "Dronning Louises Bro Copenhagen",
+      "lat": 55.68673,
+      "lon": 12.56377,
+      "osm": "https://www.openstreetmap.org/way/1356284878",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Sit on the bridge rail with everyone else."
+    },
+    {
+      "name": "Barr",
+      "query": "Barr Strandgade Copenhagen",
+      "lat": 55.6779,
+      "lon": 12.59627,
+      "osm": "https://www.openstreetmap.org/node/5017218129",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "North Sea food and beer in the old Noma rooms."
+    },
+    {
+      "name": "Kødbyens Fiskebar",
+      "query": "Kødbyens Fiskebar Copenhagen",
+      "lat": 55.66785,
+      "lon": 12.55927,
+      "osm": "https://www.openstreetmap.org/node/4460697704",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Oysters in the old meatpacking district."
+    }
+  ],
+  "venice": [
+    {
+      "name": "Torrefazione Cannaregio",
+      "query": "Torrefazione Cannaregio Venezia",
+      "lat": 45.44571,
+      "lon": 12.32786,
+      "osm": "https://www.openstreetmap.org/node/5744461818",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Roasted on site since 1930, away from the crowds."
+    },
+    {
+      "name": "Caffè Florian",
+      "query": "Caffè Florian Venezia",
+      "lat": 45.4336,
+      "lon": 12.33828,
+      "osm": "https://www.openstreetmap.org/node/12453807859",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Once, for the mirrors. Sit inside."
+    },
+    {
+      "name": "Gallerie dell'Accademia",
+      "query": "Gallerie dell'Accademia Venezia",
+      "lat": 45.43137,
+      "lon": 12.32809,
+      "osm": "https://www.openstreetmap.org/node/895805118",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Bellini, Titian, Tintoretto. Three hundred years of Venetian light."
+    },
+    {
+      "name": "Peggy Guggenheim Collection",
+      "query": "Peggy Guggenheim Collection Venezia",
+      "lat": 45.4308,
+      "lon": 12.33154,
+      "osm": "https://www.openstreetmap.org/node/5366368715",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Modern art in a palazzo that was never finished."
+    },
+    {
+      "name": "Cantina Do Mori",
+      "query": "Cantina Do Mori Venezia",
+      "lat": 45.43896,
+      "lon": 12.33396,
+      "osm": "https://www.openstreetmap.org/node/4492301499",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "The oldest bacaro. Cicchetti and a small glass of wine."
+    },
+    {
+      "name": "All'Arco",
+      "query": "All'Arco Venezia",
+      "lat": 45.43887,
+      "lon": 12.33405,
+      "osm": "https://www.openstreetmap.org/node/12475214426",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Tiny bar by the Rialto market. Whatever was caught this morning."
+    },
+    {
+      "name": "Zattere",
+      "query": "Fondamenta Zattere al Ponte Longo Venezia",
+      "lat": 45.43024,
+      "lon": 12.32339,
+      "osm": "https://www.openstreetmap.org/way/342616318",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "The long sunny quay facing the Giudecca."
+    },
+    {
+      "name": "Rialto Market",
+      "query": "Mercato di Rialto Venezia",
+      "lat": 45.43964,
+      "lon": 12.33452,
+      "osm": "https://www.openstreetmap.org/way/233887039",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Fish under a loggia, then lose the map."
+    },
+    {
+      "name": "Punta della Dogana",
+      "query": "Punta della Dogana Venezia",
+      "lat": 45.43095,
+      "lon": 12.33709,
+      "osm": "https://www.openstreetmap.org/node/6603976551",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The tip of the city, water on three sides."
+    },
+    {
+      "name": "Fondaco dei Tedeschi",
+      "query": "Fondaco dei Tedeschi Venezia",
+      "lat": 45.43825,
+      "lon": 12.33669,
+      "osm": "https://www.openstreetmap.org/way/138803475",
+      "slot": "sunset",
+      "indoor": true,
+      "blurb": "The free rooftop over the Grand Canal. Book a slot."
+    },
+    {
+      "name": "Osteria alla Vedova",
+      "query": "Ca' d'Oro alla Vedova Venezia",
+      "lat": 45.44137,
+      "lon": 12.33455,
+      "osm": "https://www.openstreetmap.org/node/4195423990",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Polpette at the bar, then sit down."
+    },
+    {
+      "name": "Al Covo",
+      "query": "Al Covo Venezia",
+      "lat": 45.43413,
+      "lon": 12.34757,
+      "osm": "https://www.openstreetmap.org/node/10202470646",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Lagoon fish, cooked simply."
+    }
+  ],
+  "naples": [
+    {
+      "name": "Gran Caffè Gambrinus",
+      "query": "Gran Caffè Gambrinus Napoli",
+      "lat": 40.83672,
+      "lon": 14.24851,
+      "osm": "https://www.openstreetmap.org/node/2612127266",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Espresso standing up, under the Liberty ceilings."
+    },
+    {
+      "name": "Museo Archeologico Nazionale",
+      "query": "Museo Archeologico Nazionale di Napoli",
+      "lat": 40.85361,
+      "lon": 14.25115,
+      "osm": "https://www.openstreetmap.org/relation/3824019",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Pompeii's mosaics, brought indoors."
+    },
+    {
+      "name": "Cappella Sansevero",
+      "query": "Cappella Sansevero Napoli",
+      "lat": 40.8493,
+      "lon": 14.25493,
+      "osm": "https://www.openstreetmap.org/way/123977918",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The Veiled Christ. Marble that looks like cloth."
+    },
+    {
+      "name": "L'Antica Pizzeria da Michele",
+      "query": "L'Antica Pizzeria da Michele Napoli",
+      "lat": 40.84975,
+      "lon": 14.26335,
+      "osm": "https://www.openstreetmap.org/node/3123151652",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Two pizzas on the menu. Take a number."
+    },
+    {
+      "name": "Spaccanapoli",
+      "query": "Spaccanapoli Napoli",
+      "lat": 40.84978,
+      "lon": 14.25945,
+      "osm": "https://www.openstreetmap.org/way/266673845",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "The straight street that splits the old city in two."
+    },
+    {
+      "name": "Lungomare Caracciolo",
+      "query": "Via Francesco Caracciolo Napoli",
+      "lat": 40.83193,
+      "lon": 14.23749,
+      "osm": "https://www.openstreetmap.org/way/242410845",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Along the bay with Vesuvius on your left."
+    },
+    {
+      "name": "Castel Sant'Elmo",
+      "query": "Castel Sant'Elmo Napoli",
+      "lat": 40.84371,
+      "lon": 14.23925,
+      "osm": "https://www.openstreetmap.org/way/29403971",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The whole bay from the star fort."
+    },
+    {
+      "name": "Castel dell'Ovo",
+      "query": "Castel dell'Ovo Napoli",
+      "lat": 40.82774,
+      "lon": 14.24803,
+      "osm": "https://www.openstreetmap.org/way/338168783",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The egg castle on the water. The sun drops behind Posillipo."
+    },
+    {
+      "name": "Trattoria Nennella",
+      "query": "Trattoria Nennella Napoli",
+      "lat": 40.84461,
+      "lon": 14.24977,
+      "osm": "https://www.openstreetmap.org/node/11530264327",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Loud, cheap and joyful in the Quartieri Spagnoli."
+    },
+    {
+      "name": "Tandem",
+      "query": "Tandem Ragù Napoli",
+      "lat": 40.84824,
+      "lon": 14.25633,
+      "osm": "https://www.openstreetmap.org/node/4318472946",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Ragù that cooks all day. Bread for the plate."
+    }
+  ],
+  "istanbul": [
+    {
+      "name": "Mandabatmaz",
+      "query": "Mandabatmaz Beyoğlu İstanbul",
+      "lat": 41.03276,
+      "lon": 28.97617,
+      "osm": "https://www.openstreetmap.org/node/5115410024",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Turkish coffee so thick a buffalo wouldn't sink."
+    },
+    {
+      "name": "Fazıl Bey",
+      "query": "Fazıl Bey Kadıköy İstanbul",
+      "lat": 40.99039,
+      "lon": 29.02476,
+      "osm": "https://www.openstreetmap.org/node/13603023812",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Kadıköy's coffee roaster since 1923."
+    },
+    {
+      "name": "Hagia Sophia",
+      "query": "Hagia Sophia İstanbul",
+      "lat": 41.0085,
+      "lon": 28.98001,
+      "osm": "https://www.openstreetmap.org/way/109862851",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Fifteen hundred years under one dome."
+    },
+    {
+      "name": "Basilica Cistern",
+      "query": "Yerebatan Sarnıcı İstanbul",
+      "lat": 41.00848,
+      "lon": 28.97838,
+      "osm": "https://www.openstreetmap.org/node/11006008339",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "A drowned forest of columns, lit from below."
+    },
+    {
+      "name": "Karaköy Lokantası",
+      "query": "Karaköy Lokantası İstanbul",
+      "lat": 41.02459,
+      "lon": 28.98003,
+      "osm": "https://www.openstreetmap.org/node/1898334690",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Point at what's in the trays."
+    },
+    {
+      "name": "Çiya Sofrası",
+      "query": "Çiya Sofrası Kadıköy İstanbul",
+      "lat": 40.98935,
+      "lon": 29.02443,
+      "osm": "https://www.openstreetmap.org/node/9869626517",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Food from every corner of Anatolia. Take the ferry over."
+    },
+    {
+      "name": "Grand Bazaar",
+      "query": "Kapalıçarşı İstanbul",
+      "lat": 41.00996,
+      "lon": 28.9694,
+      "osm": "https://www.openstreetmap.org/way/386900455",
+      "slot": "walk",
+      "indoor": true,
+      "blurb": "Sixty streets under a roof. Out of the rain, into the noise."
+    },
+    {
+      "name": "Balat",
+      "query": "Balat Fatih İstanbul",
+      "lat": 41.032,
+      "lon": 28.94829,
+      "osm": "https://www.openstreetmap.org/relation/2463371",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Coloured houses running up the hill above the Golden Horn."
+    },
+    {
+      "name": "Galata Tower",
+      "query": "Galata Kulesi İstanbul",
+      "lat": 41.02564,
+      "lon": 28.97421,
+      "osm": "https://www.openstreetmap.org/way/23236783",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The minarets of the old city in silhouette."
+    },
+    {
+      "name": "Süleymaniye Mosque",
+      "query": "Süleymaniye Camii İstanbul",
+      "lat": 41.01623,
+      "lon": 28.96395,
+      "osm": "https://www.openstreetmap.org/relation/1564032",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The terrace behind it, over the Golden Horn."
+    },
+    {
+      "name": "Asmalı Cavit",
+      "query": "Asmalı Cavit İstanbul",
+      "lat": 41.03017,
+      "lon": 28.97471,
+      "osm": "https://www.openstreetmap.org/node/10688168407",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Meze and rakı in Beyoğlu. Let the waiter choose."
+    },
+    {
+      "name": "Pandeli",
+      "query": "Pandeli Eminönü İstanbul",
+      "lat": 41.01714,
+      "lon": 28.97118,
+      "osm": "https://www.openstreetmap.org/node/3079823142",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Blue tiles above the Spice Bazaar since 1901."
+    }
+  ],
+  "singapore": [
+    {
+      "name": "Tiong Bahru Bakery",
+      "query": "Tiong Bahru Bakery Eng Hoon Street Singapore",
+      "lat": 1.28445,
+      "lon": 103.83365,
+      "osm": "https://www.openstreetmap.org/node/3100404287",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A kouign-amann in the Art Deco estate."
+    },
+    {
+      "name": "Chye Seng Huat Hardware",
+      "query": "Chye Seng Huat Hardware Singapore",
+      "lat": 1.31157,
+      "lon": 103.86033,
+      "osm": "https://www.openstreetmap.org/node/3376091793",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A roastery in an old hardware shop."
+    },
+    {
+      "name": "National Gallery Singapore",
+      "query": "National Gallery Singapore",
+      "lat": 1.29026,
+      "lon": 103.85147,
+      "osm": "https://www.openstreetmap.org/node/4759240362",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Two colonial courts joined under one canopy."
+    },
+    {
+      "name": "ArtScience Museum",
+      "query": "ArtScience Museum Singapore",
+      "lat": 1.28614,
+      "lon": 103.85923,
+      "osm": "https://www.openstreetmap.org/node/11361584770",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The lotus-shaped one. Go for the light rooms."
+    },
+    {
+      "name": "Tiong Bahru Market",
+      "query": "Tiong Bahru Market Singapore",
+      "lat": 1.28479,
+      "lon": 103.83255,
+      "osm": "https://www.openstreetmap.org/relation/21297472",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Upstairs hawker centre, downstairs wet market."
+    },
+    {
+      "name": "Fort Canning Park",
+      "query": "Fort Canning Park Singapore",
+      "lat": 1.29402,
+      "lon": 103.84601,
+      "osm": "https://www.openstreetmap.org/way/16892550",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Shade trees on the hill above the city."
+    },
+    {
+      "name": "Gardens by the Bay",
+      "query": "Gardens by the Bay Singapore",
+      "lat": 1.28115,
+      "lon": 103.86496,
+      "osm": "https://www.openstreetmap.org/relation/10231144",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "The Supertrees, then into the cool of the domes."
+    },
+    {
+      "name": "Merlion Park",
+      "query": "Merlion Park Singapore",
+      "lat": 1.28696,
+      "lon": 103.85446,
+      "osm": "https://www.openstreetmap.org/way/164881352",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The bay goes orange behind Marina Bay Sands."
+    },
+    {
+      "name": "Marina Barrage",
+      "query": "Marina Barrage Singapore",
+      "lat": 1.2814,
+      "lon": 103.87257,
+      "osm": "https://www.openstreetmap.org/relation/18019148",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "A grass roof over the water. Bring nothing, lie down."
+    },
+    {
+      "name": "Lau Pa Sat",
+      "query": "Lau Pa Sat Singapore",
+      "lat": 1.28062,
+      "lon": 103.8505,
+      "osm": "https://www.openstreetmap.org/node/4590711764",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "At seven the street closes and the satay grills open."
+    },
+    {
+      "name": "Newton Food Centre",
+      "query": "Newton Food Centre Singapore",
+      "lat": 1.31205,
+      "lon": 103.8403,
+      "osm": "https://www.openstreetmap.org/node/410462653",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Chilli crab and sambal stingray under the fans."
+    }
+  ],
+  "seoul": [
+    {
+      "name": "Fritz Coffee Company",
+      "query": "Fritz Coffee Company Seoul",
+      "lat": 37.57773,
+      "lon": 126.9885,
+      "osm": "https://www.openstreetmap.org/node/6507549586",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "The seal logo, good bread and a quiet roast."
+    },
+    {
+      "name": "National Museum of Korea",
+      "query": "National Museum of Korea",
+      "lat": 37.52395,
+      "lon": 126.98032,
+      "osm": "https://www.openstreetmap.org/way/168364800",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The Pensive Bodhisattva room. Stay a while."
+    },
+    {
+      "name": "Leeum Museum of Art",
+      "query": "Leeum",
+      "lat": 37.53835,
+      "lon": 126.99899,
+      "osm": "https://www.openstreetmap.org/way/350284406",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Celadon upstairs, Rothko downstairs."
+    },
+    {
+      "name": "Gwangjang Market",
+      "query": "Gwangjang Market Seoul",
+      "lat": 37.57019,
+      "lon": 126.9995,
+      "osm": "https://www.openstreetmap.org/way/607083156",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Bindaetteok fried in front of you."
+    },
+    {
+      "name": "Tongin Market",
+      "query": "Tongin Market Seoul",
+      "lat": 37.58076,
+      "lon": 126.97,
+      "osm": "https://www.openstreetmap.org/way/307148952",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Buy brass coins and fill your own lunch box."
+    },
+    {
+      "name": "Bukchon Hanok Village",
+      "query": "Bukchon Hanok Village Seoul",
+      "lat": 37.58239,
+      "lon": 126.98586,
+      "osm": "https://www.openstreetmap.org/node/2669684119",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Tiled roofs on the hill. Speak quietly, people live here."
+    },
+    {
+      "name": "Cheonggyecheon",
+      "query": "Cheonggyecheon Seoul",
+      "lat": 37.57229,
+      "lon": 127.03673,
+      "osm": "https://www.openstreetmap.org/way/769631455",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "A stream under the city, back in the open."
+    },
+    {
+      "name": "N Seoul Tower",
+      "query": "N Seoul Tower",
+      "lat": 37.55127,
+      "lon": 126.98828,
+      "osm": "https://www.openstreetmap.org/node/3863007895",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Take the cable car up as the city lights come on."
+    },
+    {
+      "name": "Naksan Park",
+      "query": "Naksan Park Seoul",
+      "lat": 37.58053,
+      "lon": 127.00761,
+      "osm": "https://www.openstreetmap.org/way/229027411",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "Walk the old city wall as the sky turns."
+    },
+    {
+      "name": "Tosokchon Samgyetang",
+      "query": "Tosokchon Samgyetang Seoul",
+      "lat": 37.57768,
+      "lon": 126.97153,
+      "osm": "https://www.openstreetmap.org/way/305674051",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "A whole young chicken in ginseng broth."
+    },
+    {
+      "name": "Woo Lae Oak",
+      "query": "Woo Lae Oak Seoul",
+      "lat": 37.56807,
+      "lon": 126.99874,
+      "osm": "https://www.openstreetmap.org/node/5174270062",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Cold buckwheat noodles since 1946."
+    }
+  ],
+  "berlin": [
+    {
+      "name": "The Barn",
+      "query": "The Barn Auguststraße Berlin",
+      "lat": 52.52745,
+      "lon": 13.39813,
+      "osm": "https://www.openstreetmap.org/node/3868790051",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "Third-wave roaster in Mitte. No laptops at the bar."
+    },
+    {
+      "name": "Bonanza Coffee Roasters",
+      "query": "Bonanza Coffee Roasters Berlin",
+      "lat": 52.5266,
+      "lon": 13.40752,
+      "osm": "https://www.openstreetmap.org/node/10154127029",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "The one that started Berlin's coffee scene."
+    },
+    {
+      "name": "Neues Museum",
+      "query": "Neues Museum Berlin",
+      "lat": 52.52016,
+      "lon": 13.39774,
+      "osm": "https://www.openstreetmap.org/way/18578139",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Nefertiti in a war-scarred hall, rebuilt around its wounds."
+    },
+    {
+      "name": "Hamburger Bahnhof",
+      "query": "Hamburger Bahnhof Berlin",
+      "lat": 52.52863,
+      "lon": 13.37187,
+      "osm": "https://www.openstreetmap.org/way/175464203",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Contemporary art in an old railway station."
+    },
+    {
+      "name": "Markthalle Neun",
+      "query": "Markthalle Neun Berlin",
+      "lat": 52.50217,
+      "lon": 13.43149,
+      "osm": "https://www.openstreetmap.org/relation/9503840",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Kreuzberg's market hall. Thursday is street food."
+    },
+    {
+      "name": "Mustafa's Gemüse Kebap",
+      "query": "Mustafa's Gemüse Kebap Berlin",
+      "lat": 52.49345,
+      "lon": 13.38852,
+      "osm": "https://www.openstreetmap.org/node/7060011377",
+      "slot": "lunch",
+      "indoor": false,
+      "blurb": "Vegetable kebab, worth the line."
+    },
+    {
+      "name": "East Side Gallery",
+      "query": "East Side Gallery Berlin",
+      "lat": 52.50819,
+      "lon": 13.43447,
+      "osm": "https://www.openstreetmap.org/node/11261627999",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "A mile of the Wall, painted."
+    },
+    {
+      "name": "Tiergarten",
+      "query": "Großer Tiergarten Berlin",
+      "lat": 52.51463,
+      "lon": 13.36984,
+      "osm": "https://www.openstreetmap.org/node/13386343382",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "From the Brandenburg Gate into the trees."
+    },
+    {
+      "name": "Tempelhofer Feld",
+      "query": "Tempelhofer Feld Berlin",
+      "lat": 52.47442,
+      "lon": 13.4026,
+      "osm": "https://www.openstreetmap.org/relation/7317281",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "An airport runway that became the sky's biggest park."
+    },
+    {
+      "name": "Klunkerkranich",
+      "query": "Klunkerkranich Berlin",
+      "lat": 52.48207,
+      "lon": 13.43133,
+      "osm": "https://www.openstreetmap.org/node/2941462114",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "A rooftop garden on a Neukölln car park."
+    },
+    {
+      "name": "Clärchens Ballhaus",
+      "query": "Clärchens Ballhaus Berlin",
+      "lat": 52.52647,
+      "lon": 13.39691,
+      "osm": "https://www.openstreetmap.org/node/429735547",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "A 1913 dance hall. Dinner, then dancing."
+    },
+    {
+      "name": "Cocolo Ramen",
+      "query": "Cocolo Ramen Kreuzberg Berlin",
+      "lat": 52.49376,
+      "lon": 13.41808,
+      "osm": "https://www.openstreetmap.org/node/2809991849",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Tonkotsu by the canal."
+    }
+  ],
+  "mexico-city": [
+    {
+      "name": "Panadería Rosetta",
+      "query": "Panadería Rosetta Colima Ciudad de México",
+      "lat": 19.41997,
+      "lon": -99.16061,
+      "osm": "https://www.openstreetmap.org/way/1421204673",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "The guava roll. Eat it on the step."
+    },
+    {
+      "name": "Café Avellaneda",
+      "query": "Café Avellaneda Coyoacán",
+      "lat": 19.34825,
+      "lon": -99.16069,
+      "osm": "https://www.openstreetmap.org/node/4348835091",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A tiny bar in Coyoacán, seriously good coffee."
+    },
+    {
+      "name": "Museo Nacional de Antropología",
+      "query": "Museo Nacional de Antropología",
+      "lat": 19.42615,
+      "lon": -99.18665,
+      "osm": "https://www.openstreetmap.org/way/433756023",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The Aztec Sun Stone and a courtyard under one huge umbrella."
+    },
+    {
+      "name": "Museo Frida Kahlo",
+      "query": "Museo Frida Kahlo Coyoacán",
+      "lat": 19.35514,
+      "lon": -99.16236,
+      "osm": "https://www.openstreetmap.org/way/176482295",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "The Casa Azul. Buy tickets online, ahead."
+    },
+    {
+      "name": "Mercado Roma",
+      "query": "Mercado Roma Ciudad de México",
+      "lat": 19.41412,
+      "lon": -99.16459,
+      "osm": "https://www.openstreetmap.org/node/3454364869",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "A modern market hall in Roma Norte."
+    },
+    {
+      "name": "Contramar",
+      "query": "Contramar Ciudad de México",
+      "lat": 19.41961,
+      "lon": -99.16723,
+      "osm": "https://www.openstreetmap.org/node/4630628889",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Tuna tostadas and the red-and-green fish. A long lunch."
+    },
+    {
+      "name": "Bosque de Chapultepec",
+      "query": "Bosque de Chapultepec",
+      "lat": 19.61441,
+      "lon": -99.03995,
+      "osm": "https://www.openstreetmap.org/way/225621610",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "The city's great forest, up to the castle."
+    },
+    {
+      "name": "Parque México",
+      "query": "Parque México Condesa",
+      "lat": 19.41494,
+      "lon": -99.17141,
+      "osm": "https://www.openstreetmap.org/way/1420616936",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Art Deco Condesa and its dogs, around the old racetrack."
+    },
+    {
+      "name": "Torre Latinoamericana",
+      "query": "Torre Latinoamericana",
+      "lat": 19.43387,
+      "lon": -99.14061,
+      "osm": "https://www.openstreetmap.org/way/1095452896",
+      "slot": "sunset",
+      "indoor": true,
+      "blurb": "The 44th floor over the historic centre."
+    },
+    {
+      "name": "Monumento a la Revolución",
+      "query": "Monumento a la Revolución",
+      "lat": 19.43617,
+      "lon": -99.15462,
+      "osm": "https://www.openstreetmap.org/way/158032450",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The glass lift to the dome terrace."
+    },
+    {
+      "name": "Taquería El Califa",
+      "query": "El Califa, Ciudad de México",
+      "lat": 19.42556,
+      "lon": -99.16946,
+      "osm": "https://www.openstreetmap.org/node/4124003217",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Tacos with a good salsa bar."
+    },
+    {
+      "name": "El Cardenal",
+      "query": "El Cardenal, Ciudad de México",
+      "lat": 19.4337,
+      "lon": -99.13527,
+      "osm": "https://www.openstreetmap.org/node/4594598745",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Old-school Mexican in a mansion near the Zócalo."
+    }
+  ],
+  "san-francisco": [
+    {
+      "name": "Tartine Bakery",
+      "query": "Tartine Bakery San Francisco",
+      "lat": 37.76146,
+      "lon": -122.42395,
+      "osm": "https://www.openstreetmap.org/node/2247590960",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "The morning bun. Get there before nine."
+    },
+    {
+      "name": "Sightglass Coffee",
+      "query": "Sightglass Coffee",
+      "lat": 37.77703,
+      "lon": -122.40844,
+      "osm": "https://www.openstreetmap.org/node/1700641974",
+      "slot": "coffee",
+      "indoor": true,
+      "blurb": "A roastery in a SoMa warehouse."
+    },
+    {
+      "name": "SFMOMA",
+      "query": "San Francisco Museum of Modern Art",
+      "lat": 37.78592,
+      "lon": -122.40074,
+      "osm": "https://www.openstreetmap.org/way/41692824",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "Seven floors. The Calder room and the living wall."
+    },
+    {
+      "name": "Exploratorium",
+      "query": "Exploratorium San Francisco",
+      "lat": 37.8009,
+      "lon": -122.39853,
+      "osm": "https://www.openstreetmap.org/node/621529017",
+      "slot": "indoor",
+      "indoor": true,
+      "blurb": "A science museum on Pier 15 you're meant to touch."
+    },
+    {
+      "name": "Ferry Building",
+      "query": "Ferry Building San Francisco",
+      "lat": 37.7949,
+      "lon": -122.39379,
+      "osm": "https://www.openstreetmap.org/node/1083360056",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "Oysters, cheese and bread under the clock tower."
+    },
+    {
+      "name": "La Taqueria",
+      "query": "La Taqueria Mission Street San Francisco",
+      "lat": 37.75087,
+      "lon": -122.41816,
+      "osm": "https://www.openstreetmap.org/node/3202476750",
+      "slot": "lunch",
+      "indoor": true,
+      "blurb": "A carnitas burrito, no rice, the Mission way."
+    },
+    {
+      "name": "Crissy Field",
+      "query": "Crissy Field San Francisco",
+      "lat": 37.8046,
+      "lon": -122.46661,
+      "osm": "https://www.openstreetmap.org/way/32649967",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "Along the bay toward the Golden Gate."
+    },
+    {
+      "name": "Dolores Park",
+      "query": "Mission Dolores Park",
+      "lat": 37.75972,
+      "lon": -122.42713,
+      "osm": "https://www.openstreetmap.org/way/23871270",
+      "slot": "walk",
+      "indoor": false,
+      "blurb": "The city's sunniest lawn, the skyline behind it."
+    },
+    {
+      "name": "Twin Peaks",
+      "query": "Twin Peaks San Francisco",
+      "lat": 37.75241,
+      "lon": -122.44759,
+      "osm": "https://www.openstreetmap.org/node/11778655699",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The whole grid, the bay and the bridge."
+    },
+    {
+      "name": "Alamo Square",
+      "query": "Alamo Square San Francisco",
+      "lat": 37.77636,
+      "lon": -122.4347,
+      "osm": "https://www.openstreetmap.org/way/745183964",
+      "slot": "sunset",
+      "indoor": false,
+      "blurb": "The Painted Ladies with downtown glowing behind."
+    },
+    {
+      "name": "Zuni Café",
+      "query": "Zuni Café San Francisco",
+      "lat": 37.77356,
+      "lon": -122.42165,
+      "osm": "https://www.openstreetmap.org/way/256730304",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "The roast chicken for two. Order it as you sit down."
+    },
+    {
+      "name": "Swan Oyster Depot",
+      "query": "Swan Oyster Depot San Francisco",
+      "lat": 37.79097,
+      "lon": -122.42092,
+      "osm": "https://www.openstreetmap.org/node/825967002",
+      "slot": "dinner",
+      "indoor": true,
+      "blurb": "Eighteen stools and a marble counter."
+    }
+  ]
+}
